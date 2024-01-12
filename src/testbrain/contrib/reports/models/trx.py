@@ -3,32 +3,14 @@ import typing as t
 
 from pydantic import BaseModel, Field
 
-"""
-TrxOutcome:
-    Aborted,
-    Completed,
-    Disconnected,
-    Error,
-    Failed,
-    Inconclusive,
-    InProgress,
-    NotExecuted,
-    NotRunnable,
-    Passed,
-    PassedButRunAborted,
-    Pending,
-    Timeout,
-    Warning
-"""
-
 
 class TrxUnitTestResult(BaseModel):
     execution_id: t.Optional[str] = ""
     test_id: t.Optional[str] = ""
     test_name: t.Optional[str] = ""
     duration: t.Optional[float] = 0.0
-    start_time: t.Optional[datetime.datetime] = datetime.datetime.now(datetime.UTC)
-    end_time: t.Optional[datetime.datetime] = datetime.datetime.now(datetime.UTC)
+    start_time: t.Optional[datetime.datetime] = datetime.datetime.now()
+    end_time: t.Optional[datetime.datetime] = datetime.datetime.now()
 
     outcome: t.Optional[str] = ""
     computer_name: t.Optional[str] = ""
@@ -43,10 +25,10 @@ class TrxUnitTestResult(BaseModel):
 
 
 class TrxTimes(BaseModel):
-    creation: t.Optional[datetime.datetime] = datetime.datetime.now(datetime.UTC)
-    queuing: t.Optional[datetime.datetime] = datetime.datetime.now(datetime.UTC)
-    start: t.Optional[datetime.datetime] = datetime.datetime.now(datetime.UTC)
-    finish: t.Optional[datetime.datetime] = datetime.datetime.now(datetime.UTC)
+    creation: t.Optional[datetime.datetime] = datetime.datetime.now()
+    queuing: t.Optional[datetime.datetime] = datetime.datetime.now()
+    start: t.Optional[datetime.datetime] = datetime.datetime.now()
+    finish: t.Optional[datetime.datetime] = datetime.datetime.now()
 
     @property
     def run_time(self):

@@ -32,7 +32,7 @@ class JUnitTestSuite(BaseModel):
     passed: t.Optional[int] = 0
     tests: t.Optional[int] = 0
     time: t.Optional[float] = 0.0
-    timestamp: t.Optional[datetime.datetime] = datetime.datetime.now(datetime.UTC)
+    timestamp: t.Optional[datetime.datetime] = datetime.datetime.now()
     hostname: t.Optional[str] = ""
     system_out: t.Optional[str] = ""
     system_err: t.Optional[str] = ""

@@ -7,7 +7,7 @@ from dateutil import parser as datetime_parser
 
 def string_to_datetime(string: t.Optional[str] = None) -> datetime.datetime:
     if string is None or string == "":
-        return datetime.datetime.now(datetime.UTC)
+        return datetime.datetime.now()
     return datetime_parser.parse(string)
 
 

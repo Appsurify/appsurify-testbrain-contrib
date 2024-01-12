@@ -20,20 +20,20 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.12
-#      - name: "Set up Testbrain Contrib"
-#        run: |
-#          pip3 install appsurify-testbrain-contrib
-#      - name: "Delivering changes to the server"
-#        run: |
-#          testbrain repository git push \
-#          --repo-dir ${{ github.workspace }} \
-#          --server ${{ vars.TESTBRAIN_SERVER }} \
-#          --token ${{ secrets.TESTBRAIN_TOKEN }} \
-#          --project ${{ vars.TESTBRAIN_PROJECT }} \
-#          --branch ${{ github.ref_name }} \
-#          --commit ${{ github.sha }} \
-#          --number ${{ vars.TESTBRAIN_NUMBER_OF_COMMITS }} \
-#          --loglevel INFO
+      - name: "Set up Testbrain Contrib"
+        run: |
+          pip3 install appsurify-testbrain-contrib
+      - name: "Delivering changes to the server"
+        run: |
+          testbrain repository git push \
+          --repo-dir ${{ github.workspace }} \
+          --server ${{ vars.TESTBRAIN_SERVER }} \
+          --token ${{ secrets.TESTBRAIN_TOKEN }} \
+          --project ${{ vars.TESTBRAIN_PROJECT }} \
+          --branch ${{ github.ref_name }} \
+          --commit ${{ github.sha }} \
+          --number ${{ vars.TESTBRAIN_NUMBER_OF_COMMITS }} \
+          --loglevel INFO
       - name: "Upload crash dumps"
         uses: actions/upload-artifact@v3
         if: failure()
