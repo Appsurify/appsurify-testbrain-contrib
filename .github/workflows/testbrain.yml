@@ -22,7 +22,7 @@ jobs:
           python-version: 3.12
       - name: "Set up Testbrain Contrib"
         run: |
-          pip3 install appsurify-testbrain-contrib
+          pip3 install appsurify-testbrain-cli==2023.12.11
       - name: "Delivering changes to the server"
         run: |
           testbrain repository git push \
