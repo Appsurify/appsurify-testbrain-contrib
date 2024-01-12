@@ -1,0 +1,3274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="DashworksTestAutomationCore.Planning_RingScoping_Part11"
+               hostname="automaster" package="not available" id="0" tests="4"
+               failures="1" errors="0" skipped="0" time="276.710"
+               timestamp="2021-11-02T09:31:27">
+        <properties/>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatShowChartsToggleIsTurningOnAfterChangeProjectOnStatisticPageOnRingScoping"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part11"
+                time="28.890" status="1">
+            <system-out>-&gt; 11/2/2021 9:31:27 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatShowChartsToggleIsTurningOnAfterChangeProjectOnStatisticPageOnRingScoping
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (3.1s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (2.2s)
+
+                When User enters 'Ring Scoping Project' text in the Search field for
+                'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+                Scoping Project", "Project") (3.6s)
+
+                When User clicks on 'Ring Scoping Project' cell from 'Project' column
+                -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+                Scoping Project", "Project") (7.1s)
+
+                When User unchecks 'Show charts' slide toggle
+                -&gt; done: SlideToggleSteps.WhenUserUnchecksSlideToggle("Show charts")
+                (0.1s)
+
+                When User selects 'Win 11 Rollout' in the 'Project Selector' dropdown
+                -&gt; done: DropdownSteps.WhenUserSelectsInTheDropdown("Win 11 Rollout",
+                "Project Selector") (1.7s)
+
+                Then 'Show charts' slide toggle is checked
+                -&gt; done: SlideToggleSteps.ThenSlideToggleIsChecked("Show charts")
+                (0.0s)
+
+
+                -&gt; Test status is 'Passed'
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatShowChartsToggleIsTurningOnAfterChangeProjectOnStatisticPageOnRingScoping
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/statistics?$projectId=63
+                -&gt; 11/2/2021 9:31:53 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:31:53 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:31:56 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatShowChartsToggleIsTurningOnAfterChangeProjectOnStatisticPageOnRingScoping
+            </system-out>
+        </testcase>
+        <testcase name="EvergreenJnr_Planning_CheckThatChartsHaveRightClickthroughs"
+                  classname="DashworksTestAutomationCore.Planning_RingScoping_Part11"
+                  time="95.084" status="1">
+            <system-out>-&gt; -&gt; Loading plugin
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\DashworksTestAutomationCore.dll
+                -&gt; -&gt; Missing [assembly:RuntimePlugin] attribute in
+                DashworksTestAutomationCore, Version=1.0.0.0, Culture=neutral,
+                PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins
+                for details.
+                -&gt; -&gt; Loading plugin
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+                -&gt; -&gt; Using default config
+
+
+                -&gt; 11/2/2021 9:30:29 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatChartsHaveRightClickthroughs
+
+                Given User is logged in to the Evergreen
+                -&gt; 11/2/2021 9:30:43 AM - INFO - Graph Client provide switched to
+                '01HV72ABXDFGMZR3LO5RB3ZCZZG3PT4XM5'
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (6.3s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (6.8s)
+
+                When User enters 'Ring Scoping Project' text in the Search field for
+                'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+                Scoping Project", "Project") (15.8s)
+
+                When User clicks on 'Ring Scoping Project' cell from 'Project' column
+                -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+                Scoping Project", "Project") (7.2s)
+
+                When User generates statistics in case it was reseted
+                -&gt; Generate statistics button was clicked
+                -&gt; done:
+                EvergreenJnr_RingScopingPage.WhenUserGeneratesStatisticsInCaseItWasReseted()
+                (0.1s)
+
+                When User clicks element in Bar type 'Devices by Ring' chart
+                -&gt; done:
+                EvergreenJnr_RingScopingPage.WhenUserClicksElementInBarTypeChart("Devices
+                by Ring") (13.1s)
+
+                Then Page with 'All Devices' header is displayed to user
+                -&gt; done:
+                EvergreenJnr_BaseHeader.ThenPageWithHeaderIsDisplayedToUser("All
+                Devices") (3.1s)
+
+                Then grid content is present
+                -&gt; done: EvergreenJnr_BaseGrid.ThenGridContentIsPresent() (3.0s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (1.6s)
+
+                When User enters 'Ring Scoping Project' text in the Search field for
+                'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+                Scoping Project", "Project") (3.8s)
+
+                When User clicks on 'Ring Scoping Project' cell from 'Project' column
+                -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+                Scoping Project", "Project") (7.1s)
+
+                When User clicks element in Bar type 'App Criticality Coverage by Ring'
+                chart
+                -&gt; done:
+                EvergreenJnr_RingScopingPage.WhenUserClicksElementInBarTypeChart("App
+                Criticality C...") (1.5s)
+
+                Then Page with 'All Applications' header is displayed to user
+                -&gt; done:
+                EvergreenJnr_BaseHeader.ThenPageWithHeaderIsDisplayedToUser("All
+                Applications") (3.1s)
+
+                Then grid content is present
+                -&gt; done: EvergreenJnr_BaseGrid.ThenGridContentIsPresent() (3.0s)
+
+
+                -&gt; Test status is 'Passed'
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatChartsHaveRightClickthroughs
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/applications?$filter=(project_112_criticalityId%20EQUALS%20('1')%20AND%20project_112_deviceOnlyTargetRingId%20EQUALS%20('170'%2C'188'%2C'190'%2C'191'%2C'192'%2C'193'%2C'194'%2C'195')%20WHERE%20(1%3A1%2C2%3A1%2C3%3A1%2C4%3A1%2C5%3A1))
+                -&gt; 11/2/2021 9:32:00 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:32:00 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:32:03 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatChartsHaveRightClickthroughs
+            </system-out>
+        </testcase>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part11"
+                time="15.306" status="0">
+            <failure
+                    message="Unable to create project: A project already exists with this name"
+                    type="not specified"><![CDATA[System.Exception: Unable to create project: A project already exists with this name
+   at DashworksTestAutomationCore.Api.Dashworks.AdminPage.Project.ProjectApi.Create(Table table, Projects projects) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Api\Dashworks\AdminPage\Project\ProjectApi.cs:line 78
+   at DashworksTestAutomationCore.Steps.Dashworks.AdminPage.Project.ProjectApiSteps.WhenUserCreateNewProjectViaApi(Table table) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\AdminPage\Project\ProjectApiSteps.cs:line 50
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 73
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 522
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 446
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part11Feature.ScenarioCleanup()
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part11Feature.EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping() in C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part11.feature:line 40
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()]]></failure>
+            <system-err>Unable to create project: A project already exists with this
+                name
+                System.Exception: Unable to create project: A project already exists
+                with this name
+                at
+                DashworksTestAutomationCore.Api.Dashworks.AdminPage.Project.ProjectApi.Create(Table
+                table, Projects projects) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Api\Dashworks\AdminPage\Project\ProjectApi.cs:line
+                78
+                at
+                DashworksTestAutomationCore.Steps.Dashworks.AdminPage.Project.ProjectApiSteps.WhenUserCreateNewProjectViaApi(Table
+                table) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\AdminPage\Project\ProjectApiSteps.cs:line
+                50
+                at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding
+                binding, IContextManager contextManager, Object[] arguments, ITestTracer
+                testTracer, TimeSpan&amp; duration) in
+                D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 73
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch
+                match, Object[] arguments, TimeSpan&amp; duration) in
+                D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                522
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+                match, Object[] arguments, TimeSpan&amp; duration)
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+                contextManager, StepInstance stepInstance) in
+                D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                446
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+                in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                268
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+                at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+                D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part11Feature.ScenarioCleanup()
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part11Feature.EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part11.feature:line
+                40
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            </system-err>
+            <system-out>-&gt; 11/2/2021 9:31:07 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (2.8s)
+
+                When Project created via API
+                --- table step argument ---
+                | ProjectName | Scope | ProjectTemplate | Mode |
+                | 1_27365DAS_Project | All Devices | None | Standalone Project |
+                -&gt; error: Unable to create project: A project already exists with
+                this name (0.0s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; skipped because of previous errors
+
+                When User navigates to the 'Ring Scoping' left submenu item
+                -&gt; skipped because of previous errors
+
+                When User selects '1_27365DAS_Project' in the 'Project Selector'
+                dropdown
+                -&gt; skipped because of previous errors
+
+                When User selects 'make-default' option in the 'Project Selector'
+                dropdown
+                -&gt; skipped because of previous errors
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; skipped because of previous errors
+
+                When User navigates to the 'Ring Scoping' left submenu item
+                -&gt; skipped because of previous errors
+
+                Then Page with '1_27365DAS_Project' header is displayed to user
+                -&gt; skipped because of previous errors
+
+
+                -&gt; Test status is 'Failed'
+                -&gt; Check screenshot by following path:
+                c:\Screenshots\EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping_2021_11_02_09_31_18.png
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/dashboards/532
+                -&gt; 11/2/2021 9:31:19 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:31:19 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:31:19 AM - INFO - The '1_27365DAS_Project' project
+                with '124' id has been deleted
+                -&gt; 11/2/2021 9:31:22 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping
+            </system-out>
+        </testcase>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatDeviceCountValueRedirectsToListWithDevicesOnStatisticPageOnRingScoping"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part11"
+                time="137.430" status="1">
+            <system-out>-&gt; -&gt; Loading plugin
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\DashworksTestAutomationCore.dll
+                -&gt; -&gt; Missing [assembly:RuntimePlugin] attribute in
+                DashworksTestAutomationCore, Version=1.0.0.0, Culture=neutral,
+                PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins
+                for details.
+                -&gt; -&gt; Loading plugin
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+                -&gt; -&gt; Using default config
+
+
+                -&gt; 11/2/2021 9:30:29 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatDeviceCountValueRedirectsToListWithDevicesOnStatisticPageOnRingScoping
+
+                Given User is logged in to the Evergreen
+                -&gt; 11/2/2021 9:30:42 AM - INFO - Graph Client provide switched to
+                '01HV72ABXDFGMZR3LO5RB3ZCZZG3PT4XM5'
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (7.8s)
+
+                When Project created via API
+                --- table step argument ---
+                | ProjectName | Scope | ProjectTemplate | Mode |
+                | 1_23726DAS_Project | All Devices | None | Standalone Project |
+                -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+                (3.7s)
+
+                When User creates new Ring via api
+                --- table step argument ---
+                | Name | Description | IsDefault | Project |
+                | 1_23726DAS_Ring | 1_23726DAS_Desc | false | 1_23726DAS_Project |
+                -&gt; done: CreateRingViaApi.WhenUserCreatesNewRingViaApi(&lt;table&gt;)
+                (3.1s)
+
+                When User onboards objects to '1_23726DAS_Project' project
+                --- table step argument ---
+                | DeviceObjects |
+                | 00BDM1JUR8IF419 |
+                | 00K4CEEQ737BA4L |
+                | 011PLA470S0B9DJ |
+                -&gt; done:
+                OnboardObjects.WhenUserOnboardsObjectsToTheProject("1_23726DAS_Project",
+                &lt;table&gt;) (69.2s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (1.7s)
+
+                When User enters '1_23726DAS_Project' text in the Search field for
+                'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("1_23726DAS_Project",
+                "Project") (6.7s)
+
+                When User clicks on '1_23726DAS_Project' cell from 'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("1_23726DAS_Project",
+                "Project") (7.2s)
+
+                When User clicks 'Generate Statistics' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Generate Statistics")
+                (0.2s)
+
+                When User remembers value in 'Total' column and 'Cumulative Device
+                Count' row in static table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserRemembersValueInColumnAndRowInStaticTable("Total",
+                "Cumulative Device...") (11.7s)
+
+                When User clicks on linked value in 'Total' column and 'Cumulative
+                Device Count' row in static table
+                -&gt; done:
+                EvergreenJnr_BaseTable.ThenUserClicksOnLinkedValueInColumnAndRowInStaticTable("Total",
+                "Cumulative Device...") (1.7s)
+
+                Then grid content is present
+                -&gt; done: EvergreenJnr_BaseGrid.ThenGridContentIsPresent() (5.1s)
+
+                Then Rows counter number is equal to value that was remembered in static
+                table
+                -&gt; done:
+                EvergreenJnr_BaseTable.ThenCounterNumberIsEqualsToValueThatWasRememberedInStaticTable()
+                (1.5s)
+
+
+                -&gt; Test status is 'Passed'
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatDeviceCountValueRedirectsToListWithDevicesOnStatisticPageOnRingScoping
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/devices?$filter=(project_122_ringId%20EQUALS%20('231'))&amp;$select=hostname,chassisCategory,oSCategory,ownerDisplayName,project_122_ring&amp;$archiveditems=true
+                -&gt; 11/2/2021 9:32:42 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:32:42 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:32:42 AM - INFO - The '1_23726DAS_Project' project
+                with '122' id has been deleted
+                -&gt; 11/2/2021 9:32:46 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatDeviceCountValueRedirectsToListWithDevicesOnStatisticPageOnRingScoping
+            </system-out>
+        </testcase>
+        <system-out>-&gt; 11/2/2021 9:31:27 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatShowChartsToggleIsTurningOnAfterChangeProjectOnStatisticPageOnRingScoping
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (3.1s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (2.2s)
+
+            When User enters 'Ring Scoping Project' text in the Search field for
+            'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+            Scoping Project", "Project") (3.6s)
+
+            When User clicks on 'Ring Scoping Project' cell from 'Project' column
+            -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+            Scoping Project", "Project") (7.1s)
+
+            When User unchecks 'Show charts' slide toggle
+            -&gt; done: SlideToggleSteps.WhenUserUnchecksSlideToggle("Show charts")
+            (0.1s)
+
+            When User selects 'Win 11 Rollout' in the 'Project Selector' dropdown
+            -&gt; done: DropdownSteps.WhenUserSelectsInTheDropdown("Win 11 Rollout",
+            "Project Selector") (1.7s)
+
+            Then 'Show charts' slide toggle is checked
+            -&gt; done: SlideToggleSteps.ThenSlideToggleIsChecked("Show charts") (0.0s)
+
+
+            -&gt; Test status is 'Passed'
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatShowChartsToggleIsTurningOnAfterChangeProjectOnStatisticPageOnRingScoping
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/statistics?$projectId=63
+            -&gt; 11/2/2021 9:31:53 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:31:53 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:31:56 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatShowChartsToggleIsTurningOnAfterChangeProjectOnStatisticPageOnRingScoping
+            -&gt; -&gt; Loading plugin
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\DashworksTestAutomationCore.dll
+            -&gt; -&gt; Missing [assembly:RuntimePlugin] attribute in
+            DashworksTestAutomationCore, Version=1.0.0.0, Culture=neutral,
+            PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for
+            details.
+            -&gt; -&gt; Loading plugin
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+            -&gt; -&gt; Using default config
+
+
+            -&gt; 11/2/2021 9:30:29 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatChartsHaveRightClickthroughs
+
+            Given User is logged in to the Evergreen
+            -&gt; 11/2/2021 9:30:43 AM - INFO - Graph Client provide switched to
+            '01HV72ABXDFGMZR3LO5RB3ZCZZG3PT4XM5'
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (6.3s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (6.8s)
+
+            When User enters 'Ring Scoping Project' text in the Search field for
+            'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+            Scoping Project", "Project") (15.8s)
+
+            When User clicks on 'Ring Scoping Project' cell from 'Project' column
+            -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+            Scoping Project", "Project") (7.2s)
+
+            When User generates statistics in case it was reseted
+            -&gt; Generate statistics button was clicked
+            -&gt; done:
+            EvergreenJnr_RingScopingPage.WhenUserGeneratesStatisticsInCaseItWasReseted()
+            (0.1s)
+
+            When User clicks element in Bar type 'Devices by Ring' chart
+            -&gt; done:
+            EvergreenJnr_RingScopingPage.WhenUserClicksElementInBarTypeChart("Devices by
+            Ring") (13.1s)
+
+            Then Page with 'All Devices' header is displayed to user
+            -&gt; done: EvergreenJnr_BaseHeader.ThenPageWithHeaderIsDisplayedToUser("All
+            Devices") (3.1s)
+
+            Then grid content is present
+            -&gt; done: EvergreenJnr_BaseGrid.ThenGridContentIsPresent() (3.0s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (1.6s)
+
+            When User enters 'Ring Scoping Project' text in the Search field for
+            'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+            Scoping Project", "Project") (3.8s)
+
+            When User clicks on 'Ring Scoping Project' cell from 'Project' column
+            -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+            Scoping Project", "Project") (7.1s)
+
+            When User clicks element in Bar type 'App Criticality Coverage by Ring'
+            chart
+            -&gt; done:
+            EvergreenJnr_RingScopingPage.WhenUserClicksElementInBarTypeChart("App
+            Criticality C...") (1.5s)
+
+            Then Page with 'All Applications' header is displayed to user
+            -&gt; done: EvergreenJnr_BaseHeader.ThenPageWithHeaderIsDisplayedToUser("All
+            Applications") (3.1s)
+
+            Then grid content is present
+            -&gt; done: EvergreenJnr_BaseGrid.ThenGridContentIsPresent() (3.0s)
+
+
+            -&gt; Test status is 'Passed'
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatChartsHaveRightClickthroughs
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/applications?$filter=(project_112_criticalityId%20EQUALS%20('1')%20AND%20project_112_deviceOnlyTargetRingId%20EQUALS%20('170'%2C'188'%2C'190'%2C'191'%2C'192'%2C'193'%2C'194'%2C'195')%20WHERE%20(1%3A1%2C2%3A1%2C3%3A1%2C4%3A1%2C5%3A1))
+            -&gt; 11/2/2021 9:32:00 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:32:00 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:32:03 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatChartsHaveRightClickthroughs
+            -&gt; 11/2/2021 9:31:07 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (2.8s)
+
+            When Project created via API
+            --- table step argument ---
+            | ProjectName | Scope | ProjectTemplate | Mode |
+            | 1_27365DAS_Project | All Devices | None | Standalone Project |
+            -&gt; error: Unable to create project: A project already exists with this
+            name (0.0s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; skipped because of previous errors
+
+            When User navigates to the 'Ring Scoping' left submenu item
+            -&gt; skipped because of previous errors
+
+            When User selects '1_27365DAS_Project' in the 'Project Selector' dropdown
+            -&gt; skipped because of previous errors
+
+            When User selects 'make-default' option in the 'Project Selector' dropdown
+            -&gt; skipped because of previous errors
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; skipped because of previous errors
+
+            When User navigates to the 'Ring Scoping' left submenu item
+            -&gt; skipped because of previous errors
+
+            Then Page with '1_27365DAS_Project' header is displayed to user
+            -&gt; skipped because of previous errors
+
+
+            -&gt; Test status is 'Failed'
+            -&gt; Check screenshot by following path:
+            c:\Screenshots\EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping_2021_11_02_09_31_18.png
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/dashboards/532
+            -&gt; 11/2/2021 9:31:19 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:31:19 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:31:19 AM - INFO - The '1_27365DAS_Project' project with
+            '124' id has been deleted
+            -&gt; 11/2/2021 9:31:22 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping
+            -&gt; -&gt; Loading plugin
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\DashworksTestAutomationCore.dll
+            -&gt; -&gt; Missing [assembly:RuntimePlugin] attribute in
+            DashworksTestAutomationCore, Version=1.0.0.0, Culture=neutral,
+            PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for
+            details.
+            -&gt; -&gt; Loading plugin
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+            -&gt; -&gt; Using default config
+
+
+            -&gt; 11/2/2021 9:30:29 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatDeviceCountValueRedirectsToListWithDevicesOnStatisticPageOnRingScoping
+
+            Given User is logged in to the Evergreen
+            -&gt; 11/2/2021 9:30:42 AM - INFO - Graph Client provide switched to
+            '01HV72ABXDFGMZR3LO5RB3ZCZZG3PT4XM5'
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (7.8s)
+
+            When Project created via API
+            --- table step argument ---
+            | ProjectName | Scope | ProjectTemplate | Mode |
+            | 1_23726DAS_Project | All Devices | None | Standalone Project |
+            -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+            (3.7s)
+
+            When User creates new Ring via api
+            --- table step argument ---
+            | Name | Description | IsDefault | Project |
+            | 1_23726DAS_Ring | 1_23726DAS_Desc | false | 1_23726DAS_Project |
+            -&gt; done: CreateRingViaApi.WhenUserCreatesNewRingViaApi(&lt;table&gt;)
+            (3.1s)
+
+            When User onboards objects to '1_23726DAS_Project' project
+            --- table step argument ---
+            | DeviceObjects |
+            | 00BDM1JUR8IF419 |
+            | 00K4CEEQ737BA4L |
+            | 011PLA470S0B9DJ |
+            -&gt; done:
+            OnboardObjects.WhenUserOnboardsObjectsToTheProject("1_23726DAS_Project",
+            &lt;table&gt;) (69.2s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (1.7s)
+
+            When User enters '1_23726DAS_Project' text in the Search field for 'Project'
+            column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("1_23726DAS_Project",
+            "Project") (6.7s)
+
+            When User clicks on '1_23726DAS_Project' cell from 'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("1_23726DAS_Project",
+            "Project") (7.2s)
+
+            When User clicks 'Generate Statistics' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Generate Statistics") (0.2s)
+
+            When User remembers value in 'Total' column and 'Cumulative Device Count'
+            row in static table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserRemembersValueInColumnAndRowInStaticTable("Total",
+            "Cumulative Device...") (11.7s)
+
+            When User clicks on linked value in 'Total' column and 'Cumulative Device
+            Count' row in static table
+            -&gt; done:
+            EvergreenJnr_BaseTable.ThenUserClicksOnLinkedValueInColumnAndRowInStaticTable("Total",
+            "Cumulative Device...") (1.7s)
+
+            Then grid content is present
+            -&gt; done: EvergreenJnr_BaseGrid.ThenGridContentIsPresent() (5.1s)
+
+            Then Rows counter number is equal to value that was remembered in static
+            table
+            -&gt; done:
+            EvergreenJnr_BaseTable.ThenCounterNumberIsEqualsToValueThatWasRememberedInStaticTable()
+            (1.5s)
+
+
+            -&gt; Test status is 'Passed'
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatDeviceCountValueRedirectsToListWithDevicesOnStatisticPageOnRingScoping
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/devices?$filter=(project_122_ringId%20EQUALS%20('231'))&amp;$select=hostname,chassisCategory,oSCategory,ownerDisplayName,project_122_ring&amp;$archiveditems=true
+            -&gt; 11/2/2021 9:32:42 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:32:42 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:32:42 AM - INFO - The '1_23726DAS_Project' project with
+            '122' id has been deleted
+            -&gt; 11/2/2021 9:32:46 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatDeviceCountValueRedirectsToListWithDevicesOnStatisticPageOnRingScoping
+        </system-out>
+        <system-err>Unable to create project: A project already exists with this name
+            System.Exception: Unable to create project: A project already exists with
+            this name
+            at
+            DashworksTestAutomationCore.Api.Dashworks.AdminPage.Project.ProjectApi.Create(Table
+            table, Projects projects) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Api\Dashworks\AdminPage\Project\ProjectApi.cs:line
+            78
+            at
+            DashworksTestAutomationCore.Steps.Dashworks.AdminPage.Project.ProjectApiSteps.WhenUserCreateNewProjectViaApi(Table
+            table) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\AdminPage\Project\ProjectApiSteps.cs:line
+            50
+            at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding,
+            IContextManager contextManager, Object[] arguments, ITestTracer testTracer,
+            TimeSpan&amp; duration) in
+            D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 73
+            at
+            TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch
+            match, Object[] arguments, TimeSpan&amp; duration) in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 522
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+            match, Object[] arguments, TimeSpan&amp; duration)
+            at
+            TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+            contextManager, StepInstance stepInstance) in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 446
+            at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+            at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+            D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part11Feature.ScenarioCleanup()
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part11Feature.EvergreenJnr_Planning_CheckThatNewDefaultProjectIsDisplayedInsteadOfOldDefaultProjectOnRingScoping()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part11.feature:line
+            40
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+        </system-err>
+    </testsuite>
+    <testsuite name="DashworksTestAutomationCore.Planning_RingScoping_Part3"
+               hostname="automaster" package="not available" id="1" tests="3"
+               failures="2" errors="0" skipped="0" time="300.263"
+               timestamp="2021-11-02T09:34:29">
+        <properties/>
+        <testcase
+                name="EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part3"
+                time="159.449" status="1">
+            <system-out>-&gt; 11/2/2021 9:34:29 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (5.5s)
+
+                Then Evergreen Dashboards page should be displayed to the user
+                -&gt; done:
+                EvergreenJnr_Login.ThenEvergreenDashboardsPageShouldBeDisplayedToTheUser()
+                (2.0s)
+
+                When Project created via API
+                --- table step argument ---
+                | ProjectName | Scope | ProjectTemplate | Mode |
+                | 01_23458DAS_Project | All Devices | None | Standalone Project |
+                -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+                (0.1s)
+
+                When User onboards objects to '01_23458DAS_Project' project
+                --- table step argument ---
+                | DeviceObjects |
+                | YJJU3DFR7OZAVV |
+                | F5I5XILR1KPFDL |
+                | UNHGLD5MUBJX8Q |
+                | 3RQ3D0NVT4INZ5 |
+                | Z7D66OPQGWROBV |
+                | 0ZA22CU0BW2LGF |
+                | 0ZJTE8JHKJA5NK |
+                | 0ZL7SA6TARK0C7 |
+                | 0ZSCCB7K82LTCN |
+                | 0ZV0XXKESC4FUF |
+                -&gt; done:
+                OnboardObjects.WhenUserOnboardsObjectsToTheProject("01_23458DAS_Project",
+                &lt;table&gt;) (77.1s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (1.7s)
+
+                When User clicks on '01_23458DAS_Project' cell from 'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("01_23458DAS_Project",
+                "Project") (5.5s)
+
+                When User navigates to the 'Scoping Parameters' left submenu item
+                -&gt; done:
+                EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+                Parameters") (1.7s)
+
+                Then subtitle with text 'There are 10 devices onboarded into this
+                project' is displayed for the 'Minimum and Maximum Number of Devices'
+                table
+                -&gt; done:
+                EvergreenJnr_BaseTable.ThenSubtitleWithTextIsDisplayedForTheTable("There
+                are 10 devi...", "Minimum and Maxim...") (2.7s)
+
+                When User sets value to '2' for 'Minimum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("2",
+                "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (1.8s)
+
+                When User sets value to '10' for 'Maximum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("10",
+                "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.8s)
+
+                When User clicks on 'No minimum' textbox
+                -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+                Then message is not displayed for 'Minimum and Maximum Number of
+                Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.ThenMessageIsNotDisplayedForTable("Minimum and
+                Maxim...") (3.0s)
+
+                Then 'Update' button is not disabled
+                -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update") (1.6s)
+
+                Then 'Update And Redistribute' button is not disabled
+                -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update And Redist...")
+                (1.5s)
+
+                When User clicks 'Clear All' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+                When User sets value to '15' for 'Maximum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("15",
+                "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+                When User clicks on 'No minimum' textbox
+                -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+                Then message is not displayed for 'Minimum and Maximum Number of
+                Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.ThenMessageIsNotDisplayedForTable("Minimum and
+                Maxim...") (3.2s)
+
+                Then 'Update' button is not disabled
+                -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update") (1.5s)
+
+                Then 'Update And Redistribute' button is not disabled
+                -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update And Redist...")
+                (1.5s)
+
+                When User sets value to '4' for 'Minimum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("4",
+                "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+                When User sets value to '1' for 'Maximum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+                "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+                When User clicks on 'No minimum' textbox
+                -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+                Then User sees 'light red' background in 'No maximum' textbox
+                -&gt; done: InputSteps.ThenUserSeesBackgroundInField("light red", "No
+                maximum") (0.1s)
+
+                Then 'Maximum must not be less than minimum' message is displayed for
+                'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("Maximum must not
+                ...", "Minimum and Maxim...") (3.4s)
+
+                Then 'Update' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+                Then 'Update And Redistribute' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...")
+                (1.5s)
+
+                When User clicks 'Clear All' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+                When User sets value to '1' for 'Maximum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+                "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+                When User clicks on 'No minimum' textbox
+                -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+                Then User sees 'light red' background in 'No maximum' textbox
+                -&gt; done: InputSteps.ThenUserSeesBackgroundInField("light red", "No
+                maximum") (0.1s)
+
+                Then 'There are more devices onboarded than the total of the maximum
+                number of devices across all rings' message is displayed for 'Minimum
+                and Maximum Number of Devices' table
+                -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("There
+                are more de...", "Minimum and Maxim...") (3.4s)
+
+                Then 'Update' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+                Then 'Update And Redistribute' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...")
+                (1.5s)
+
+                When User clicks 'Clear All' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+                When User sets value to '15' for 'Minimum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("15",
+                "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (2.5s)
+
+                When User sets value to '10' for 'Maximum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("10",
+                "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+                When User clicks on 'No maximum' textbox
+                -&gt; done: InputSteps.WhenUserClicksOnTextbox("No maximum") (0.1s)
+
+                Then 'The minimum number of devices across all rings is more than is
+                currently onboarded' message is displayed for 'Minimum and Maximum
+                Number of Devices' table
+                -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("The
+                minimum numbe...", "Minimum and Maxim...") (3.4s)
+
+                Then User sees 'light red' background in 'No minimum' textbox
+                -&gt; done: InputSteps.ThenUserSeesBackgroundInField("light red", "No
+                minimum") (0.0s)
+
+                Then 'Update' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+                Then 'Update And Redistribute' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...")
+                (1.5s)
+
+                When User clicks 'Clear All' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+                When User sets value to '15' for 'Minimum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("15",
+                "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+                When User clicks 'Update' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Update") (0.1s)
+
+                Then 'The minimum number of devices across all rings is more than is
+                currently onboarded' message is displayed for 'Minimum and Maximum
+                Number of Devices' table
+                -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("The
+                minimum numbe...", "Minimum and Maxim...") (3.4s)
+
+                Then inline success banner is not displayed
+                -&gt; done:
+                EvergreenJnr_BaseInlineTipBannerElement.ThenInlineSuccessBannerIsNotDisplayed()
+                (0.1s)
+
+                Then 'Update' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+                Then 'Update And Redistribute' button is disabled
+                -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...")
+                (1.5s)
+
+
+                -&gt; Test status is 'Passed'
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=162
+                -&gt; 11/2/2021 9:37:04 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:37:04 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:37:05 AM - INFO - The '01_23458DAS_Project' project
+                with '162' id has been deleted
+                -&gt; 11/2/2021 9:37:08 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices
+            </system-out>
+        </testcase>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part3"
+                time="87.174" status="0">
+            <failure
+                    message="There is no table with 'Application Coverage Targets' title"
+                    type="not specified"><![CDATA[System.Exception: There is no table with 'Application Coverage Targets' title
+   at DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String title) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line 273
+   at DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable(String value, String headerName, String rowName, String title) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line 139
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.ScenarioCleanup()
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp() in C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part3.feature:line 608
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()]]></failure>
+            <system-err>There is no table with 'Application Coverage Targets' title
+                System.Exception: There is no table with 'Application Coverage Targets'
+                title
+                at
+                DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String
+                title) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line
+                273
+                at
+                DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable(String
+                value, String headerName, String rowName, String title) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line
+                139
+                at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding
+                binding, IContextManager contextManager, Object[] arguments, ITestTracer
+                testTracer, TimeSpan&amp; duration) in
+                D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+                match, Object[] arguments, TimeSpan&amp; duration)
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+                contextManager, StepInstance stepInstance) in
+                D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                496
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+                in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                268
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+                at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+                D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.ScenarioCleanup()
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part3.feature:line
+                608
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            </system-err>
+            <system-out>-&gt; 11/2/2021 9:36:17 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (2.9s)
+
+                Then Evergreen Dashboards page should be displayed to the user
+                -&gt; done:
+                EvergreenJnr_Login.ThenEvergreenDashboardsPageShouldBeDisplayedToTheUser()
+                (1.8s)
+
+                When Project created via API
+                --- table step argument ---
+                | ProjectName | Scope | ProjectTemplate | Mode |
+                | 01_25852DAS_Project | All Devices | None | Standalone Project |
+                -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+                (0.1s)
+
+                When User onboards objects to '01_25852DAS_Project' project
+                --- table step argument ---
+                | DeviceObjects |
+                | 0K7DMRUZCZIUMI |
+                | 0K8GMOJKAPPIGK0 |
+                | 0KAQKBIX8IF418 |
+                | 0KQMW0ZW2BG3JK9 |
+                | 0KYW7VT0QRI301 |
+                -&gt; done:
+                OnboardObjects.WhenUserOnboardsObjectsToTheProject("01_25852DAS_Project",
+                &lt;table&gt;) (63.5s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (1.6s)
+
+                When User clicks on '01_25852DAS_Project' cell from 'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("01_25852DAS_Project",
+                "Project") (3.6s)
+
+                When User navigates to the 'Scoping Parameters' left submenu item
+                -&gt; done:
+                EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+                Parameters") (1.6s)
+
+                When User sets value to '5' for 'Core' column and 'Minimum Devices per
+                App' row in 'Application Coverage Targets' table
+                -&gt; error: There is no table with 'Application Coverage Targets' title
+                (1.6s)
+
+                When User sets value to '2' for 'Core' column and 'Unassigned' row in
+                'Application Coverage Targets' table
+                -&gt; skipped because of previous errors
+
+                Then message is not displayed for 'Application Coverage Targets' table
+                -&gt; skipped because of previous errors
+
+
+                -&gt; Test status is 'Failed'
+                -&gt; Check screenshot by following path:
+                c:\Screenshots\EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp_2021_11_02_09_37_40.png
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=180
+                -&gt; 11/2/2021 9:37:41 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:37:41 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:37:41 AM - INFO - The '01_25852DAS_Project' project
+                with '180' id has been deleted
+                -&gt; 11/2/2021 9:37:44 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp
+            </system-out>
+        </testcase>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part3"
+                time="53.640" status="0">
+            <failure
+                    message="Element with 'By.XPath: (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')] | .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')] | .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')]) | .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]' selector was not changed Display condition to 'True' after 15 seconds -&gt; Timed out after 15 seconds"
+                    type="not specified"><![CDATA[System.Exception: Element with 'By.XPath: (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')] | .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')] | .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')]) | .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]' selector was not changed Display condition to 'True' after 15 seconds
+ ---> OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AutomationUtils.Extensions.WebDriverExtensions.WaitForElementDisplayCondition(RemoteWebDriver driver, By by, Boolean condition, Int32 waitSeconds)
+   --- End of inner exception stack trace ---
+   at AutomationUtils.Extensions.WebDriverExtensions.WaitForElementDisplayCondition(RemoteWebDriver driver, By by, Boolean condition, Int32 waitSeconds)
+   at AutomationUtils.Component.BaseWebComponent.Build()
+   at AutomationUtils.Extensions.WebDriverExtensions.Component[T](RemoteWebDriver driver, String identifier)
+   at AutomationUtils.Extensions.WebDriverExtensions.GetComponent[T](RemoteWebDriver driver, String identifier)
+   at DashworksTestAutomationCore.Steps.Dashworks.Components.Button.ButtonSteps.WhenUserClicksButtonAfterLoading(String buttonName) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\Components\Button\ButtonSteps.cs:line 70
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.ScenarioCleanup()
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor() in C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part3.feature:line 629
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()]]></failure>
+            <system-err>Element with 'By.XPath:
+                (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+                |
+                .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+                |
+                .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')])
+                |
+                .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]'
+                selector was not changed Display condition to 'True' after 15 seconds -&gt;
+                Timed out after 15 seconds
+                System.Exception: Element with 'By.XPath:
+                (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+                |
+                .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+                |
+                .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')])
+                |
+                .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]'
+                selector was not changed Display condition to 'True' after 15 seconds
+                ---&gt; OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15
+                seconds
+                at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String
+                exceptionMessage, Exception lastException)
+                at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2
+                condition)
+                at
+                AutomationUtils.Extensions.WebDriverExtensions.WaitForElementDisplayCondition(RemoteWebDriver
+                driver, By by, Boolean condition, Int32 waitSeconds)
+                --- End of inner exception stack trace ---
+                at
+                AutomationUtils.Extensions.WebDriverExtensions.WaitForElementDisplayCondition(RemoteWebDriver
+                driver, By by, Boolean condition, Int32 waitSeconds)
+                at AutomationUtils.Component.BaseWebComponent.Build()
+                at
+                AutomationUtils.Extensions.WebDriverExtensions.Component[T](RemoteWebDriver
+                driver, String identifier)
+                at
+                AutomationUtils.Extensions.WebDriverExtensions.GetComponent[T](RemoteWebDriver
+                driver, String identifier)
+                at
+                DashworksTestAutomationCore.Steps.Dashworks.Components.Button.ButtonSteps.WhenUserClicksButtonAfterLoading(String
+                buttonName) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\Components\Button\ButtonSteps.cs:line
+                70
+                at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding
+                binding, IContextManager contextManager, Object[] arguments, ITestTracer
+                testTracer, TimeSpan&amp; duration) in
+                D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+                match, Object[] arguments, TimeSpan&amp; duration)
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+                contextManager, StepInstance stepInstance) in
+                D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                496
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+                in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                268
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+                at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+                D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.ScenarioCleanup()
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part3.feature:line
+                629
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            </system-err>
+            <system-out>-&gt; 11/2/2021 9:35:33 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (3.1s)
+
+                Then Evergreen Dashboards page should be displayed to the user
+                -&gt; done:
+                EvergreenJnr_Login.ThenEvergreenDashboardsPageShouldBeDisplayedToTheUser()
+                (1.7s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (1.6s)
+
+                When User enters 'Ring Scoping Project' text in the Search field for
+                'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+                Scoping Project", "Project") (4.2s)
+
+                When User clicks on 'Ring Scoping Project' cell from 'Project' column
+                -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+                Scoping Project", "Project") (7.2s)
+
+                When User navigates to the 'Scoping Parameters' left submenu item
+                -&gt; done:
+                EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+                Parameters") (1.7s)
+
+                When User clicks 'Clear All' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.2s)
+
+                When User sets value to '1' for 'Minimum Number of Devices' column and
+                'Pilot' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+                "Minimum Number of...", "Pilot", "Minimum and Maxim...") (3.1s)
+
+                When User sets value to '2' for 'Maximum Number of Devices' column and
+                'Pilot' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("2",
+                "Maximum Number of...", "Pilot", "Minimum and Maxim...") (2.1s)
+
+                When User sets value to '100' for 'Core' column and 'Pilot' row in
+                'Application Coverage Targets' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("100",
+                "Core", "Pilot", "Application Cover...") (2.1s)
+
+                When User sets value to '30' for 'Critical' column and 'Pilot' row in
+                'Application Coverage Targets' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("30",
+                "Critical", "Pilot", "Application Cover...") (2.2s)
+
+                When User clicks 'Update And Redistribute' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Update And Redist...")
+                (0.1s)
+
+                When User clicks 'Commit Changes Without Preview' button after loading
+                -&gt; error: Element with 'By.XPath:
+                (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+                |
+                .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+                |
+                .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')])
+                |
+                .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]'
+                selector was not changed Display condition to 'True' after 15 seconds
+                (17.0s)
+
+                Then 'Your changes have been successfully processed and recalculation of
+                statistics has started' text is displayed on inline success banner
+                -&gt; skipped because of previous errors
+
+                When User navigates to the 'Statistics' left submenu item
+                -&gt; skipped because of previous errors
+
+                Then table is displayed
+                -&gt; skipped because of previous errors
+
+                When User checks 'Show target values' slide toggle
+                -&gt; skipped because of previous errors
+
+                Then User sees 'light red scoping' cell background in 'Pilot' column
+                with 'Core App Coverage' row
+                -&gt; skipped because of previous errors
+
+                Then User sees 'grey scoping' cell background in all 'Core App Coverage
+                Target' row
+                -&gt; skipped because of previous errors
+
+                Then User sees 'light green scoping' cell background in 'Pilot' column
+                with 'Critical App Coverage' row
+                -&gt; skipped because of previous errors
+
+
+                -&gt; Test status is 'Failed'
+                -&gt; Check screenshot by following path:
+                c:\Screenshots\EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor_2021_11_02_09_36_23.png
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=112
+                -&gt; 11/2/2021 9:36:23 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:36:23 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:36:27 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor
+            </system-out>
+        </testcase>
+        <system-out>-&gt; 11/2/2021 9:34:29 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (5.5s)
+
+            Then Evergreen Dashboards page should be displayed to the user
+            -&gt; done:
+            EvergreenJnr_Login.ThenEvergreenDashboardsPageShouldBeDisplayedToTheUser()
+            (2.0s)
+
+            When Project created via API
+            --- table step argument ---
+            | ProjectName | Scope | ProjectTemplate | Mode |
+            | 01_23458DAS_Project | All Devices | None | Standalone Project |
+            -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+            (0.1s)
+
+            When User onboards objects to '01_23458DAS_Project' project
+            --- table step argument ---
+            | DeviceObjects |
+            | YJJU3DFR7OZAVV |
+            | F5I5XILR1KPFDL |
+            | UNHGLD5MUBJX8Q |
+            | 3RQ3D0NVT4INZ5 |
+            | Z7D66OPQGWROBV |
+            | 0ZA22CU0BW2LGF |
+            | 0ZJTE8JHKJA5NK |
+            | 0ZL7SA6TARK0C7 |
+            | 0ZSCCB7K82LTCN |
+            | 0ZV0XXKESC4FUF |
+            -&gt; done:
+            OnboardObjects.WhenUserOnboardsObjectsToTheProject("01_23458DAS_Project",
+            &lt;table&gt;) (77.1s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (1.7s)
+
+            When User clicks on '01_23458DAS_Project' cell from 'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("01_23458DAS_Project",
+            "Project") (5.5s)
+
+            When User navigates to the 'Scoping Parameters' left submenu item
+            -&gt; done:
+            EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+            Parameters") (1.7s)
+
+            Then subtitle with text 'There are 10 devices onboarded into this project'
+            is displayed for the 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.ThenSubtitleWithTextIsDisplayedForTheTable("There are
+            10 devi...", "Minimum and Maxim...") (2.7s)
+
+            When User sets value to '2' for 'Minimum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("2",
+            "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (1.8s)
+
+            When User sets value to '10' for 'Maximum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("10",
+            "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.8s)
+
+            When User clicks on 'No minimum' textbox
+            -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+            Then message is not displayed for 'Minimum and Maximum Number of Devices'
+            table
+            -&gt; done:
+            EvergreenJnr_BaseTable.ThenMessageIsNotDisplayedForTable("Minimum and
+            Maxim...") (3.0s)
+
+            Then 'Update' button is not disabled
+            -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update") (1.6s)
+
+            Then 'Update And Redistribute' button is not disabled
+            -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update And Redist...")
+            (1.5s)
+
+            When User clicks 'Clear All' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+            When User sets value to '15' for 'Maximum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("15",
+            "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+            When User clicks on 'No minimum' textbox
+            -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+            Then message is not displayed for 'Minimum and Maximum Number of Devices'
+            table
+            -&gt; done:
+            EvergreenJnr_BaseTable.ThenMessageIsNotDisplayedForTable("Minimum and
+            Maxim...") (3.2s)
+
+            Then 'Update' button is not disabled
+            -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update") (1.5s)
+
+            Then 'Update And Redistribute' button is not disabled
+            -&gt; done: ButtonSteps.ThenButtonIsNotDisabled("Update And Redist...")
+            (1.5s)
+
+            When User sets value to '4' for 'Minimum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("4",
+            "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+            When User sets value to '1' for 'Maximum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+            "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+            When User clicks on 'No minimum' textbox
+            -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+            Then User sees 'light red' background in 'No maximum' textbox
+            -&gt; done: InputSteps.ThenUserSeesBackgroundInField("light red", "No
+            maximum") (0.1s)
+
+            Then 'Maximum must not be less than minimum' message is displayed for
+            'Minimum and Maximum Number of Devices' table
+            -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("Maximum
+            must not ...", "Minimum and Maxim...") (3.4s)
+
+            Then 'Update' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+            Then 'Update And Redistribute' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...") (1.5s)
+
+            When User clicks 'Clear All' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+            When User sets value to '1' for 'Maximum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+            "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+            When User clicks on 'No minimum' textbox
+            -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+            Then User sees 'light red' background in 'No maximum' textbox
+            -&gt; done: InputSteps.ThenUserSeesBackgroundInField("light red", "No
+            maximum") (0.1s)
+
+            Then 'There are more devices onboarded than the total of the maximum number
+            of devices across all rings' message is displayed for 'Minimum and Maximum
+            Number of Devices' table
+            -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("There are
+            more de...", "Minimum and Maxim...") (3.4s)
+
+            Then 'Update' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+            Then 'Update And Redistribute' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...") (1.5s)
+
+            When User clicks 'Clear All' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+            When User sets value to '15' for 'Minimum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("15",
+            "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (2.5s)
+
+            When User sets value to '10' for 'Maximum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("10",
+            "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+            When User clicks on 'No maximum' textbox
+            -&gt; done: InputSteps.WhenUserClicksOnTextbox("No maximum") (0.1s)
+
+            Then 'The minimum number of devices across all rings is more than is
+            currently onboarded' message is displayed for 'Minimum and Maximum Number of
+            Devices' table
+            -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("The
+            minimum numbe...", "Minimum and Maxim...") (3.4s)
+
+            Then User sees 'light red' background in 'No minimum' textbox
+            -&gt; done: InputSteps.ThenUserSeesBackgroundInField("light red", "No
+            minimum") (0.0s)
+
+            Then 'Update' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+            Then 'Update And Redistribute' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...") (1.5s)
+
+            When User clicks 'Clear All' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+            When User sets value to '15' for 'Minimum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("15",
+            "Minimum Number of...", "Unassigned", "Minimum and Maxim...") (1.7s)
+
+            When User clicks 'Update' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Update") (0.1s)
+
+            Then 'The minimum number of devices across all rings is more than is
+            currently onboarded' message is displayed for 'Minimum and Maximum Number of
+            Devices' table
+            -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("The
+            minimum numbe...", "Minimum and Maxim...") (3.4s)
+
+            Then inline success banner is not displayed
+            -&gt; done:
+            EvergreenJnr_BaseInlineTipBannerElement.ThenInlineSuccessBannerIsNotDisplayed()
+            (0.1s)
+
+            Then 'Update' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update") (1.5s)
+
+            Then 'Update And Redistribute' button is disabled
+            -&gt; done: ButtonSteps.ThenButtonIsDisabled("Update And Redist...") (1.5s)
+
+
+            -&gt; Test status is 'Passed'
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=162
+            -&gt; 11/2/2021 9:37:04 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:37:04 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:37:05 AM - INFO - The '01_23458DAS_Project' project with
+            '162' id has been deleted
+            -&gt; 11/2/2021 9:37:08 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices
+            -&gt; 11/2/2021 9:36:17 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (2.9s)
+
+            Then Evergreen Dashboards page should be displayed to the user
+            -&gt; done:
+            EvergreenJnr_Login.ThenEvergreenDashboardsPageShouldBeDisplayedToTheUser()
+            (1.8s)
+
+            When Project created via API
+            --- table step argument ---
+            | ProjectName | Scope | ProjectTemplate | Mode |
+            | 01_25852DAS_Project | All Devices | None | Standalone Project |
+            -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+            (0.1s)
+
+            When User onboards objects to '01_25852DAS_Project' project
+            --- table step argument ---
+            | DeviceObjects |
+            | 0K7DMRUZCZIUMI |
+            | 0K8GMOJKAPPIGK0 |
+            | 0KAQKBIX8IF418 |
+            | 0KQMW0ZW2BG3JK9 |
+            | 0KYW7VT0QRI301 |
+            -&gt; done:
+            OnboardObjects.WhenUserOnboardsObjectsToTheProject("01_25852DAS_Project",
+            &lt;table&gt;) (63.5s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (1.6s)
+
+            When User clicks on '01_25852DAS_Project' cell from 'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("01_25852DAS_Project",
+            "Project") (3.6s)
+
+            When User navigates to the 'Scoping Parameters' left submenu item
+            -&gt; done:
+            EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+            Parameters") (1.6s)
+
+            When User sets value to '5' for 'Core' column and 'Minimum Devices per App'
+            row in 'Application Coverage Targets' table
+            -&gt; error: There is no table with 'Application Coverage Targets' title
+            (1.6s)
+
+            When User sets value to '2' for 'Core' column and 'Unassigned' row in
+            'Application Coverage Targets' table
+            -&gt; skipped because of previous errors
+
+            Then message is not displayed for 'Application Coverage Targets' table
+            -&gt; skipped because of previous errors
+
+
+            -&gt; Test status is 'Failed'
+            -&gt; Check screenshot by following path:
+            c:\Screenshots\EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp_2021_11_02_09_37_40.png
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=180
+            -&gt; 11/2/2021 9:37:41 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:37:41 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:37:41 AM - INFO - The '01_25852DAS_Project' project with
+            '180' id has been deleted
+            -&gt; 11/2/2021 9:37:44 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp
+            -&gt; 11/2/2021 9:35:33 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (3.1s)
+
+            Then Evergreen Dashboards page should be displayed to the user
+            -&gt; done:
+            EvergreenJnr_Login.ThenEvergreenDashboardsPageShouldBeDisplayedToTheUser()
+            (1.7s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (1.6s)
+
+            When User enters 'Ring Scoping Project' text in the Search field for
+            'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("Ring
+            Scoping Project", "Project") (4.2s)
+
+            When User clicks on 'Ring Scoping Project' cell from 'Project' column
+            -&gt; done: EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("Ring
+            Scoping Project", "Project") (7.2s)
+
+            When User navigates to the 'Scoping Parameters' left submenu item
+            -&gt; done:
+            EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+            Parameters") (1.7s)
+
+            When User clicks 'Clear All' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.2s)
+
+            When User sets value to '1' for 'Minimum Number of Devices' column and
+            'Pilot' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+            "Minimum Number of...", "Pilot", "Minimum and Maxim...") (3.1s)
+
+            When User sets value to '2' for 'Maximum Number of Devices' column and
+            'Pilot' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("2",
+            "Maximum Number of...", "Pilot", "Minimum and Maxim...") (2.1s)
+
+            When User sets value to '100' for 'Core' column and 'Pilot' row in
+            'Application Coverage Targets' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("100",
+            "Core", "Pilot", "Application Cover...") (2.1s)
+
+            When User sets value to '30' for 'Critical' column and 'Pilot' row in
+            'Application Coverage Targets' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("30",
+            "Critical", "Pilot", "Application Cover...") (2.2s)
+
+            When User clicks 'Update And Redistribute' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Update And Redist...") (0.1s)
+
+            When User clicks 'Commit Changes Without Preview' button after loading
+            -&gt; error: Element with 'By.XPath:
+            (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+            |
+            .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+            |
+            .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')])
+            |
+            .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]'
+            selector was not changed Display condition to 'True' after 15 seconds
+            (17.0s)
+
+            Then 'Your changes have been successfully processed and recalculation of
+            statistics has started' text is displayed on inline success banner
+            -&gt; skipped because of previous errors
+
+            When User navigates to the 'Statistics' left submenu item
+            -&gt; skipped because of previous errors
+
+            Then table is displayed
+            -&gt; skipped because of previous errors
+
+            When User checks 'Show target values' slide toggle
+            -&gt; skipped because of previous errors
+
+            Then User sees 'light red scoping' cell background in 'Pilot' column with
+            'Core App Coverage' row
+            -&gt; skipped because of previous errors
+
+            Then User sees 'grey scoping' cell background in all 'Core App Coverage
+            Target' row
+            -&gt; skipped because of previous errors
+
+            Then User sees 'light green scoping' cell background in 'Pilot' column with
+            'Critical App Coverage' row
+            -&gt; skipped because of previous errors
+
+
+            -&gt; Test status is 'Failed'
+            -&gt; Check screenshot by following path:
+            c:\Screenshots\EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor_2021_11_02_09_36_23.png
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=112
+            -&gt; 11/2/2021 9:36:23 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:36:23 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:36:27 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor
+        </system-out>
+        <system-err>There is no table with 'Application Coverage Targets' title
+            System.Exception: There is no table with 'Application Coverage Targets'
+            title
+            at
+            DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String
+            title) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line
+            273
+            at
+            DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable(String
+            value, String headerName, String rowName, String title) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line
+            139
+            at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding,
+            IContextManager contextManager, Object[] arguments, ITestTracer testTracer,
+            TimeSpan&amp; duration) in
+            D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+            match, Object[] arguments, TimeSpan&amp; duration)
+            at
+            TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+            contextManager, StepInstance stepInstance) in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+            at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+            at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+            D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.ScenarioCleanup()
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.EvergreenJnr_Planning_CheckThatApplicationCoverageFieldsDontValidateAcrossMinimumDevicesPerApp()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part3.feature:line
+            608
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            Element with 'By.XPath:
+            (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+            |
+            .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+            |
+            .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')])
+            |
+            .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]'
+            selector was not changed Display condition to 'True' after 15 seconds -&gt;
+            Timed out after 15 seconds
+            System.Exception: Element with 'By.XPath:
+            (.//button[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+            |
+            .//mat-icon[contains(@class,'automationClass-button-CommitChangesWithoutPreview')]
+            |
+            .//button[contains(@class,'automationClass-icon-CommitChangesWithoutPreview')])
+            |
+            .//mat-datepicker-toggle[contains(@class,'automationClass-mat-datepicker-toggle-CommitChangesWithoutPreview')]'
+            selector was not changed Display condition to 'True' after 15 seconds
+            ---&gt; OpenQA.Selenium.WebDriverTimeoutException: Timed out after 15
+            seconds
+            at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String
+            exceptionMessage, Exception lastException)
+            at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+            at
+            AutomationUtils.Extensions.WebDriverExtensions.WaitForElementDisplayCondition(RemoteWebDriver
+            driver, By by, Boolean condition, Int32 waitSeconds)
+            --- End of inner exception stack trace ---
+            at
+            AutomationUtils.Extensions.WebDriverExtensions.WaitForElementDisplayCondition(RemoteWebDriver
+            driver, By by, Boolean condition, Int32 waitSeconds)
+            at AutomationUtils.Component.BaseWebComponent.Build()
+            at
+            AutomationUtils.Extensions.WebDriverExtensions.Component[T](RemoteWebDriver
+            driver, String identifier)
+            at
+            AutomationUtils.Extensions.WebDriverExtensions.GetComponent[T](RemoteWebDriver
+            driver, String identifier)
+            at
+            DashworksTestAutomationCore.Steps.Dashworks.Components.Button.ButtonSteps.WhenUserClicksButtonAfterLoading(String
+            buttonName) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\Components\Button\ButtonSteps.cs:line
+            70
+            at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding,
+            IContextManager contextManager, Object[] arguments, ITestTracer testTracer,
+            TimeSpan&amp; duration) in
+            D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+            match, Object[] arguments, TimeSpan&amp; duration)
+            at
+            TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+            contextManager, StepInstance stepInstance) in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+            at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+            at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+            D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.ScenarioCleanup()
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part3Feature.EvergreenJnr_Planning_CheckThatStatisticsTableCellsHasRightColor()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part3.feature:line
+            629
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+        </system-err>
+    </testsuite>
+    <testsuite name="DashworksTestAutomationCore.Planning_RingScoping_Part6"
+               hostname="automaster" package="not available" id="2" tests="3"
+               failures="3" errors="0" skipped="0" time="247.360"
+               timestamp="2021-11-02T09:35:59">
+        <properties/>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part6"
+                time="32.791" status="0">
+            <failure
+                    message="There is no table with 'Application Coverage Targets' title"
+                    type="not specified"><![CDATA[System.Exception: There is no table with 'Application Coverage Targets' title
+   at DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String title) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line 273
+   at DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.ThenFollowingDataIsDisplayedInTheColumnOfSelectedTable(String columnName, String title, Table table) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line 54
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping() in C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line 89
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()]]></failure>
+            <system-err>There is no table with 'Application Coverage Targets' title
+                System.Exception: There is no table with 'Application Coverage Targets'
+                title
+                at
+                DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String
+                title) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line
+                273
+                at
+                DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.ThenFollowingDataIsDisplayedInTheColumnOfSelectedTable(String
+                columnName, String title, Table table) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line
+                54
+                at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding
+                binding, IContextManager contextManager, Object[] arguments, ITestTracer
+                testTracer, TimeSpan&amp; duration) in
+                D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+                match, Object[] arguments, TimeSpan&amp; duration)
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+                contextManager, StepInstance stepInstance) in
+                D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                496
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+                in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                268
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+                at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+                D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line
+                89
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            </system-err>
+            <system-out>-&gt; 11/2/2021 9:35:59 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (2.5s)
+
+                When Project created via API and opened
+                --- table step argument ---
+                | ProjectName | Scope | ProjectTemplate | Mode |
+                | 1_26727DAS_Project | All Devices | None | Standalone Project |
+                -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApiAndOpened(&lt;table&gt;)
+                (3.5s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (1.6s)
+
+                When User enters '1_26727DAS_Project' text in the Search field for
+                'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("1_26727DAS_Project",
+                "Project") (4.3s)
+
+                When User clicks on '1_26727DAS_Project' cell from 'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("1_26727DAS_Project",
+                "Project") (7.1s)
+
+                When User navigates to the 'Scoping Parameters' left submenu item
+                -&gt; done:
+                EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+                Parameters") (1.6s)
+
+                Then following data is displayed in the 'Core' column of the
+                'Application Coverage Targets' table
+                --- table step argument ---
+                | Fields |
+                | |
+                | No target % |
+                -&gt; error: There is no table with 'Application Coverage Targets' title
+                (3.6s)
+
+                Then following data is displayed in the 'Critical' column of the
+                'Application Coverage Targets' table
+                --- table step argument ---
+                | Fields |
+                | |
+                | No target % |
+                -&gt; skipped because of previous errors
+
+                Then following data is displayed in the 'Important' column of the
+                'Application Coverage Targets' table
+                --- table step argument ---
+                | Fields |
+                | |
+                | No target % |
+                -&gt; skipped because of previous errors
+
+                Then following data is displayed in the 'Not Important' column of the
+                'Application Coverage Targets' table
+                --- table step argument ---
+                | Fields |
+                | |
+                | No target % |
+                -&gt; skipped because of previous errors
+
+                Then following data is displayed in the 'Uncategorised' column of the
+                'Application Coverage Targets' table
+                --- table step argument ---
+                | Fields |
+                | |
+                | No target % |
+                -&gt; skipped because of previous errors
+
+
+                -&gt; Test status is 'Failed'
+                -&gt; Check screenshot by following path:
+                c:\Screenshots\EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping_2021_11_02_09_36_27.png
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=178
+                -&gt; 11/2/2021 9:36:27 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:36:27 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:36:28 AM - INFO - The '1_26727DAS_Project' project
+                with '178' id has been deleted
+                -&gt; 11/2/2021 9:36:32 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping
+            </system-out>
+        </testcase>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part6"
+                time="109.502" status="0">
+            <failure message="There are no 'Software' dropdown option"
+                     type="not specified"><![CDATA[System.Exception: There are no 'Software' dropdown option
+   at DashworksTestAutomationCore.Components.DropdownComponent.DropdownOptions.BaseDropdownOptions.GetOptionByName(String value) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Components\DropdownComponent\DropdownOptions\BaseDropdownOptions.cs:line 34
+   at DashworksTestAutomationCore.Components.Dropdown.Select(String value) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Components\DropdownComponent\Dropdown.cs:line 36
+   at DashworksTestAutomationCore.Steps.Dashworks.Components.DropdownSteps.WhenUserSelectsInTheDropdown(String value, String dropdownName) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\Components\DropdownSteps.cs:line 40
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping() in C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line 60
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()]]></failure>
+            <system-err>There are no 'Software' dropdown option
+                System.Exception: There are no 'Software' dropdown option
+                at
+                DashworksTestAutomationCore.Components.DropdownComponent.DropdownOptions.BaseDropdownOptions.GetOptionByName(String
+                value) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Components\DropdownComponent\DropdownOptions\BaseDropdownOptions.cs:line
+                34
+                at DashworksTestAutomationCore.Components.Dropdown.Select(String value)
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Components\DropdownComponent\Dropdown.cs:line
+                36
+                at
+                DashworksTestAutomationCore.Steps.Dashworks.Components.DropdownSteps.WhenUserSelectsInTheDropdown(String
+                value, String dropdownName) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\Components\DropdownSteps.cs:line
+                40
+                at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding
+                binding, IContextManager contextManager, Object[] arguments, ITestTracer
+                testTracer, TimeSpan&amp; duration) in
+                D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+                match, Object[] arguments, TimeSpan&amp; duration)
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+                contextManager, StepInstance stepInstance) in
+                D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                496
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+                in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                268
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+                at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+                D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line
+                60
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            </system-err>
+            <system-out>-&gt; 11/2/2021 9:37:16 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (3.0s)
+
+                When Project created via API
+                --- table step argument ---
+                | ProjectName | Scope | ProjectTemplate | Mode |
+                | 1_25723DAS_Project | All Devices | None | Standalone Project |
+                -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+                (0.2s)
+
+                When User creates new Ring via api
+                --- table step argument ---
+                | Name | Description | IsDefault | Project |
+                | 1_25723DAS_Ring | 1_25723DAS_Desc | FALSE | 1_25723DAS_Project |
+                | 2_25723DAS_Ring | 2_25723DAS_Desc | FALSE | 1_25723DAS_Project |
+                -&gt; done: CreateRingViaApi.WhenUserCreatesNewRingViaApi(&lt;table&gt;)
+                (1.3s)
+
+                When User onboards objects to '1_25723DAS_Project' project
+                --- table step argument ---
+                | DeviceObjects |
+                | 00BDM1JUR8IF419 |
+                | 00K4CEEQ737BA4L |
+                | 011PLA470S0B9DJ |
+                -&gt; done:
+                OnboardObjects.WhenUserOnboardsObjectsToTheProject("1_25723DAS_Project",
+                &lt;table&gt;) (72.5s)
+
+                When User clicks 'Planning' on the left-hand menu
+                -&gt; done:
+                EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+                (1.6s)
+
+                When User enters '1_25723DAS_Project' text in the Search field for
+                'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("1_25723DAS_Project",
+                "Project") (3.8s)
+
+                When User clicks on '1_25723DAS_Project' cell from 'Project' column
+                -&gt; done:
+                EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("1_25723DAS_Project",
+                "Project") (7.6s)
+
+                When User clicks 'Generate Statistics' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Generate Statistics")
+                (0.1s)
+
+                Then 'Recalculation of statistics is complete' text is displayed on
+                inline success banner
+                -&gt; done:
+                EvergreenJnr_BaseInlineTipBannerElement.ThenTextIsDisplayedOnInlineSuccessBanner("Recalculation
+                of ...") (10.4s)
+
+                When User selects 'Software' in the 'Summary' dropdown
+                -&gt; error: There are no 'Software' dropdown option (0.4s)
+
+                Then User sees '9' linked elements in 'Unassigned' column
+                -&gt; skipped because of previous errors
+
+
+                -&gt; Test status is 'Failed'
+                -&gt; Check screenshot by following path:
+                c:\Screenshots\EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping_2021_11_02_09_39_02.png
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/statistics?$projectId=185
+                -&gt; 11/2/2021 9:39:02 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:39:02 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:39:02 AM - INFO - The '1_25723DAS_Project' project
+                with '185' id has been deleted
+                -&gt; 11/2/2021 9:39:06 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping
+            </system-out>
+        </testcase>
+        <testcase
+                name="EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping"
+                classname="DashworksTestAutomationCore.Planning_RingScoping_Part6"
+                time="105.067" status="0">
+            <failure
+                    message="There is no table with 'Application Coverage Targets' title"
+                    type="not specified"><![CDATA[System.Exception: There is no table with 'Application Coverage Targets' title
+   at DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String title) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line 273
+   at DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable(String value, String headerName, String rowName, String title) in C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line 139
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+   at DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping() in C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line 38
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()]]></failure>
+            <system-err>There is no table with 'Application Coverage Targets' title
+                System.Exception: There is no table with 'Application Coverage Targets'
+                title
+                at
+                DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String
+                title) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line
+                273
+                at
+                DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable(String
+                value, String headerName, String rowName, String title) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line
+                139
+                at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding
+                binding, IContextManager contextManager, Object[] arguments, ITestTracer
+                testTracer, TimeSpan&amp; duration) in
+                D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+                match, Object[] arguments, TimeSpan&amp; duration)
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+                contextManager, StepInstance stepInstance) in
+                D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                496
+                at
+                TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+                in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line
+                268
+                at
+                TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+                at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+                D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+                at
+                DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line
+                38
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at
+                TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+                testThreadExecutionContext)
+                at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            </system-err>
+            <system-out>-&gt; 11/2/2021 9:37:14 AM - INFO - TEST STARTED:
+                EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping
+
+                Given User is logged in to the Evergreen
+                -&gt; Navigating to the https://automaster.internal.juriba.com/
+                -&gt; Navigating to the
+                https://automaster.internal.juriba.com/evergreen/
+                -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen()
+                (2.4s)
+
+                When Project created via API
+                --- table step argument ---
+                | ProjectName | Scope | ProjectTemplate | Mode |
+                | 1_26707DAS_Project | All Devices | None | Standalone Project |
+                -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+                (0.1s)
+
+                When User creates new Ring via api
+                --- table step argument ---
+                | Name | Description | IsDefault | Project |
+                | 1_26707DAS_Ring | 1_25723DAS_Desc | FALSE | 1_26707DAS_Project |
+                | 2_26707DAS_Ring | 2_25723DAS_Desc | FALSE | 1_26707DAS_Project |
+                | 3_26707DAS_Ring | 2_25723DAS_Desc | FALSE | 1_26707DAS_Project |
+                -&gt; done: CreateRingViaApi.WhenUserCreatesNewRingViaApi(&lt;table&gt;)
+                (2.2s)
+
+                When User onboards objects to '1_26707DAS_Project' project
+                --- table step argument ---
+                | DeviceObjects |
+                | SLVJ4Z7INDJRHX |
+                | SOJ08A0E97EEQP |
+                | SQ8FCORFPJ0W0V |
+                | SQ8SCSPDCV985T |
+                | SR4S6PNXTDOBE5 |
+                -&gt; done:
+                OnboardObjects.WhenUserOnboardsObjectsToTheProject("1_26707DAS_Project",
+                &lt;table&gt;) (74.0s)
+
+                When User navigates to 'Scoping Parameters' page of '1_26707DAS_Project'
+                Ring scoping project
+                -&gt; done:
+                EvergreenJnr_RingScopingPage.WhenUserNavigatesToPageOfRingScopingProject("Scoping
+                Parameters", "1_26707DAS_Project") (3.5s)
+
+                When User clicks 'Clear All' button
+                -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+                When User sets value to '1' for 'Maximum Number of Devices' column and
+                'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+                "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.8s)
+
+                When User sets value to '1' for 'Maximum Number of Devices' column and
+                '1_26707DAS_Ring' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+                "Maximum Number of...", "1_26707DAS_Ring", "Minimum and Maxim...")
+                (1.9s)
+
+                When User sets value to '1' for 'Maximum Number of Devices' column and
+                '2_26707DAS_Ring' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+                "Maximum Number of...", "2_26707DAS_Ring", "Minimum and Maxim...")
+                (1.7s)
+
+                When User sets value to '1' for 'Maximum Number of Devices' column and
+                '3_26707DAS_Ring' row in 'Minimum and Maximum Number of Devices' table
+                -&gt; done:
+                EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+                "Maximum Number of...", "3_26707DAS_Ring", "Minimum and Maxim...")
+                (1.7s)
+
+                When User clicks on 'No minimum' textbox
+                -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+                Then 'There are more devices onboarded than the total of the maximum
+                number of devices across all rings' message is displayed for 'Minimum
+                and Maximum Number of Devices' table
+                -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("There
+                are more de...", "Minimum and Maxim...") (3.4s)
+
+                When User sets value to '20' for 'Core' column and 'Unassigned' row in
+                'Application Coverage Targets' table
+                -&gt; error: There is no table with 'Application Coverage Targets' title
+                (1.6s)
+
+                When User sets value to '10' for 'Core' column and '1_26707DAS_Ring' row
+                in 'Application Coverage Targets' table
+                -&gt; skipped because of previous errors
+
+                When User clicks on 'No minimum' textbox
+                -&gt; skipped because of previous errors
+
+                Then 'Coverage must increase or stay the same for subsequent rings'
+                message is displayed for 'Application Coverage Targets' table
+                -&gt; skipped because of previous errors
+
+                When User clicks 'Clear All' button
+                -&gt; skipped because of previous errors
+
+                Then message is not displayed for 'Minimum and Maximum Number of
+                Devices' table
+                -&gt; skipped because of previous errors
+
+                Then message is not displayed for 'Application Coverage Targets' table
+                -&gt; skipped because of previous errors
+
+
+                -&gt; Test status is 'Failed'
+                -&gt; Check screenshot by following path:
+                c:\Screenshots\EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping_2021_11_02_09_38_54.png
+                -&gt; TEST STATUS WAS POSTED:
+                EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping
+                -&gt; Test finished on:
+                https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=184
+                -&gt; 11/2/2021 9:38:54 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:38:54 AM - ERROR - Error during Custom list deleting:
+                System.Exception: Database query returns zero results
+                -&gt; at
+                DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+                query, Int32 columnIndex) in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+                59
+                -&gt; at
+                DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+                in
+                C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+                33
+                -&gt; 11/2/2021 9:38:55 AM - INFO - The '1_26707DAS_Project' project
+                with '184' id has been deleted
+                -&gt; 11/2/2021 9:38:59 AM - INFO - TEST FINISHED:
+                EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping
+            </system-out>
+        </testcase>
+        <system-out>-&gt; 11/2/2021 9:35:59 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (2.5s)
+
+            When Project created via API and opened
+            --- table step argument ---
+            | ProjectName | Scope | ProjectTemplate | Mode |
+            | 1_26727DAS_Project | All Devices | None | Standalone Project |
+            -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApiAndOpened(&lt;table&gt;)
+            (3.5s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (1.6s)
+
+            When User enters '1_26727DAS_Project' text in the Search field for 'Project'
+            column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("1_26727DAS_Project",
+            "Project") (4.3s)
+
+            When User clicks on '1_26727DAS_Project' cell from 'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("1_26727DAS_Project",
+            "Project") (7.1s)
+
+            When User navigates to the 'Scoping Parameters' left submenu item
+            -&gt; done:
+            EvergreenJnr_LeftMenuNavigation.WhenUserNavigatesToTheParentLeftSubmenuItem("Scoping
+            Parameters") (1.6s)
+
+            Then following data is displayed in the 'Core' column of the 'Application
+            Coverage Targets' table
+            --- table step argument ---
+            | Fields |
+            | |
+            | No target % |
+            -&gt; error: There is no table with 'Application Coverage Targets' title
+            (3.6s)
+
+            Then following data is displayed in the 'Critical' column of the
+            'Application Coverage Targets' table
+            --- table step argument ---
+            | Fields |
+            | |
+            | No target % |
+            -&gt; skipped because of previous errors
+
+            Then following data is displayed in the 'Important' column of the
+            'Application Coverage Targets' table
+            --- table step argument ---
+            | Fields |
+            | |
+            | No target % |
+            -&gt; skipped because of previous errors
+
+            Then following data is displayed in the 'Not Important' column of the
+            'Application Coverage Targets' table
+            --- table step argument ---
+            | Fields |
+            | |
+            | No target % |
+            -&gt; skipped because of previous errors
+
+            Then following data is displayed in the 'Uncategorised' column of the
+            'Application Coverage Targets' table
+            --- table step argument ---
+            | Fields |
+            | |
+            | No target % |
+            -&gt; skipped because of previous errors
+
+
+            -&gt; Test status is 'Failed'
+            -&gt; Check screenshot by following path:
+            c:\Screenshots\EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping_2021_11_02_09_36_27.png
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=178
+            -&gt; 11/2/2021 9:36:27 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:36:27 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:36:28 AM - INFO - The '1_26727DAS_Project' project with
+            '178' id has been deleted
+            -&gt; 11/2/2021 9:36:32 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping
+            -&gt; 11/2/2021 9:37:16 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (3.0s)
+
+            When Project created via API
+            --- table step argument ---
+            | ProjectName | Scope | ProjectTemplate | Mode |
+            | 1_25723DAS_Project | All Devices | None | Standalone Project |
+            -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+            (0.2s)
+
+            When User creates new Ring via api
+            --- table step argument ---
+            | Name | Description | IsDefault | Project |
+            | 1_25723DAS_Ring | 1_25723DAS_Desc | FALSE | 1_25723DAS_Project |
+            | 2_25723DAS_Ring | 2_25723DAS_Desc | FALSE | 1_25723DAS_Project |
+            -&gt; done: CreateRingViaApi.WhenUserCreatesNewRingViaApi(&lt;table&gt;)
+            (1.3s)
+
+            When User onboards objects to '1_25723DAS_Project' project
+            --- table step argument ---
+            | DeviceObjects |
+            | 00BDM1JUR8IF419 |
+            | 00K4CEEQ737BA4L |
+            | 011PLA470S0B9DJ |
+            -&gt; done:
+            OnboardObjects.WhenUserOnboardsObjectsToTheProject("1_25723DAS_Project",
+            &lt;table&gt;) (72.5s)
+
+            When User clicks 'Planning' on the left-hand menu
+            -&gt; done:
+            EvergreenJnr_LeftHandMenuNavigation.WhenUserClicksOnTheLeft_HandMenu("Planning")
+            (1.6s)
+
+            When User enters '1_25723DAS_Project' text in the Search field for 'Project'
+            column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserEntersTextInTheSearchFieldForColumn("1_25723DAS_Project",
+            "Project") (3.8s)
+
+            When User clicks on '1_25723DAS_Project' cell from 'Project' column
+            -&gt; done:
+            EvergreenJnr_BaseGrid.WhenUserClicksOnCellFromColumn("1_25723DAS_Project",
+            "Project") (7.6s)
+
+            When User clicks 'Generate Statistics' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Generate Statistics") (0.1s)
+
+            Then 'Recalculation of statistics is complete' text is displayed on inline
+            success banner
+            -&gt; done:
+            EvergreenJnr_BaseInlineTipBannerElement.ThenTextIsDisplayedOnInlineSuccessBanner("Recalculation
+            of ...") (10.4s)
+
+            When User selects 'Software' in the 'Summary' dropdown
+            -&gt; error: There are no 'Software' dropdown option (0.4s)
+
+            Then User sees '9' linked elements in 'Unassigned' column
+            -&gt; skipped because of previous errors
+
+
+            -&gt; Test status is 'Failed'
+            -&gt; Check screenshot by following path:
+            c:\Screenshots\EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping_2021_11_02_09_39_02.png
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/statistics?$projectId=185
+            -&gt; 11/2/2021 9:39:02 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:39:02 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:39:02 AM - INFO - The '1_25723DAS_Project' project with
+            '185' id has been deleted
+            -&gt; 11/2/2021 9:39:06 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping
+            -&gt; 11/2/2021 9:37:14 AM - INFO - TEST STARTED:
+            EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping
+
+            Given User is logged in to the Evergreen
+            -&gt; Navigating to the https://automaster.internal.juriba.com/
+            -&gt; Navigating to the https://automaster.internal.juriba.com/evergreen/
+            -&gt; done: EvergreenJnr_Login.GivenUserIsLoggedInToTheEvergreen() (2.4s)
+
+            When Project created via API
+            --- table step argument ---
+            | ProjectName | Scope | ProjectTemplate | Mode |
+            | 1_26707DAS_Project | All Devices | None | Standalone Project |
+            -&gt; done: ProjectApiSteps.WhenUserCreateNewProjectViaApi(&lt;table&gt;)
+            (0.1s)
+
+            When User creates new Ring via api
+            --- table step argument ---
+            | Name | Description | IsDefault | Project |
+            | 1_26707DAS_Ring | 1_25723DAS_Desc | FALSE | 1_26707DAS_Project |
+            | 2_26707DAS_Ring | 2_25723DAS_Desc | FALSE | 1_26707DAS_Project |
+            | 3_26707DAS_Ring | 2_25723DAS_Desc | FALSE | 1_26707DAS_Project |
+            -&gt; done: CreateRingViaApi.WhenUserCreatesNewRingViaApi(&lt;table&gt;)
+            (2.2s)
+
+            When User onboards objects to '1_26707DAS_Project' project
+            --- table step argument ---
+            | DeviceObjects |
+            | SLVJ4Z7INDJRHX |
+            | SOJ08A0E97EEQP |
+            | SQ8FCORFPJ0W0V |
+            | SQ8SCSPDCV985T |
+            | SR4S6PNXTDOBE5 |
+            -&gt; done:
+            OnboardObjects.WhenUserOnboardsObjectsToTheProject("1_26707DAS_Project",
+            &lt;table&gt;) (74.0s)
+
+            When User navigates to 'Scoping Parameters' page of '1_26707DAS_Project'
+            Ring scoping project
+            -&gt; done:
+            EvergreenJnr_RingScopingPage.WhenUserNavigatesToPageOfRingScopingProject("Scoping
+            Parameters", "1_26707DAS_Project") (3.5s)
+
+            When User clicks 'Clear All' button
+            -&gt; done: ButtonSteps.WhenUserClicksButton("Clear All") (0.1s)
+
+            When User sets value to '1' for 'Maximum Number of Devices' column and
+            'Unassigned' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+            "Maximum Number of...", "Unassigned", "Minimum and Maxim...") (1.8s)
+
+            When User sets value to '1' for 'Maximum Number of Devices' column and
+            '1_26707DAS_Ring' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+            "Maximum Number of...", "1_26707DAS_Ring", "Minimum and Maxim...") (1.9s)
+
+            When User sets value to '1' for 'Maximum Number of Devices' column and
+            '2_26707DAS_Ring' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+            "Maximum Number of...", "2_26707DAS_Ring", "Minimum and Maxim...") (1.7s)
+
+            When User sets value to '1' for 'Maximum Number of Devices' column and
+            '3_26707DAS_Ring' row in 'Minimum and Maximum Number of Devices' table
+            -&gt; done:
+            EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable("1",
+            "Maximum Number of...", "3_26707DAS_Ring", "Minimum and Maxim...") (1.7s)
+
+            When User clicks on 'No minimum' textbox
+            -&gt; done: InputSteps.WhenUserClicksOnTextbox("No minimum") (0.1s)
+
+            Then 'There are more devices onboarded than the total of the maximum number
+            of devices across all rings' message is displayed for 'Minimum and Maximum
+            Number of Devices' table
+            -&gt; done: EvergreenJnr_BaseTable.ThenMessageIsDisplayedForTable("There are
+            more de...", "Minimum and Maxim...") (3.4s)
+
+            When User sets value to '20' for 'Core' column and 'Unassigned' row in
+            'Application Coverage Targets' table
+            -&gt; error: There is no table with 'Application Coverage Targets' title
+            (1.6s)
+
+            When User sets value to '10' for 'Core' column and '1_26707DAS_Ring' row in
+            'Application Coverage Targets' table
+            -&gt; skipped because of previous errors
+
+            When User clicks on 'No minimum' textbox
+            -&gt; skipped because of previous errors
+
+            Then 'Coverage must increase or stay the same for subsequent rings' message
+            is displayed for 'Application Coverage Targets' table
+            -&gt; skipped because of previous errors
+
+            When User clicks 'Clear All' button
+            -&gt; skipped because of previous errors
+
+            Then message is not displayed for 'Minimum and Maximum Number of Devices'
+            table
+            -&gt; skipped because of previous errors
+
+            Then message is not displayed for 'Application Coverage Targets' table
+            -&gt; skipped because of previous errors
+
+
+            -&gt; Test status is 'Failed'
+            -&gt; Check screenshot by following path:
+            c:\Screenshots\EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping_2021_11_02_09_38_54.png
+            -&gt; TEST STATUS WAS POSTED:
+            EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping
+            -&gt; Test finished on:
+            https://automaster.internal.juriba.com/evergreen/#/planning/ringscoping/scopingParameters?$projectId=184
+            -&gt; 11/2/2021 9:38:54 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:38:54 AM - ERROR - Error during Custom list deleting:
+            System.Exception: Database query returns zero results
+            -&gt; at DashworksTestAutomation.Helpers.DatabaseHelper.ExecuteReader(String
+            query, Int32 columnIndex) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Helpers\DatabaseHelper.cs:line
+            59
+            -&gt; at
+            DashworksTestAutomation.Steps.Dashworks.CustomList.AfterScenario.RemoveCustomListMethods.RemoveUserLists()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\CustomList\AfterScenario\RemoveCustomListMethods.cs:line
+            33
+            -&gt; 11/2/2021 9:38:55 AM - INFO - The '1_26707DAS_Project' project with
+            '184' id has been deleted
+            -&gt; 11/2/2021 9:38:59 AM - INFO - TEST FINISHED:
+            EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping
+        </system-out>
+        <system-err>There is no table with 'Application Coverage Targets' title
+            System.Exception: There is no table with 'Application Coverage Targets'
+            title
+            at
+            DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String
+            title) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line
+            273
+            at
+            DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.ThenFollowingDataIsDisplayedInTheColumnOfSelectedTable(String
+            columnName, String title, Table table) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line
+            54
+            at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding,
+            IContextManager contextManager, Object[] arguments, ITestTracer testTracer,
+            TimeSpan&amp; duration) in
+            D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+            match, Object[] arguments, TimeSpan&amp; duration)
+            at
+            TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+            contextManager, StepInstance stepInstance) in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+            at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+            at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+            D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatTableHasACorrectValuesOnScopingParametersPageFromRingScoping()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line
+            89
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            There are no 'Software' dropdown option
+            System.Exception: There are no 'Software' dropdown option
+            at
+            DashworksTestAutomationCore.Components.DropdownComponent.DropdownOptions.BaseDropdownOptions.GetOptionByName(String
+            value) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Components\DropdownComponent\DropdownOptions\BaseDropdownOptions.cs:line
+            34
+            at DashworksTestAutomationCore.Components.Dropdown.Select(String value) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Components\DropdownComponent\Dropdown.cs:line
+            36
+            at
+            DashworksTestAutomationCore.Steps.Dashworks.Components.DropdownSteps.WhenUserSelectsInTheDropdown(String
+            value, String dropdownName) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\Components\DropdownSteps.cs:line
+            40
+            at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding,
+            IContextManager contextManager, Object[] arguments, ITestTracer testTracer,
+            TimeSpan&amp; duration) in
+            D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+            match, Object[] arguments, TimeSpan&amp; duration)
+            at
+            TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+            contextManager, StepInstance stepInstance) in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+            at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+            at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+            D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatAppsHaveClickthrougLinksOnStatisticPageFromRingScoping()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line
+            60
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+            There is no table with 'Application Coverage Targets' title
+            System.Exception: There is no table with 'Application Coverage Targets'
+            title
+            at
+            DashworksTestAutomation.Pages.Evergreen.ItemDetails.BaseTable.GetTableByTitle(String
+            title) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Pages\Evergreen\ItemDetails\BaseTable.cs:line
+            273
+            at
+            DashworksTestAutomation.Steps.Dashworks.ItemDetailsPage.EvergreenJnr_BaseTable.WhenUserSetValueToForColumnAndRowInTable(String
+            value, String headerName, String rowName, String title) in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Steps\Dashworks\ItemDetailsPage\EvergreenJnr_BaseTable.cs:line
+            139
+            at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding,
+            IContextManager contextManager, Object[] arguments, ITestTracer testTracer,
+            TimeSpan&amp; duration) in
+            D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 88
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch
+            match, Object[] arguments, TimeSpan&amp; duration)
+            at
+            TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager
+            contextManager, StepInstance stepInstance) in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 496
+            at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in
+            D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 268
+            at
+            TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+            at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in
+            D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.ScenarioCleanup()
+            at
+            DashworksTestAutomationCore.Tests.EvergreenJnr.EvergreenJnr_Planning.Planning_RingScoping_Part6Feature.EvergreenJnr_Planning_CheckThatValidationMessagesAreDisappearAfterClickClearAllButtonOnScopingParametersPageFromRingScoping()
+            in
+            C:\automaster\_work\3\s\DashworksTestAutomationCore\Tests\EvergreenJnr\EvergreenJnr_Planning\Planning_RingScoping_Part6.feature:line
+            38
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at
+            TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext
+            testThreadExecutionContext)
+            at TechTalk.SpecRun.Framework.TestNodeTask.Execute()
+        </system-err>
+    </testsuite>
+</testsuites>

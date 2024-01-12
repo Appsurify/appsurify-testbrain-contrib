@@ -1,0 +1,133 @@
+[tool.bumpversion]
+allow_dirty = false
+commit = false
+message = "Bump version: {current_version} → {new_version}"
+commit_args = ""
+tag = false
+sign_tags = false
+tag_name = "{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+current_version = "2024.1.3"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = [
+    "{major}.{minor}.{patch}"
+]
+search = "{current_version}"
+replace = "{new_version}"
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+
+[[tool.bumpversion.files]]
+filename = "src/testbrain/contrib/__init__.py"
+
+[tool.poetry]
+name = "appsurify-testbrain-contrib"
+version = "2024.1.3"
+description = "A set of auxiliary modules for Testbrain/TestbrainCLI"
+license = "MIT"
+authors = [
+    "Artem Demidenko <ar.demidenko@appsurify.com>",
+]
+maintainers = [
+    "Artem Demidenko <ar.demidenko@appsurify.com>",
+]
+readme = "README.md"
+homepage = "https://appsurify.com"
+repository = "https://github.com/Appsurify/appsurify-testbrain-contrib"
+documentation = "https://appsurify.com"
+keywords = ["appsurify", "testbrain", "contrib"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Education",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Version Control",
+]
+
+packages = [
+    {include = "testbrain", from = "src"}
+]
+include = ["CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+lxml = "^5.0.0"
+pydantic = "^2.5.3"
+python-dateutil = "^2.8.2"
+requests = "^2.31.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+pytest-subprocess = "^1.5.0"
+requests-mock = "^1.11.0"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.1"
+bump-my-version = "^0.11.0"
+black = [{version = "^23.1.0", python = "^3.7"},{version = "^23.9.1", python = "^3.8"}]
+flake8 = [{version = "5.0.4", python = "3.7"},{version = "^6.1.0", python = "^3.8.2"}]
+flake8-pyproject = "^1.2.3"
+isort = [{version = "5.11.5", python = "3.7"},{version = "^5.12.0", python = "^3.8"}]
+mypy = [{version = "1.4.1", python = "3.7"},{version = "^1.6.1", python = "^3.8"}]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--verbose" #  "-rA"
+pythonpath = "./src/testbrain"
+testpaths = ["./tests/"]
+#python_files = ["test_*.py", "*_test.py"]
+#python_classes = ["Test", "Acceptance"]
+#python_functions = ["test"]
+#junit_family = "xunit1" # "xunit1"
+#junit_suite_name = "pytest"
+#junit_logging = "all"
+#junit_log_passing_tests = true
+#junit_duration_report = "call"
+
+[tool.black]
+line-length = 88
+target-version = ["py37", "py38", "py311", "py312"]
+exclude = """src/testbrain/contrib/scm/tfvc/appsurifytfs.py"""
+
+[tool.isort]
+profile = "black"
+src_paths = ["isort", "test", "src"]
+
+[tool.flake8]
+max-line-length = 88
+exclude = [".git", "__pycache__", ".pytest_cache", "src/testbrain/contrib/scm/tfvc/appsurifytfs.py"]
+extend-ignore = ["E203" ,"F401", "F403"]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+extend-exclude = ["src/testbrain/contrib/scm/tfvc/appsurifytfs.py"]
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E203" ,"F401", "F403"]
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"

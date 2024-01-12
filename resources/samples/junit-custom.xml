@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="gcf_junit_xml_to_bq_dummy" tests="2" failures="1" time="1.506">
+
+    <testsuite name="__tests__/basic.test.ts" errors="0" failures="0" skipped="0"
+               timestamp="2020-01-26T13:45:02" time="1.019" tests="1">
+        <testcase classname="convert xml2js output basic"
+                  name="convert xml2js output basic" time="0.01">
+        </testcase>
+    </testsuite>
+
+    <testsuite name="__tests__/snapshot.test.ts" errors="0" failures="1" skipped="0"
+               timestamp="2020-01-26T13:45:02" time="1.105" tests="1">
+        <testcase classname="parse snapshot nunit failure xml"
+                  name="parse snapshot nunit failure xml" time="0.013">
+            <failure>Error: Something wrong.</failure>
+        </testcase>
+    </testsuite>
+
+</testsuites>
