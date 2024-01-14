@@ -1,17 +1,21 @@
-import datetime
 import pathlib
 import typing as t
 
-from dateutil import parser as datetime_parser
-from lxml import etree
+# from lxml import etree
+# try:
+#     from lxml import etree
+# except ImportError:
+#     from xml.etree import ElementTree as etree
+from xml.etree import ElementTree as etree
 
-from ..models import junit
+from testbrain.contrib.report import utils
+from testbrain.contrib.report.models import junit
 
 
 class JUnitParser(object):
-    _xml: etree.Element = None
+    _namespace: str = ""
     _data: t.AnyStr = None
-    _namespace: t.Optional[str] = None
+    _report: etree.Element = None
     _result: junit.JUnitTestSuites = None
 
     def __init__(
@@ -25,19 +29,19 @@ class JUnitParser(object):
         elif filename:
             self._fromfile(filename=filename)
 
-        self.read_namespace()
+        self.namespace = utils.get_namespace(self._report)
 
         self._result = junit.JUnitTestSuites()
 
     def _fromfile(self, filename: pathlib.Path):
         self._data = filename.read_bytes()
-        self._xml = etree.fromstring(self._data)
+        self._report = etree.fromstring(self._data)
 
     def _fromstring(self, string: t.AnyStr):
         if isinstance(string, str):
             string = string.encode(encoding="utf-8")
         self._data = string
-        self._xml = etree.fromstring(text=self._data)
+        self._report = etree.fromstring(text=self._data)
 
     @property
     def result(self) -> junit.JUnitTestSuites:
@@ -45,22 +49,14 @@ class JUnitParser(object):
 
     @property
     def namespace(self):
-        if self._namespace and self._namespace != "":
-            return "{%s}" % self._namespace
-        return None
+        return self._namespace
 
     @namespace.setter
     def namespace(self, ns: t.Optional[str] = None):
         if ns:
             self._namespace = ns
         else:
-            self._namespace = None
-
-    def read_namespace(self):
-        _namespace = None
-        if self._xml is not None:
-            _namespace = self._xml.nsmap.get(None, "")
-        self.namespace = _namespace
+            self._namespace = ""
 
     def read_testcase_result(  # noqa
         self, testcase_element: etree.Element
@@ -102,8 +98,15 @@ class JUnitParser(object):
     def read_testsuites(self) -> None:
         junit_testsuites = []
 
-        for testsuite_element in self._xml.getiterator("testsuite"):
+        if self._report.tag == "testsuite":
+            testsuite_elements = [
+                self._report,
+            ]
+        else:
+            testsuite_elements = self._report.findall("testsuite")
+        for testsuite_element in testsuite_elements:
             junit_testsuite = junit.JUnitTestSuite()
+
             junit_testsuite.id = testsuite_element.attrib.get("id", "")
             junit_testsuite.name = testsuite_element.attrib.get("name", "")
 
@@ -124,7 +127,7 @@ class JUnitParser(object):
                 "system-err", default=""
             )
 
-            for testcase_element in testsuite_element.getiterator("testcase"):
+            for testcase_element in testsuite_element.findall("testcase"):
                 junit_testcase = self.read_testcase(testcase_element=testcase_element)
                 junit_testcase.result = self.read_testcase_result(
                     testcase_element=testcase_element
@@ -140,18 +143,18 @@ class JUnitParser(object):
         self._result.update_statistics()
 
     def read_root(self) -> None:
-        if self._xml.tag == "testsuites":
-            self._result.id = self._xml.attrib.get("id", "")
-            self._result.name = self._xml.attrib.get("name", "")
+        if self._report.tag == "testsuites":
+            self._result.id = self._report.attrib.get("id", "")
+            self._result.name = self._report.attrib.get("name", "")
 
-            self._result.errors = int(self._xml.attrib.get("errors", 0))
-            self._result.failures = int(self._xml.attrib.get("failures", 0))
-            self._result.skipped = int(self._xml.attrib.get("skipped", 0))
-            self._result.passed = int(self._xml.attrib.get("passed", 0))
-            self._result.tests = int(self._xml.attrib.get("tests", 0))
-            self._result.time = float(self._xml.attrib.get("time", 0.0))
+            self._result.errors = int(self._report.attrib.get("errors", 0))
+            self._result.failures = int(self._report.attrib.get("failures", 0))
+            self._result.skipped = int(self._report.attrib.get("skipped", 0))
+            self._result.passed = int(self._report.attrib.get("passed", 0))
+            self._result.tests = int(self._report.attrib.get("tests", 0))
+            self._result.time = float(self._report.attrib.get("time", 0.0))
 
-        elif self._xml.tag == "testsuite":
+        elif self._report.tag == "testsuite":
             ...
         else:
             raise ValueError("Incorrect JUnit XML format")

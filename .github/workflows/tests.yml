@@ -58,12 +58,12 @@ jobs:
       - name: "Upload Test Reports"
         uses: actions/upload-artifact@v3
         with:
-            name: appsurify-testbrain-cli-tests-${{ github.sha }}
+            name: appsurify-testbrain-contrib-tests-${{ github.sha }}
             path: reports/pytest/${{ github.sha }}/
             retention-days: 3
       - name: "Upload Coverage Reports"
         uses: actions/upload-artifact@v3
         with:
-            name: appsurify-testbrain-cli-cov-${{ github.sha }}
+            name: appsurify-testbrain-contrib-cov-${{ github.sha }}
             path: reports/coverage/${{ github.sha }}/
             retention-days: 3

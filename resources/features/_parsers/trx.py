@@ -1,34 +1,23 @@
 import pathlib
+
 import typing as t
 
-from lxml import etree
-
-from .. import utils
-from ..models import trx
-
-
-def strip_type_info(name: str):
-    idx = name.rfind(".")
-    if idx == -1:
-        return name
-    return name[: idx + 1]
+# from lxml import etree
+# try:
+#     from lxml import etree
+# except ImportError:
+#     from xml.etree import ElementTree as etree
+from xml.etree import ElementTree as etree
 
 
-def parse_type_info(name: str) -> str:
-    span = name
-    parent_index = span.find("(")
-    if parent_index == -1:
-        span = strip_type_info(span)
-    pre_parent = span[:parent_index]
-    parent_content = span[parent_index:]
-    pre_parent = strip_type_info(pre_parent)
-    return pre_parent + parent_content
+from testbrain.contrib.report import utils
+from testbrain.contrib.report.models import trx
 
 
 class TrxParser(object):
-    _trx: etree.Element = None
-    _data: str = None
-    _namespace: str = None
+    _namespace: str = ""
+    _data: t.AnyStr = None
+    _report: etree.Element = None
     _result: trx.TrxTestRun = None
 
     def __init__(
@@ -42,18 +31,19 @@ class TrxParser(object):
         elif filename:
             self._fromfile(filename=filename)
 
-        self.read_namespace()
+        self.namespace = utils.get_namespace(self._report)
 
         self._result = trx.TrxTestRun()
 
     def _fromfile(self, filename: pathlib.Path):
-        ...
+        self._data = filename.read_bytes()
+        self._report = etree.fromstring(text=self._data)
 
     def _fromstring(self, string: t.AnyStr):
         if isinstance(string, str):
             string = string.encode(encoding="utf-8")
         self._data = string
-        self._trx = etree.fromstring(text=self._data)
+        self._report = etree.fromstring(text=self._data)
 
     @property
     def result(self) -> trx.TrxTestRun:
@@ -61,9 +51,7 @@ class TrxParser(object):
 
     @property
     def namespace(self):
-        if self._namespace and self._namespace != "":
-            return "{%s}" % self._namespace
-        return ""
+        return self._namespace
 
     @namespace.setter
     def namespace(self, ns: t.Optional[str] = None):
@@ -72,16 +60,9 @@ class TrxParser(object):
         else:
             self._namespace = "http://microsoft.com/schemas/VisualStudio/TeamTest/2010"
 
-    def read_namespace(self):
-        _namespace = self._trx.nsmap.get(None, "")
-        self.namespace = _namespace
-
-    def read_outcome(self):
-        ...
-
     def read_times(self) -> None:
-        trx_times = trx.TrxTimes()
-        times_element = self._trx.find(self.namespace + "Times")
+        trx_times = trx.MSTestTimes()
+        times_element = self._report.find(self.namespace + "Times")
         if times_element is not None:
             trx_times.creation = times_element.attrib.get("creation", "")
             trx_times.queuing = times_element.attrib.get("queuing", "")
@@ -90,8 +71,8 @@ class TrxParser(object):
         self._result.times = trx_times
 
     def read_result_summary(self) -> None:
-        trx_result_summary = trx.TrxResultSummary()
-        result_summary_element = self._trx.find(self.namespace + "ResultSummary")
+        trx_result_summary = trx.MSTestResultSummary()
+        result_summary_element = self._report.find(self.namespace + "ResultSummary")
         if result_summary_element is not None:
             trx_result_summary.outcome = result_summary_element.attrib.get(
                 "outcome", ""
@@ -120,9 +101,9 @@ class TrxParser(object):
     def read_test_definitions(self) -> None:
         trx_test_definitions = []
 
-        test_definitions_element = self._trx.find(self.namespace + "TestDefinitions")
+        test_definitions_element = self._report.find(self.namespace + "TestDefinitions")
         if test_definitions_element is not None:
-            for test_definition_element in test_definitions_element.getiterator(
+            for test_definition_element in test_definitions_element.findall(
                 self.namespace + "UnitTest"
             ):
                 trx_test_definition = trx.TrxTestDefinition()
@@ -153,8 +134,9 @@ class TrxParser(object):
 
     def parse_unit_test_result(
         self, unit_test_result_element: etree.Element
-    ) -> trx.TrxUnitTestResult:
-        trx_unit_test_result = trx.TrxUnitTestResult()
+    ) -> trx.MSTestUnitTestResult:
+        trx_unit_test_result = trx.MSTestUnitTestResult()
+
         trx_unit_test_result.duration = utils.timespan_to_float(
             unit_test_result_element.attrib.get("duration", "")
         )
@@ -199,6 +181,7 @@ class TrxParser(object):
             trx_unit_test_result.std_err = output_element.findtext(
                 self.namespace + "StdErr"
             )
+
         # if not duration ... need calculate
         if trx_unit_test_result.duration == 0.0:
             trx_unit_test_result.duration = trx_unit_test_result.run_time
@@ -206,23 +189,41 @@ class TrxParser(object):
 
     def read_unit_test_results(self) -> None:
         trx_unit_test_results = []
-        unit_test_results_element = self._trx.find(self.namespace + "Results")
 
-        unit_test_results_items = unit_test_results_element.getiterator(
-            self.namespace + "UnitTestResult",
-            self.namespace + "TestResultAggregation",
-            self.namespace + "GenericTestResult",
-            self.namespace + "TestResult",
-            self.namespace + "ManualTestResult",
+        unit_test_results_element = self._report.find(self.namespace + "Results")
+
+        unit_test_results_a = unit_test_results_element.findall(
+            f"{self.namespace}UnitTestResult"
         )
+        unit_test_results_b = unit_test_results_element.findall(
+            f"{self.namespace}TestResultAggregation"
+        )
+        unit_test_results_c = unit_test_results_element.findall(
+            f"{self.namespace}GenericTestResult"
+        )
+        unit_test_results_d = unit_test_results_element.findall(
+            f"{self.namespace}TestResult"
+        )
+        unit_test_results_e = unit_test_results_element.findall(
+            f"{self.namespace}ManualTestResult"
+        )
+
+        unit_test_results_items = (
+            unit_test_results_a
+            + unit_test_results_b
+            + unit_test_results_c
+            + unit_test_results_d
+            + unit_test_results_e
+        )
+
         for unit_test_results_item in unit_test_results_items:
             inner_results_element = unit_test_results_item.find(
-                self.namespace + "InnerResults"
+                f"{self.namespace}InnerResults"
             )
             if inner_results_element is not None:
                 has_failed = False
-                for inner_result in inner_results_element.getiterator(
-                    self.namespace + "UnitTestResult"
+                for inner_result in inner_results_element.findall(
+                    f"{self.namespace}UnitTestResult"
                 ):
                     trx_unit_test_result = self.parse_unit_test_result(
                         unit_test_result_element=inner_result

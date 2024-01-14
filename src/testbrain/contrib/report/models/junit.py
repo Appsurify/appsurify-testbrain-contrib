@@ -1,11 +1,26 @@
 import datetime
 import typing as t
+import enum
+from pydantic import BaseModel
 
-from pydantic import BaseModel, Field
+
+class JUnitTestCaseStatus(str, enum.Enum):
+    passed = "passed"
+    skipped = "skipped"
+    failure = "failure"
+    error = "error"
+    warning = "warning"
+
+    @classmethod
+    def _missing_(cls, value: str):
+        for member in cls:
+            if member.lower() == value.lower():
+                return member
+        return None
 
 
-class JUnitResult(BaseModel):
-    status: t.Optional[str] = ""
+class JUnitTestCaseResult(BaseModel):
+    status: t.Optional[JUnitTestCaseStatus] = JUnitTestCaseStatus.passed
     type: t.Optional[str] = ""
     message: t.Optional[str] = ""
     stacktrace: t.Optional[str] = ""
@@ -20,7 +35,7 @@ class JUnitTestCase(BaseModel):
     time: t.Optional[float] = 0.0
     system_out: t.Optional[str] = ""
     system_err: t.Optional[str] = ""
-    result: t.Optional[JUnitResult] = None
+    result: t.Optional[JUnitTestCaseResult] = None
 
 
 class JUnitTestSuite(BaseModel):
@@ -38,10 +53,10 @@ class JUnitTestSuite(BaseModel):
     system_err: t.Optional[str] = ""
     testcases: t.Optional[t.List[JUnitTestCase]] = []
 
-    def add_testcase(self, testcase: JUnitTestCase) -> None:
+    def add_testcase(self, testcase: JUnitTestCase):
         self.testcases.append(testcase)
 
-    def update_statistics(self) -> None:
+    def update_statistics(self):
         tests = errors = failures = skipped = passed = 0
         time = 0.0
         for testcase in self.testcases:
@@ -76,10 +91,10 @@ class JUnitTestSuites(BaseModel):
     time: t.Optional[float] = 0.0
     testsuites: t.Optional[t.List[JUnitTestSuite]] = []
 
-    def add_testsuite(self, testsuite: JUnitTestSuite) -> None:
+    def add_testsuite(self, testsuite: JUnitTestSuite):
         self.testsuites.append(testsuite)
 
-    def update_statistics(self) -> None:
+    def update_statistics(self):
         tests = errors = failures = skipped = passed = 0
         time = 0.0
         for testsuite in self.testsuites:

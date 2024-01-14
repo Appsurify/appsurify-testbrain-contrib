@@ -1,27 +1,48 @@
 import datetime
 import typing as t
-
+import enum
 from pydantic import BaseModel
 
 
-class TestbrainTest(BaseModel):
+class TestbrainTestResultStatus(str, enum.Enum):
+    passed = "passed"
+    skipped = "skipped"
+    failure = "failure"
+    error = "error"
+    warning = "warning"
+
+    @classmethod
+    def _missing_(cls, value: str):
+        for member in cls:
+            if member.lower() == value.lower():
+                return member
+        return None
+
+
+class TestbrainTestResult(BaseModel):
     """
     From <testcase> attr name etc.
     """
 
+    status: t.Optional[TestbrainTestResultStatus] = TestbrainTestResultStatus.passed
+    type: t.Optional[str] = ""
+    message: t.Optional[str] = ""
+    stacktrace: t.Optional[str] = ""
+
+
+class TestbrainTest(BaseModel):
     id: t.Optional[str] = ""
     name: t.Optional[str] = ""
     classname: t.Optional[str] = ""
     file: t.Optional[str] = ""
     line: t.Optional[str] = ""
     time: t.Optional[float] = 0.0
+
     system_out: t.Optional[str] = ""
     system_err: t.Optional[str] = ""
-
-    status: t.Optional[str] = ""
-    type: t.Optional[str] = ""
-    message: t.Optional[str] = ""
-    stacktrace: t.Optional[str] = ""
+    result: t.Optional[TestbrainTestResult] = TestbrainTestResult(
+        status=TestbrainTestResultStatus.passed
+    )
 
 
 class TestbrainTestRun(BaseModel):
@@ -43,23 +64,23 @@ class TestbrainTestRun(BaseModel):
     system_err: t.Optional[str] = ""
     tests: t.Optional[t.List[TestbrainTest]] = []
 
-    def add_test(self, test: TestbrainTest) -> None:
+    def add_test(self, test: TestbrainTest):
         self.tests.append(test)
 
-    def update_statistics(self) -> None:
+    def update_statistics(self):
         total = errors = failures = skipped = passed = 0
         time = 0.0
         for test in self.tests:
             total += 1
             time += test.time
 
-            if test.status == "passed":
+            if test.result.status == "passed":
                 passed += 1
-            elif test.status == "error":
+            elif test.result.status == "error":
                 errors += 1
-            elif test.status == "failure":
+            elif test.result.status == "failure":
                 failures += 1
-            elif test.status == "skipped":
+            elif test.result.status == "skipped":
                 skipped += 1
 
         self.total = total
@@ -85,10 +106,10 @@ class TestbrainTestSuite(BaseModel):
     time: t.Optional[float] = 0.0
     testruns: t.Optional[t.List[TestbrainTestRun]] = []
 
-    def add_testrun(self, testrun: TestbrainTestRun) -> None:
+    def add_testrun(self, testrun: TestbrainTestRun):
         self.testruns.append(testrun)
 
-    def update_statistics(self) -> None:
+    def update_statistics(self):
         total = errors = failures = skipped = passed = 0
         time = 0.0
         for testrun in self.testruns:

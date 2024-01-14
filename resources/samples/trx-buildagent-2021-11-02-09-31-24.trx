@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="f11364db-e58a-4520-bb58-de98a426d41b"
+﻿<TestRun id="f11364db-e58a-4520-bb58-de98a426d41b"
          name="svc_buildagent@automaster 2021-11-02 09:31:24"
          runUser="INTERNAL\svc_buildagent"
          xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
@@ -14,10 +13,12 @@
         <UnitTestResult executionId="83292644-f546-4d31-a08a-cf20c97c2492"
                         testId="e5c27e07-9dea-e2d2-b4d7-1f1b218a90cd"
                         testName="EvergreenJnr_Planning_CheckValidationMassageForMinAndMaxNumberOfDevices"
-                        computerName="automaster" duration="00:02:39.4494403"
+                        computerName="automaster"
+                        duration="00:02:39.4494403"
                         startTime="2021-11-02T09:34:29.3049734+00:00"
                         endTime="2021-11-02T09:37:08.7544137+00:00"
-                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed"
                         testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
                         relativeResultsDirectory="83292644-f546-4d31-a08a-cf20c97c2492">
             <Output>
