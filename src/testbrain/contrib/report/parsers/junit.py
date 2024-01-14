@@ -1,14 +1,15 @@
 import datetime
 import typing as t
-from .base import XMLReportParser
+
 from .. import utils
 from ..models.junit import (
-    JUnitTestSuites,
-    JUnitTestSuite,
     JUnitTestCase,
     JUnitTestCaseResult,
     JUnitTestCaseStatus,
+    JUnitTestSuite,
+    JUnitTestSuites,
 )
+from .base import XMLReportParser
 
 if t.TYPE_CHECKING:
     try:

@@ -1,10 +1,10 @@
-import re
 import codecs
 import datetime
+import re
 import typing as t
 from operator import itemgetter
-from dateutil import parser as datetime_parser
 
+from dateutil import parser as datetime_parser
 
 RE_NS = re.compile(r"\{.*\}")
 

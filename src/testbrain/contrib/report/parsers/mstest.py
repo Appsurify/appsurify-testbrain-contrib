@@ -1,16 +1,17 @@
 import typing as t
-from .base import XMLReportParser
+
 from .. import utils
 from ..models.mstest import (
+    MSTestExecution,
+    MSTestOutcome,
+    MSTestResultSummary,
+    MSTestTestMethod,
     MSTestTestRun,
     MSTestTimes,
-    MSTestResultSummary,
-    MSTestUnitTestResult,
     MSTestUnitTest,
-    MSTestTestMethod,
-    MSTestOutcome,
-    MSTestExecution,
+    MSTestUnitTestResult,
 )
+from .base import XMLReportParser
 
 if t.TYPE_CHECKING:
     try:

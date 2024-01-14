@@ -1,5 +1,4 @@
-from .mstest import MSTestReportParser
 from .junit import JUnitReportParser
-
+from .mstest import MSTestReportParser
 
 __all__ = ["MSTestReportParser", "JUnitReportParser"]

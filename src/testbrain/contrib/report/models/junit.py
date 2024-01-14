@@ -1,6 +1,7 @@
 import datetime
-import typing as t
 import enum
+import typing as t
+
 from pydantic import BaseModel
 
 

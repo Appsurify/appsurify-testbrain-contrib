@@ -1,36 +1,35 @@
-import pathlib
 import abc
+import pathlib
 import typing as t
 from itertools import groupby
 from operator import itemgetter
-from .base import ReportConverter
+
 from .. import utils
-from ..models.mstest import (
-    MSTestTestRun,
-    MSTestTimes,
-    MSTestResultSummary,
-    MSTestUnitTest,
-    MSTestUnitTestResult,
-    MSTestTestMethod,
-    MSTestExecution,
-    MSTestOutcome,
-)
-
-from ..models.testbrain import (
-    TestbrainTestSuite,
-    TestbrainTestRun,
-    TestbrainTest,
-    TestbrainTestResult,
-    TestbrainTestResultStatus,
-)
-
 from ..models.junit import (
-    JUnitTestSuites,
-    JUnitTestSuite,
     JUnitTestCase,
     JUnitTestCaseResult,
     JUnitTestCaseStatus,
+    JUnitTestSuite,
+    JUnitTestSuites,
 )
+from ..models.mstest import (
+    MSTestExecution,
+    MSTestOutcome,
+    MSTestResultSummary,
+    MSTestTestMethod,
+    MSTestTestRun,
+    MSTestTimes,
+    MSTestUnitTest,
+    MSTestUnitTestResult,
+)
+from ..models.testbrain import (
+    TestbrainTest,
+    TestbrainTestResult,
+    TestbrainTestResultStatus,
+    TestbrainTestRun,
+    TestbrainTestSuite,
+)
+from .base import ReportConverter
 
 
 class MSTestReportConverter(ReportConverter):

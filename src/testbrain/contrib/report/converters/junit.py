@@ -1,11 +1,11 @@
-from .base import ReportConverter
-from ..models.junit import JUnitTestSuites, JUnitTestCase
+from ..models.junit import JUnitTestCase, JUnitTestSuites
 from ..models.testbrain import (
-    TestbrainTestSuite,
-    TestbrainTestRun,
     TestbrainTest,
     TestbrainTestResult,
+    TestbrainTestRun,
+    TestbrainTestSuite,
 )
+from .base import ReportConverter
 
 
 class JUnit2TestbrainReportConverter(ReportConverter):
