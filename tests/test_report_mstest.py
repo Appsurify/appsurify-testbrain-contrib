@@ -65,7 +65,7 @@ def test_convert_mstest_2_testbrain(trx_buildagent):
     trx_2_testbrain = MSTest2TestbrainReportConverter(source=trx_testrun)
     testbrain_report = trx_2_testbrain.convert()
 
-    assert True
+    assert len(trx_testrun.test_definitions) == testbrain_report.total
 
 
 def test_convert_trx_2_testbrain_big(trx_philips):
@@ -76,7 +76,7 @@ def test_convert_trx_2_testbrain_big(trx_philips):
     trx_2_testbrain = MSTest2TestbrainReportConverter(source=trx_testrun)
     testbrain_report = trx_2_testbrain.convert()
 
-    assert True
+    assert len(trx_testrun.test_definitions) == testbrain_report.total
 
 
 def test_convert_trx_2_junit(trx_buildagent):
@@ -87,7 +87,7 @@ def test_convert_trx_2_junit(trx_buildagent):
     trx_2_junit = MSTest2JUnitReportConverter(source=trx_testrun)
     junit_report = trx_2_junit.convert()
 
-    assert True
+    assert len(trx_testrun.test_definitions) == junit_report.tests
 
 
 def test_convert_trx_2_junit_min(trx_philips):
@@ -98,4 +98,4 @@ def test_convert_trx_2_junit_min(trx_philips):
     trx_2_junit = MSTest2JUnitReportConverter(source=trx_testrun)
     junit_report = trx_2_junit.convert()
 
-    assert True
+    assert len(trx_testrun.test_definitions) == junit_report.tests

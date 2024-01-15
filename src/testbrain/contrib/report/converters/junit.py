@@ -10,10 +10,11 @@ from .base import ReportConverter
 
 class JUnit2TestbrainReportConverter(ReportConverter):
     _source: JUnitTestSuites
-    _target: TestbrainTestSuite = TestbrainTestSuite()
+    _target: TestbrainTestSuite
 
     def __init__(self, source: JUnitTestSuites):
         super().__init__(source)
+        self._target = TestbrainTestSuite()
 
     def convert(self) -> TestbrainTestSuite:
         self.convert_root()

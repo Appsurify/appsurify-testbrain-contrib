@@ -10,7 +10,7 @@ from testbrain.contrib.report.converters import JUnit2TestbrainReportConverter
 base_dir = pathlib.Path(__file__).parent.parent.absolute()
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_android_robolectric_success():
     filename = (
         base_dir / "resources" / "samples" / "junit-android-robolectric-success.xml"
@@ -18,13 +18,13 @@ def xml_junit_android_robolectric_success():
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_ibm():
     filename = base_dir / "resources" / "samples" / "junit-ibm.xml"
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_multi_testsuites_min():
     filename = (
         base_dir
@@ -35,37 +35,37 @@ def xml_junit_multi_testsuites_min():
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_sample_out_err():
     filename = base_dir / "resources" / "samples" / "junit-out-err.xml"
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_normal():
     filename = base_dir / "resources" / "samples" / "junit-normal.xml"
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_legacy():
     filename = base_dir / "resources" / "samples" / "junit-legacy.xml"
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_no_fails():
     filename = base_dir / "resources" / "samples" / "junit-no-fails.xml"
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_no_suites_tag():
     filename = base_dir / "resources" / "samples" / "junit-no-suites-tag.xml"
     return filename
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def xml_junit_jenkins():
     filename = base_dir / "resources" / "samples" / "junit-jenkins.xml"
     return filename
@@ -214,7 +214,7 @@ def test_convert_junit_2_testbrain_normal(xml_junit_normal):
     junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
     testbrain_report = junit_2_testbrain.convert()
 
-    assert testbrain_report.total == 3
+    assert testbrain_report.total == junit_report.tests
 
 
 def test_convert_junit_2_testbrain_legacy(xml_junit_legacy):
@@ -222,7 +222,20 @@ def test_convert_junit_2_testbrain_legacy(xml_junit_legacy):
     junit_parser = JUnitReportParser.fromstring(text=report)
     junit_report = junit_parser.parse()
 
+    assert junit_report.tests == 18
+
     junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
     testbrain_report = junit_2_testbrain.convert()
 
-    assert True
+    assert testbrain_report.total == junit_report.tests
+
+
+def test_convert_junit_2_testbrain_no_suites_tag(xml_junit_no_suites_tag):
+    report = xml_junit_no_suites_tag.read_text(encoding="utf-8")
+    junit_parser = JUnitReportParser.fromstring(text=report)
+    junit_report = junit_parser.parse()
+
+    junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
+    testbrain_report = junit_2_testbrain.convert()
+
+    assert testbrain_report.total == junit_report.tests
