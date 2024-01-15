@@ -21,7 +21,11 @@ if t.TYPE_CHECKING:
 
 
 class MSTestReportParser(XMLReportParser):
-    _test = MSTestTestRun()
+    _test: MSTestTestRun
+
+    def __init__(self, xml):
+        super().__init__(xml)
+        self._test = MSTestTestRun()
 
     @classmethod
     def from_root(cls, root: "etree.Element"):

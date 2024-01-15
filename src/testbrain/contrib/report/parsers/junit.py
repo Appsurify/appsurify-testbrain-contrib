@@ -19,8 +19,12 @@ if t.TYPE_CHECKING:
 
 
 class JUnitReportParser(XMLReportParser):
-    _test = JUnitTestSuites()
+    _test: JUnitTestSuites
     # _namespace = ""
+
+    def __init__(self, xml):
+        super().__init__(xml)
+        self._test = JUnitTestSuites()
 
     @classmethod
     def from_root(cls, root: "etree.Element"):
