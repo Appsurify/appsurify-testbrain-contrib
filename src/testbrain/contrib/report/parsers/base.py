@@ -19,6 +19,10 @@ class XMLReportParser(abc.ABC):
     def result(self) -> t.Any:
         return self._test
 
+    @property
+    def result_json(self) -> t.AnyStr:
+        return self._test.model_dump_json(indent=2)
+
     @classmethod
     def fromstring(cls, text: t.AnyStr):
         text = utils.normalize_xml_text(text)

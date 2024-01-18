@@ -12,7 +12,7 @@ class ReportConverter(abc.ABC):
 
     @property
     def result_json(self) -> t.AnyStr:
-        return self._target.model_dump_json()
+        return self._target.model_dump_json(indent=2)
 
     def __init__(self, source: t.Any):
         self._source = source
