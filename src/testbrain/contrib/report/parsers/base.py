@@ -16,8 +16,20 @@ class XMLReportParser(abc.ABC):
     _namespace: str = ""
 
     @property
+    def xml(self) -> etree.Element:
+        return self._xml
+
+    @property
+    def namespace(self) -> str:
+        return self._namespace
+
+    @property
     def result(self) -> t.Any:
         return self._test
+
+    @property
+    def result_json(self) -> t.AnyStr:
+        return self._test.model_dump_json(indent=2)
 
     @classmethod
     def fromstring(cls, text: t.AnyStr):

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.239" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-08T08:38:55" tests="0" file="cypress/e2e/front-end-e2e-testing/CardByline.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Byline in story cards on front pages" timestamp="2023-12-08T08:38:55" tests="1" time="20.238" failures="0">
+    <testcase name="Byline in story cards on front pages C151233: Byline should be linked to bio page when it has data in Author API" time="19.001" classname="C151233: Byline should be linked to bio page when it has data in Author API">
+    </testcase>
+  </testsuite>
+</testsuites>

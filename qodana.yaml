@@ -31,6 +31,7 @@ exclude:
   - name: All
     paths:
       - src/testbrain/contrib/scm/tfvc/appsurifytfs.py
+      - resources/features
   - name: PyShadowingNamesInspection
     paths:
       - src/testbrain/contrib/system/platform.py

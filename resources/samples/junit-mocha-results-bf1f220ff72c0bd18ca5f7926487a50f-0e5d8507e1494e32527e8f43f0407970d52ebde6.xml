@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.350" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-08T10:35:43" tests="0" file="cypress/e2e/front-end-e2e-testing/InnovationArticle.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Inovation article" timestamp="2023-12-08T10:35:43" tests="2" time="30.329" failures="0">
+    <testcase name="Inovation article Login with subscriber account" time="2.193" classname="Login with subscriber account">
+    </testcase>
+    <testcase name="Inovation article C166291: Verify that Youtube and POWA video render correct on innovation 2.0 body" time="4.681" classname="C166291: Verify that Youtube and POWA video render correct on innovation 2.0 body">
+    </testcase>
+  </testsuite>
+</testsuites>

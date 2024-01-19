@@ -14,7 +14,7 @@ class JUnitTestCaseStatus(str, enum.Enum):
 
     @classmethod
     def _missing_(cls, value: str):
-        for member in cls:
+        for member in cls:  # noqa
             if member.lower() == value.lower():
                 return member
         return None

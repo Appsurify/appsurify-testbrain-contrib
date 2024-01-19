@@ -58,7 +58,8 @@ class JUnit2TestbrainReportConverter(ReportConverter):
 
         self._target.update_statistics()
 
-    def _convert_testcase(self, testcase: JUnitTestCase) -> TestbrainTest:
+    @staticmethod
+    def _convert_testcase(testcase: JUnitTestCase) -> TestbrainTest:
         testbrain_test = TestbrainTest(
             id=testcase.id,
             name=testcase.name,
