@@ -57,6 +57,9 @@ class MSTestReportConverter(ReportConverter):
         self._test_id = 0
         self._reset_counters()
 
+    def convert(self):
+        ...
+
     def _reset_counters(self):
         self._counters = self.Counters()
 

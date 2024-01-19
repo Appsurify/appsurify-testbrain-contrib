@@ -30,7 +30,7 @@ class MSTestReportParser(XMLReportParser):
     @classmethod
     def from_root(cls, root: "etree.Element"):
         instance = super().from_root(root=root)
-        if instance._xml.tag != f"{instance._namespace}TestRun":
+        if instance.xml.tag != f"{instance.namespace}TestRun":
             raise ValueError("Incorrect Report Format")
         return instance
 

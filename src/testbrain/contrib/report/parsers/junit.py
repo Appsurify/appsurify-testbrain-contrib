@@ -110,8 +110,9 @@ class JUnitReportParser(XMLReportParser):
         junit_testcase.result = junit_result
         return junit_testcase
 
+    @staticmethod
     def _parse_testcase_result(
-        self, testcase_element: "etree.Element"
+        testcase_element: "etree.Element",
     ) -> JUnitTestCaseResult:
         skipped_element = testcase_element.find("skipped")
         failure_element = testcase_element.find("failure")
