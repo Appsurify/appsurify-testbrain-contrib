@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest-flaky" errors="0" failures="0" skipped="0"
+               tests="91" time="0.218" timestamp="2024-01-21T07:37:22.130007"
+               hostname="2ed3ebcfdc48">
+        <testcase classname="tests.test_apps_git_client"
+                  name="test_git_client_get_project" time="0.002"/>
+
+    </testsuite>
+</testsuites>
