@@ -1,3 +1,4 @@
+import sys
 import datetime
 import pytest
 import pathlib
@@ -99,3 +100,27 @@ def test_convert_trx_2_junit_min(trx_philips):
     junit_report = trx_2_junit.convert()
 
     assert len(trx_testrun.test_definitions) == junit_report.tests
+
+
+# @pytest.mark.skipif(sys.version_info < (3, 10), reason="requires python3.10 or higher")
+# def test_convert_only_high_python(trx_buildagent):
+#     report = trx_buildagent.read_text(encoding="utf-8")
+#     trx_parser = MSTestReportParser.fromstring(text=report)
+#     trx_testrun = trx_parser.parse()
+#
+#     trx_2_junit = MSTest2JUnitReportConverter(source=trx_testrun)
+#     junit_report = trx_2_junit.convert()
+#
+#     assert len(trx_testrun.test_definitions) == junit_report.tests
+#
+#
+# @pytest.mark.xfail(sys.version_info < (3, 10), reason="requires python3.10 or higher")
+# def test_convert_only_high_python_xfail(trx_buildagent):
+#     report = trx_buildagent.read_text(encoding="utf-8")
+#     trx_parser = MSTestReportParser.fromstring(text=report)
+#     trx_testrun = trx_parser.parse()
+#
+#     trx_2_junit = MSTest2JUnitReportConverter(source=trx_testrun)
+#     junit_report = trx_2_junit.convert()
+#
+#     assert len(trx_testrun.test_definitions) == junit_report.tests

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest-flaky" errors="0" failures="2" skipped="0"
+               tests="91" time="0.208" timestamp="2024-01-21T07:38:43.868744"
+               hostname="2ed3ebcfdc48">
+        <testcase classname="tests.test_apps_git_client"
+                  name="test_git_client_get_project" time="0.002">
+            <failure
+                    message="AssertionError: assert {'project_id': 2} == {'project_id': 1}&#10;  Differing items:&#10;  {'project_id': 2} != {'project_id': 1}&#10;  Full diff:&#10;  - {'project_id': 1}&#10;  ?                ^&#10;  + {'project_id': 2}&#10;  ?                ^">
+                requests_mock = &lt;requests_mock.mocker.Mocker object at 0xffffa2937ad0&gt;
+
+                def test_git_client_get_project(requests_mock):
+                requests_mock.get(
+                "http://demo.testbrain.cloud/api/ssh_v2/hook/fetch/",
+                json={"project_id": 2},
+                status_code=200,
+                )
+
+                api_client = RepositoryClient(server="http://demo.testbrain.cloud",
+                token="&lt;TOKEN&gt;")
+                api_response = api_client.get_project_id(name="appsurify-testbrain-cli")
+                assert api_response.status_code == 200
+                &gt; assert api_response.json() == {"project_id": 1}
+                E AssertionError: assert {'project_id': 2} == {'project_id': 1}
+                E Differing items:
+                E {'project_id': 2} != {'project_id': 1}
+                E Full diff:
+                E - {'project_id': 1}
+                E ? ^
+                E + {'project_id': 2}
+                E ? ^
+
+                tests/test_apps_git_client.py:14: AssertionError
+            </failure>
+        </testcase>
+
+    </testsuite>
+</testsuites>
