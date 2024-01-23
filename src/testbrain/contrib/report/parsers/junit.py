@@ -7,6 +7,7 @@ from ..models.junit import (
     JUnitTestCaseResult,
     JUnitTestCaseStatus,
     JUnitTestSuite,
+    JUnitTestSuiteProperty,
     JUnitTestSuites,
 )
 from .base import XMLReportParser
@@ -79,6 +80,19 @@ class JUnitReportParser(XMLReportParser):
                 ),
             )
             self._test.add_testsuite(junit_testsuite)
+
+            testsuite_properties_element = testsuite_element.find(
+                f"{self._namespace}properties"
+            )
+            if testsuite_properties_element is not None:
+                for prop_element in testsuite_properties_element.findall(
+                    f"{self._namespace}property"
+                ):
+                    junit_testsuite_property = JUnitTestSuiteProperty(
+                        name=prop_element.attrib.get("name", ""),
+                        value=prop_element.attrib.get("value", ""),
+                    )
+                    junit_testsuite.add_property(junit_testsuite_property)
 
             for testcase_element in testsuite_element.findall(
                 f"{self._namespace}testcase"

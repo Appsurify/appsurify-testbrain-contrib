@@ -72,6 +72,14 @@ def xml_junit_jenkins():
     return filename
 
 
+@pytest.fixture()
+def xml_junit_with_props_big():
+    filename = (
+        base_dir / "resources" / "samples" / "junit_vector_suite_z3_lib_path_linux.xml"
+    )
+    return filename
+
+
 def test_parse_junit_normal(xml_junit_normal):
     report = xml_junit_normal.read_text(encoding="utf-8")
     junit_parser = JUnitReportParser.fromstring(text=report)
@@ -138,6 +146,20 @@ def test_parse_junit_normal_from_file(xml_junit_normal):
 
     assert result.name == ""
     assert len(result.testsuites) == 2
+
+    assert len(result.testsuites[1].properties) == 3
+
+
+def test_parse_junit_with_props_big(xml_junit_with_props_big):
+    report = xml_junit_with_props_big
+    junit_parser = JUnitReportParser.fromfile(filename=report)
+    result = junit_parser.parse()
+
+    assert len(result.testsuites[0].properties) == 1
+
+    prop = result.testsuites[0].properties[0]
+    assert prop.name == "platform"
+    assert prop.value == "linux64"
 
 
 def test_parse_junit_no_fails(xml_junit_no_fails):
@@ -240,6 +262,21 @@ def test_convert_junit_2_testbrain_no_suites_tag(xml_junit_no_suites_tag):
     testbrain_report = junit_2_testbrain.convert()
 
     assert testbrain_report.total == junit_report.tests
+
+
+def test_convert_junit_2_testbrain_with_props_big(xml_junit_with_props_big):
+    report = xml_junit_with_props_big
+    junit_parser = JUnitReportParser.fromfile(filename=report)
+    junit_report = junit_parser.parse()
+
+    junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
+    testbrain_report = junit_2_testbrain.convert()
+
+    assert len(testbrain_report.testruns[0].properties) == 1
+
+    prop = testbrain_report.testruns[0].properties[0]
+    assert prop.name == "platform"
+    assert prop.value == "linux64"
 
 
 def test_convert_junit_2_testbrain_legacy_and_back(xml_junit_legacy):

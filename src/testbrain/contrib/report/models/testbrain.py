@@ -46,6 +46,11 @@ class TestbrainTest(BaseModel):
     )
 
 
+class TestbrainTestRunProperty(BaseModel):
+    name: t.Optional[str] = ""
+    value: t.Optional[str] = ""
+
+
 class TestbrainTestRun(BaseModel):
     """
     From <testsuite> attr name etc.
@@ -64,6 +69,7 @@ class TestbrainTestRun(BaseModel):
     system_out: t.Optional[str] = ""
     system_err: t.Optional[str] = ""
     tests: t.Optional[t.List[TestbrainTest]] = []
+    properties: t.Optional[t.List[TestbrainTestRunProperty]] = []
 
     def add_test(self, test: TestbrainTest):
         self.tests.append(test)
@@ -90,6 +96,9 @@ class TestbrainTestRun(BaseModel):
         self.skipped = skipped
         self.passed = passed
         self.time = round(time, 3)
+
+    def add_property(self, prop: TestbrainTestRunProperty):
+        self.properties.append(prop)
 
 
 class TestbrainTestSuite(BaseModel):

@@ -3,6 +3,7 @@ from ..models.testbrain import (
     TestbrainTest,
     TestbrainTestResult,
     TestbrainTestRun,
+    TestbrainTestRunProperty,
     TestbrainTestSuite,
 )
 from .base import ReportConverter
@@ -49,6 +50,12 @@ class JUnit2TestbrainReportConverter(ReportConverter):
             )
 
             self._target.add_testrun(testbrain_testrun)
+
+            for testsuite_property in testsuite.properties:
+                testbrain_testrun_property = TestbrainTestRunProperty(
+                    name=testsuite_property.name, value=testsuite_property.value
+                )
+                testbrain_testrun.add_property(testbrain_testrun_property)
 
             for testcase in testsuite.testcases:
                 testbrain_test = self._convert_testcase(testcase)
