@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="2" tests="9" time="6.251">
+	<testsuite disabled="0" errors="0" failures="2" name="campaign_watchdog.test_vectorcast.suite_z3_lib_path" skipped="0" tests="9" time="6.251">
+		<properties>
+			<property name="platform" value="linux64"/>
+		</properties>
+		<testcase name="preconditions" time="0.001000"/>
+		<testcase name="test_z3_invalid_z3_library_path" time="0.591000">
+			<failure type="Assert Equal">ASSERTION: assert_equal
+MESSAGE: Verify that the loaded Z3 git hash is correct
+ACTUAL  : Git hash for z3 is: ge5504247e
+EXPECTED: Git hash for z3 is: fe5514247e</failure>
+		</testcase>
+		<testcase name="test_z3_library_path" time="0.581000"/>
+		<testcase name="test_z3_on_path" time="0.555000">
+			<failure type="Assert Equal">ASSERTION: assert_equal
+MESSAGE: Verify that the loaded Z3 git hash is correct
+ACTUAL  : Git hash for z3 is: ge5504247e
+EXPECTED: Git hash for z3 is: fe5514247e</failure>
+		</testcase>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="4.508000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

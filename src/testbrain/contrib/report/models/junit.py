@@ -39,6 +39,11 @@ class JUnitTestCase(BaseModel):
     result: t.Optional[JUnitTestCaseResult] = None
 
 
+class JUnitTestSuiteProperty(BaseModel):
+    name: t.Optional[str] = ""
+    value: t.Optional[str] = ""
+
+
 class JUnitTestSuite(BaseModel):
     id: t.Optional[str] = ""
     name: t.Optional[str] = ""
@@ -53,6 +58,7 @@ class JUnitTestSuite(BaseModel):
     system_out: t.Optional[str] = ""
     system_err: t.Optional[str] = ""
     testcases: t.Optional[t.List[JUnitTestCase]] = []
+    properties: t.Optional[t.List[JUnitTestSuiteProperty]] = []
 
     def add_testcase(self, testcase: JUnitTestCase):
         self.testcases.append(testcase)
@@ -79,6 +85,9 @@ class JUnitTestSuite(BaseModel):
         self.skipped = skipped
         self.passed = passed
         self.time = round(time, 3)
+
+    def add_property(self, prop: JUnitTestSuiteProperty):
+        self.properties.append(prop)
 
 
 class JUnitTestSuites(BaseModel):
