@@ -1,3 +1,4 @@
+import pytest
 from urllib.parse import urljoin
 
 from testbrain.contrib.client.client import HttpClient
