@@ -80,6 +80,17 @@ def xml_junit_with_props_big():
     return filename
 
 
+@pytest.fixture()
+def xml_junit_with_props_big_a():
+    filename = (
+        base_dir
+        / "resources"
+        / "samples"
+        / "junit_vector_suite_z3_lib_path_linux_a.xml"
+    )
+    return filename
+
+
 def test_parse_junit_normal(xml_junit_normal):
     report = xml_junit_normal.read_text(encoding="utf-8")
     junit_parser = JUnitReportParser.fromstring(text=report)
