@@ -82,7 +82,7 @@ def test_invalid_version():
 
 
 def test_uuid7_same_nanosecond(monkeypatch):
-    monkeypatch.setattr("testbrain.contrib.uuid._last_v7_timestamp", 1)
+    monkeypatch.setattr("testbrain.contrib.uuid6._last_v7_timestamp", 1)
     monkeypatch.setattr("time.time_ns", lambda: 1234)
     uuid7_1 = uuid7()
     for _ in range(1000):
@@ -92,7 +92,7 @@ def test_uuid7_same_nanosecond(monkeypatch):
 
 
 def test_uuid8_same_nanosecond(monkeypatch):
-    monkeypatch.setattr("testbrain.contrib.uuid._last_v8_timestamp", 1)
+    monkeypatch.setattr("testbrain.contrib.uuid6._last_v8_timestamp", 1)
     monkeypatch.setattr("time.time_ns", lambda: 1234)
     uuid8_1 = uuid8()
     for _ in range(1000):
@@ -102,7 +102,7 @@ def test_uuid8_same_nanosecond(monkeypatch):
 
 
 def test_uuid6_fields_without_randomness(monkeypatch):
-    monkeypatch.setattr("testbrain.contrib.uuid._last_v6_timestamp", 1)
+    monkeypatch.setattr("testbrain.contrib.uuid6._last_v6_timestamp", 1)
     monkeypatch.setattr("secrets.randbits", lambda _: 678)
     monkeypatch.setattr("time.time_ns", lambda: 12345)
 
@@ -121,7 +121,7 @@ def test_uuid6_fields_without_randomness(monkeypatch):
 
 
 def test_uuid6_far_in_future(monkeypatch):
-    monkeypatch.setattr("testbrain.contrib.uuid._last_v6_timestamp", 1)
+    monkeypatch.setattr("testbrain.contrib.uuid6._last_v6_timestamp", 1)
     monkeypatch.setattr("time.time_ns", lambda: 1)
     uuid_prev = uuid6()
     for i in range(1, 3260, 10):
@@ -137,7 +137,7 @@ def test_uuid6_far_in_future(monkeypatch):
 
 
 def test_uuid7_far_in_future(monkeypatch):
-    monkeypatch.setattr("testbrain.contrib.uuid._last_v7_timestamp", 1)
+    monkeypatch.setattr("testbrain.contrib.uuid6._last_v7_timestamp", 1)
     monkeypatch.setattr("time.time_ns", lambda: 1)
     uuid_prev = uuid7()
     for i in range(1, 8000, 10):
@@ -148,7 +148,7 @@ def test_uuid7_far_in_future(monkeypatch):
 
 
 def test_uuid8_far_in_future(monkeypatch):
-    monkeypatch.setattr("testbrain.contrib.uuid._last_v8_timestamp", 1)
+    monkeypatch.setattr("testbrain.contrib.uuid6._last_v8_timestamp", 1)
     monkeypatch.setattr("time.time_ns", lambda: 1)
     uuid_prev = uuid8()
     for i in range(1, 8000, 10):
