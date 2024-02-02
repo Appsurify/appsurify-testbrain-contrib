@@ -1,8 +1,6 @@
 import re
 import pytest
-import typing as t
 from time import time_ns
-from unittest.mock import patch, Mock
 from testbrain.contrib.uuid6 import *
 
 REGEX_UUID6 = re.compile(
@@ -63,22 +61,22 @@ def test_uuid1_to_uuid6_generation():
 
 def test_invalid_int():
     with pytest.raises(ValueError):
-        _ = UUID(int=-1)
+        _ = UUID6(int=-1)
     with pytest.raises(ValueError):
-        _ = UUID(int=1 << 128)
+        _ = UUID6(int=1 << 128)
 
 
 def test_valid_int():
-    test_uuid = UUID(int=0)
+    test_uuid = UUID6(int=0)
     assert test_uuid.version is None
     assert test_uuid.time == 0
-    test_uuid = UUID(int=(1 << 128) - 1)
+    test_uuid = UUID6(int=(1 << 128) - 1)
     assert test_uuid.version is None
 
 
 def test_invalid_version():
     with pytest.raises(ValueError):
-        _ = UUID(int=1, version=420)
+        _ = UUID6(int=1, version=420)
 
 
 def test_uuid7_same_nanosecond(monkeypatch):
@@ -170,26 +168,26 @@ def test_time():
 
 
 def test_zero_time():
-    uuid_6 = UUID(hex="00000000-0000-6000-8000-000000000000")
+    uuid_6 = UUID6(hex="00000000-0000-6000-8000-000000000000")
     assert uuid_6.time == 0
-    uuid_7 = UUID(hex="00000000-0000-7000-8000-000000000000")
+    uuid_7 = UUID6(hex="00000000-0000-7000-8000-000000000000")
     assert uuid_7.time == 0
-    uuid_8 = UUID(hex="00000000-0000-8000-8000-000000000000")
+    uuid_8 = UUID6(hex="00000000-0000-8000-8000-000000000000")
     assert uuid_8.time == 0
 
 
 def test_max_time():
-    uuid_6 = UUID(hex="ffffffff-ffff-6fff-bfff-ffffffffffff")
+    uuid_6 = UUID6(hex="ffffffff-ffff-6fff-bfff-ffffffffffff")
     assert uuid_6.time == 1152921504606846975
-    uuid_7 = UUID(hex="ffffffff-ffff-7fff-bfff-ffffffffffff")
+    uuid_7 = UUID6(hex="ffffffff-ffff-7fff-bfff-ffffffffffff")
     assert uuid_7.time == 281474976710655
-    uuid_8 = UUID(hex="ffffffff-ffff-8fff-bfff-ffffffffffff")
+    uuid_8 = UUID6(hex="ffffffff-ffff-8fff-bfff-ffffffffffff")
     assert uuid_8.time == 281474976710656000000
 
 
 def test_multiple_arguments():
     with pytest.raises(TypeError):
-        _ = UUID(int=0, hex="061d0edc-bea0-75cc-9892-f6295fd7d295")
+        _ = UUID6(int=0, hex="061d0edc-bea0-75cc-9892-f6295fd7d295")
 
 
 def test_convert_invalid_version():

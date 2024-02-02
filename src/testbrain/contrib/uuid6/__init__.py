@@ -13,13 +13,13 @@ Original Repo: https://github.com/oittaa/uuid6-python
 
 import secrets
 import time
-import uuid
 import typing as t
-
-from uuid import uuid1, uuid3, uuid4, uuid5, UUID
+import uuid
+from uuid import UUID, uuid1, uuid3, uuid4, uuid5
 
 __all__ = [
     "UUID",
+    "UUID6",
     "uuid1",
     "uuid3",
     "uuid4",
@@ -31,8 +31,8 @@ __all__ = [
 ]
 
 
-class UUID(uuid.UUID):
-    """UUID draft version objects"""
+class UUID6(UUID):
+    """UUID6 draft version objects"""
 
     __slots__ = ()
 
@@ -47,7 +47,7 @@ class UUID(uuid.UUID):
         *,
         is_safe: uuid.SafeUUID = uuid.SafeUUID.unknown,
     ) -> None:
-        """Create a UUID."""
+        """Create a UUID6."""
 
         if int is None or [hex, bytes, bytes_le, fields].count(None) != 4:
             super().__init__(
@@ -100,13 +100,13 @@ def _sub_sec_encode(value: int) -> int:
     return value * 2**20 // 10**6
 
 
-def uuid1_to_uuid6(uuid_1: uuid.UUID) -> UUID:
+def uuid1_to_uuid6(uuid_1: UUID) -> UUID6:
     """Generate a UUID version 6 object from a UUID version 1 object."""
     if uuid_1.version != 1:
         raise ValueError("given UUID's version number must be 1")
     h = uuid_1.hex
     h = h[13:16] + h[8:12] + h[0:5] + "6" + h[5:8] + h[16:]
-    return UUID(hex=h, is_safe=uuid_1.is_safe)
+    return UUID6(hex=h, is_safe=uuid_1.is_safe)
 
 
 _last_v6_timestamp = None
@@ -114,7 +114,7 @@ _last_v7_timestamp = None
 _last_v8_timestamp = None
 
 
-def uuid6(node: t.Optional[int] = None, clock_seq: t.Optional[int] = None) -> UUID:
+def uuid6(node: t.Optional[int] = None, clock_seq: t.Optional[int] = None) -> UUID6:
     """UUID version 6 is a field-compatible version of UUIDv1, reordered for
     improved DB locality. It is expected that UUIDv6 will primarily be
     used in contexts where there are existing v1 UUIDs. Systems that do
@@ -144,10 +144,10 @@ def uuid6(node: t.Optional[int] = None, clock_seq: t.Optional[int] = None) -> UU
     uuid_int |= time_low_and_version << 64
     uuid_int |= (clock_seq & 0x3FFF) << 48
     uuid_int |= node & 0xFFFFFFFFFFFF
-    return UUID(int=uuid_int, version=6)
+    return UUID6(int=uuid_int, version=6)
 
 
-def uuid7() -> UUID:
+def uuid7() -> UUID6:
     """UUID version 7 features a time-ordered value field derived from the
     widely implemented and well known Unix Epoch timestamp source, the
     number of milliseconds since midnight 1 Jan 1970 UTC, leap seconds
@@ -166,10 +166,10 @@ def uuid7() -> UUID:
     _last_v7_timestamp = timestamp_ms
     uuid_int = (timestamp_ms & 0xFFFFFFFFFFFF) << 80
     uuid_int |= secrets.randbits(76)
-    return UUID(int=uuid_int, version=7)
+    return UUID6(int=uuid_int, version=7)
 
 
-def uuid8() -> UUID:
+def uuid8() -> UUID6:
     """UUID version 8 features a time-ordered value field derived from the
     widely implemented and well known Unix Epoch timestamp source, the
     number of nanoseconds since midnight 1 Jan 1970 UTC, leap seconds
@@ -189,4 +189,4 @@ def uuid8() -> UUID:
     uuid_int |= sub_sec_a << 64
     uuid_int |= sub_sec_b << 54
     uuid_int |= secrets.randbits(54)
-    return UUID(int=uuid_int, version=8)
+    return UUID6(int=uuid_int, version=8)
