@@ -46,7 +46,7 @@ class XMLReportParser(abc.ABC):
 
     @classmethod
     def fromfile(cls, filename: pathlib.Path):
-        text = utils.normalize_xml_text(filename.read_text())
+        text = utils.normalize_xml_text(filename.read_text(encoding="utf-8"))
         tree = etree.fromstring(text)
         return cls.from_root(root=tree)
 
