@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="216.62900000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_tree.suite_control_flow" skipped="0" tests="10" time="216.62900000000002">
+		<testcase name="preconditions" time="9.643000"/>
+		<testcase name="test_clear_control_flow_no_coverage" time="57.357000"/>
+		<testcase name="test_clear_control_flow_with_coverage" time="46.814000"/>
+		<testcase name="test_save_control_flow_no_coverage" time="49.326000"/>
+		<testcase name="test_save_control_flow_with_coverage" time="42.399000"/>
+		<testcase name="postconditions" time="5.187000"/>
+		<testcase name="test_py_md_compliance" time="0.044000"/>
+		<testcase name="test_pep8_compliance" time="5.752000"/>
+		<testcase name="test_input_dir_compliance" time="0.057000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.050000"/>
+	</testsuite>
+</testsuites>

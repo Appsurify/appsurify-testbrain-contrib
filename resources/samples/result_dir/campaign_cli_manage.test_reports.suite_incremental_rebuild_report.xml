@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="130.98">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_reports.suite_incremental_rebuild_report" skipped="0" tests="11" time="130.98">
+		<testcase name="preconditions" time="0.860000"/>
+		<testcase name="test_cov_only" time="15.343000"/>
+		<testcase name="test_cov_with_and_without_components" time="26.305000"/>
+		<testcase name="test_unit_and_cov" time="32.557000"/>
+		<testcase name="test_unit_and_cov_w_components" time="32.724000"/>
+		<testcase name="test_unit_only" time="17.936000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="5.229000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

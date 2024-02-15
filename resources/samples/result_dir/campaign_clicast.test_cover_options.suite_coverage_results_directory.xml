@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="72.609">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_options.suite_coverage_results_directory" skipped="0" tests="18" time="72.609">
+		<testcase name="preconditions" time="6.505000"/>
+		<testcase name="test_error_for_non_writeable_result_dir" time="3.126000"/>
+		<testcase name="test_error_on_env_var_path_too_long" time="3.005000"/>
+		<testcase name="test_error_on_invalid_path" time="3.352000"/>
+		<testcase name="test_error_on_path_too_long" time="3.381000"/>
+		<testcase name="test_error_on_path_too_long_with_pid_epoch" time="3.883000"/>
+		<testcase name="test_option_off" time="3.461000"/>
+		<testcase name="test_option_on_animation_io" time="7.594000"/>
+		<testcase name="test_option_on_buffered_io" time="9.679000"/>
+		<testcase name="test_option_on_per_test_case" time="5.183000"/>
+		<testcase name="test_option_on_realtime_io" time="7.425000"/>
+		<testcase name="test_option_on_with_env_not_set" time="3.176000"/>
+		<testcase name="test_option_on_with_env_valid_path" time="6.192000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.015000"/>
+		<testcase name="test_pep8_compliance" time="6.598000"/>
+		<testcase name="test_input_dir_compliance" time="0.018000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.016000"/>
+	</testsuite>
+</testsuites>

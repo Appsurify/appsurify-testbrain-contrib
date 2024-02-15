@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="113.93500000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_8" skipped="0" tests="15" time="113.93500000000002">
+		<testcase name="preconditions" time="1.175000"/>
+		<testcase name="test_cover_init_buffered" time="9.755000"/>
+		<testcase name="test_funct_ptr_c" time="13.278000"/>
+		<testcase name="test_funct_ptr_stub_c" time="11.548000"/>
+		<testcase name="test_global_data_display_c" time="11.509000"/>
+		<testcase name="test_global_ptr" time="0.004000"/>
+		<testcase name="test_guitest_c" time="11.467000"/>
+		<testcase name="test_hamlet" time="9.604000"/>
+		<testcase name="test_implicit_int" time="9.489000"/>
+		<testcase name="test_interspersed" time="8.947000"/>
+		<testcase name="test_mgmt_rpt_c" time="24.167000"/>
+		<testcase name="postconditions" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="2.960000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

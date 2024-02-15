@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="42" time="31.063999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_license_gen.suite_product_multiple" skipped="0" tests="42" time="31.063999999999997">
+		<testcase name="preconditions" time="0.001000"/>
+		<testcase name="test_ada_ent_ada_ent_headless" time="0.795000"/>
+		<testcase name="test_c_ent_c_ent_headless" time="0.765000"/>
+		<testcase name="test_c_pro_c_ent" time="0.754000"/>
+		<testcase name="test_c_pro_c_team" time="0.633000"/>
+		<testcase name="test_c_pro_multilang_ent" time="0.655000"/>
+		<testcase name="test_edition_all_ent_and_pro" time="0.714000"/>
+		<testcase name="test_edition_c_ent_ada_ent" time="0.666000"/>
+		<testcase name="test_edition_c_ent_c_pro" time="0.893000"/>
+		<testcase name="test_edition_multi_ent_qa_ent" time="0.686000"/>
+		<testcase name="test_edition_multi_pro_multi_ent" time="0.763000"/>
+		<testcase name="test_edition_qa_ent_c_ent" time="0.759000"/>
+		<testcase name="test_edition_qa_ent_c_pro" time="0.689000"/>
+		<testcase name="test_edition_qa_ent_qa_pro" time="0.807000"/>
+		<testcase name="test_edition_qa_pro_c_pro_ada_pro" time="0.835000"/>
+		<testcase name="test_legacy_edition_all_ent_and_pro" time="0.795000"/>
+		<testcase name="test_legacy_edition_c_ent_ada_ent" time="0.714000"/>
+		<testcase name="test_legacy_edition_c_ent_c_pro" time="0.771000"/>
+		<testcase name="test_legacy_edition_multi_ent_qa_ent" time="0.781000"/>
+		<testcase name="test_legacy_edition_multi_pro_multi_ent" time="0.861000"/>
+		<testcase name="test_legacy_edition_qa_ent_c_ent" time="0.742000"/>
+		<testcase name="test_legacy_edition_qa_ent_c_pro" time="0.788000"/>
+		<testcase name="test_legacy_edition_qa_ent_qa_pro" time="0.726000"/>
+		<testcase name="test_legacy_edition_qa_pro_c_pro_ada_pro" time="0.720000"/>
+		<testcase name="test_license_2_ada" time="0.731000"/>
+		<testcase name="test_license_2_c" time="0.801000"/>
+		<testcase name="test_license_2_clicover" time="0.797000"/>
+		<testcase name="test_license_2_cover" time="0.858000"/>
+		<testcase name="test_license_2_enterprise" time="0.788000"/>
+		<testcase name="test_license_2_manage" time="0.744000"/>
+		<testcase name="test_license_2_pro" time="0.802000"/>
+		<testcase name="test_license_all_top_level" time="0.758000"/>
+		<testcase name="test_license_c_ada_cover_manage" time="0.909000"/>
+		<testcase name="test_qa_ent_qa_ent_headless" time="0.987000"/>
+		<testcase name="test_qa_pro_c_pro" time="0.791000"/>
+		<testcase name="test_qa_pro_qa_ent" time="0.839000"/>
+		<testcase name="test_three_multilang_levels" time="0.901000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.161000"/>
+		<testcase name="test_pep8_compliance" time="2.634000"/>
+		<testcase name="test_input_dir_compliance" time="0.089000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.161000"/>
+	</testsuite>
+</testsuites>

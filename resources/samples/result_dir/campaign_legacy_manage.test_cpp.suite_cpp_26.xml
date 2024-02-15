@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="82.091">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_26" skipped="0" tests="13" time="82.091">
+		<testcase name="preconditions" time="1.059000"/>
+		<testcase name="test_string_array" time="8.245000"/>
+		<testcase name="test_struct_function" time="8.170000"/>
+		<testcase name="test_stub_depend_cpp" time="9.712000"/>
+		<testcase name="test_stubbed_class" time="8.845000"/>
+		<testcase name="test_template_funct" time="9.199000"/>
+		<testcase name="test_testcase_usercode" time="18.670000"/>
+		<testcase name="test_ti_ignore_qualifiers" time="8.303000"/>
+		<testcase name="test_training_cpp_intro1" time="7.669000"/>
+		<testcase name="postconditions" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="2.193000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

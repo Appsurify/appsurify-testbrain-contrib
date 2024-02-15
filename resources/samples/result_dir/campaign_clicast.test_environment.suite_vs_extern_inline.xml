@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="2.759">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment.suite_vs_extern_inline" skipped="0" tests="7" time="2.759">
+		<testcase name="preconditions"/>
+		<testcase name="test_extern_inline_not_stubbed"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="2.753000"/>
+		<testcase name="test_input_dir_compliance" time="0.003000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.001000"/>
+	</testsuite>
+</testsuites>

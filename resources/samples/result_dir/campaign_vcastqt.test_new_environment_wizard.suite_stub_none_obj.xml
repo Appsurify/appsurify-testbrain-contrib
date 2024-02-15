@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="711.5980000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_new_environment_wizard.suite_stub_none_obj" skipped="0" tests="21" time="711.5980000000001">
+		<testcase name="preconditions" time="1.666000"/>
+		<testcase name="test_detect_new_object_file_coverage" time="76.232000"/>
+		<testcase name="test_disable_coupling" time="38.913000"/>
+		<testcase name="test_disabled_probe_point_controls" time="41.447000"/>
+		<testcase name="test_env_update_with_manage" time="82.413000"/>
+		<testcase name="test_no_env_update_with_manage" time="81.573000"/>
+		<testcase name="test_no_probe_window" time="41.204000"/>
+		<testcase name="test_obj_file_coverage_from_vcshell_in_env" time="37.873000"/>
+		<testcase name="test_show_dependent_units" time="40.077000"/>
+		<testcase name="test_show_only_uuts" time="39.276000"/>
+		<testcase name="test_show_only_uuts_in_uc_editor_window" time="40.231000"/>
+		<testcase name="test_tdd_env" time="53.828000"/>
+		<testcase name="test_with_no_obj_file_coverage" time="32.007000"/>
+		<testcase name="test_with_non_default_destination_dir" time="32.762000"/>
+		<testcase name="test_with_obj_file_coverage" time="31.600000"/>
+		<testcase name="test_with_unsupported_obj_file_coverage" time="31.623000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.171000"/>
+		<testcase name="test_pep8_compliance" time="8.281000"/>
+		<testcase name="test_input_dir_compliance" time="0.225000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.196000"/>
+	</testsuite>
+</testsuites>

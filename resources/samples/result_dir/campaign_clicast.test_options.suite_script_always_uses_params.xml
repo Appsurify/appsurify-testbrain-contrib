@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="28" time="98.27899999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_script_always_uses_params" skipped="0" tests="28" time="98.27899999999998">
+		<testcase name="preconditions" time="5.593000"/>
+		<testcase name="test_actual_report" time="2.565000"/>
+		<testcase name="test_basis_path_report" time="3.543000"/>
+		<testcase name="test_new_script_format" time="7.999000"/>
+		<testcase name="test_off_on_basis_path_script" time="1.754000"/>
+		<testcase name="test_off_script_template" time="0.825000"/>
+		<testcase name="test_old_script_format" time="3.522000"/>
+		<testcase name="test_on_clicast_parameter" time="0.854000"/>
+		<testcase name="test_on_export" time="1.736000"/>
+		<testcase name="test_on_off_basis_path_script" time="1.880000"/>
+		<testcase name="test_on_off_mcdc_script" time="1.873000"/>
+		<testcase name="test_on_script_template" time="0.887000"/>
+		<testcase name="test_slot_no_params_overload" time="2.860000"/>
+		<testcase name="test_slot_param_mismatch" time="2.798000"/>
+		<testcase name="test_stub_param_mismatch" time="2.775000"/>
+		<testcase name="test_subprogram_no_params_overload" time="2.619000"/>
+		<testcase name="test_subprogram_param_mismatch" time="3.052000"/>
+		<testcase name="test_template_arguments" time="34.527000"/>
+		<testcase name="test_test_case_data_report" time="2.335000"/>
+		<testcase name="test_uc_param_mismatch" time="3.244000"/>
+		<testcase name="test_unknown_subprogram" time="0.957000"/>
+		<testcase name="test_uut_prototype_stub_param_mismatch" time="2.748000"/>
+		<testcase name="test_value_param_mismatch" time="2.767000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.027000"/>
+		<testcase name="test_pep8_compliance" time="4.434000"/>
+		<testcase name="test_input_dir_compliance" time="0.064000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.041000"/>
+	</testsuite>
+</testsuites>

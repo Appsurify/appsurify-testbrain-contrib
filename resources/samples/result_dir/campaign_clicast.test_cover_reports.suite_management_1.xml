@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="47" time="143.23899999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_management_1" skipped="0" tests="47" time="143.23899999999995">
+		<testcase name="preconditions" time="2.454000"/>
+		<testcase name="test_full_basis" time="2.713000"/>
+		<testcase name="test_full_branch" time="2.444000"/>
+		<testcase name="test_full_cba_only_branch" time="2.366000"/>
+		<testcase name="test_full_cba_only_function" time="2.417000"/>
+		<testcase name="test_full_cba_only_level_a" time="2.564000"/>
+		<testcase name="test_full_cba_only_level_b" time="2.750000"/>
+		<testcase name="test_full_cba_only_mcdc" time="2.576000"/>
+		<testcase name="test_full_cba_only_statement" time="2.750000"/>
+		<testcase name="test_full_due_to_cba_branch" time="2.888000"/>
+		<testcase name="test_full_due_to_cba_function" time="3.133000"/>
+		<testcase name="test_full_due_to_cba_level_a" time="3.107000"/>
+		<testcase name="test_full_due_to_cba_level_b" time="3.020000"/>
+		<testcase name="test_full_due_to_cba_mcdc" time="3.174000"/>
+		<testcase name="test_full_due_to_cba_statement" time="3.105000"/>
+		<testcase name="test_full_function" time="2.500000"/>
+		<testcase name="test_full_imported_basis" time="7.875000"/>
+		<testcase name="test_full_imported_branch" time="4.245000"/>
+		<testcase name="test_full_imported_function" time="4.154000"/>
+		<testcase name="test_full_imported_level_a" time="4.767000"/>
+		<testcase name="test_full_imported_level_b" time="4.722000"/>
+		<testcase name="test_full_imported_mcdc" time="4.598000"/>
+		<testcase name="test_full_imported_statement" time="3.920000"/>
+		<testcase name="test_full_level_a" time="2.708000"/>
+		<testcase name="test_full_level_b" time="2.415000"/>
+		<testcase name="test_full_mcdc" time="2.492000"/>
+		<testcase name="test_full_probe_point" time="2.198000"/>
+		<testcase name="test_full_statement" time="2.752000"/>
+		<testcase name="test_partial_basis" time="2.740000"/>
+		<testcase name="test_partial_branch" time="2.614000"/>
+		<testcase name="test_partial_function" time="2.510000"/>
+		<testcase name="test_partial_imported_basis" time="4.505000"/>
+		<testcase name="test_partial_imported_branch" time="4.597000"/>
+		<testcase name="test_partial_imported_function" time="4.185000"/>
+		<testcase name="test_partial_imported_level_a" time="4.561000"/>
+		<testcase name="test_partial_imported_level_b" time="4.319000"/>
+		<testcase name="test_partial_imported_mcdc" time="4.189000"/>
+		<testcase name="test_partial_imported_statement" time="4.190000"/>
+		<testcase name="test_partial_level_a" time="2.589000"/>
+		<testcase name="test_partial_level_b" time="2.548000"/>
+		<testcase name="test_partial_mcdc" time="2.606000"/>
+		<testcase name="test_partial_statement" time="2.469000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.048000"/>
+		<testcase name="test_pep8_compliance" time="3.707000"/>
+		<testcase name="test_input_dir_compliance" time="0.027000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.028000"/>
+	</testsuite>
+</testsuites>

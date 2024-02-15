@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="13.884">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_data.suite_function_ptr" skipped="0" tests="8" time="13.884">
+		<testcase name="preconditions"/>
+		<testcase name="test_fn_ptr_no_candidates" time="6.195000"/>
+		<testcase name="test_invalid_function" time="5.012000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="2.659000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

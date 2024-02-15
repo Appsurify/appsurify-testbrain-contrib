@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="46.224000000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_unit_metrics_ada_options" skipped="0" tests="19" time="46.224000000000004">
+		<testcase name="preconditions" time="3.317000"/>
+		<testcase name="test_full_function_coverage_basis" time="3.638000"/>
+		<testcase name="test_full_function_coverage_branch" time="3.215000"/>
+		<testcase name="test_full_function_coverage_level_a" time="3.526000"/>
+		<testcase name="test_full_function_coverage_level_b" time="3.495000"/>
+		<testcase name="test_full_function_coverage_mcdc" time="3.604000"/>
+		<testcase name="test_full_function_coverage_statement" time="3.403000"/>
+		<testcase name="test_full_simplified_level_a" time="3.520000"/>
+		<testcase name="test_full_simplified_mcdc" time="3.825000"/>
+		<testcase name="test_no_coverage_basis" time="2.202000"/>
+		<testcase name="test_no_coverage_branch" time="1.784000"/>
+		<testcase name="test_no_coverage_level_a" time="2.093000"/>
+		<testcase name="test_no_coverage_level_b" time="1.942000"/>
+		<testcase name="test_no_coverage_mcdc" time="2.093000"/>
+		<testcase name="test_no_coverage_statement" time="2.125000"/>
+		<testcase name="postconditions" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="2.405000"/>
+		<testcase name="test_input_dir_compliance" time="0.020000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

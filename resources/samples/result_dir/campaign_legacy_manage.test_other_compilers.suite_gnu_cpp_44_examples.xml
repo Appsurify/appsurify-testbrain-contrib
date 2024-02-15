@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="86.555">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_other_compilers.suite_gnu_cpp_44_examples" skipped="0" tests="14" time="86.555">
+		<testcase name="preconditions" time="1.476000"/>
+		<testcase name="test_example_basic_class" time="7.888000"/>
+		<testcase name="test_example_basic_class_wb" time="7.193000"/>
+		<testcase name="test_example_equality_operator" time="10.081000"/>
+		<testcase name="test_example_exceptions" time="8.803000"/>
+		<testcase name="test_example_inheritance" time="10.426000"/>
+		<testcase name="test_example_namespaces" time="8.009000"/>
+		<testcase name="test_example_templates" time="8.122000"/>
+		<testcase name="test_gnu_44_include_cpp" time="7.483000"/>
+		<testcase name="test_gnu_long_long" time="15.127000"/>
+		<testcase name="postconditions" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="1.898000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.025000"/>
+	</testsuite>
+</testsuites>

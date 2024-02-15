@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="255.17400000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_jenkins_plugin.test_pipeline_jobs.suite_migrated_cover" skipped="0" tests="8" time="255.17400000000004">
+		<testcase name="preconditions" time="11.461000"/>
+		<testcase name="test_cbt" time="140.066000"/>
+		<testcase name="test_scm" time="98.197000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="5.424000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

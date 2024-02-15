@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="27" time="1186.8400000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_param_user_code_c" skipped="0" tests="27" time="1186.8400000000004">
+		<testcase name="preconditions" time="12.562000"/>
+		<testcase name="test_add_user_code_and_cancel" time="97.872000"/>
+		<testcase name="test_ancestor_is_ctor" time="47.455000"/>
+		<testcase name="test_char_array_reopen" time="67.916000"/>
+		<testcase name="test_char_array_single_char" time="63.188000"/>
+		<testcase name="test_class_instance_not_shared" time="55.038000"/>
+		<testcase name="test_clear_menuitem_55842" time="43.951000"/>
+		<testcase name="test_default_expression_char_array" time="51.454000"/>
+		<testcase name="test_delete_user_code" time="87.051000"/>
+		<testcase name="test_properties_enter_text" time="47.834000"/>
+		<testcase name="test_properties_reset_55842" time="53.720000"/>
+		<testcase name="test_properties_test_compile" time="44.659000"/>
+		<testcase name="test_properties_test_compile_invalid_code" time="43.767000"/>
+		<testcase name="test_quickedit_enter_text" time="47.874000"/>
+		<testcase name="test_quickedit_reset_55842" time="47.578000"/>
+		<testcase name="test_quickedit_test_compile" time="39.513000"/>
+		<testcase name="test_quickedit_test_compile_invalid_code" time="39.559000"/>
+		<testcase name="test_stub_parameter_user_code" time="47.413000"/>
+		<testcase name="test_user_code_close_reopen_modify" time="97.544000"/>
+		<testcase name="test_user_code_errors" time="45.044000"/>
+		<testcase name="test_user_code_for_global_var_in_stubbed_unit" time="46.184000"/>
+		<testcase name="test_value_user_code" time="41.787000"/>
+		<testcase name="postconditions" time="5.318000"/>
+		<testcase name="test_py_md_compliance" time="0.382000"/>
+		<testcase name="test_pep8_compliance" time="11.286000"/>
+		<testcase name="test_input_dir_compliance" time="0.445000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.446000"/>
+	</testsuite>
+</testsuites>

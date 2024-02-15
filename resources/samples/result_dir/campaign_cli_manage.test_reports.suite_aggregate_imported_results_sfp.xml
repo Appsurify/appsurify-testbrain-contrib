@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="87.70100000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_reports.suite_aggregate_imported_results_sfp" skipped="0" tests="11" time="87.70100000000001">
+		<testcase name="preconditions" time="25.266000"/>
+		<testcase name="test_no_reg_import_disabled" time="14.200000"/>
+		<testcase name="test_no_reg_import_full" time="7.323000"/>
+		<testcase name="test_no_reg_import_refresh" time="11.508000"/>
+		<testcase name="test_no_reg_import_then_clean" time="9.871000"/>
+		<testcase name="test_no_reg_import_tu" time="14.412000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="5.096000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="14.785000000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_source.suite_add" skipped="0" tests="14" time="14.785000000000002">
+		<testcase name="preconditions" time="1.324000"/>
+		<testcase name="test_add_directory_return_error" time="0.639000"/>
+		<testcase name="test_add_directory_with_wildcard" time="0.671000"/>
+		<testcase name="test_add_file" time="0.632000"/>
+		<testcase name="test_add_file_does_not_exist" time="0.227000"/>
+		<testcase name="test_add_file_from_path_with_symlinks" time="1.981000"/>
+		<testcase name="test_add_file_then_symlink" time="1.216000"/>
+		<testcase name="test_add_symlink" time="2.447000"/>
+		<testcase name="test_extension_of_dot_delimited_names" time="2.500000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="3.132000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

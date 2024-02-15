@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="3.4859999999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_edgfe.test_parse.suite_ghs" skipped="0" tests="17" time="3.4859999999999998">
+		<testcase name="preconditions"/>
+		<testcase name="test_47932_support_cdecl_int64_in_ghs_win32_mode" time="0.060000"/>
+		<testcase name="test_84923_pointer_arithmetic_on_void_pointer" time="0.048000"/>
+		<testcase name="test_anon_csu_designated" time="0.087000"/>
+		<testcase name="test_builtin_offsetof" time="0.060000"/>
+		<testcase name="test_defaulted_move_ctor" time="0.059000"/>
+		<testcase name="test_fp16" time="0.053000"/>
+		<testcase name="test_getsr_setsr" time="0.048000"/>
+		<testcase name="test_inline_static_asm_cpp" time="0.045000"/>
+		<testcase name="test_make_integer_seq" time="0.045000"/>
+		<testcase name="test_static_assert" time="0.052000"/>
+		<testcase name="test_type_size_alignment" time="0.091000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="2.824000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

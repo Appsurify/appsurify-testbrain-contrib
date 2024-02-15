@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="14.004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_testable_header" skipped="0" tests="13" time="14.004">
+		<testcase name="preconditions" time="4.905000"/>
+		<testcase name="test_create_script" time="0.581000"/>
+		<testcase name="test_glob_pattern" time="1.933000"/>
+		<testcase name="test_header_not_in_testable_dir" time="0.637000"/>
+		<testcase name="test_stub_by_function" time="1.172000"/>
+		<testcase name="test_suppress_stub" time="0.726000"/>
+		<testcase name="test_suppress_testable_function" time="0.697000"/>
+		<testcase name="test_suppress_testable_header" time="0.648000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="2.682000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="13.131">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_data.suite_invalid_script_content" skipped="0" tests="10" time="13.131">
+		<testcase name="preconditions" time="4.842000"/>
+		<testcase name="test_compound_uses_reserved_name" time="1.981000"/>
+		<testcase name="test_double_colon_base" time="1.002000"/>
+		<testcase name="test_reserve_name_appears_twice" time="1.829000"/>
+		<testcase name="test_unknown_object_in_test_data" time="1.029000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="2.436000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

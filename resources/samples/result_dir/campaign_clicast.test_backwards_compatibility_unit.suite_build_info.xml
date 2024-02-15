@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="21.907">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_backwards_compatibility_unit.suite_build_info" skipped="0" tests="7" time="21.907">
+		<testcase name="preconditions" time="0.930000"/>
+		<testcase name="test_build_info_xml_unit" time="18.129000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="2.836000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

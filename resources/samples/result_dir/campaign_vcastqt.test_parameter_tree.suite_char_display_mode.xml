@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="523.728">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_char_display_mode" skipped="0" tests="16" time="523.728">
+		<testcase name="preconditions" time="9.423000"/>
+		<testcase name="test_change_base_of_numeric_value" time="44.784000"/>
+		<testcase name="test_change_display_mode_char" time="64.750000"/>
+		<testcase name="test_change_display_mode_numeric" time="64.696000"/>
+		<testcase name="test_digit_char_list_with_display_mode_change" time="41.366000"/>
+		<testcase name="test_digit_char_range_with_display_mode_change" time="41.216000"/>
+		<testcase name="test_digit_char_with_display_mode_change" time="41.166000"/>
+		<testcase name="test_export_chars" time="53.191000"/>
+		<testcase name="test_export_import_min_mid_max_chars" time="65.029000"/>
+		<testcase name="test_select_base_for_numeric_mode" time="38.240000"/>
+		<testcase name="test_verify_list_and_range_values" time="51.582000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.240000"/>
+		<testcase name="test_pep8_compliance" time="7.693000"/>
+		<testcase name="test_input_dir_compliance" time="0.180000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.172000"/>
+	</testsuite>
+</testsuites>

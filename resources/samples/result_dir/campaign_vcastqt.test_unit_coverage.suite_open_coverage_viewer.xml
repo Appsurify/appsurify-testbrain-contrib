@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="714.1980000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_unit_coverage.suite_open_coverage_viewer" skipped="0" tests="19" time="714.1980000000001">
+		<testcase name="preconditions" time="18.889000"/>
+		<testcase name="test_animation_compound_not_open" time="72.174000"/>
+		<testcase name="test_buffered_compound_not_open" time="68.954000"/>
+		<testcase name="test_click_coverage_button_buffered" time="76.387000"/>
+		<testcase name="test_click_coverage_button_for_env" time="29.971000"/>
+		<testcase name="test_click_coverage_button_for_recursive_compound" time="58.581000"/>
+		<testcase name="test_click_coverage_button_multiple_tabs" time="38.005000"/>
+		<testcase name="test_click_coverage_button_real_time" time="53.771000"/>
+		<testcase name="test_compound_viewer_open_behind" time="53.872000"/>
+		<testcase name="test_init_test_case" time="41.139000"/>
+		<testcase name="test_open_sfp_coverage_view" time="36.876000"/>
+		<testcase name="test_sfp_cvg_for_noninline_fn_header" time="40.393000"/>
+		<testcase name="test_viewer_open_behind" time="53.655000"/>
+		<testcase name="test_open_sfp_coverage_view_with_stylesheet" time="55.923000"/>
+		<testcase name="postconditions" time="5.216000"/>
+		<testcase name="test_py_md_compliance" time="0.221000"/>
+		<testcase name="test_pep8_compliance" time="9.361000"/>
+		<testcase name="test_input_dir_compliance" time="0.618000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.192000"/>
+	</testsuite>
+</testsuites>

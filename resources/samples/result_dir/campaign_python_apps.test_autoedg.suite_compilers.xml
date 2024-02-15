@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="7.584999999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_python_apps.test_autoedg.suite_compilers" skipped="0" tests="11" time="7.584999999999999">
+		<testcase name="preconditions"/>
+		<testcase name="test_ghs" time="0.938000"/>
+		<testcase name="test_gnu" time="1.502000"/>
+		<testcase name="test_iar" time="1.007000"/>
+		<testcase name="test_mingw" time="0.004000"/>
+		<testcase name="test_msvc" time="0.001000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="4.111000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

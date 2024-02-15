@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="310.09100000000007">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover.suite_source_coverage_viewer_templates" skipped="0" tests="11" time="310.09100000000007">
+		<testcase name="preconditions" time="12.831000"/>
+		<testcase name="test_function_call_template_instantiations" time="57.905000"/>
+		<testcase name="test_source_changed_with_instantiations" time="90.477000"/>
+		<testcase name="test_template_instantiations_off" time="55.721000"/>
+		<testcase name="test_template_instantiations_on" time="39.644000"/>
+		<testcase name="test_template_instantiations_on_untracked" time="39.507000"/>
+		<testcase name="postconditions" time="5.334000"/>
+		<testcase name="test_py_md_compliance" time="0.146000"/>
+		<testcase name="test_pep8_compliance" time="8.279000"/>
+		<testcase name="test_input_dir_compliance" time="0.129000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.118000"/>
+	</testsuite>
+</testsuites>

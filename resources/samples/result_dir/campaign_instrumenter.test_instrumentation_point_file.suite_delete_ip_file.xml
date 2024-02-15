@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="9.686">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_instrumenter.test_instrumentation_point_file.suite_delete_ip_file" skipped="0" tests="8" time="9.686">
+		<testcase name="preconditions" time="4.929000"/>
+		<testcase name="test_remove_source_from_env" time="0.699000"/>
+		<testcase name="test_uninstrument" time="0.656000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.391000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="29" time="826.9079999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_editions.suite_permit_deny_editions" skipped="0" tests="29" time="826.9079999999999">
+		<testcase name="preconditions" time="15.334000"/>
+		<testcase name="test_ada_ent_open_deny" time="24.647000"/>
+		<testcase name="test_ada_ent_open_un" time="41.300000"/>
+		<testcase name="test_ada_pro_open_deny" time="23.167000"/>
+		<testcase name="test_ada_pro_open_un" time="40.786000"/>
+		<testcase name="test_c_ent_open_deny" time="23.219000"/>
+		<testcase name="test_c_ent_open_un" time="41.003000"/>
+		<testcase name="test_c_pro_open_deny" time="23.095000"/>
+		<testcase name="test_c_pro_open_un" time="41.126000"/>
+		<testcase name="test_cover_ent_open_deny" time="23.185000"/>
+		<testcase name="test_cover_ent_open_un" time="38.166000"/>
+		<testcase name="test_cover_open_after_close" time="56.090000"/>
+		<testcase name="test_cover_pro_open_deny" time="23.060000"/>
+		<testcase name="test_cover_pro_open_un" time="38.626000"/>
+		<testcase name="test_new_cover_environment_ent" time="48.848000"/>
+		<testcase name="test_new_cover_environment_no_cover_ent" time="27.529000"/>
+		<testcase name="test_new_cover_environment_no_cover_pro" time="27.634000"/>
+		<testcase name="test_new_cover_environment_pro" time="48.195000"/>
+		<testcase name="test_new_system_testing_ent" time="51.244000"/>
+		<testcase name="test_new_system_testing_no_cover_ent" time="27.831000"/>
+		<testcase name="test_new_system_testing_no_cover_pro" time="28.225000"/>
+		<testcase name="test_new_system_testing_no_manage_ent" time="27.107000"/>
+		<testcase name="test_new_system_testing_no_manage_pro" time="27.204000"/>
+		<testcase name="test_new_system_testing_pro" time="50.910000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.367000"/>
+		<testcase name="test_pep8_compliance" time="8.029000"/>
+		<testcase name="test_input_dir_compliance" time="0.694000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.287000"/>
+	</testsuite>
+</testsuites>

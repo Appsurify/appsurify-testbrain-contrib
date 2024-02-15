@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="35" time="121.595">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_cba_2" skipped="0" tests="35" time="121.595">
+		<testcase name="preconditions" time="3.088000"/>
+		<testcase name="test_change_instr_keep_lose_results_func_func_call" time="5.976000"/>
+		<testcase name="test_change_instr_keep_lose_results_function" time="4.851000"/>
+		<testcase name="test_full_cba_results_function" time="2.862000"/>
+		<testcase name="test_full_cba_results_function_function_call" time="3.423000"/>
+		<testcase name="test_full_cba_results_function_function_call_text" time="3.265000"/>
+		<testcase name="test_full_cba_results_function_text" time="3.176000"/>
+		<testcase name="test_full_regular_partial_cba_same_name_f_fc" time="3.576000"/>
+		<testcase name="test_full_regular_partial_cba_same_name_f_fc_txt" time="4.362000"/>
+		<testcase name="test_full_regular_partial_cba_same_name_func_txt" time="3.881000"/>
+		<testcase name="test_full_regular_partial_cba_same_name_function" time="3.634000"/>
+		<testcase name="test_partial_and_full_cba_res_func_func_call_text" time="4.187000"/>
+		<testcase name="test_partial_and_full_cba_results_func_func_call" time="4.017000"/>
+		<testcase name="test_partial_and_full_cba_results_function" time="3.450000"/>
+		<testcase name="test_partial_and_full_cba_results_function_text" time="3.706000"/>
+		<testcase name="test_partial_and_full_cba_results_two_units" time="6.461000"/>
+		<testcase name="test_partial_cba_full_regular_func_func_call" time="3.654000"/>
+		<testcase name="test_partial_cba_full_regular_func_func_call_text" time="4.326000"/>
+		<testcase name="test_partial_cba_full_regular_function" time="3.663000"/>
+		<testcase name="test_partial_cba_full_regular_function_text" time="4.101000"/>
+		<testcase name="test_partial_cba_full_regular_same_name_f_fc" time="3.593000"/>
+		<testcase name="test_partial_cba_full_regular_same_name_f_fc_txt" time="3.703000"/>
+		<testcase name="test_partial_cba_full_regular_same_name_func_txt" time="3.753000"/>
+		<testcase name="test_partial_cba_full_regular_same_name_function" time="3.720000"/>
+		<testcase name="test_partial_cba_results_func_func_call_text" time="3.710000"/>
+		<testcase name="test_partial_cba_results_function" time="3.334000"/>
+		<testcase name="test_partial_cba_results_function_function_call" time="2.694000"/>
+		<testcase name="test_partial_cba_results_function_text" time="2.810000"/>
+		<testcase name="test_source_change_keep_results_func_func_call" time="5.539000"/>
+		<testcase name="test_source_change_keep_results_function" time="5.160000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.039000"/>
+		<testcase name="test_pep8_compliance" time="3.838000"/>
+		<testcase name="test_input_dir_compliance" time="0.026000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.017000"/>
+	</testsuite>
+</testsuites>

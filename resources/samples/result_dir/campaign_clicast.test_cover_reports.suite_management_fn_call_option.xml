@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="24" time="64.773">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_management_fn_call_option" skipped="0" tests="24" time="64.773">
+		<testcase name="preconditions" time="3.041000"/>
+		<testcase name="test_full_cba_only_level_a_function_call" time="3.149000"/>
+		<testcase name="test_full_cba_only_level_b_function_call" time="2.921000"/>
+		<testcase name="test_full_cba_only_statement_function_call" time="2.879000"/>
+		<testcase name="test_full_due_to_cba_level_a_function_call" time="3.263000"/>
+		<testcase name="test_full_due_to_cba_level_b_function_call" time="3.222000"/>
+		<testcase name="test_full_due_to_cba_statement_function_call" time="3.152000"/>
+		<testcase name="test_full_imported_level_a_function_call" time="4.389000"/>
+		<testcase name="test_full_imported_level_b_function_call" time="4.020000"/>
+		<testcase name="test_full_imported_statement_function_call" time="4.361000"/>
+		<testcase name="test_full_level_a_function_call" time="2.581000"/>
+		<testcase name="test_full_level_b_function_call" time="2.578000"/>
+		<testcase name="test_full_statement_function_call" time="2.315000"/>
+		<testcase name="test_partial_imported_level_a_function_call" time="4.580000"/>
+		<testcase name="test_partial_imported_level_b_function_call" time="3.998000"/>
+		<testcase name="test_partial_imported_statement_function_call" time="3.761000"/>
+		<testcase name="test_partial_level_a_function_call" time="2.384000"/>
+		<testcase name="test_partial_level_b_function_call" time="2.268000"/>
+		<testcase name="test_partial_statement_function_call" time="2.471000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="3.390000"/>
+		<testcase name="test_input_dir_compliance" time="0.025000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.012000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="48.300000000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_clicast.suite_edition_validation" skipped="0" tests="14" time="48.300000000000004">
+		<testcase name="preconditions" time="0.742000"/>
+		<testcase name="test_edition_ada_ent" time="6.242000"/>
+		<testcase name="test_edition_ada_pro" time="5.972000"/>
+		<testcase name="test_edition_c_ent" time="5.096000"/>
+		<testcase name="test_edition_c_pro" time="5.006000"/>
+		<testcase name="test_edition_multilang_ent" time="8.351000"/>
+		<testcase name="test_edition_multilang_pro" time="8.317000"/>
+		<testcase name="test_edition_qa_ent" time="2.633000"/>
+		<testcase name="test_edition_qa_pro" time="2.657000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="3.247000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

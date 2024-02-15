@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="604.1070000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_development_mode_stp_part_05" skipped="0" tests="52" time="604.1070000000001">
+		<testcase name="preconditions"/>
+		<testcase name="test_half_live" time="11.365000"/>
+		<testcase name="test_header_prototype_test" time="11.658000"/>
+		<testcase name="test_implicit_bool_cast_in_cpp" time="11.574000"/>
+		<testcase name="test_impossible_counts" time="11.300000"/>
+		<testcase name="test_incomplete_type" time="11.673000"/>
+		<testcase name="test_init_constructor_option" time="11.531000"/>
+		<testcase name="test_init_constructor_option_param" time="11.780000"/>
+		<testcase name="test_init_list" time="11.440000"/>
+		<testcase name="test_init_list_2" time="11.549000"/>
+		<testcase name="test_initialiser_assignment_to_same_name" time="11.328000"/>
+		<testcase name="test_inner_int_in_parent" time="11.934000"/>
+		<testcase name="test_inner_struct_with_ctor" time="11.881000"/>
+		<testcase name="test_int_examples" time="20.358000"/>
+		<testcase name="test_int_overwrite" time="11.448000"/>
+		<testcase name="test_int_pointer_upcast_flattened" time="11.303000"/>
+		<testcase name="test_int_pointer_upcast_not_flattened" time="12.011000"/>
+		<testcase name="test_int_tests" time="11.571000"/>
+		<testcase name="test_is_vcast_ctor_line_needed_class" time="27.496000"/>
+		<testcase name="test_is_vcast_ctor_line_needed_structs" time="27.222000"/>
+		<testcase name="test_keyerror" time="12.212000"/>
+		<testcase name="test_keyerror_dup_pointer_access" time="15.056000"/>
+		<testcase name="test_lambda_allocation_example" time="12.181000"/>
+		<testcase name="test_leading_scope" time="11.470000"/>
+		<testcase name="test_lhs_field_cast_assignment" time="11.990000"/>
+		<testcase name="test_local_in_cmd_path_occurance_1056" time="11.803000"/>
+		<testcase name="test_local_in_cmd_path_occurance_268" time="13.084000"/>
+		<testcase name="test_local_in_cmd_path_occurance_451" time="12.494000"/>
+		<testcase name="test_local_in_cmd_path_occurance_981" time="11.992000"/>
+		<testcase name="test_lvalue_adjust" time="12.082000"/>
+		<testcase name="test_main" time="11.542000"/>
+		<testcase name="test_malloc_struct_example" time="11.893000"/>
+		<testcase name="test_method_arg_walk" time="13.047000"/>
+		<testcase name="test_method_call_arg_process" time="12.343000"/>
+		<testcase name="test_missing_deref" time="11.927000"/>
+		<testcase name="test_missing_malloc" time="11.611000"/>
+		<testcase name="test_missing_memory_region_problems" time="12.648000"/>
+		<testcase name="test_moo" time="11.774000"/>
+		<testcase name="test_multi_dimensional_array_pointer_to_struct" time="12.279000"/>
+		<testcase name="test_multi_pointer_to_array" time="12.255000"/>
+		<testcase name="test_multiple_allocallobal_calls" time="12.261000"/>
+		<testcase name="test_namespace_global_var" time="12.501000"/>
+		<testcase name="test_negative_const" time="10.995000"/>
+		<testcase name="test_nested_constructors" time="12.832000"/>
+		<testcase name="test_nested_namespace_access" time="11.377000"/>
+		<testcase name="test_nested_namespace_global_var" time="12.269000"/>
+		<testcase name="test_nested_structs_of_the_same_name_1" time="12.288000"/>
+		<testcase name="test_nested_structs_of_the_same_name_2" time="11.258000"/>
+		<testcase name="postconditions" time="0.105000"/>
+		<testcase name="test_pep8_compliance" time="1.874000"/>
+		<testcase name="test_input_dir_compliance" time="0.110000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.132000"/>
+	</testsuite>
+</testsuites>

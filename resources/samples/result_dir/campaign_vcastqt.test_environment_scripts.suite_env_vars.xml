@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="211.375">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_environment_scripts.suite_env_vars" skipped="0" tests="10" time="211.375">
+		<testcase name="preconditions" time="5.020000"/>
+		<testcase name="test_build_env_from_script_with_env_var" time="65.472000"/>
+		<testcase name="test_build_env_from_script_with_env_var_not_set" time="26.912000"/>
+		<testcase name="test_env_for_test_values_dict" time="53.253000"/>
+		<testcase name="test_env_var_regression" time="48.639000"/>
+		<testcase name="postconditions" time="5.293000"/>
+		<testcase name="test_py_md_compliance" time="0.054000"/>
+		<testcase name="test_pep8_compliance" time="6.643000"/>
+		<testcase name="test_input_dir_compliance" time="0.049000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.040000"/>
+	</testsuite>
+</testsuites>

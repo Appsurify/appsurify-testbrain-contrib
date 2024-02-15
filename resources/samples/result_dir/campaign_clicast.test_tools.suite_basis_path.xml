@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="30.753">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_tools.suite_basis_path" skipped="0" tests="13" time="30.753">
+		<testcase name="preconditions" time="0.022000"/>
+		<testcase name="test_52762_error_in_template"/>
+		<testcase name="test_57280_error_unnamed_union" time="4.549000"/>
+		<testcase name="test_array_index" time="4.642000"/>
+		<testcase name="test_cpp14" time="8.223000"/>
+		<testcase name="test_env_basis_paths" time="5.052000"/>
+		<testcase name="test_gnu_45" time="0.002000"/>
+		<testcase name="test_gnu_stmt_expr" time="5.367000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="2.869000"/>
+		<testcase name="test_input_dir_compliance" time="0.015000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

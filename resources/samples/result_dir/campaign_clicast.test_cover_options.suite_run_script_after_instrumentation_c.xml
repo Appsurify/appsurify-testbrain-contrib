@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="12.158">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_options.suite_run_script_after_instrumentation_c" skipped="0" tests="8" time="12.158">
+		<testcase name="preconditions" time="1.029000"/>
+		<testcase name="test_run_command_after_instrumentation_cover" time="3.395000"/>
+		<testcase name="test_run_command_after_instrumentation_unit" time="6.119000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="1.606000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="383.12299999999993">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_squish_legacy.suite_legacy_lint_licensed_b" skipped="0" tests="16" time="383.12299999999993">
+		<testcase name="preconditions" time="0.071000"/>
+		<testcase name="test_lint_licensed_analyze_source_items_cover_mode" time="33.108000"/>
+		<testcase name="test_lint_licensed_buttons_ada_env" time="31.331000"/>
+		<testcase name="test_lint_licensed_buttons_c_mode" time="18.031000"/>
+		<testcase name="test_lint_licensed_buttons_no_mode" time="17.024000"/>
+		<testcase name="test_lint_licensed_default_lint_msg_button" time="31.574000"/>
+		<testcase name="test_lint_licensed_lint_button_cover_mode" time="25.254000"/>
+		<testcase name="test_lint_licensed_lint_out_c_manage" time="71.936000"/>
+		<testcase name="test_lint_licensed_menu_ada_open_in_manage" time="68.541000"/>
+		<testcase name="test_lint_licensed_menus_manage_tree_context" time="74.998000"/>
+		<testcase name="test_lint_licensed_tree_output_custom_lint_exe" time="0.235000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.219000"/>
+		<testcase name="test_pep8_compliance" time="10.275000"/>
+		<testcase name="test_input_dir_compliance" time="0.251000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.275000"/>
+	</testsuite>
+</testsuites>

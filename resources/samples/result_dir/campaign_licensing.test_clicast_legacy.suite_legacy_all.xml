@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="64.80799999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_clicast_legacy.suite_legacy_all" skipped="0" tests="12" time="64.80799999999999">
+		<testcase name="preconditions" time="1.415000"/>
+		<testcase name="test_c_host_and_c_misc" time="8.500000"/>
+		<testcase name="test_c_host_c_generic" time="9.990000"/>
+		<testcase name="test_c_host_only" time="8.860000"/>
+		<testcase name="test_catch_license_errors" time="17.800000"/>
+		<testcase name="test_cover_valid_licensing" time="8.059000"/>
+		<testcase name="test_vcshell" time="3.835000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.019000"/>
+		<testcase name="test_pep8_compliance" time="6.301000"/>
+		<testcase name="test_input_dir_compliance" time="0.020000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

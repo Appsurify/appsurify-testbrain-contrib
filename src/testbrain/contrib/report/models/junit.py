@@ -4,6 +4,14 @@ import typing as t
 
 from pydantic import BaseModel
 
+from .. import utils
+
+if t.TYPE_CHECKING:
+    try:
+        from lxml import etree
+    except ImportError:
+        from xml.etree import ElementTree as etree  # noqa
+
 
 class JUnitTestCaseStatus(str, enum.Enum):
     passed = "passed"
@@ -104,6 +112,9 @@ class JUnitTestSuites(BaseModel):
     def add_testsuite(self, testsuite: JUnitTestSuite):
         self.testsuites.append(testsuite)
 
+    def add_testsuites(self, testsuites: t.List[JUnitTestSuite]):
+        self.testsuites.extend(testsuites)
+
     def update_statistics(self):
         tests = errors = failures = skipped = passed = 0
         time = 0.0
@@ -122,3 +133,97 @@ class JUnitTestSuites(BaseModel):
         self.skipped = skipped
         self.passed = passed
         self.time = round(time, 3)
+
+    def model_dump_xml(self, namespace: t.Optional[str] = None) -> "etree.Element":
+        elem = utils.to_xml(
+            tag="testsuites",
+            attrib={
+                "id": self.id,
+                "name": self.name,
+                "time": str(self.time),
+                "tests": str(self.tests),
+                "errors": str(self.errors),
+                "failures": str(self.failures),
+                "skipped": str(self.skipped),
+                "passed": str(self.passed),
+            },
+        )
+        for testsuite in self.testsuites:
+            ts_elem = utils.to_xml(
+                tag="testsuite",
+                attrib={
+                    "id": testsuite.id,
+                    "name": testsuite.name,
+                    "time": str(testsuite.time),
+                    "tests": str(testsuite.tests),
+                    "errors": str(testsuite.errors),
+                    "failures": str(testsuite.failures),
+                    "skipped": str(testsuite.skipped),
+                    "passed": str(testsuite.passed),
+                    "hostname": str(testsuite.hostname),
+                    "timestamp": utils.datetime_to_string(testsuite.timestamp),
+                },
+            )
+            props_elem = utils.to_xml(tag="properties", attrib={})
+
+            for prop in testsuite.properties:
+                prop_elem = utils.to_xml(
+                    tag="property",
+                    attrib={"name": prop.name, "value": str(prop.value)},
+                )
+                props_elem.append(prop_elem)
+
+            ts_elem.append(props_elem)
+
+            if testsuite.system_out:
+                system_out_elem = utils.to_xml(
+                    tag="system-out", text=str(testsuite.system_out)
+                )
+                ts_elem.append(system_out_elem)
+
+            if testsuite.system_err:
+                system_err_elem = utils.to_xml(
+                    tag="system-err", text=str(testsuite.system_err)
+                )
+                ts_elem.append(system_err_elem)
+
+            for testcase in testsuite.testcases:
+                tc_elem = utils.to_xml(
+                    tag="testcase",
+                    attrib={
+                        "id": testcase.id,
+                        "name": testcase.name,
+                        "classname": testcase.classname,
+                        "file": testcase.file,
+                        "line": testcase.line,
+                        "time": str(testcase.time),
+                    },
+                )
+                if testcase.result is not None:
+                    res_elem = utils.to_xml(
+                        tag=testcase.result.status,
+                        attrib={
+                            "message": testcase.result.message,
+                            "type": testcase.result.type,
+                        },
+                        text=testcase.result.stacktrace,
+                    )
+                    tc_elem.append(res_elem)
+
+                if testcase.system_out:
+                    system_out_elem = utils.to_xml(
+                        tag="system-out", text=str(testcase.system_out)
+                    )
+                    tc_elem.append(system_out_elem)
+
+                if testcase.system_err:
+                    system_err_elem = utils.to_xml(
+                        tag="system-err", text=str(testcase.system_err)
+                    )
+                    tc_elem.append(system_err_elem)
+
+                ts_elem.append(tc_elem)
+
+            elem.append(ts_elem)
+
+        return elem

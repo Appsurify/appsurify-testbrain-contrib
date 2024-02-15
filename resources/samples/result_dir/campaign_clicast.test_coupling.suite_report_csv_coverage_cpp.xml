@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="40.471">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_coupling.suite_report_csv_coverage_cpp" skipped="0" tests="11" time="40.471">
+		<testcase name="preconditions" time="7.750000"/>
+		<testcase name="test_delimiter" time="7.010000"/>
+		<testcase name="test_no_analysis" time="0.782000"/>
+		<testcase name="test_no_coverage_data" time="5.560000"/>
+		<testcase name="test_reports" time="7.759000"/>
+		<testcase name="test_version" time="6.823000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="4.761000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

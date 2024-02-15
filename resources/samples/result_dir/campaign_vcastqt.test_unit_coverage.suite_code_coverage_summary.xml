@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="885.2">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_unit_coverage.suite_code_coverage_summary" skipped="0" tests="23" time="885.2">
+		<testcase name="preconditions" time="19.048000"/>
+		<testcase name="test_change_coverage_refreshes_widget" time="51.630000"/>
+		<testcase name="test_change_inst_causes_crash_88342" time="54.553000"/>
+		<testcase name="test_dbl_click_row_opens_cvg_view" time="37.086000"/>
+		<testcase name="test_filter_each_column" time="101.516000"/>
+		<testcase name="test_hierarchy_view_highlight" time="71.077000"/>
+		<testcase name="test_no_test_case_col_in_sfp" time="41.835000"/>
+		<testcase name="test_save_coverage_summary_as_csv" time="48.260000"/>
+		<testcase name="test_sfp_coverage_table" time="71.608000"/>
+		<testcase name="test_sort_descending" time="36.788000"/>
+		<testcase name="test_sort_each_column" time="37.898000"/>
+		<testcase name="test_subprogram_level_coverage" time="44.893000"/>
+		<testcase name="test_tdd_coverage_viewer" time="42.500000"/>
+		<testcase name="test_testable_headers_coverage_viewer" time="43.703000"/>
+		<testcase name="test_track_curr_selection_on_find_filter" time="41.787000"/>
+		<testcase name="test_track_current_selection_off" time="39.868000"/>
+		<testcase name="test_track_current_selection_on" time="39.596000"/>
+		<testcase name="test_unit_level_coverage" time="44.863000"/>
+		<testcase name="postconditions" time="5.305000"/>
+		<testcase name="test_py_md_compliance" time="0.148000"/>
+		<testcase name="test_pep8_compliance" time="10.519000"/>
+		<testcase name="test_input_dir_compliance" time="0.565000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.154000"/>
+	</testsuite>
+</testsuites>

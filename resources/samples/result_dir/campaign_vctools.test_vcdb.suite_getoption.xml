@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="16.048">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_vcdb.suite_getoption" skipped="0" tests="17" time="16.048">
+		<testcase name="preconditions" time="1.192000"/>
+		<testcase name="test_atfile" time="0.263000"/>
+		<testcase name="test_comma_sep_options" time="0.519000"/>
+		<testcase name="test_deps_output" time="0.875000"/>
+		<testcase name="test_getoption_prefix" time="1.337000"/>
+		<testcase name="test_isystem" time="1.442000"/>
+		<testcase name="test_macro_option" time="0.289000"/>
+		<testcase name="test_multiple_flags" time="1.930000"/>
+		<testcase name="test_repeat_file_option" time="0.190000"/>
+		<testcase name="test_warning_option" time="1.357000"/>
+		<testcase name="test_with_missing_include_directory" time="1.339000"/>
+		<testcase name="test_with_xcudafe_flag" time="0.951000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="4.336000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

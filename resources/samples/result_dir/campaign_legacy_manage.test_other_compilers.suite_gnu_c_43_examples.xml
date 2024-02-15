@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="84.67400000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_other_compilers.suite_gnu_c_43_examples" skipped="0" tests="11" time="84.67400000000002">
+		<testcase name="preconditions" time="1.549000"/>
+		<testcase name="test_example_dependency_tree" time="21.772000"/>
+		<testcase name="test_example_dependency_tree_cch" time="22.423000"/>
+		<testcase name="test_example_stubbing_c_lib" time="7.325000"/>
+		<testcase name="test_example_stubbing_c_lib_cch" time="9.786000"/>
+		<testcase name="test_example_void_star" time="9.257000"/>
+		<testcase name="test_example_void_star_cch" time="10.398000"/>
+		<testcase name="postconditions" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="2.111000"/>
+		<testcase name="test_input_dir_compliance" time="0.025000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.022000"/>
+	</testsuite>
+</testsuites>

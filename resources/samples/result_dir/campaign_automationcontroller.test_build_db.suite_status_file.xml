@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="32.788999999999994">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_automationcontroller.test_build_db.suite_status_file" skipped="0" tests="8" time="32.788999999999994">
+		<testcase name="preconditions" time="0.416000"/>
+		<testcase name="test_status_file" time="12.364000"/>
+		<testcase name="test_verbose" time="17.156000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="2.840000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

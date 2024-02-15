@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="185.48000000000005">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_vct_map.suite_detach" skipped="0" tests="11" time="185.48000000000005">
+		<testcase name="preconditions" time="12.897000"/>
+		<testcase name="test_detach_all" time="32.966000"/>
+		<testcase name="test_detach_all_multi" time="31.194000"/>
+		<testcase name="test_detach_generated" time="33.107000"/>
+		<testcase name="test_detach_generated_multi" time="31.404000"/>
+		<testcase name="test_detach_mixed_select" time="31.930000"/>
+		<testcase name="postconditions" time="5.199000"/>
+		<testcase name="test_py_md_compliance" time="0.068000"/>
+		<testcase name="test_pep8_compliance" time="6.145000"/>
+		<testcase name="test_input_dir_compliance" time="0.509000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.061000"/>
+	</testsuite>
+</testsuites>

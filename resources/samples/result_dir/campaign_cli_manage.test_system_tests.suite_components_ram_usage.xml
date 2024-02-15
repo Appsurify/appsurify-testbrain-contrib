@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="91.69799999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_system_tests.suite_components_ram_usage" skipped="0" tests="11" time="91.69799999999998">
+		<testcase name="preconditions" time="7.842000"/>
+		<testcase name="test_animation_coverage_data" time="18.377000"/>
+		<testcase name="test_buffered_coverage_data" time="18.041000"/>
+		<testcase name="test_buffered_usage" time="11.801000"/>
+		<testcase name="test_realtime_coverage_data" time="17.979000"/>
+		<testcase name="test_realtime_usage" time="11.640000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="5.966000"/>
+		<testcase name="test_input_dir_compliance" time="0.027000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.014000"/>
+	</testsuite>
+</testsuites>

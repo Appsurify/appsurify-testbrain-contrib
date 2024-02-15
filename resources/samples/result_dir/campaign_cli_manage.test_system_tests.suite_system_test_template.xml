@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="172.323">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_system_tests.suite_system_test_template" skipped="0" tests="21" time="172.323">
+		<testcase name="preconditions" time="8.702000"/>
+		<testcase name="test_cannot_get_description_write_error_log" time="28.690000"/>
+		<testcase name="test_cannot_get_display_name_write_error_log" time="25.812000"/>
+		<testcase name="test_do_not_provide_ts_group_import_report_error" time="0.833000"/>
+		<testcase name="test_do_not_specify_default_template" time="5.639000"/>
+		<testcase name="test_error_log_cannot_be_written_report_warning" time="27.502000"/>
+		<testcase name="test_given_display_name_set_template" time="0.748000"/>
+		<testcase name="test_list_system_test_template_errors" time="24.420000"/>
+		<testcase name="test_list_system_test_templates" time="0.458000"/>
+		<testcase name="test_remove_script_rewrite_template" time="1.361000"/>
+		<testcase name="test_script_cannot_be_written_report_warning" time="0.637000"/>
+		<testcase name="test_specify_custom_template" time="6.174000"/>
+		<testcase name="test_template_cannot_be_read_report_warning" time="24.482000"/>
+		<testcase name="test_template_does_not_exist_error_do_not_change" time="1.355000"/>
+		<testcase name="test_template_does_not_exist_report_warning" time="5.620000"/>
+		<testcase name="test_unsupported_specify_template_report_error" time="1.650000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="8.182000"/>
+		<testcase name="test_input_dir_compliance" time="0.032000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

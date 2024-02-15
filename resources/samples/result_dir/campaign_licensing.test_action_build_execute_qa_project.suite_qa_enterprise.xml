@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="25" time="79.97900000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_action_build_execute_qa_project.suite_qa_enterprise" skipped="0" tests="25" time="79.97900000000001">
+		<testcase name="preconditions" time="6.450000"/>
+		<testcase name="test_served_exhausted" time="11.096000"/>
+		<testcase name="test_served_expires_in_one_day" time="5.148000"/>
+		<testcase name="test_served_expires_today" time="4.717000"/>
+		<testcase name="test_served_expiry_upper_inner" time="4.430000"/>
+		<testcase name="test_served_expiry_upper_outer" time="4.724000"/>
+		<testcase name="test_served_future_version" time="2.141000"/>
+		<testcase name="test_served_no_timezone_restriction" time="4.479000"/>
+		<testcase name="test_served_timezone_servertz" time="4.891000"/>
+		<testcase name="test_served_timezone_within_span" time="4.539000"/>
+		<testcase name="test_served_unauthotized_timezone" time="2.082000"/>
+		<testcase name="test_unserved_expired" time="0.839000"/>
+		<testcase name="test_unserved_expires_in_one_day" time="3.473000"/>
+		<testcase name="test_unserved_expires_today" time="3.395000"/>
+		<testcase name="test_unserved_expiry_upper_inner" time="3.224000"/>
+		<testcase name="test_unserved_expiry_upper_outer" time="3.125000"/>
+		<testcase name="test_unserved_future_start_date" time="0.928000"/>
+		<testcase name="test_unserved_future_version" time="0.930000"/>
+		<testcase name="test_unserved_license_altered" time="0.920000"/>
+		<testcase name="test_unserved_no_timezone_restriction" time="3.790000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.025000"/>
+		<testcase name="test_pep8_compliance" time="4.587000"/>
+		<testcase name="test_input_dir_compliance" time="0.026000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.020000"/>
+	</testsuite>
+</testsuites>

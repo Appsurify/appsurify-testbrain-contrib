@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="46" time="335.946">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_build_execute.suite_dependency_changes" skipped="0" tests="46" time="335.946">
+		<testcase name="preconditions" time="51.246000"/>
+		<testcase name="test_build_tst_import_error_tests_preserved" time="8.894000"/>
+		<testcase name="test_build_tst_maintenance_error_tests_preserved" time="9.628000"/>
+		<testcase name="test_change_line_endings_no_rebuild" time="16.647000"/>
+		<testcase name="test_dependencies_updated_on_rebuild" time="11.303000"/>
+		<testcase name="test_enc_changes_in_migrated_cover" time="10.921000"/>
+		<testcase name="test_env_change_without_applying_changes" time="10.800000"/>
+		<testcase name="test_env_without_results_has_no_dependencies" time="6.497000"/>
+		<testcase name="test_full_build_needed_when_probes_and_env_change" time="5.844000"/>
+		<testcase name="test_full_build_needed_when_source_and_env_change" time="4.556000"/>
+		<testcase name="test_full_build_resolves_configuration_change" time="7.491000"/>
+		<testcase name="test_imported_cvr_in_migrated_cover" time="16.566000"/>
+		<testcase name="test_incr_build_resolves_symbolic_constant_changes" time="4.425000"/>
+		<testcase name="test_incr_build_resolves_symbolic_content_changes" time="10.505000"/>
+		<testcase name="test_monitored_env_has_no_tst_env_dependencies" time="6.340000"/>
+		<testcase name="test_no_changes" time="1.232000"/>
+		<testcase name="test_no_changes_after_specialized_tst_saved" time="12.594000"/>
+		<testcase name="test_no_reported_changes_with_env_link_error" time="8.410000"/>
+		<testcase name="test_source_changes" time="1.127000"/>
+		<testcase name="test_source_changes_in_cover" time="8.918000"/>
+		<testcase name="test_source_changes_in_migrated_cover" time="12.425000"/>
+		<testcase name="test_suite_level_coverage_changed" time="1.842000"/>
+		<testcase name="test_suite_level_coverage_config_changed" time="1.786000"/>
+		<testcase name="test_suite_level_symbolic_config_changed" time="1.816000"/>
+		<testcase name="test_suite_level_symbolic_constants_changed" time="1.838000"/>
+		<testcase name="test_suite_level_symbolic_consts_contents_changed" time="3.979000"/>
+		<testcase name="test_template_cba_changed" time="5.870000"/>
+		<testcase name="test_template_coverage_changed" time="5.829000"/>
+		<testcase name="test_template_coverage_config_changed" time="5.809000"/>
+		<testcase name="test_template_env_script_changed" time="4.627000"/>
+		<testcase name="test_template_probe_points_changed" time="4.368000"/>
+		<testcase name="test_template_tst_and_env_changed" time="5.610000"/>
+		<testcase name="test_template_tst_and_source_changed" time="4.812000"/>
+		<testcase name="test_template_tst_changed" time="4.339000"/>
+		<testcase name="test_template_tst_env_and_source_changed" time="5.905000"/>
+		<testcase name="test_tst_change_with_partial_build" time="16.003000"/>
+		<testcase name="test_tst_change_without_applying_changes" time="4.918000"/>
+		<testcase name="test_workspace_cba_changed" time="5.261000"/>
+		<testcase name="test_workspace_coverage_changed" time="7.226000"/>
+		<testcase name="test_workspace_env_script_changed" time="4.362000"/>
+		<testcase name="test_workspace_probe_points_changed" time="5.974000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.058000"/>
+		<testcase name="test_pep8_compliance" time="7.280000"/>
+		<testcase name="test_input_dir_compliance" time="0.034000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.031000"/>
+	</testsuite>
+</testsuites>

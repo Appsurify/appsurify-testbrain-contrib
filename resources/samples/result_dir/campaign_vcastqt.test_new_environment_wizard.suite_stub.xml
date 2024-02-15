@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="576.1419999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_new_environment_wizard.suite_stub" skipped="0" tests="13" time="576.1419999999999">
+		<testcase name="preconditions" time="0.195000"/>
+		<testcase name="test_no_stub_option" time="43.906000"/>
+		<testcase name="test_stub_all" time="84.015000"/>
+		<testcase name="test_stub_and_dont_stub" time="118.093000"/>
+		<testcase name="test_stub_and_ignore" time="119.431000"/>
+		<testcase name="test_stub_none" time="44.375000"/>
+		<testcase name="test_tdd_custom_stub" time="82.661000"/>
+		<testcase name="test_tdd_stub_none" time="70.831000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.219000"/>
+		<testcase name="test_pep8_compliance" time="11.935000"/>
+		<testcase name="test_input_dir_compliance" time="0.206000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.275000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="16.081">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_macro_detection" skipped="0" tests="10" time="16.081">
+		<testcase name="preconditions" time="4.211000"/>
+		<testcase name="test_expression_macros" time="2.205000"/>
+		<testcase name="test_non_expression_macros" time="2.130000"/>
+		<testcase name="test_string_list_macro" time="2.148000"/>
+		<testcase name="test_unit_compilation_arg" time="2.305000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="3.060000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

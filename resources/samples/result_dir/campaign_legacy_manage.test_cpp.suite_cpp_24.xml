@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="52.122">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_24" skipped="0" tests="11" time="52.122">
+		<testcase name="preconditions" time="1.012000"/>
+		<testcase name="test_ptr_775" time="8.203000"/>
+		<testcase name="test_ptr_807" time="7.851000"/>
+		<testcase name="test_ptr_849" time="8.213000"/>
+		<testcase name="test_pure_virtual" time="8.321000"/>
+		<testcase name="test_pure_virtual_return_type" time="7.420000"/>
+		<testcase name="test_quickparse_cpp" time="8.503000"/>
+		<testcase name="postconditions" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="2.579000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

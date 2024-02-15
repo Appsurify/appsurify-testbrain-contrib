@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="235.76000000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_reports.suite_aggregate_coverage" skipped="0" tests="9" time="235.76000000000002">
+		<testcase name="preconditions" time="49.937000"/>
+		<testcase name="test_aggregate_ada" time="62.970000"/>
+		<testcase name="test_aggregate_c" time="57.006000"/>
+		<testcase name="test_aggregate_cover" time="58.072000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.067000"/>
+		<testcase name="test_pep8_compliance" time="7.480000"/>
+		<testcase name="test_input_dir_compliance" time="0.148000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.080000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="148.52399999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_new_environment_wizard.suite_duplicate_file_names" skipped="0" tests="8" time="148.52399999999997">
+		<testcase name="preconditions" time="4.285000"/>
+		<testcase name="test_duplicate_names_can_still_build" time="80.900000"/>
+		<testcase name="test_duplicate_names_c_and_cpp_same_dir" time="50.652000"/>
+		<testcase name="postconditions" time="5.290000"/>
+		<testcase name="test_py_md_compliance" time="0.039000"/>
+		<testcase name="test_pep8_compliance" time="7.240000"/>
+		<testcase name="test_input_dir_compliance" time="0.049000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.069000"/>
+	</testsuite>
+</testsuites>

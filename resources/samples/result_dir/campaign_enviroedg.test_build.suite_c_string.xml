@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="14.301">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_c_string" skipped="0" tests="8" time="14.301">
+		<testcase name="preconditions" time="3.744000"/>
+		<testcase name="test_char_array_store_index" time="5.869000"/>
+		<testcase name="test_char_star_and_array" time="1.297000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.381000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="112.10300000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_configuration_editor.suite_source_dir_env_var" skipped="0" tests="7" time="112.10300000000001">
+		<testcase name="preconditions" time="10.475000"/>
+		<testcase name="test_change_source_dir_to_env_var" time="88.882000"/>
+		<testcase name="postconditions" time="5.244000"/>
+		<testcase name="test_py_md_compliance" time="0.027000"/>
+		<testcase name="test_pep8_compliance" time="7.408000"/>
+		<testcase name="test_input_dir_compliance" time="0.036000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.031000"/>
+	</testsuite>
+</testsuites>

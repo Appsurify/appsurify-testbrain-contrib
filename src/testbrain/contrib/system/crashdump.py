@@ -8,7 +8,6 @@ import traceback
 from types import FrameType, TracebackType
 from typing import Any, Callable, Dict, Optional, Set, TextIO, Type, Union
 
-import testbrain
 from testbrain.contrib.system import platform
 
 __all__ = ["dump_report_to_file", "dump_report", "format_report", "inject_excepthook"]
@@ -244,8 +243,8 @@ def dump_report_to_file(
     python_version = sys.version.replace("\n", "")
 
     file.write(
-        f"PKG: {testbrain.__name__} ({testbrain.__version__})\n"
-        f"PROG: {testbrain.__prog__}\n"
+        # f"PKG: {testbrain.__name__} ({testbrain.__version__})\n"
+        # f"PROG: {testbrain.__prog__}\n"
         f"BIN LOCATE: '{__main__.__file__}'\n"
         f"BIN ARGV: '{argv}'\n"
         f"DATE: {time.strftime('%Y-%m-%dT%H:%M:%S%z')} "

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="26" time="318.349">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_build_execute.suite_change_based_testing_c" skipped="0" tests="26" time="318.349">
+		<testcase name="preconditions" time="22.948000"/>
+		<testcase name="test_add_testcase_to_global_tst_exec_mig" time="23.837000"/>
+		<testcase name="test_add_testcase_to_global_tst_exec_mon" time="10.870000"/>
+		<testcase name="test_add_testcases_using_minmidmax_execute" time="22.789000"/>
+		<testcase name="test_build_and_exec_rebuild_exec_unnecessary" time="7.238000"/>
+		<testcase name="test_build_then_exec_rebuild_exec_unnecessary" time="8.415000"/>
+		<testcase name="test_change_testcase_to_global_tst_execute" time="22.034000"/>
+		<testcase name="test_env_script_change_full_rebuild" time="45.172000"/>
+		<testcase name="test_inc_build_exec_rebuild_exec_unnecessary" time="7.617000"/>
+		<testcase name="test_inc_build_execute_from_scratch_mig" time="6.630000"/>
+		<testcase name="test_inc_build_execute_from_scratch_mon" time="6.830000"/>
+		<testcase name="test_inc_execute_new_compound_test" time="12.123000"/>
+		<testcase name="test_new_dependency_full_rebuild_mig" time="16.263000"/>
+		<testcase name="test_new_dependency_full_rebuild_mon" time="19.328000"/>
+		<testcase name="test_rerun_terminated_testcases" time="13.163000"/>
+		<testcase name="test_run_unexecuted_testcases" time="9.915000"/>
+		<testcase name="test_source_error_added_rebuild_failure" time="9.336000"/>
+		<testcase name="test_source_function_body_changed_rebuild_exec_mig" time="9.831000"/>
+		<testcase name="test_source_function_body_changed_rebuild_exec_mon" time="8.552000"/>
+		<testcase name="test_source_global_added_full_rebuild_mig" time="15.568000"/>
+		<testcase name="test_source_global_added_full_rebuild_mon" time="13.841000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.016000"/>
+		<testcase name="test_pep8_compliance" time="6.000000"/>
+		<testcase name="test_input_dir_compliance" time="0.018000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

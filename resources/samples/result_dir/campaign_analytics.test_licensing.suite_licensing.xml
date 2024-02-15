@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="76.01600000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_analytics.test_licensing.suite_licensing" skipped="0" tests="16" time="76.01600000000002">
+		<testcase name="preconditions" time="12.752000"/>
+		<testcase name="test_connection_error_message" time="7.043000"/>
+		<testcase name="test_default_clients" time="4.738000"/>
+		<testcase name="test_ip_correct" time="4.879000"/>
+		<testcase name="test_license_checkout" time="9.386000"/>
+		<testcase name="test_license_errors_go_to_stdout" time="2.746000"/>
+		<testcase name="test_license_fallback" time="6.210000"/>
+		<testcase name="test_licenses_by_server" time="9.125000"/>
+		<testcase name="test_no_server_license_history" time="6.874000"/>
+		<testcase name="test_print_number_of_licenses" time="3.171000"/>
+		<testcase name="test_specified_clients" time="4.799000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="4.259000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

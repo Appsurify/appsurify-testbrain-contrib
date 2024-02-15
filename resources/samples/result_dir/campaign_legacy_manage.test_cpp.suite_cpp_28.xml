@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="75.546">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_28" skipped="0" tests="13" time="75.546">
+		<testcase name="preconditions" time="1.063000"/>
+		<testcase name="test_typedef_enum" time="10.471000"/>
+		<testcase name="test_typedef_member" time="9.836000"/>
+		<testcase name="test_union_cpp" time="9.948000"/>
+		<testcase name="test_unit_user_code" time="10.715000"/>
+		<testcase name="test_unit_user_code_alt_wb" time="9.691000"/>
+		<testcase name="test_unit_user_code_alt_wb_cch" time="0.012000"/>
+		<testcase name="test_unit_user_code_alt_wb_cov" time="9.661000"/>
+		<testcase name="test_unit_user_code_alt_wb_wb" time="11.008000"/>
+		<testcase name="postconditions" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="3.117000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="26" time="184.986">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_common.suite_import_results" skipped="0" tests="26" time="184.986">
+		<testcase name="preconditions" time="10.058000"/>
+		<testcase name="test_contains_workspace_and_imported_result" time="7.912000"/>
+		<testcase name="test_ensure_imported_result_directory_recreated" time="0.372000"/>
+		<testcase name="test_ensure_workspaces_have_unique_id" time="14.329000"/>
+		<testcase name="test_error_import_from_different_project_vcm" time="0.895000"/>
+		<testcase name="test_error_import_from_different_project_vcr" time="1.545000"/>
+		<testcase name="test_error_import_from_different_project_workspace" time="0.890000"/>
+		<testcase name="test_error_import_to_vcm_does_not_exist" time="0.257000"/>
+		<testcase name="test_import_result_from_monitored_env" time="8.326000"/>
+		<testcase name="test_import_results_from_empty_workspace" time="2.126000"/>
+		<testcase name="test_import_results_from_vcm" time="10.839000"/>
+		<testcase name="test_import_results_from_vcr" time="10.745000"/>
+		<testcase name="test_import_results_from_vcw" time="10.274000"/>
+		<testcase name="test_import_results_from_workspace" time="10.713000"/>
+		<testcase name="test_imported_results_swap_sfp_mode" time="19.593000"/>
+		<testcase name="test_multiple_imported_results" time="18.677000"/>
+		<testcase name="test_overwrite_existing_imported_results" time="11.862000"/>
+		<testcase name="test_reimport_doesnt_overwrite" time="7.977000"/>
+		<testcase name="test_remove_imported_results_change_sfp_mode" time="9.916000"/>
+		<testcase name="test_remove_imported_vcm_change_sfp_mode" time="10.316000"/>
+		<testcase name="test_remove_imported_vcr_change_sfp_mode" time="10.650000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.028000"/>
+		<testcase name="test_pep8_compliance" time="6.628000"/>
+		<testcase name="test_input_dir_compliance" time="0.031000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.027000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="68.71400000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_probe_points" skipped="0" tests="13" time="68.71400000000001">
+		<testcase name="preconditions" time="1.099000"/>
+		<testcase name="test_basis_paths" time="9.666000"/>
+		<testcase name="test_branch" time="9.509000"/>
+		<testcase name="test_mcdc" time="9.799000"/>
+		<testcase name="test_statement" time="9.276000"/>
+		<testcase name="test_statement_branch" time="8.594000"/>
+		<testcase name="test_statement_mcdc" time="8.701000"/>
+		<testcase name="test_statement_no_sbf" time="9.024000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="3.001000"/>
+		<testcase name="test_input_dir_compliance" time="0.022000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

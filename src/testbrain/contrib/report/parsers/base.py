@@ -28,8 +28,15 @@ class XMLReportParser(abc.ABC):
         return self._test
 
     @property
-    def result_json(self) -> t.AnyStr:
+    def result_json(self) -> str:
         return self._test.model_dump_json(indent=2)
+
+    @property
+    def result_xml(self) -> str:
+        result_xml = self._test.model_dump_xml()
+        result_str = etree.tostring(result_xml)
+        result = result_str.decode("utf-8")
+        return result
 
     @classmethod
     def fromstring(cls, text: t.AnyStr):
@@ -39,7 +46,7 @@ class XMLReportParser(abc.ABC):
 
     @classmethod
     def fromfile(cls, filename: pathlib.Path):
-        text = utils.normalize_xml_text(filename.read_text())
+        text = utils.normalize_xml_text(filename.read_text(encoding="utf-8"))
         tree = etree.fromstring(text)
         return cls.from_root(root=tree)
 

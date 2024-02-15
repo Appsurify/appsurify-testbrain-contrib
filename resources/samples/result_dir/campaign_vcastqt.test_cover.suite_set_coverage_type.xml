@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="858.93">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover.suite_set_coverage_type" skipped="0" tests="18" time="858.93">
+		<testcase name="preconditions" time="9.261000"/>
+		<testcase name="test_add_new_source_file" time="65.195000"/>
+		<testcase name="test_change_environment_coverage_type" time="73.586000"/>
+		<testcase name="test_cvg_type_not_applicable_ada_only" time="79.287000"/>
+		<testcase name="test_cvg_type_not_applicable_mixed" time="152.579000"/>
+		<testcase name="test_multiple_files_default_coverage" time="53.472000"/>
+		<testcase name="test_multiple_files_diff_coverage" time="72.993000"/>
+		<testcase name="test_multiple_files_diff_coverage_none" time="72.814000"/>
+		<testcase name="test_multiple_files_same_coverage" time="72.538000"/>
+		<testcase name="test_source_coverage_default" time="34.846000"/>
+		<testcase name="test_source_coverage_none" time="55.047000"/>
+		<testcase name="test_source_coverage_unit_specific" time="53.972000"/>
+		<testcase name="test_uninstrument" time="55.215000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.078000"/>
+		<testcase name="test_pep8_compliance" time="7.877000"/>
+		<testcase name="test_input_dir_compliance" time="0.088000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.082000"/>
+	</testsuite>
+</testsuites>

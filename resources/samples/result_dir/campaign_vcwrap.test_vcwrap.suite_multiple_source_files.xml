@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="16.45">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcwrap.test_vcwrap.suite_multiple_source_files" skipped="0" tests="16" time="16.45">
+		<testcase name="preconditions" time="4.017000"/>
+		<testcase name="test_absolute_paths" time="0.509000"/>
+		<testcase name="test_all_source_files_in_environment" time="0.463000"/>
+		<testcase name="test_canonical_paths" time="0.550000"/>
+		<testcase name="test_globbing_paths" time="0.691000"/>
+		<testcase name="test_mixed_path_forms" time="0.510000"/>
+		<testcase name="test_multiple_source_files_in_environment" time="1.025000"/>
+		<testcase name="test_one_source_file_in_environment" time="1.549000"/>
+		<testcase name="test_path_with_different_letter_case" time="0.323000"/>
+		<testcase name="test_relative_paths" time="0.454000"/>
+		<testcase name="test_source_files_not_in_environment" time="1.876000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="4.458000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

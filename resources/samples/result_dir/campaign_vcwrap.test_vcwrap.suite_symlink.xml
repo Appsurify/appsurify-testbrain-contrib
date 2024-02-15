@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="40.632000000000005">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcwrap.test_vcwrap.suite_symlink" skipped="0" tests="15" time="40.632000000000005">
+		<testcase name="preconditions" time="1.432000"/>
+		<testcase name="test_link_arg_link_vcp" time="3.585000"/>
+		<testcase name="test_link_arg_nested_link_vcp" time="2.987000"/>
+		<testcase name="test_link_arg_target_vcp" time="3.755000"/>
+		<testcase name="test_linux_virtual_file_system" time="6.429000"/>
+		<testcase name="test_nested_link_arg_link_vcp" time="3.654000"/>
+		<testcase name="test_nested_link_arg_nested_link_vcp" time="3.773000"/>
+		<testcase name="test_nested_link_arg_target_vcp" time="3.977000"/>
+		<testcase name="test_target_arg_link_vcp" time="3.634000"/>
+		<testcase name="test_target_arg_nested_link_vcp" time="3.319000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.026000"/>
+		<testcase name="test_pep8_compliance" time="4.028000"/>
+		<testcase name="test_input_dir_compliance" time="0.025000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

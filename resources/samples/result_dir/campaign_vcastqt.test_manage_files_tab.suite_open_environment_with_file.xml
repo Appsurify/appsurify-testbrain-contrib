@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="331.7100000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_files_tab.suite_open_environment_with_file" skipped="0" tests="12" time="331.7100000000001">
+		<testcase name="preconditions" time="65.857000"/>
+		<testcase name="test_open_cover_ada" time="42.589000"/>
+		<testcase name="test_open_cover_c" time="40.120000"/>
+		<testcase name="test_open_disabled_env" time="60.821000"/>
+		<testcase name="test_open_unit_c" time="34.613000"/>
+		<testcase name="test_open_unit_cpp" time="34.636000"/>
+		<testcase name="test_tooltip_with_symlinked_working_dir" time="37.939000"/>
+		<testcase name="postconditions" time="5.151000"/>
+		<testcase name="test_py_md_compliance" time="0.187000"/>
+		<testcase name="test_pep8_compliance" time="9.399000"/>
+		<testcase name="test_input_dir_compliance" time="0.201000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.197000"/>
+	</testsuite>
+</testsuites>

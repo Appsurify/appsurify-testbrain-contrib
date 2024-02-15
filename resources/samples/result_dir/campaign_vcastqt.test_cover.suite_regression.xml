@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="146.243">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover.suite_regression" skipped="0" tests="8" time="146.243">
+		<testcase name="preconditions" time="4.696000"/>
+		<testcase name="test_multiple_units_same_name_42856" time="45.461000"/>
+		<testcase name="test_read_only_vcinst_88324" time="44.931000"/>
+		<testcase name="test_rel_search_dirs_not_collapsed" time="45.033000"/>
+		<testcase name="postconditions" time="0.060000"/>
+		<testcase name="test_pep8_compliance" time="5.907000"/>
+		<testcase name="test_input_dir_compliance" time="0.079000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.076000"/>
+	</testsuite>
+</testsuites>

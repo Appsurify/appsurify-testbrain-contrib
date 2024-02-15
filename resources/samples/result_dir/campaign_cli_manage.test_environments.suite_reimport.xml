@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="177.452">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_environments.suite_reimport" skipped="0" tests="22" time="177.452">
+		<testcase name="preconditions" time="15.202000"/>
+		<testcase name="test_allow_reimport_from_env_created_within_manage" time="18.750000"/>
+		<testcase name="test_error_when_renamed_environment_reimported" time="1.862000"/>
+		<testcase name="test_exclude_config_set_at_parent_level" time="4.728000"/>
+		<testcase name="test_exclude_monitored_environments" time="7.795000"/>
+		<testcase name="test_full_build_exec_after_orig_env_change" time="11.617000"/>
+		<testcase name="test_incremental_build_exec_after_orig_tst_change" time="5.902000"/>
+		<testcase name="test_incremental_build_exec_unnecessary_no_changes" time="2.851000"/>
+		<testcase name="test_original_environment_fails_to_import_error" time="2.405000"/>
+		<testcase name="test_original_environment_missing_env_script" time="1.159000"/>
+		<testcase name="test_original_environment_no_longer_exists_error" time="1.438000"/>
+		<testcase name="test_reimport_from_env_script" time="39.091000"/>
+		<testcase name="test_reimport_from_existing_environment" time="8.648000"/>
+		<testcase name="test_reimport_from_regression" time="8.387000"/>
+		<testcase name="test_specialized_config_removed_after_reimport" time="4.405000"/>
+		<testcase name="test_specialized_testcases_removed_after_reimport" time="34.589000"/>
+		<testcase name="test_warning_reimporting_env_in_many_contexts" time="2.104000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.016000"/>
+		<testcase name="test_pep8_compliance" time="6.445000"/>
+		<testcase name="test_input_dir_compliance" time="0.045000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

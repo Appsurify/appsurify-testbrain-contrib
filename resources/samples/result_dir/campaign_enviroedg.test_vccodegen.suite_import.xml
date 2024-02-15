@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="117.08">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_vccodegen.suite_import" skipped="0" tests="23" time="117.08">
+		<testcase name="preconditions" time="0.995000"/>
+		<testcase name="test_alias_ref_member" time="6.817000"/>
+		<testcase name="test_duplicate_subclasses" time="6.817000"/>
+		<testcase name="test_import_non_supported_types" time="5.835000"/>
+		<testcase name="test_missing_ctor" time="5.432000"/>
+		<testcase name="test_multi_ptr_idx" time="4.760000"/>
+		<testcase name="test_multiple_sbf_template_stubs" time="7.481000"/>
+		<testcase name="test_nontestable_stub" time="5.043000"/>
+		<testcase name="test_p_r_object_scope" time="6.705000"/>
+		<testcase name="test_pointer_reference" time="6.472000"/>
+		<testcase name="test_pointer_reference_import" time="7.111000"/>
+		<testcase name="test_private_ctor" time="4.514000"/>
+		<testcase name="test_smart_ptr_param" time="7.256000"/>
+		<testcase name="test_static_members_stored_correctly" time="4.890000"/>
+		<testcase name="test_stringstream_ctor" time="8.602000"/>
+		<testcase name="test_supported_component_import" time="7.335000"/>
+		<testcase name="test_template_scope" time="5.072000"/>
+		<testcase name="test_typedef_array_parameterization" time="5.727000"/>
+		<testcase name="test_unsupported_component_import" time="6.184000"/>
+		<testcase name="postconditions" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="3.999000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.012000"/>
+	</testsuite>
+</testsuites>

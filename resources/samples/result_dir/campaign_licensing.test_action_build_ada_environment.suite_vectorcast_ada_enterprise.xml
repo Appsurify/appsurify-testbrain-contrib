@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="42.288999999999994">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_action_build_ada_environment.suite_vectorcast_ada_enterprise" skipped="0" tests="17" time="42.288999999999994">
+		<testcase name="preconditions" time="0.701000"/>
+		<testcase name="test_served_exhausted" time="6.981000"/>
+		<testcase name="test_served_future_version" time="2.128000"/>
+		<testcase name="test_served_no_timezone_restriction" time="5.553000"/>
+		<testcase name="test_served_timezone_servertz" time="6.666000"/>
+		<testcase name="test_served_timezone_within_span" time="7.212000"/>
+		<testcase name="test_served_unauthotized_timezone" time="2.232000"/>
+		<testcase name="test_unserved_expired" time="0.909000"/>
+		<testcase name="test_unserved_future_start_date" time="0.934000"/>
+		<testcase name="test_unserved_future_version" time="0.930000"/>
+		<testcase name="test_unserved_license_altered" time="0.967000"/>
+		<testcase name="test_unserved_no_timezone_restriction" time="4.200000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="2.843000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

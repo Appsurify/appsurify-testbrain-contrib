@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="73.95499999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada.suite_gnat_32" skipped="0" tests="13" time="73.95499999999998">
+		<testcase name="preconditions" time="1.328000"/>
+		<testcase name="test_ptr_913" time="9.915000"/>
+		<testcase name="test_ptr_919" time="8.289000"/>
+		<testcase name="test_ptr_923" time="8.495000"/>
+		<testcase name="test_ptr_924" time="9.676000"/>
+		<testcase name="test_ptr_926" time="8.106000"/>
+		<testcase name="test_ptr_929" time="10.668000"/>
+		<testcase name="test_ptr_930" time="8.191000"/>
+		<testcase name="test_ptr_933" time="7.321000"/>
+		<testcase name="postconditions" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="1.939000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

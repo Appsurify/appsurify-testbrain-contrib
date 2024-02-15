@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="209.80399999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_reports.suite_csv_metrics" skipped="0" tests="12" time="209.80399999999997">
+		<testcase name="preconditions" time="0.790000"/>
+		<testcase name="test_branch" time="32.477000"/>
+		<testcase name="test_file_selection" time="31.767000"/>
+		<testcase name="test_function_function_call" time="36.472000"/>
+		<testcase name="test_mcdc" time="36.464000"/>
+		<testcase name="test_mixed_coverage" time="34.254000"/>
+		<testcase name="test_statement" time="33.298000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.016000"/>
+		<testcase name="test_pep8_compliance" time="4.242000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="954.2869999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_probe_points.suite_import_export_pp_cover" skipped="0" tests="19" time="954.2869999999998">
+		<testcase name="preconditions" time="14.121000"/>
+		<testcase name="test_edit_pp_not_save" time="58.323000"/>
+		<testcase name="test_export_failure" time="30.752000"/>
+		<testcase name="test_export_import_success" time="81.410000"/>
+		<testcase name="test_import_check_applied_state" time="91.727000"/>
+		<testcase name="test_import_export_new_func_probe" time="62.699000"/>
+		<testcase name="test_import_export_old_func_probe" time="62.751000"/>
+		<testcase name="test_import_fail" time="110.566000"/>
+		<testcase name="test_import_macros" time="101.069000"/>
+		<testcase name="test_import_pp_unit_env" time="46.825000"/>
+		<testcase name="test_import_success_apply_fail" time="113.246000"/>
+		<testcase name="test_instrument_incre" time="53.430000"/>
+		<testcase name="test_menu_item_disabled" time="54.875000"/>
+		<testcase name="test_no_source_instrument" time="64.230000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.204000"/>
+		<testcase name="test_pep8_compliance" time="7.622000"/>
+		<testcase name="test_input_dir_compliance" time="0.223000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.214000"/>
+	</testsuite>
+</testsuites>

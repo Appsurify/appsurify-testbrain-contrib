@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="21.362">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_data.suite_vct_map" skipped="0" tests="14" time="21.362">
+		<testcase name="preconditions" time="5.245000"/>
+		<testcase name="test_convert_vct_to_tst" time="1.764000"/>
+		<testcase name="test_convert_vct_to_tst_invalid_param" time="0.750000"/>
+		<testcase name="test_convert_vct_to_tst_invalid_vct" time="0.799000"/>
+		<testcase name="test_convert_vct_to_tst_old_style" time="0.798000"/>
+		<testcase name="test_export_vct_tests" time="2.036000"/>
+		<testcase name="test_generate_vct_tests" time="2.225000"/>
+		<testcase name="test_test_data_editor_failure" time="1.669000"/>
+		<testcase name="test_vct_file_env_var" time="2.225000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="3.831000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>
