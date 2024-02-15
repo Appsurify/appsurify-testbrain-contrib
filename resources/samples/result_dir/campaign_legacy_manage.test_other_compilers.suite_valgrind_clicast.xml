@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="751.122">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_other_compilers.suite_valgrind_clicast" skipped="0" tests="8" time="751.122">
+		<testcase name="preconditions" time="0.923000"/>
+		<testcase name="test_edg_multi_uuts" time="322.351000"/>
+		<testcase name="test_edg_stub_by_function" time="304.298000"/>
+		<testcase name="test_mgmt_rpt_c" time="119.218000"/>
+		<testcase name="postconditions" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="4.276000"/>
+		<testcase name="test_input_dir_compliance" time="0.028000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="367.3450000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover.suite_coupling" skipped="0" tests="13" time="367.3450000000001">
+		<testcase name="preconditions" time="19.992000"/>
+		<testcase name="test_adding_invalid_testdata" time="46.554000"/>
+		<testcase name="test_adding_multiple_invalid_testdata" time="41.983000"/>
+		<testcase name="test_analyze_and_apply_after_src_change" time="72.523000"/>
+		<testcase name="test_view_analysis_log" time="43.334000"/>
+		<testcase name="test_view_coupling_coverage_report" time="42.643000"/>
+		<testcase name="test_view_coverage_report_log" time="43.689000"/>
+		<testcase name="test_view_instrumentation_log" time="43.232000"/>
+		<testcase name="postconditions" time="5.194000"/>
+		<testcase name="test_py_md_compliance" time="0.153000"/>
+		<testcase name="test_pep8_compliance" time="7.585000"/>
+		<testcase name="test_input_dir_compliance" time="0.255000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.208000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="114.01800000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_system_tests.suite_googletest_test_case_result_mode" skipped="0" tests="17" time="114.01800000000001">
+		<testcase name="preconditions" time="5.973000"/>
+		<testcase name="test_add_test_build_add_to_test_cases" time="11.891000"/>
+		<testcase name="test_build_execute_ask_executable_for_tests_once" time="6.211000"/>
+		<testcase name="test_build_execute_multiple_environments" time="16.306000"/>
+		<testcase name="test_get_tests_returncode_non_zero_raise_exception" time="5.136000"/>
+		<testcase name="test_legacy_api" time="6.657000"/>
+		<testcase name="test_multiple_test_cases" time="6.470000"/>
+		<testcase name="test_rebuild_ask_executable_again_for_tests" time="12.448000"/>
+		<testcase name="test_remove_test_build_remove_from_test_cases" time="12.344000"/>
+		<testcase name="test_run_test_case_returncode_determines_result" time="6.774000"/>
+		<testcase name="test_type_param_tests" time="8.754000"/>
+		<testcase name="test_value_param_tests" time="9.168000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="5.855000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

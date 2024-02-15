@@ -4,6 +4,14 @@ import typing as t
 
 from pydantic import BaseModel
 
+from .. import utils
+
+if t.TYPE_CHECKING:
+    try:
+        from lxml import etree
+    except ImportError:
+        from xml.etree import ElementTree as etree  # noqa
+
 
 class TestbrainTestResultStatus(str, enum.Enum):
     passed = "passed"
@@ -137,3 +145,6 @@ class TestbrainTestSuite(BaseModel):
         self.skipped = skipped
         self.passed = passed
         self.time = round(time, 3)
+
+    def model_dump_xml(self, namespace: t.Optional[str] = None) -> "etree.Element":
+        raise NotImplementedError()

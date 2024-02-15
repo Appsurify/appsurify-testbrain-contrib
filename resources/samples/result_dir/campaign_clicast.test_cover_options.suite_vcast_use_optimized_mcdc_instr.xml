@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="16.544000000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_options.suite_vcast_use_optimized_mcdc_instr" skipped="0" tests="7" time="16.544000000000004">
+		<testcase name="preconditions" time="3.622000"/>
+		<testcase name="test_optimized_mcdc" time="9.460000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="3.446000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

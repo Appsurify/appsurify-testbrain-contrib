@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="339.17800000000005">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_features.suite_examples_page" skipped="0" tests="11" time="339.17800000000005">
+		<testcase name="preconditions" time="0.891000"/>
+		<testcase name="test_cancel_reset_examples" time="35.307000"/>
+		<testcase name="test_change_destination" time="57.803000"/>
+		<testcase name="test_demo_builds_tutorial_ada" time="59.174000"/>
+		<testcase name="test_demo_builds_tutorial_c" time="71.783000"/>
+		<testcase name="test_reset_examples" time="105.040000"/>
+		<testcase name="postconditions" time="1.064000"/>
+		<testcase name="test_py_md_compliance" time="0.048000"/>
+		<testcase name="test_pep8_compliance" time="7.517000"/>
+		<testcase name="test_input_dir_compliance" time="0.483000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.068000"/>
+	</testsuite>
+</testsuites>

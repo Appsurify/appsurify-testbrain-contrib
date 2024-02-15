@@ -28,8 +28,15 @@ class XMLReportParser(abc.ABC):
         return self._test
 
     @property
-    def result_json(self) -> t.AnyStr:
+    def result_json(self) -> str:
         return self._test.model_dump_json(indent=2)
+
+    @property
+    def result_xml(self) -> str:
+        result_xml = self._test.model_dump_xml()
+        result_str = etree.tostring(result_xml)
+        result = result_str.decode("utf-8")
+        return result
 
     @classmethod
     def fromstring(cls, text: t.AnyStr):

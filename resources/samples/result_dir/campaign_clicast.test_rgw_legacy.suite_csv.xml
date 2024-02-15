@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="56.687">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_rgw_legacy.suite_csv" skipped="0" tests="10" time="56.687">
+		<testcase name="preconditions" time="4.049000"/>
+		<testcase name="test_full_cycle" time="12.719000"/>
+		<testcase name="test_tc_driven_export" time="9.842000"/>
+		<testcase name="test_tc_driven_export_cleardown" time="12.702000"/>
+		<testcase name="test_tc_driven_export_delete" time="12.924000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="4.418000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

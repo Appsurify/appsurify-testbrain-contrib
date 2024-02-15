@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="30.442000000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_parallel_use_cases.suite_execute_batch" skipped="0" tests="11" time="30.442000000000004">
+		<testcase name="preconditions" time="4.816000"/>
+		<testcase name="test_driver_prefix_compile" time="5.106000"/>
+		<testcase name="test_parameter_uc_compile" time="3.445000"/>
+		<testcase name="test_testcase_uc_compile" time="3.326000"/>
+		<testcase name="test_unit_appendix_compile" time="5.266000"/>
+		<testcase name="test_unit_prefix_compile" time="4.877000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="3.590000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

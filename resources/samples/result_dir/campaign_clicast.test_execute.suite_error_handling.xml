@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="23.496000000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_execute.suite_error_handling" skipped="0" tests="13" time="23.496000000000002">
+		<testcase name="preconditions" time="4.487000"/>
+		<testcase name="test_environment_as_path_err" time="0.180000"/>
+		<testcase name="test_environment_does_not_exist" time="0.233000"/>
+		<testcase name="test_exec_rec_cmp_keep_going" time="1.921000"/>
+		<testcase name="test_invalid_test_in_slot" time="6.291000"/>
+		<testcase name="test_missing_e_file" time="1.349000"/>
+		<testcase name="test_segfault_before_thistory_end" time="2.256000"/>
+		<testcase name="test_test_script_run_cmp_no_slots" time="1.885000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="4.875000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

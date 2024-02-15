@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="1026.551">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover_results_view.suite_type_column" skipped="0" tests="18" time="1026.551">
+		<testcase name="preconditions" time="10.270000"/>
+		<testcase name="test_1_column_adjust_w_long_name" time="103.395000"/>
+		<testcase name="test_all_filters_appear" time="57.878000"/>
+		<testcase name="test_cba_filter_appears" time="60.466000"/>
+		<testcase name="test_clear_filter_action" time="60.834000"/>
+		<testcase name="test_filter_cover_results_checked" time="71.755000"/>
+		<testcase name="test_filters_can_hide_results" time="117.361000"/>
+		<testcase name="test_filters_enabled_during_removal" time="55.381000"/>
+		<testcase name="test_imported_filter_appears" time="56.040000"/>
+		<testcase name="test_remove_all_selected_with_each_filter" time="182.794000"/>
+		<testcase name="test_remove_all_with_filter_on" time="58.521000"/>
+		<testcase name="test_result_type_column_visibility" time="116.047000"/>
+		<testcase name="test_tooltip" time="66.558000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.163000"/>
+		<testcase name="test_pep8_compliance" time="8.775000"/>
+		<testcase name="test_input_dir_compliance" time="0.175000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.138000"/>
+	</testsuite>
+</testsuites>

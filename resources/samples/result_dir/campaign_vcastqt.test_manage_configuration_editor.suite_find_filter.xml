@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="133.867">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_configuration_editor.suite_find_filter" skipped="0" tests="10" time="133.867">
+		<testcase name="preconditions" time="21.482000"/>
+		<testcase name="test_filter_hides_unmatched_items" time="25.228000"/>
+		<testcase name="test_find_combo_remembers_history" time="24.082000"/>
+		<testcase name="test_match_case" time="23.271000"/>
+		<testcase name="test_up_down_arrows_select_appropriate_items" time="25.598000"/>
+		<testcase name="postconditions" time="5.257000"/>
+		<testcase name="test_py_md_compliance" time="0.076000"/>
+		<testcase name="test_pep8_compliance" time="8.634000"/>
+		<testcase name="test_input_dir_compliance" time="0.119000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.120000"/>
+	</testsuite>
+</testsuites>

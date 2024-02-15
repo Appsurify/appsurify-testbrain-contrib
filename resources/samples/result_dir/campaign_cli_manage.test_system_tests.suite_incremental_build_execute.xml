@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="61.96000000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_system_tests.suite_incremental_build_execute" skipped="0" tests="14" time="61.96000000000001">
+		<testcase name="preconditions" time="14.098000"/>
+		<testcase name="test_build_exec_up_to_date_environment" time="3.255000"/>
+		<testcase name="test_build_removes_test_then_execute_reruns" time="8.768000"/>
+		<testcase name="test_modify_source_whitespace_no_rerun_testcases" time="3.507000"/>
+		<testcase name="test_rerun_result_removed_manually" time="4.767000"/>
+		<testcase name="test_retain_notes_section_after_source_change" time="7.000000"/>
+		<testcase name="test_retain_requirements_after_source_change" time="8.179000"/>
+		<testcase name="test_run_missing_testcases" time="0.019000"/>
+		<testcase name="test_run_testcases_affected_by_source_change" time="7.638000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.024000"/>
+		<testcase name="test_pep8_compliance" time="4.685000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

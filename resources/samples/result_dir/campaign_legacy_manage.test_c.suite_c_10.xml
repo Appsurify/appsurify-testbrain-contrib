@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="134.253">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_10" skipped="0" tests="10" time="134.253">
+		<testcase name="preconditions" time="0.927000"/>
+		<testcase name="test_long_typedef" time="7.706000"/>
+		<testcase name="test_math" time="8.741000"/>
+		<testcase name="test_mcdc_c" time="51.530000"/>
+		<testcase name="test_moon" time="8.333000"/>
+		<testcase name="test_multiple_uut_no_float" time="54.223000"/>
+		<testcase name="postconditions" time="0.023000"/>
+		<testcase name="test_pep8_compliance" time="2.743000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.014000"/>
+	</testsuite>
+</testsuites>

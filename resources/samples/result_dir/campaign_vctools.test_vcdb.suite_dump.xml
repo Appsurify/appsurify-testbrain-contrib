@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="9.809">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_vcdb.suite_dump" skipped="0" tests="11" time="9.809">
+		<testcase name="preconditions"/>
+		<testcase name="test_different_path" time="0.743000"/>
+		<testcase name="test_execvpe" time="0.504000"/>
+		<testcase name="test_filter" time="2.177000"/>
+		<testcase name="test_putcommand" time="0.442000"/>
+		<testcase name="test_simple" time="0.820000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="5.097000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

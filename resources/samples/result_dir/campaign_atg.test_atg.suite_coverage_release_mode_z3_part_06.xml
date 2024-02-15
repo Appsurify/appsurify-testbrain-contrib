@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="589.0470000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_release_mode_z3_part_06" skipped="0" tests="52" time="589.0470000000003">
+		<testcase name="preconditions"/>
+		<testcase name="test_new_delete" time="15.494000"/>
+		<testcase name="test_no_call_on_ctor_only" time="12.293000"/>
+		<testcase name="test_no_constructor_needed" time="12.694000"/>
+		<testcase name="test_no_match_global_fp" time="12.609000"/>
+		<testcase name="test_no_match_global_non_ptr_struct_fp" time="12.129000"/>
+		<testcase name="test_no_match_global_ptr_struct_fp" time="12.228000"/>
+		<testcase name="test_no_match_on_self" time="12.125000"/>
+		<testcase name="test_no_match_param_fp" time="12.743000"/>
+		<testcase name="test_no_match_param_non_ptr_struct_fp" time="13.191000"/>
+		<testcase name="test_no_match_param_ptr_struct_fp" time="13.312000"/>
+		<testcase name="test_none_expr" time="13.697000"/>
+		<testcase name="test_not_ctor_allocallobal" time="13.203000"/>
+		<testcase name="test_null_comparison_with_inner_struct" time="13.404000"/>
+		<testcase name="test_null_deref_check" time="13.798000"/>
+		<testcase name="test_null_ptr_alloc_in_ctor" time="13.008000"/>
+		<testcase name="test_obfs_test_no_obfs" time="12.495000"/>
+		<testcase name="test_obfs_test_with_obfs" time="13.931000"/>
+		<testcase name="test_one_width_bit_field" time="13.305000"/>
+		<testcase name="test_oper_assign" time="14.591000"/>
+		<testcase name="test_oper_assign_nohybrid" time="14.471000"/>
+		<testcase name="test_optimal_constructor_choice" time="13.017000"/>
+		<testcase name="test_overloading_inconsistency" time="12.597000"/>
+		<testcase name="test_padd_assign_offset_on_field" time="11.832000"/>
+		<testcase name="test_padd_tests" time="13.654000"/>
+		<testcase name="test_param_fp" time="12.804000"/>
+		<testcase name="test_param_non_ptr_struct_fp" time="12.799000"/>
+		<testcase name="test_param_ptr_struct_fp" time="13.136000"/>
+		<testcase name="test_parent_alloc_status" time="12.251000"/>
+		<testcase name="test_pointer_address_float_example" time="11.788000"/>
+		<testcase name="test_pointer_system_error" time="0.081000"/>
+		<testcase name="test_pointers_to_const" time="10.996000"/>
+		<testcase name="test_points_to_field_redundancy" time="12.141000"/>
+		<testcase name="test_ptr_addr_of_assign" time="12.266000"/>
+		<testcase name="test_ptr_random_tests" time="12.925000"/>
+		<testcase name="test_ptr_to_class" time="14.887000"/>
+		<testcase name="test_ptr_to_ptr_assign" time="12.295000"/>
+		<testcase name="test_ptrs_to_structs_with_ctors" time="12.178000"/>
+		<testcase name="test_pure_vs_not_pure" time="12.549000"/>
+		<testcase name="test_pyedg_dataapi_consistency" time="12.257000"/>
+		<testcase name="test_range_based_for" time="14.809000"/>
+		<testcase name="test_readmem" time="11.572000"/>
+		<testcase name="test_recursive_field_access" time="11.613000"/>
+		<testcase name="test_reference_field" time="11.477000"/>
+		<testcase name="test_reference_field_recursion_test" time="11.562000"/>
+		<testcase name="test_region_size_exceeds" time="11.846000"/>
+		<testcase name="test_reminder_oper" time="11.142000"/>
+		<testcase name="test_resize_bv_float" time="11.580000"/>
+		<testcase name="postconditions" time="0.091000"/>
+		<testcase name="test_pep8_compliance" time="1.851000"/>
+		<testcase name="test_input_dir_compliance" time="0.168000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.162000"/>
+	</testsuite>
+</testsuites>

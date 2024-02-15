@@ -4,6 +4,14 @@ import typing as t
 
 from pydantic import BaseModel
 
+from .. import utils
+
+if t.TYPE_CHECKING:
+    try:
+        from lxml import etree
+    except ImportError:
+        from xml.etree import ElementTree as etree  # noqa
+
 
 class MSTestOutcome(str, enum.Enum):
     aborted = "Aborted"
@@ -103,3 +111,6 @@ class MSTestTestRun(BaseModel):
     result_summary: t.Optional[MSTestResultSummary] = None
     test_definitions: t.List[MSTestUnitTest] = []
     unit_test_results: t.List[MSTestUnitTestResult] = []
+
+    def model_dump_xml(self, namespace: t.Optional[str] = None) -> "etree.Element":
+        raise NotImplementedError()

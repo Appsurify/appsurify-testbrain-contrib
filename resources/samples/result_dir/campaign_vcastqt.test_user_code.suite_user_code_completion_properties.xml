@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="617.681">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_user_code.suite_user_code_completion_properties" skipped="0" tests="19" time="617.681">
+		<testcase name="preconditions" time="12.047000"/>
+		<testcase name="test_completions_prop_exp_before_after_tag" time="44.997000"/>
+		<testcase name="test_completions_prop_exp_before_tag" time="42.817000"/>
+		<testcase name="test_completions_prop_exp_in_word" time="42.747000"/>
+		<testcase name="test_completions_prop_exp_key_in_tag" time="41.457000"/>
+		<testcase name="test_completions_prop_exp_key_in_word" time="43.770000"/>
+		<testcase name="test_completions_prop_exp_right_click" time="42.850000"/>
+		<testcase name="test_completions_prop_exp_tab_in_word" time="42.406000"/>
+		<testcase name="test_completions_prop_inp_before_after_tag" time="42.796000"/>
+		<testcase name="test_completions_prop_inp_before_tag" time="43.265000"/>
+		<testcase name="test_completions_prop_inp_in_word" time="43.104000"/>
+		<testcase name="test_completions_prop_inp_key_in_tag" time="42.045000"/>
+		<testcase name="test_completions_prop_inp_key_in_word" time="43.725000"/>
+		<testcase name="test_completions_prop_inp_right_click" time="42.336000"/>
+		<testcase name="test_completions_prop_inp_tab_in_word" time="42.448000"/>
+		<testcase name="postconditions" time="0.191000"/>
+		<testcase name="test_pep8_compliance" time="4.321000"/>
+		<testcase name="test_input_dir_compliance" time="0.216000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.143000"/>
+	</testsuite>
+</testsuites>

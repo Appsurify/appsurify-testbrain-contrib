@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="40.988">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_project_manipulation.suite_drop_to" skipped="0" tests="16" time="40.988">
+		<testcase name="preconditions" time="16.188000"/>
+		<testcase name="test_cannot_drag_compiler" time="0.829000"/>
+		<testcase name="test_copy_suite_group_with_no_monitored_envs" time="1.986000"/>
+		<testcase name="test_copy_testsuite_to_compiler" time="3.454000"/>
+		<testcase name="test_copy_testsuite_with_no_monitored_envs" time="2.280000"/>
+		<testcase name="test_invalid_drop_given" time="1.567000"/>
+		<testcase name="test_move_suite_group_with_monitored_envs" time="2.345000"/>
+		<testcase name="test_move_testsuite_with_monitored_envs" time="2.356000"/>
+		<testcase name="test_must_provided_level_arg" time="0.854000"/>
+		<testcase name="test_report_error_when_environment_given" time="0.873000"/>
+		<testcase name="test_report_error_when_shared_env_given" time="0.935000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="7.295000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

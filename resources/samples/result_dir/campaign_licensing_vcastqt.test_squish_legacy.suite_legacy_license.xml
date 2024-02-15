@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="306.51099999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_squish_legacy.suite_legacy_license" skipped="0" tests="15" time="306.51099999999997">
+		<testcase name="preconditions" time="0.092000"/>
+		<testcase name="test_ada_executes_under_expiring_soon" time="36.989000"/>
+		<testcase name="test_c_executes_under_expiring_soon" time="34.625000"/>
+		<testcase name="test_expiration_notice_manage" time="68.346000"/>
+		<testcase name="test_repeated_expiration_notice_multiple_products" time="64.726000"/>
+		<testcase name="test_rsp_licensing" time="0.126000"/>
+		<testcase name="test_rsp_licensing_ada" time="0.128000"/>
+		<testcase name="test_selectable_coverage_licenses_level_a" time="28.390000"/>
+		<testcase name="test_selectable_coverage_licenses_level_base" time="34.229000"/>
+		<testcase name="test_selectable_coverage_licenses_mcdc" time="28.631000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.220000"/>
+		<testcase name="test_pep8_compliance" time="9.588000"/>
+		<testcase name="test_input_dir_compliance" time="0.216000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.205000"/>
+	</testsuite>
+</testsuites>

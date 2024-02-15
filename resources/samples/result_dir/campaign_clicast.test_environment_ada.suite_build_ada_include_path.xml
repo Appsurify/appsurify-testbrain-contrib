@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="8.424">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment_ada.suite_build_ada_include_path" skipped="0" tests="8" time="8.424">
+		<testcase name="preconditions"/>
+		<testcase name="test_ada_include_path_off" time="1.126000"/>
+		<testcase name="test_ada_include_path_on_semicolon" time="4.424000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="2.864000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

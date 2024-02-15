@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="23.412000000000006">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_reports.suite_testable_headers" skipped="0" tests="12" time="23.412000000000006">
+		<testcase name="preconditions" time="8.087000"/>
+		<testcase name="test_environment_level_aggregate_coverage_report" time="1.198000"/>
+		<testcase name="test_environment_level_metrics_report" time="0.711000"/>
+		<testcase name="test_environment_level_xml_aggregate_report" time="0.553000"/>
+		<testcase name="test_file_level_aggregate_coverage_report" time="2.847000"/>
+		<testcase name="test_file_level_metrics_report" time="3.064000"/>
+		<testcase name="test_file_level_xml_aggregate_report" time="2.751000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.021000"/>
+		<testcase name="test_pep8_compliance" time="4.166000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

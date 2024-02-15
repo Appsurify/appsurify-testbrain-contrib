@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="28" time="1096.576">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_unit_coverage.suite_coverage_viewer_c" skipped="0" tests="28" time="1096.576">
+		<testcase name="preconditions" time="14.252000"/>
+		<testcase name="test_include_many_subconditions" time="44.880000"/>
+		<testcase name="test_large_coverage_field_width" time="50.463000"/>
+		<testcase name="test_many_subconditions" time="45.185000"/>
+		<testcase name="test_max_expressions_exceeded_mcdc" time="41.658000"/>
+		<testcase name="test_max_mcdc_conditions" time="49.004000"/>
+		<testcase name="test_max_table_subconditions" time="48.427000"/>
+		<testcase name="test_mcdc_expression_exceeds_maximum" time="45.490000"/>
+		<testcase name="test_next_fail_button_html" time="48.576000"/>
+		<testcase name="test_next_pass_button_html" time="51.367000"/>
+		<testcase name="test_open_close_coverage_viewer_state" time="57.961000"/>
+		<testcase name="test_open_testcase_editor_from_subp" time="39.779000"/>
+		<testcase name="test_option_block_coverage_57198" time="78.734000"/>
+		<testcase name="test_previous_fail_button_html" time="56.737000"/>
+		<testcase name="test_previous_pass_button_html" time="52.259000"/>
+		<testcase name="test_right_click_and_tooltip_on_compound" time="42.247000"/>
+		<testcase name="test_right_click_and_tt_shows_results" time="40.350000"/>
+		<testcase name="test_right_click_shows_truncated_result" time="41.117000"/>
+		<testcase name="test_subp_tooltip_aware_renamed_testcase" time="40.596000"/>
+		<testcase name="test_symlink_coverage_viewer_tooltip" time="45.346000"/>
+		<testcase name="test_turn_off_truncation_for_right_click" time="41.701000"/>
+		<testcase name="test_unreachable_pair" time="48.576000"/>
+		<testcase name="test_copy_paste_coverage" time="54.248000"/>
+		<testcase name="postconditions" time="5.411000"/>
+		<testcase name="test_py_md_compliance" time="0.642000"/>
+		<testcase name="test_pep8_compliance" time="10.716000"/>
+		<testcase name="test_input_dir_compliance" time="0.461000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.393000"/>
+	</testsuite>
+</testsuites>

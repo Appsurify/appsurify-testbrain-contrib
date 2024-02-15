@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="248.064">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada_wb.suite_gnat_3" skipped="0" tests="15" time="248.064">
+		<testcase name="preconditions" time="1.389000"/>
+		<testcase name="test_ae653" time="60.819000"/>
+		<testcase name="test_apex_exec_full" time="59.089000"/>
+		<testcase name="test_apex_exec_mark" time="58.949000"/>
+		<testcase name="test_array_ada" time="9.671000"/>
+		<testcase name="test_boolean_ada" time="10.893000"/>
+		<testcase name="test_burnsed" time="8.570000"/>
+		<testcase name="test_circle" time="7.443000"/>
+		<testcase name="test_circularity" time="7.751000"/>
+		<testcase name="test_closure" time="11.994000"/>
+		<testcase name="test_complex_inst" time="9.156000"/>
+		<testcase name="postconditions" time="0.043000"/>
+		<testcase name="test_pep8_compliance" time="2.242000"/>
+		<testcase name="test_input_dir_compliance" time="0.029000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.026000"/>
+	</testsuite>
+</testsuites>

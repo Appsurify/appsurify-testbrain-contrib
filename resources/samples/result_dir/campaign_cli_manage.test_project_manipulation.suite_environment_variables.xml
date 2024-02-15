@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="122.19400000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_project_manipulation.suite_environment_variables" skipped="0" tests="21" time="122.19400000000002">
+		<testcase name="preconditions" time="26.125000"/>
+		<testcase name="test_define_escaped_variable" time="5.266000"/>
+		<testcase name="test_define_variable" time="4.205000"/>
+		<testcase name="test_define_variable_migrate" time="7.799000"/>
+		<testcase name="test_define_variables_at_multiple_levels" time="9.286000"/>
+		<testcase name="test_diff_case_variables_diff_values" time="14.177000"/>
+		<testcase name="test_diff_case_variables_overwrite_value" time="0.006000"/>
+		<testcase name="test_env_var_in_multi_levels_properly_expanded" time="7.004000"/>
+		<testcase name="test_expand_manage_project_dir" time="4.196000"/>
+		<testcase name="test_expand_multiple_variables" time="4.464000"/>
+		<testcase name="test_expand_variable" time="4.235000"/>
+		<testcase name="test_expand_variable_multiple_times" time="4.268000"/>
+		<testcase name="test_expand_variable_multiple_times_no_separator" time="4.382000"/>
+		<testcase name="test_expand_variable_through_python_interface" time="9.144000"/>
+		<testcase name="test_log_env_vars_multi_levels" time="6.760000"/>
+		<testcase name="test_redefine_variable" time="5.511000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.015000"/>
+		<testcase name="test_pep8_compliance" time="5.321000"/>
+		<testcase name="test_input_dir_compliance" time="0.016000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.014000"/>
+	</testsuite>
+</testsuites>

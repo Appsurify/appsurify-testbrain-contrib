@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="227.699">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_coupling.suite_import_coupling_coverage" skipped="0" tests="11" time="227.699">
+		<testcase name="preconditions" time="6.722000"/>
+		<testcase name="test_import_buffered_coupling_coverage" time="47.943000"/>
+		<testcase name="test_import_coupling_coverage_from_environment" time="42.844000"/>
+		<testcase name="test_import_coupling_coverage_from_script" time="42.242000"/>
+		<testcase name="test_import_coupling_with_fptrs" time="45.174000"/>
+		<testcase name="test_import_coupling_with_fptrs_rebuild_env" time="38.052000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.016000"/>
+		<testcase name="test_pep8_compliance" time="4.633000"/>
+		<testcase name="test_input_dir_compliance" time="0.056000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.017000"/>
+	</testsuite>
+</testsuites>

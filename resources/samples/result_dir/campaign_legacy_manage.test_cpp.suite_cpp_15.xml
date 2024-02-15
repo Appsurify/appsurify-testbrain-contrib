@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="90.067">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_15" skipped="0" tests="13" time="90.067">
+		<testcase name="preconditions" time="0.942000"/>
+		<testcase name="test_edg_typedef_class" time="9.047000"/>
+		<testcase name="test_edg_unconstrained_array_basetype_cpp" time="15.047000"/>
+		<testcase name="test_edg_undef_statics" time="8.995000"/>
+		<testcase name="test_edg_unit_kinds" time="12.992000"/>
+		<testcase name="test_edg_unstubbable" time="7.401000"/>
+		<testcase name="test_edg_user_code" time="12.998000"/>
+		<testcase name="test_edg_user_globals" time="11.220000"/>
+		<testcase name="test_edg_void_star" time="9.160000"/>
+		<testcase name="postconditions" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="2.235000"/>
+		<testcase name="test_input_dir_compliance" time="0.015000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

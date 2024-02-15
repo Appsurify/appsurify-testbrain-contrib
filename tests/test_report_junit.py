@@ -3,12 +3,19 @@ import pytest
 import pathlib
 
 from testbrain.contrib.report import utils
+from testbrain.contrib.report.mergers.junit import JUnitReportMerger
 from testbrain.contrib.report.models.testbrain import TestbrainTestSuite
 from testbrain.contrib.report.parsers import JUnitReportParser
 from testbrain.contrib.report.converters import JUnit2TestbrainReportConverter
 
 
 base_dir = pathlib.Path(__file__).parent.parent.absolute()
+
+
+@pytest.fixture()
+def junit_report_directory():
+    dir = base_dir / "resources" / "samples" / "directory"
+    return dir
 
 
 @pytest.fixture()
@@ -91,6 +98,22 @@ def xml_junit_with_props_big_a():
     return filename
 
 
+@pytest.fixture()
+def xml_junit_multi_results_in_case():
+    filename = base_dir / "resources" / "samples" / "junit-multi-results-in-case.xml"
+    return filename
+
+
+@pytest.mark.skip(reason="Implement parse this case in feature")
+def test_parse_junit_multi_results_in_case(xml_junit_multi_results_in_case):
+    report = xml_junit_multi_results_in_case.read_text(encoding="utf-8")
+    junit_parser = JUnitReportParser.fromstring(text=report)
+    result = junit_parser.parse()
+
+    assert len(result.testsuites) == 1
+    assert result.testsuites[0].skipped == 1
+
+
 def test_parse_junit_normal(xml_junit_normal):
     report = xml_junit_normal.read_text(encoding="utf-8")
     junit_parser = JUnitReportParser.fromstring(text=report)
@@ -159,6 +182,32 @@ def test_parse_junit_normal_from_file(xml_junit_normal):
     assert len(result.testsuites) == 2
 
     assert len(result.testsuites[1].properties) == 3
+
+
+def test_parse_junit_normal_from_file_and_return_xml(xml_junit_normal):
+    report = xml_junit_normal
+    junit_parser = JUnitReportParser.fromfile(filename=report)
+    result = junit_parser.parse()
+
+    xml_result = junit_parser.result_xml
+
+    junit_parser_new = JUnitReportParser.fromstring(xml_result)
+    result_new = junit_parser_new.parse()
+
+    assert result == result_new
+
+
+def test_parse_junit_sample_out_err_from_file_and_return_xml(xml_junit_sample_out_err):
+    report = xml_junit_sample_out_err
+    junit_parser = JUnitReportParser.fromfile(filename=report)
+    result = junit_parser.parse()
+
+    xml_result = junit_parser.result_xml
+
+    junit_parser_new = JUnitReportParser.fromstring(xml_result)
+    result_new = junit_parser_new.parse()
+
+    assert result == result_new
 
 
 def test_parse_junit_with_props_big(xml_junit_with_props_big):
@@ -305,3 +354,28 @@ def test_convert_junit_2_testbrain_legacy_and_back(xml_junit_legacy):
     from_json = TestbrainTestSuite.model_validate_json(testbrain_report_json)
 
     assert testbrain_report == from_json
+
+
+def test_merge_junit_reports_from_directory(junit_report_directory):
+    junit_merger = JUnitReportMerger.from_directory(directory=junit_report_directory)
+    junit_merger.merge()
+
+    result = junit_merger.result
+
+    assert len(result.testsuites) == 4
+    assert result.tests == 55
+
+
+@pytest.fixture()
+def junit_report_directory_big():
+    dir = base_dir / "resources" / "samples" / "result_dir"
+    return dir
+
+
+def test_merge_junit_reports_from_directory_big(junit_report_directory_big):
+    junit_merger = JUnitReportMerger.from_directory(
+        directory=junit_report_directory_big
+    )
+    junit_merger.merge()
+    result = junit_merger.result
+    assert len(result.testsuites) == 2442

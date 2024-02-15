@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="714.1399999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_1" skipped="0" tests="22" time="714.1399999999998">
+		<testcase name="preconditions" time="1.216000"/>
+		<testcase name="test_ansi_c" time="443.379000"/>
+		<testcase name="test_array_2d" time="14.328000"/>
+		<testcase name="test_array_script" time="10.349000"/>
+		<testcase name="test_at_end" time="10.709000"/>
+		<testcase name="test_basis_path_c" time="14.460000"/>
+		<testcase name="test_basis_test_c" time="11.241000"/>
+		<testcase name="test_block_mgmt_rpt_c" time="22.716000"/>
+		<testcase name="test_char_star_c" time="10.044000"/>
+		<testcase name="test_check_globals" time="14.000000"/>
+		<testcase name="test_compound_for_batch_c" time="12.410000"/>
+		<testcase name="test_coverage_c_extra" time="12.996000"/>
+		<testcase name="test_coverage_import" time="16.257000"/>
+		<testcase name="test_cstring" time="13.450000"/>
+		<testcase name="test_ptr_1405" time="54.308000"/>
+		<testcase name="test_ptr_1476" time="8.958000"/>
+		<testcase name="test_ptr_1622" time="29.468000"/>
+		<testcase name="test_ptr_1651" time="9.075000"/>
+		<testcase name="postconditions" time="0.024000"/>
+		<testcase name="test_pep8_compliance" time="4.650000"/>
+		<testcase name="test_input_dir_compliance" time="0.060000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.042000"/>
+	</testsuite>
+</testsuites>

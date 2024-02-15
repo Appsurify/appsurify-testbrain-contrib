@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="38" time="1680.7180000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_environment_menu.suite_unit_options" skipped="0" tests="38" time="1680.7180000000003">
+		<testcase name="preconditions" time="34.786000"/>
+		<testcase name="test_1_reset_option_without_vcdb" time="51.520000"/>
+		<testcase name="test_2_type_to_edit_over_empty" time="49.012000"/>
+		<testcase name="test_3_setting_empty_text_without_vcdb" time="47.719000"/>
+		<testcase name="test_arrow_down_key_edit_mode" time="58.063000"/>
+		<testcase name="test_arrow_down_key_non_edit_mode" time="62.859000"/>
+		<testcase name="test_arrow_up_key_edit_mode" time="58.441000"/>
+		<testcase name="test_arrow_up_key_non_edit_mode" time="62.721000"/>
+		<testcase name="test_backtab_key_edit_mode" time="58.254000"/>
+		<testcase name="test_backtab_key_non_edit_mode" time="62.952000"/>
+		<testcase name="test_change_options_with_dialog" time="45.474000"/>
+		<testcase name="test_close_without_saving_cancel" time="48.441000"/>
+		<testcase name="test_close_without_saving_no" time="47.467000"/>
+		<testcase name="test_close_without_saving_yes" time="48.259000"/>
+		<testcase name="test_color" time="44.186000"/>
+		<testcase name="test_empty_input_validation" time="42.200000"/>
+		<testcase name="test_env_var_in_unit_options_editor" time="46.425000"/>
+		<testcase name="test_filter_and_reset" time="49.273000"/>
+		<testcase name="test_input_with_spaces_validation" time="45.140000"/>
+		<testcase name="test_modify_unit_options" time="44.831000"/>
+		<testcase name="test_multi_select_edit" time="49.825000"/>
+		<testcase name="test_multi_select_reset" time="49.481000"/>
+		<testcase name="test_reset_option" time="43.540000"/>
+		<testcase name="test_reset_option_disabled" time="43.544000"/>
+		<testcase name="test_reset_option_in_wizard" time="71.921000"/>
+		<testcase name="test_save_icon" time="45.235000"/>
+		<testcase name="test_setting_empty_text" time="43.755000"/>
+		<testcase name="test_setting_empty_text_w_user_defined_value" time="44.121000"/>
+		<testcase name="test_tab_key_edit_mode" time="60.524000"/>
+		<testcase name="test_tab_key_non_edit_mode" time="65.558000"/>
+		<testcase name="test_type_to_edit" time="45.295000"/>
+		<testcase name="test_uut_icon" time="46.069000"/>
+		<testcase name="test_vcdb_cache_validation" time="46.399000"/>
+		<testcase name="postconditions" time="5.567000"/>
+		<testcase name="test_py_md_compliance" time="0.359000"/>
+		<testcase name="test_pep8_compliance" time="10.745000"/>
+		<testcase name="test_input_dir_compliance" time="0.430000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.327000"/>
+	</testsuite>
+</testsuites>

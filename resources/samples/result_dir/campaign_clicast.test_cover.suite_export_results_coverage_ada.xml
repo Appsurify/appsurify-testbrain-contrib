@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="128.47899999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover.suite_export_results_coverage_ada" skipped="0" tests="15" time="128.47899999999998">
+		<testcase name="preconditions" time="12.372000"/>
+		<testcase name="test_basis_paths_export" time="11.382000"/>
+		<testcase name="test_branch_export" time="10.599000"/>
+		<testcase name="test_level_a_export" time="10.912000"/>
+		<testcase name="test_level_b_export" time="10.229000"/>
+		<testcase name="test_mcdc_export" time="11.638000"/>
+		<testcase name="test_metadata" time="10.810000"/>
+		<testcase name="test_requirements" time="19.032000"/>
+		<testcase name="test_requirements_legacy" time="17.384000"/>
+		<testcase name="test_statement_export" time="9.135000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.022000"/>
+		<testcase name="test_pep8_compliance" time="4.908000"/>
+		<testcase name="test_input_dir_compliance" time="0.033000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.023000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="339.12">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_reports.suite_function_call" skipped="0" tests="10" time="339.12">
+		<testcase name="preconditions" time="28.164000"/>
+		<testcase name="test_func_call_report_c" time="62.042000"/>
+		<testcase name="test_func_call_report_c_func_call" time="78.571000"/>
+		<testcase name="test_func_call_report_cover" time="57.940000"/>
+		<testcase name="test_func_call_report_cover_func_call" time="104.918000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.067000"/>
+		<testcase name="test_pep8_compliance" time="7.194000"/>
+		<testcase name="test_input_dir_compliance" time="0.115000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.109000"/>
+	</testsuite>
+</testsuites>

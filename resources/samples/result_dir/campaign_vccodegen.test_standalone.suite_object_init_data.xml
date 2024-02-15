@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="4.59">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vccodegen.test_standalone.suite_object_init_data" skipped="0" tests="8" time="4.59">
+		<testcase name="preconditions" time="0.851000"/>
+		<testcase name="test_correct_entry_order" time="0.798000"/>
+		<testcase name="test_extraneous_entries_object_initialization" time="0.306000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="2.627000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.001000"/>
+	</testsuite>
+</testsuites>

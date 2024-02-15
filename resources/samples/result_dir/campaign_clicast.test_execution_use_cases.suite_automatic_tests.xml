@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="27.418999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_execution_use_cases.suite_automatic_tests" skipped="0" tests="10" time="27.418999999999997">
+		<testcase name="preconditions" time="5.365000"/>
+		<testcase name="test_automatic_finalization_with_stderr" time="4.900000"/>
+		<testcase name="test_automatic_finalization_with_stdout" time="5.354000"/>
+		<testcase name="test_automatic_initialization_with_stderr" time="5.014000"/>
+		<testcase name="test_automatic_initialization_with_stdout" time="4.412000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="2.346000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

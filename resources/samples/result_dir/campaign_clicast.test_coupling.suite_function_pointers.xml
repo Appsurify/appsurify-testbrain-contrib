@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="20" time="149.45399999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_coupling.suite_function_pointers" skipped="0" tests="20" time="149.45399999999998">
+		<testcase name="preconditions" time="1.843000"/>
+		<testcase name="test_buffered_io" time="12.931000"/>
+		<testcase name="test_display_fptrs_in_coverage_report" time="11.507000"/>
+		<testcase name="test_fn_only_used_via_fptr_in_other_component" time="11.610000"/>
+		<testcase name="test_fptr_assign_via_parameter" time="12.262000"/>
+		<testcase name="test_fptr_common_usage" time="11.198000"/>
+		<testcase name="test_fptr_in_multiline_statement" time="11.550000"/>
+		<testcase name="test_fptrs_within_headers" time="11.672000"/>
+		<testcase name="test_fptrs_within_structs" time="9.081000"/>
+		<testcase name="test_incomplete_manual_analysis" time="8.660000"/>
+		<testcase name="test_member_functions" time="8.886000"/>
+		<testcase name="test_namespaces" time="8.840000"/>
+		<testcase name="test_only_fptr_assignment_in_component" time="6.940000"/>
+		<testcase name="test_overloaded_functions_as_targets" time="8.642000"/>
+		<testcase name="test_remove_preprocessor_command_for_comments" time="10.653000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.018000"/>
+		<testcase name="test_pep8_compliance" time="3.124000"/>
+		<testcase name="test_input_dir_compliance" time="0.019000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.018000"/>
+	</testsuite>
+</testsuites>

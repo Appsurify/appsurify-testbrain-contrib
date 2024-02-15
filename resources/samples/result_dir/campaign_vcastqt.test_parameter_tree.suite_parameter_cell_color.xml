@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="147.017">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_parameter_cell_color" skipped="0" tests="8" time="147.017">
+		<testcase name="preconditions" time="5.553000"/>
+		<testcase name="test_constructor_colors" time="42.513000"/>
+		<testcase name="test_highlight_fn_under_test" time="92.292000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.094000"/>
+		<testcase name="test_pep8_compliance" time="6.312000"/>
+		<testcase name="test_input_dir_compliance" time="0.141000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.112000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="50" time="243.57300000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_template_instantiations" skipped="0" tests="50" time="243.57300000000004">
+		<testcase name="preconditions" time="2.111000"/>
+		<testcase name="test_ambiguous_template_function" time="5.880000"/>
+		<testcase name="test_auto_anon_ref" time="4.523000"/>
+		<testcase name="test_branch" time="5.657000"/>
+		<testcase name="test_combined_instantiations" time="5.427000"/>
+		<testcase name="test_comprehensive_lambda" time="4.918000"/>
+		<testcase name="test_const_generic_lambda_param" time="4.895000"/>
+		<testcase name="test_function" time="5.338000"/>
+		<testcase name="test_function_and_call" time="5.463000"/>
+		<testcase name="test_function_lambda_lambda" time="4.665000"/>
+		<testcase name="test_gen_lambda_function_namespace" time="4.880000"/>
+		<testcase name="test_gen_lambda_mixed_params" time="4.574000"/>
+		<testcase name="test_internal_lambda_name_94876" time="4.396000"/>
+		<testcase name="test_lambda_in_template_fn" time="4.875000"/>
+		<testcase name="test_lambda_outside_def" time="4.634000"/>
+		<testcase name="test_lambda_template_class" time="4.776000"/>
+		<testcase name="test_level_a_function_call_results" time="10.996000"/>
+		<testcase name="test_mcdc" time="6.477000"/>
+		<testcase name="test_member_init" time="5.424000"/>
+		<testcase name="test_mil_unused_var" time="5.224000"/>
+		<testcase name="test_pointer_to_member_94630" time="4.569000"/>
+		<testcase name="test_sfinae_enable_if_94624" time="4.664000"/>
+		<testcase name="test_sfinae_enable_if_anon" time="4.589000"/>
+		<testcase name="test_skip_typerefs_combined" time="4.612000"/>
+		<testcase name="test_skip_typerefs_inacessible_type" time="4.853000"/>
+		<testcase name="test_specialized_template_params_94625" time="4.934000"/>
+		<testcase name="test_statement" time="5.654000"/>
+		<testcase name="test_statement_branch" time="5.702000"/>
+		<testcase name="test_statement_branch_call" time="6.018000"/>
+		<testcase name="test_statement_call" time="5.816000"/>
+		<testcase name="test_statement_mcdc" time="5.976000"/>
+		<testcase name="test_statement_mcdc_call" time="5.913000"/>
+		<testcase name="test_template_def_anonymous_typenames_94626" time="4.638000"/>
+		<testcase name="test_template_function_call" time="8.359000"/>
+		<testcase name="test_template_function_default_args_94629" time="3.577000"/>
+		<testcase name="test_template_instantiation_param_names" time="5.544000"/>
+		<testcase name="test_template_member_init" time="4.904000"/>
+		<testcase name="test_template_param_alignment" time="5.402000"/>
+		<testcase name="test_template_param_definition_declaration" time="4.677000"/>
+		<testcase name="test_template_template_args" time="5.043000"/>
+		<testcase name="test_tic_in_ut" time="7.507000"/>
+		<testcase name="test_unneeded_templates" time="4.869000"/>
+		<testcase name="test_using_template_arguments" time="5.129000"/>
+		<testcase name="test_va_list_tag_94330" time="4.929000"/>
+		<testcase name="test_variadic_nontype" time="5.445000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.042000"/>
+		<testcase name="test_pep8_compliance" time="4.935000"/>
+		<testcase name="test_input_dir_compliance" time="0.098000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.042000"/>
+	</testsuite>
+</testsuites>

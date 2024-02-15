@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="113.32899999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_automationcontroller.test_build_vce.suite_update_or_extend" skipped="0" tests="13" time="113.32899999999998">
+		<testcase name="preconditions" time="6.028000"/>
+		<testcase name="test_add_ada_env_to_c" time="12.647000"/>
+		<testcase name="test_add_env_with_different_compiler" time="14.430000"/>
+		<testcase name="test_extend_project_using_buildvce" time="20.409000"/>
+		<testcase name="test_extend_project_with_same_env_name" time="12.709000"/>
+		<testcase name="test_push_existing_env_with_new_env" time="12.538000"/>
+		<testcase name="test_update_coverage_type" time="17.907000"/>
+		<testcase name="test_update_test_cases" time="10.434000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="6.177000"/>
+		<testcase name="test_input_dir_compliance" time="0.024000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.018000"/>
+	</testsuite>
+</testsuites>

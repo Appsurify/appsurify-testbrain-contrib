@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="76.87199999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_12" skipped="0" tests="13" time="76.87199999999999">
+		<testcase name="preconditions" time="1.183000"/>
+		<testcase name="test_edg_prototype_stub_in_stub" time="9.657000"/>
+		<testcase name="test_edg_ptr_2236" time="8.920000"/>
+		<testcase name="test_edg_ptr_2285" time="11.868000"/>
+		<testcase name="test_edg_ptr_2288" time="8.190000"/>
+		<testcase name="test_edg_ptr_2291" time="8.479000"/>
+		<testcase name="test_edg_ptr_2348" time="7.513000"/>
+		<testcase name="test_edg_ptr_2349" time="10.129000"/>
+		<testcase name="test_edg_ptr_2368" time="8.222000"/>
+		<testcase name="postconditions" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="2.685000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

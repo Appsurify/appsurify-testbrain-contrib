@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="8.556">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_edgfe.test_parse_target_testsuite.suite_iar" skipped="0" tests="15" time="8.556">
+		<testcase name="preconditions"/>
+		<testcase name="test_78k0r" time="0.188000"/>
+		<testcase name="test_arm" time="1.472000"/>
+		<testcase name="test_atmel" time="0.179000"/>
+		<testcase name="test_dspic" time="0.399000"/>
+		<testcase name="test_m16c" time="0.157000"/>
+		<testcase name="test_m32c" time="0.180000"/>
+		<testcase name="test_msp430" time="1.397000"/>
+		<testcase name="test_r32c" time="0.308000"/>
+		<testcase name="test_rx" time="0.597000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="3.628000"/>
+		<testcase name="test_input_dir_compliance" time="0.029000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

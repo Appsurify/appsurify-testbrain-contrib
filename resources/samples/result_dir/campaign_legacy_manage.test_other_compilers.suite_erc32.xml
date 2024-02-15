@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="6" time="12.932">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_other_compilers.suite_erc32" skipped="0" tests="6" time="12.932">
+		<testcase name="preconditions" time="1.423000"/>
+		<testcase name="test_ada_erc32" time="9.443000"/>
+		<testcase name="postconditions" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="2.056000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

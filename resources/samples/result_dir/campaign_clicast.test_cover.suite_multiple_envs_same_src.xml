@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="17.575000000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover.suite_multiple_envs_same_src" skipped="0" tests="9" time="17.575000000000003">
+		<testcase name="preconditions" time="5.869000"/>
+		<testcase name="test_already_instrumented_source_no_bak" time="2.057000"/>
+		<testcase name="test_already_instrumented_source_with_bak" time="2.144000"/>
+		<testcase name="test_already_instrumented_sources_mixed" time="4.100000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="3.372000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="109.109">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_19" skipped="0" tests="13" time="109.109">
+		<testcase name="preconditions" time="0.940000"/>
+		<testcase name="test_block_coverage_import" time="34.580000"/>
+		<testcase name="test_man_driv_uut" time="8.183000"/>
+		<testcase name="test_type_test_c_ns" time="9.287000"/>
+		<testcase name="test_unc_array" time="14.711000"/>
+		<testcase name="test_union_declaration" time="8.951000"/>
+		<testcase name="test_user_code_c" time="10.929000"/>
+		<testcase name="test_user_param_c" time="8.060000"/>
+		<testcase name="test_void_pointer" time="10.826000"/>
+		<testcase name="postconditions" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="2.592000"/>
+		<testcase name="test_input_dir_compliance" time="0.015000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.022000"/>
+	</testsuite>
+</testsuites>

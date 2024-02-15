@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="83.567">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_tree.suite_insert_mcdc_testcases" skipped="0" tests="8" time="83.567">
+		<testcase name="preconditions" time="12.611000"/>
+		<testcase name="test_sfp_insert_mcdc_tests" time="35.117000"/>
+		<testcase name="test_sfp_simplified_cnd_cvg_disable_mcdc" time="30.258000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.029000"/>
+		<testcase name="test_pep8_compliance" time="5.443000"/>
+		<testcase name="test_input_dir_compliance" time="0.049000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.060000"/>
+	</testsuite>
+</testsuites>

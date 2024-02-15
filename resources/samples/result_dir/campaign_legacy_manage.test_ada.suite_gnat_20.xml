@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="87.283">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada.suite_gnat_20" skipped="0" tests="12" time="87.283">
+		<testcase name="preconditions" time="1.245000"/>
+		<testcase name="test_execution_results_ada" time="15.285000"/>
+		<testcase name="test_find_type" time="9.910000"/>
+		<testcase name="test_float_ada" time="9.991000"/>
+		<testcase name="test_generic_wb" time="13.988000"/>
+		<testcase name="test_harness_ae653" time="8.841000"/>
+		<testcase name="test_instance_of_nested" time="8.130000"/>
+		<testcase name="test_objects" time="17.515000"/>
+		<testcase name="postconditions" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="2.339000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

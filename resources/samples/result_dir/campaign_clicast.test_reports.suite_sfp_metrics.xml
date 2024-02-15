@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="18.172">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_reports.suite_sfp_metrics" skipped="0" tests="12" time="18.172">
+		<testcase name="preconditions" time="7.582000"/>
+		<testcase name="test_file_metrics_no_sfp" time="0.818000"/>
+		<testcase name="test_file_metrics_sfp_header" time="0.951000"/>
+		<testcase name="test_file_metrics_sfp_source" time="0.938000"/>
+		<testcase name="test_metrics_sfp_management_report" time="1.777000"/>
+		<testcase name="test_unit_metrics_no_sfp" time="0.864000"/>
+		<testcase name="test_unit_metrics_sfp" time="0.910000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="4.319000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="290.291">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_vct_map.suite_edit" skipped="0" tests="13" time="290.291">
+		<testcase name="preconditions" time="9.239000"/>
+		<testcase name="test_deleted_vct_file" time="36.795000"/>
+		<testcase name="test_read_only_vct_file" time="34.313000"/>
+		<testcase name="test_vct_editor" time="34.751000"/>
+		<testcase name="test_vct_editor_generate_prompt" time="42.903000"/>
+		<testcase name="test_vct_editor_prompt_answer_no" time="36.209000"/>
+		<testcase name="test_vct_editor_regenerate_prompt" time="47.274000"/>
+		<testcase name="test_vct_editor_space_in_vct" time="34.596000"/>
+		<testcase name="postconditions" time="5.421000"/>
+		<testcase name="test_py_md_compliance" time="0.052000"/>
+		<testcase name="test_pep8_compliance" time="8.536000"/>
+		<testcase name="test_input_dir_compliance" time="0.100000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.102000"/>
+	</testsuite>
+</testsuites>

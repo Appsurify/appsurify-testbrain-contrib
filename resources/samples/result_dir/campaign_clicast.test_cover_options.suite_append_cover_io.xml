@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="46" time="150.276">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_options.suite_append_cover_io" skipped="0" tests="46" time="150.276">
+		<testcase name="preconditions" time="3.138000"/>
+		<testcase name="test_append_cover_io_coupling" time="12.570000"/>
+		<testcase name="test_append_posix_pid" time="3.498000"/>
+		<testcase name="test_append_seconds_since_epoch" time="3.411000"/>
+		<testcase name="test_append_win32_pid" time="0.003000"/>
+		<testcase name="test_bad_option_value" time="0.494000"/>
+		<testcase name="test_bad_unit_name" time="0.550000"/>
+		<testcase name="test_buffered_ascii_data" time="3.987000"/>
+		<testcase name="test_c_define_list_no_vcast" time="1.987000"/>
+		<testcase name="test_c_define_list_variables" time="3.970000"/>
+		<testcase name="test_collapse_non_search" time="8.958000"/>
+		<testcase name="test_collapse_none_basis_path" time="4.244000"/>
+		<testcase name="test_collapse_none_branch" time="3.310000"/>
+		<testcase name="test_collapse_none_function_function_call" time="3.533000"/>
+		<testcase name="test_collapse_none_level_a" time="3.207000"/>
+		<testcase name="test_collapse_none_level_a_macro" time="4.185000"/>
+		<testcase name="test_collapse_none_level_b" time="3.551000"/>
+		<testcase name="test_collapse_none_mcdc" time="3.394000"/>
+		<testcase name="test_collapse_none_statement" time="3.432000"/>
+		<testcase name="test_collapse_none_vcpp" time="3.850000"/>
+		<testcase name="test_collapse_system" time="3.564000"/>
+		<testcase name="test_coverage_collapse_all" time="3.441000"/>
+		<testcase name="test_coverage_for_headers" time="3.607000"/>
+		<testcase name="test_coverage_for_headers_basis_path_report" time="2.792000"/>
+		<testcase name="test_coverage_for_headers_mcdc_test_report" time="2.768000"/>
+		<testcase name="test_dump_coverage" time="3.812000"/>
+		<testcase name="test_dump_coverage_enable_clear" time="3.892000"/>
+		<testcase name="test_incremental_reinstrument" time="4.762000"/>
+		<testcase name="test_missing_option_value" time="0.335000"/>
+		<testcase name="test_no_specified_unit_single_source" time="3.503000"/>
+		<testcase name="test_no_specified_unit_with_value" time="0.590000"/>
+		<testcase name="test_no_specified_unit_without_value" time="0.289000"/>
+		<testcase name="test_no_vcast_multiple_defines" time="1.614000"/>
+		<testcase name="test_option_file_change" time="5.317000"/>
+		<testcase name="test_option_off" time="3.608000"/>
+		<testcase name="test_regression_script" time="5.375000"/>
+		<testcase name="test_reinstrument" time="4.430000"/>
+		<testcase name="test_use_static_memory" time="3.550000"/>
+		<testcase name="test_use_stdout" time="3.424000"/>
+		<testcase name="test_use_stdout_as_define" time="3.447000"/>
+		<testcase name="test_use_stdout_putchar" time="4.023000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.027000"/>
+		<testcase name="test_pep8_compliance" time="6.778000"/>
+		<testcase name="test_input_dir_compliance" time="0.028000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.028000"/>
+	</testsuite>
+</testsuites>

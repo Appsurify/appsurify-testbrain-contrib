@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="24" time="47.84099999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_TESTinsights.test_connector.suite_misc_options" skipped="0" tests="24" time="47.84099999999999">
+		<testcase name="preconditions"/>
+		<testcase name="test_api_updating" time="12.839000"/>
+		<testcase name="test_auth_priorities" time="3.954000"/>
+		<testcase name="test_create_project_and_test_object_success" time="7.218000"/>
+		<testcase name="test_create_project_fail" time="0.569000"/>
+		<testcase name="test_deprecated_api" time="1.677000"/>
+		<testcase name="test_extend_url" time="1.589000"/>
+		<testcase name="test_help" time="1.189000"/>
+		<testcase name="test_help_examples" time="1.180000"/>
+		<testcase name="test_help_status_codes" time="1.152000"/>
+		<testcase name="test_invalid_api" time="1.058000"/>
+		<testcase name="test_invalid_auth" time="1.320000"/>
+		<testcase name="test_list_projects" time="1.305000"/>
+		<testcase name="test_list_testobjects" time="1.349000"/>
+		<testcase name="test_minor_version_too_low" time="1.379000"/>
+		<testcase name="test_no_host" time="1.000000"/>
+		<testcase name="test_unavailable_api" time="1.313000"/>
+		<testcase name="test_unavailable_by_date_api" time="1.507000"/>
+		<testcase name="test_use_pat" time="1.280000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.028000"/>
+		<testcase name="test_pep8_compliance" time="4.907000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.016000"/>
+	</testsuite>
+</testsuites>

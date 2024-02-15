@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="5.7669999999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_tools.suite_klocwork_options" skipped="0" tests="15" time="5.7669999999999995">
+		<testcase name="preconditions"/>
+		<testcase name="test_command_line_options" time="0.472000"/>
+		<testcase name="test_executable_path" time="0.490000"/>
+		<testcase name="test_license_host" time="0.468000"/>
+		<testcase name="test_license_port" time="0.517000"/>
+		<testcase name="test_option_count" time="0.244000"/>
+		<testcase name="test_project_url" time="0.385000"/>
+		<testcase name="test_server_host" time="0.371000"/>
+		<testcase name="test_server_port" time="0.368000"/>
+		<testcase name="test_severity" time="0.368000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="2.062000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

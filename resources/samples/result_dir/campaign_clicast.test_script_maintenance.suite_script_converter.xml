@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="27" time="288.84">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_maintenance.suite_script_converter" skipped="0" tests="27" time="288.84">
+		<testcase name="preconditions"/>
+		<testcase name="test_add_sbf_uut" time="9.820000"/>
+		<testcase name="test_ambiguities_no_prompt" time="22.359000"/>
+		<testcase name="test_ambiguities_with_prompt" time="23.128000"/>
+		<testcase name="test_array_parameter_rename" time="10.553000"/>
+		<testcase name="test_change_all_enums" time="8.469000"/>
+		<testcase name="test_change_fields_of_nested_struct_array" time="8.667000"/>
+		<testcase name="test_change_fields_of_nested_struct_ptr" time="8.436000"/>
+		<testcase name="test_change_fields_of_struct_passed_via_param" time="8.449000"/>
+		<testcase name="test_change_nested_struct" time="8.211000"/>
+		<testcase name="test_change_one_enum" time="8.939000"/>
+		<testcase name="test_change_stub" time="15.474000"/>
+		<testcase name="test_change_two_enums" time="8.721000"/>
+		<testcase name="test_delete_enum_type" time="8.534000"/>
+		<testcase name="test_member_rename" time="8.311000"/>
+		<testcase name="test_move_subprogram_to_different_uut" time="11.534000"/>
+		<testcase name="test_no_change" time="9.851000"/>
+		<testcase name="test_non_overload_to_overload" time="9.847000"/>
+		<testcase name="test_parameter_rename" time="20.024000"/>
+		<testcase name="test_script_convert_command" time="18.323000"/>
+		<testcase name="test_script_convert_command_large_tst" time="39.069000"/>
+		<testcase name="test_subprogram_rename" time="16.919000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.033000"/>
+		<testcase name="test_pep8_compliance" time="5.100000"/>
+		<testcase name="test_input_dir_compliance" time="0.037000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.032000"/>
+	</testsuite>
+</testsuites>

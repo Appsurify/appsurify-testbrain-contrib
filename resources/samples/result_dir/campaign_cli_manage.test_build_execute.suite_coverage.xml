@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="111.617">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_build_execute.suite_coverage" skipped="0" tests="13" time="111.617">
+		<testcase name="preconditions" time="16.129000"/>
+		<testcase name="test_branch" time="11.137000"/>
+		<testcase name="test_delete_environment_delete_metrics" time="9.581000"/>
+		<testcase name="test_level_a" time="11.857000"/>
+		<testcase name="test_level_b" time="12.787000"/>
+		<testcase name="test_mcdc" time="12.858000"/>
+		<testcase name="test_statement" time="12.578000"/>
+		<testcase name="test_suppress_coverage_option_changed" time="20.092000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="4.550000"/>
+		<testcase name="test_input_dir_compliance" time="0.029000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

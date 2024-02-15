@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="33.653">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_coupling.suite_needed_xml" skipped="0" tests="10" time="33.653">
+		<testcase name="preconditions"/>
+		<testcase name="test_cpp11" time="9.340000"/>
+		<testcase name="test_gnu" time="6.524000"/>
+		<testcase name="test_nvidia" time="7.729000"/>
+		<testcase name="test_standard_c" time="6.312000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="3.732000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

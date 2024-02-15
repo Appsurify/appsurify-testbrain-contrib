@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="394.192">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_tree.suite_regression" skipped="0" tests="13" time="394.192">
+		<testcase name="preconditions" time="4.711000"/>
+		<testcase name="test_case_sensistive_same_fn_names" time="35.189000"/>
+		<testcase name="test_coverage_columns_after_rebuild" time="48.932000"/>
+		<testcase name="test_header_checkbox_after_execution" time="36.781000"/>
+		<testcase name="test_pass_fail_buttons_unpainted_35746" time="65.279000"/>
+		<testcase name="test_save_compound_testcase" time="43.363000"/>
+		<testcase name="test_tdd_coverage_viewer" time="44.679000"/>
+		<testcase name="test_test_case_tree_state" time="62.749000"/>
+		<testcase name="test_testable_headers_coverage_viewer" time="44.981000"/>
+		<testcase name="postconditions" time="0.089000"/>
+		<testcase name="test_pep8_compliance" time="7.236000"/>
+		<testcase name="test_input_dir_compliance" time="0.103000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.100000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="67.38600000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_cba_ada" skipped="0" tests="22" time="67.38600000000001">
+		<testcase name="preconditions" time="2.817000"/>
+		<testcase name="test_change_instr_keep_lose_results_branch" time="4.033000"/>
+		<testcase name="test_change_instr_keep_lose_results_level_a" time="4.218000"/>
+		<testcase name="test_change_instr_keep_lose_results_level_b" time="3.690000"/>
+		<testcase name="test_change_instr_keep_lose_results_mcdc" time="3.786000"/>
+		<testcase name="test_change_instr_keep_lose_results_statement" time="3.534000"/>
+		<testcase name="test_full_cba_results_branch" time="2.905000"/>
+		<testcase name="test_full_cba_results_level_a" time="3.560000"/>
+		<testcase name="test_full_cba_results_level_b" time="3.376000"/>
+		<testcase name="test_full_cba_results_mcdc" time="3.796000"/>
+		<testcase name="test_full_cba_results_simplified_level_a" time="4.384000"/>
+		<testcase name="test_full_cba_results_simplified_mcdc" time="3.957000"/>
+		<testcase name="test_full_cba_results_statement" time="3.775000"/>
+		<testcase name="test_partial_cba_results_branch" time="3.066000"/>
+		<testcase name="test_partial_cba_results_level_a" time="3.388000"/>
+		<testcase name="test_partial_cba_results_level_b" time="3.269000"/>
+		<testcase name="test_partial_cba_results_mcdc" time="3.454000"/>
+		<testcase name="test_partial_cba_results_statement" time="3.498000"/>
+		<testcase name="postconditions" time="0.030000"/>
+		<testcase name="test_pep8_compliance" time="2.793000"/>
+		<testcase name="test_input_dir_compliance" time="0.023000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.034000"/>
+	</testsuite>
+</testsuites>
