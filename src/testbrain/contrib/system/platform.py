@@ -22,7 +22,7 @@ _ver_stages = {
 _component_re = re.compile(r"([0-9]+|[._+-])")
 
 
-def _comparable_version(version):
+def _comparable_version(version):  # noqa
     result = []
     for v in _component_re.split(version):
         if v not in "._+-":
@@ -148,7 +148,7 @@ def libc_ver(executable=None, lib="", version="", chunksize=16384):
             if not m or m.end() == len(binary):
                 chunk = f.read(chunksize)
                 if chunk:
-                    binary = binary[max(pos, len(binary) - 1000) :] + chunk
+                    binary = binary[max(pos, len(binary) - 1000) :] + chunk  # noqa
                     pos = 0
                     continue
                 if not m:
@@ -169,13 +169,13 @@ def libc_ver(executable=None, lib="", version="", chunksize=16384):
                     lib = "libc"
                     if soversion and (not version or v(soversion) > v(version)):
                         version = soversion
-                    if threads and version[-len(threads) :] != threads:
+                    if threads and version[-len(threads) :] != threads:  # noqa
                         version = version + threads
             pos = m.end()
     return lib, version
 
 
-def _norm_version(version, build=""):
+def _norm_version(version, build=""):  # noqa
     """Normalize the version and build strings and return a single
     version string using the format major.minor.build (or patchlevel).
     """
@@ -186,11 +186,11 @@ def _norm_version(version, build=""):
         strings = list(map(str, map(int, l)))
     except ValueError:
         strings = l
-    version = ".".join(strings[:3])
+    version = ".".join(strings[:3])  # noqa
     return version
 
 
-_ver_output = re.compile(r"(?:([\w ]+) ([\w.]+) " r".*" r"\[.* ([\d.]+)\])")
+_ver_output = re.compile(r"(?:([\w ]+) ([\w.]+) " r".*" r"\[.* ([\d.]+)\])")  # noqa
 
 # Examples of VER command output:
 #
@@ -203,9 +203,9 @@ _ver_output = re.compile(r"(?:([\w ]+) ([\w.]+) " r".*" r"\[.* ([\d.]+)\])")
 
 
 def _syscmd_ver(
-    system="",
-    release="",
-    version="",
+    system="",  # noqa
+    release="",  # noqa
+    version="",  # noqa
     supported_platforms=("win32", "win16", "dos"),
 ):
     """Tries to figure out the OS version used and returns
@@ -410,7 +410,7 @@ def mac_ver(release="", versioninfo=("", "", ""), machine=""):
 
 
 def _java_getprop(name, default):
-    from java.lang import System
+    from java.lang import System  # noqa
 
     try:
         value = System.getProperty(name)

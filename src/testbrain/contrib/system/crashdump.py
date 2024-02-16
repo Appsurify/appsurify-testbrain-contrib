@@ -49,7 +49,7 @@ def _exhaustive_vars(obj: Any) -> Dict[str, Any]:
     return result
 
 
-def _variable_summary(f: TextIO, vars: Dict[str, Any], indent: int = 0) -> None:
+def _variable_summary(f: TextIO, vars: Dict[str, Any], indent: int = 0) -> None:  # noqa
     for name, value in vars.items():
         label = f"{' ' * indent}{name} => "
         total_indent = len(label)
@@ -170,7 +170,7 @@ def _recursive_exc_var_dump(
     file: TextIO, exc: BaseException, seen: Set[int], indent: int = 0
 ) -> None:
     seen.add(id(exc))
-    vars = _exhaustive_vars(exc)
+    vars = _exhaustive_vars(exc)  # noqa
     cause = vars.pop("__cause__")
     context = vars.pop("__context__")
     show_cause = cause is not None and id(cause) not in seen
@@ -349,7 +349,7 @@ def dump_report(
     try:
         pathlib.Path(".crashdumps").mkdir(parents=True, exist_ok=True)
         report_dir = pathlib.Path(".crashdumps").resolve()
-    except Exception:
+    except Exception:  # noqa
         report_dir = pathlib.Path("..").resolve()
 
     _main_name = _get_main_name(prog_name=prog_name)

@@ -134,7 +134,7 @@ class JUnitTestSuites(BaseModel):
         self.passed = passed
         self.time = round(time, 3)
 
-    def model_dump_xml(self, namespace: t.Optional[str] = None) -> "etree.Element":
+    def model_dump_xml(self) -> "etree.Element":
         elem = utils.to_xml(
             tag="testsuites",
             attrib={
