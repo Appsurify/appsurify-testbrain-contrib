@@ -1,13 +1,4 @@
-import pathlib
-
-from ..models.junit import JUnitTestCase, JUnitTestSuites
-from ..models.testbrain import (
-    TestbrainTest,
-    TestbrainTestResult,
-    TestbrainTestRun,
-    TestbrainTestRunProperty,
-    TestbrainTestSuite,
-)
+from ..models.junit import JUnitTestSuites
 from ..parsers.junit import JUnitReportParser
 from .base import ReportMerger
 

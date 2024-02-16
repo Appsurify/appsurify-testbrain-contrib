@@ -127,6 +127,9 @@ class TestbrainTestSuite(BaseModel):
     def add_testrun(self, testrun: TestbrainTestRun):
         self.testruns.append(testrun)
 
+    def add_testruns(self, testruns: t.List[TestbrainTestRun]):
+        self.testruns.extend(testruns)
+
     def update_statistics(self):
         total = errors = failures = skipped = passed = 0
         time = 0.0
@@ -147,4 +150,95 @@ class TestbrainTestSuite(BaseModel):
         self.time = round(time, 3)
 
     def model_dump_xml(self, namespace: t.Optional[str] = None) -> "etree.Element":
-        raise NotImplementedError()
+        elem = utils.to_xml(
+            tag="testsuite",
+            attrib={
+                "id": self.id,
+                "name": self.name,
+                "time": str(self.time),
+                "total": str(self.total),
+                "errors": str(self.errors),
+                "failures": str(self.failures),
+                "skipped": str(self.skipped),
+                "passed": str(self.passed),
+            },
+        )
+        for testrun in self.testruns:
+            tr_elem = utils.to_xml(
+                tag="testsuite",
+                attrib={
+                    "id": testrun.id,
+                    "name": testrun.name,
+                    "time": str(testrun.time),
+                    "total": str(testrun.total),
+                    "errors": str(testrun.errors),
+                    "failures": str(testrun.failures),
+                    "skipped": str(testrun.skipped),
+                    "passed": str(testrun.passed),
+                    "hostname": str(testrun.hostname),
+                    "timestamp": utils.datetime_to_string(testrun.timestamp),
+                },
+            )
+            props_elem = utils.to_xml(tag="properties", attrib={})
+
+            for prop in testrun.properties:
+                prop_elem = utils.to_xml(
+                    tag="property",
+                    attrib={"name": prop.name, "value": str(prop.value)},
+                )
+                props_elem.append(prop_elem)
+
+            tr_elem.append(props_elem)
+
+            if testrun.system_out:
+                system_out_elem = utils.to_xml(
+                    tag="system-out", text=str(testrun.system_out)
+                )
+                tr_elem.append(system_out_elem)
+
+            if testrun.system_err:
+                system_err_elem = utils.to_xml(
+                    tag="system-err", text=str(testrun.system_err)
+                )
+                tr_elem.append(system_err_elem)
+
+            for test in testrun.tests:
+                test_elem = utils.to_xml(
+                    tag="testcase",
+                    attrib={
+                        "id": test.id,
+                        "name": test.name,
+                        "classname": test.classname,
+                        "file": test.file,
+                        "line": test.line,
+                        "time": str(test.time),
+                    },
+                )
+                if test.result is not None:
+                    res_elem = utils.to_xml(
+                        tag=test.result.status,
+                        attrib={
+                            "message": test.result.message,
+                            "type": test.result.type,
+                        },
+                        text=test.result.stacktrace,
+                    )
+                    test_elem.append(res_elem)
+
+                if test.system_out:
+                    system_out_elem = utils.to_xml(
+                        tag="system-out", text=str(test.system_out)
+                    )
+                    test_elem.append(system_out_elem)
+
+                if test.system_err:
+                    system_err_elem = utils.to_xml(
+                        tag="system-err", text=str(test.system_err)
+                    )
+                    test_elem.append(system_err_elem)
+
+                tr_elem.append(test_elem)
+
+            elem.append(tr_elem)
+
+        return elem
