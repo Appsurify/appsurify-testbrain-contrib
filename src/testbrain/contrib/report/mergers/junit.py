@@ -1,4 +1,5 @@
 import typing as t
+
 from ..models.junit import JUnitTestSuites
 from ..parsers.junit import JUnitReportParser
 from .base import ReportMerger

@@ -1,4 +1,5 @@
 import typing as t
+
 from ..models.testbrain import TestbrainTestSuite
 from .base import ReportMerger
 
