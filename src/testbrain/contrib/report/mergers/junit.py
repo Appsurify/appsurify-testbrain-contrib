@@ -6,6 +6,10 @@ from .base import ReportMerger
 class JUnitReportMerger(ReportMerger):
     _target: JUnitTestSuites
 
+    @property
+    def result(self) -> JUnitTestSuites:
+        return self._target
+
     def merge(self):
         self._target = JUnitTestSuites()
 
@@ -15,3 +19,5 @@ class JUnitReportMerger(ReportMerger):
             self._target.add_testsuites(result.testsuites)
 
         self._target.update_statistics()
+
+        return self.result

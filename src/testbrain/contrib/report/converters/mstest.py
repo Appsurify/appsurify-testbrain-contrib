@@ -57,7 +57,11 @@ class MSTestReportConverter(ReportConverter):
         self._test_id = 0
         self._reset_counters()
 
-    def convert(self):
+    @property
+    def result(self) -> TestbrainTestSuite:
+        return self._target
+
+    def convert(self) -> TestbrainTestSuite:
         ...
 
     def _reset_counters(self):

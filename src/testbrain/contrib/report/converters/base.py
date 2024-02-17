@@ -14,7 +14,7 @@ class ReportConverter(abc.ABC):
     _target: t.Any
 
     @property
-    def result(self):
+    def result(self) -> t.Any:
         return self._target
 
     @property
