@@ -7,8 +7,6 @@ try:
 except ImportError:
     from xml.etree import ElementTree as etree  # noqa
 
-from .. import utils
-
 
 class ReportMerger(abc.ABC):
     _reports: t.List[str] = []
