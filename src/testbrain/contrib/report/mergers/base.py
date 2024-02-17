@@ -21,7 +21,11 @@ class ReportMerger(abc.ABC):
                 if not cls._parser:
                     continue
 
-                parser = cls._parser.fromstring(file.read_text(encoding="utf-8"))
+                try:
+                    parser = cls._parser.fromstring(file.read_text(encoding="utf-8"))
+                except ValueError:
+                    continue
+
                 parser.parse()
                 report = parser.result
 
