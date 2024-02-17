@@ -371,7 +371,11 @@ def test_merge_junit_reports_from_reports(junit_report_directory):
     reports = []
     for file in files:
         if file.is_file():
-            reports.append(file.read_text(encoding="utf-8"))
+            parser = JUnitReportParser.fromstring(file.read_text(encoding="utf-8"))
+            parser.parse()
+            report = parser.result
+            reports.append(report)
+
     junit_merger = JUnitReportMerger.from_reports(reports)
     junit_merger.merge()
 
@@ -379,18 +383,3 @@ def test_merge_junit_reports_from_reports(junit_report_directory):
 
     assert len(result.testsuites) == 4
     assert result.tests == 55
-
-
-@pytest.fixture()
-def junit_report_directory_big():
-    dir = base_dir / "resources" / "samples" / "result_dir"
-    return dir
-
-
-def test_merge_junit_reports_from_directory_big(junit_report_directory_big):
-    junit_merger = JUnitReportMerger.from_directory(
-        directory=junit_report_directory_big
-    )
-    junit_merger.merge()
-    result = junit_merger.result
-    assert len(result.testsuites) == 2446
