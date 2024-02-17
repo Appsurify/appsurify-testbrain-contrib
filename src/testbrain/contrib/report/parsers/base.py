@@ -33,10 +33,7 @@ class XMLReportParser(abc.ABC):
 
     @property
     def result_xml(self) -> str:
-        result_xml = self._test.model_dump_xml()
-        result_str = etree.tostring(result_xml)
-        result = result_str.decode("utf-8")
-        return result
+        return self._test.model_dump_xml()
 
     @classmethod
     def fromstring(cls, text: t.AnyStr):

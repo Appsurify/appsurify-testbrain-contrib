@@ -149,7 +149,7 @@ class TestbrainTestSuite(BaseModel):
         self.passed = passed
         self.time = round(time, 3)
 
-    def model_dump_xml(self, namespace: t.Optional[str] = None) -> "etree.Element":
+    def model_dump_xml(self) -> str:
         elem = utils.to_xml(
             tag="testsuite",
             attrib={
@@ -241,4 +241,5 @@ class TestbrainTestSuite(BaseModel):
 
             elem.append(tr_elem)
 
-        return elem
+        xml_string = utils.xml_to_string(elem)
+        return xml_string

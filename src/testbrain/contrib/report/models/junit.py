@@ -134,7 +134,7 @@ class JUnitTestSuites(BaseModel):
         self.passed = passed
         self.time = round(time, 3)
 
-    def model_dump_xml(self) -> "etree.Element":
+    def model_dump_xml(self) -> str:
         elem = utils.to_xml(
             tag="testsuites",
             attrib={
@@ -226,4 +226,5 @@ class JUnitTestSuites(BaseModel):
 
             elem.append(ts_elem)
 
-        return elem
+        xml_string = utils.xml_to_string(elem)
+        return xml_string

@@ -94,6 +94,11 @@ def to_xml(
     return elem
 
 
+def xml_to_string(elem: etree.Element) -> str:
+    xml_string = etree.tostring(elem)
+    return xml_string.decode("utf-8")
+
+
 def xml_string_to_fileobject(
     xml: t.AnyStr, filename: t.Optional[str] = None
 ) -> BytesIO:

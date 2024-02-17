@@ -23,10 +23,7 @@ class ReportConverter(abc.ABC):
 
     @property
     def result_xml(self) -> str:
-        result_xml = self._target.model_dump_xml()
-        result_str = etree.tostring(result_xml)
-        result = result_str.decode("utf-8")
-        return result
+        return self._target.model_dump_xml()
 
     def __init__(self, source: t.Any):
         self._source = source
