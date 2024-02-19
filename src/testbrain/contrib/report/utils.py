@@ -104,5 +104,5 @@ def xml_string_to_fileobject(
 ) -> BytesIO:
     xml_content = normalize_xml_text(xml)
     file_obj = BytesIO(xml_content)
-    file_obj.name = filename or "merged-report.xml"
+    file_obj.name = filename or "report.xml"
     return file_obj
