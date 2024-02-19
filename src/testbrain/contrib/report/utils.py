@@ -106,3 +106,9 @@ def string_to_fileobject(
     file_obj = BytesIO(content)
     file_obj.name = filename or "report.xml"
     return file_obj
+
+
+def xml_string_to_fileobject(
+    xml: t.AnyStr, filename: t.Optional[str] = None
+) -> BytesIO:
+    return string_to_fileobject(xml, filename=filename)
