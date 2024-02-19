@@ -27,7 +27,7 @@ DEFAULT_TIMEOUT: float = 120.0
 
 DEFAULT_HEADERS: t.Dict[t.AnyStr, t.Any] = {
     "Connection": "keep-alive",
-    "Content-Type": "application/json",
+    # "Content-Type": "application/json",
 }
 
 
@@ -123,12 +123,17 @@ class HttpClient(abc.ABC):
         if isinstance(timeout, int) or isinstance(timeout, float):
             timeout = (timeout, timeout)
 
+        # if "files" in kwargs and "content_type" not in kwargs:
+        #     headers["Content-Type"] = "multipart/form-data"
+
         logger.debug("Request get connection session")
         session = self.get_session(auth=auth, headers=headers, max_retries=max_retries)
         logger.debug(f"Request settings: {timeout} {max_retries}")
         logger.debug(f"Request starting: [{method}] {url} {session.headers}")
         response = session.request(method, url, timeout=timeout, **kwargs)
-        logger.debug(f"Request finished: [{response.status_code}] {response.content}")
+        logger.debug(
+            f"Request finished: [{response.status_code}] {response.content[:255]}"
+        )
         return response
 
     def get(

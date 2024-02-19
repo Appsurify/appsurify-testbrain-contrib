@@ -99,10 +99,10 @@ def xml_to_string(elem: etree.Element) -> str:
     return xml_string.decode("utf-8")
 
 
-def xml_string_to_fileobject(
-    xml: t.AnyStr, filename: t.Optional[str] = None
+def string_to_fileobject(
+    content: t.AnyStr, filename: t.Optional[str] = None
 ) -> BytesIO:
-    xml_content = normalize_xml_text(xml)
-    file_obj = BytesIO(xml_content)
+    content = normalize_xml_text(content)
+    file_obj = BytesIO(content)
     file_obj.name = filename or "report.xml"
     return file_obj
