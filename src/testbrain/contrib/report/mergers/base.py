@@ -7,33 +7,42 @@ try:
 except ImportError:
     from xml.etree import ElementTree as etree  # noqa
 
-from .. import utils
-
 
 class ReportMerger(abc.ABC):
-    _files: t.List[pathlib.Path] = []
+    _reports: t.List[str] = []
     _target: t.Any
+    _parser: t.Any = None
 
     @classmethod
     def from_directory(cls, directory: pathlib.Path):
-        instance = cls()
+        reports = []
         for file in directory.iterdir():
             if file.is_file():
-                instance.files.append(file)
-        return instance
+                if not cls._parser:
+                    continue
 
-    def __init__(self, files: t.Optional[t.List[pathlib.Path]] = None):
-        if files is None:
-            files = []
-        self._files = files
+                try:
+                    parser = cls._parser.fromstring(file.read_text(encoding="utf-8"))
+                except ValueError:
+                    continue
+
+                parser.parse()
+                report = parser.result
+
+                reports.append(report)
+
+        return cls.from_reports(reports=reports)
+
+    @classmethod
+    def from_reports(cls, reports: t.List[t.Any]):
+        return cls(reports=reports)
+
+    def __init__(self, reports: t.List[t.Any]):
+        self._reports = reports
 
     @abc.abstractmethod
     def merge(self):
         ...
-
-    @property
-    def files(self):
-        return self._files
 
     @property
     def result(self) -> t.Any:
@@ -45,7 +54,4 @@ class ReportMerger(abc.ABC):
 
     @property
     def result_xml(self) -> str:
-        result_xml = self._target.model_dump_xml()
-        result_str = etree.tostring(result_xml)
-        result = result_str.decode("utf-8")
-        return result
+        return self._target.model_dump_xml()

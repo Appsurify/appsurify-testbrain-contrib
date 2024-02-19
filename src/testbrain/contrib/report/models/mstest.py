@@ -112,5 +112,5 @@ class MSTestTestRun(BaseModel):
     test_definitions: t.List[MSTestUnitTest] = []
     unit_test_results: t.List[MSTestUnitTestResult] = []
 
-    def model_dump_xml(self, namespace: t.Optional[str] = None) -> "etree.Element":
+    def model_dump_xml(self) -> str:
         raise NotImplementedError()

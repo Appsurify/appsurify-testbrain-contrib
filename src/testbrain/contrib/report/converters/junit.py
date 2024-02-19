@@ -17,6 +17,10 @@ class JUnit2TestbrainReportConverter(ReportConverter):
         super().__init__(source)
         self._target = TestbrainTestSuite()
 
+    @property
+    def result(self) -> TestbrainTestSuite:
+        return self._target
+
     def convert(self) -> TestbrainTestSuite:
         self.convert_root()
         self.convert_testsuites()

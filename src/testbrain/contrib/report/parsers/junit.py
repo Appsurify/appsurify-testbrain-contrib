@@ -31,6 +31,10 @@ class JUnitReportParser(XMLReportParser):
         instance = super().from_root(root=root)
         return instance
 
+    @property
+    def result(self) -> JUnitTestSuites:
+        return self._test
+
     def parse(self) -> JUnitTestSuites:
         self.read_root()
         self.read_testsuites()

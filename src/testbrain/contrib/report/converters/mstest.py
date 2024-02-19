@@ -57,7 +57,7 @@ class MSTestReportConverter(ReportConverter):
         self._test_id = 0
         self._reset_counters()
 
-    def convert(self):
+    def convert(self) -> TestbrainTestSuite:
         ...
 
     def _reset_counters(self):
@@ -121,6 +121,10 @@ class MSTest2TestbrainReportConverter(MSTestReportConverter):
     def __init__(self, source: MSTestTestRun):
         super().__init__(source)
         self._target = TestbrainTestSuite()
+
+    @property
+    def result(self) -> TestbrainTestSuite:
+        return self._target
 
     def convert(self) -> TestbrainTestSuite:
         self.convert_root()
@@ -217,6 +221,10 @@ class MSTest2JUnitReportConverter(MSTestReportConverter):
     def __init__(self, source: MSTestTestRun):
         super().__init__(source)
         self._target = JUnitTestSuites()
+
+    @property
+    def result(self) -> JUnitTestSuites:
+        return self._target
 
     def convert(self) -> JUnitTestSuites:
         self.convert_root()

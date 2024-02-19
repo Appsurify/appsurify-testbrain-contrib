@@ -57,18 +57,20 @@ class HshTD(TypedDict):
 
 
 def parse_stats_from_text(text: str) -> HshTD:
-    hsh: HshTD = {
-        "total": {
-            "additions": 0,
-            "insertions": 0,
-            "deletions": 0,
-            "changes": 0,
-            "lines": 0,
-            "files": 0,
-            "total": 0,
-        },
-        "files": {},
-    }
+    hsh: HshTD = HshTD(
+        {
+            "total": {
+                "additions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "changes": 0,
+                "lines": 0,
+                "files": 0,
+                "total": 0,
+            },
+            "files": {},
+        }
+    )
 
     for line in text.splitlines():
         (raw_insertions, raw_deletions, filename) = line.split("\t")
@@ -100,19 +102,21 @@ def parse_stats_from_text(text: str) -> HshTD:
 
         filename = filename.strip()
 
-        file_obj: FilesTD = {
-            "filename": filename,
-            "sha": "",
-            "additions": insertions,
-            "insertions": insertions,
-            "deletions": deletions,
-            "changes": insertions + deletions,
-            "lines": insertions + deletions,
-            "status": "unknown",
-            "previous_filename": "",
-            "patch": "",
-            "blame": "",
-        }
+        file_obj: FilesTD = FilesTD(
+            {
+                "filename": filename,
+                "sha": "",
+                "additions": insertions,
+                "insertions": insertions,
+                "deletions": deletions,
+                "changes": insertions + deletions,
+                "lines": insertions + deletions,
+                "status": "unknown",
+                "previous_filename": "",
+                "patch": "",
+                "blame": "",
+            }
+        )
         hsh["files"][filename] = file_obj
     return HshTD(total=hsh["total"], files=hsh["files"])
 
@@ -157,18 +161,20 @@ def parse_single_commit(commit_match: t.Union[t.Match[str], dict]) -> t.Dict:
         parents=parse_parent_from_text(commit_dict["parents"]),
     )
 
-    stats: HshTD = {
-        "total": {
-            "additions": 0,
-            "insertions": 0,
-            "deletions": 0,
-            "changes": 0,
-            "lines": 0,
-            "files": 0,
-            "total": 0,
-        },
-        "files": {},
-    }
+    stats: HshTD = HshTD(
+        {
+            "total": {
+                "additions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "changes": 0,
+                "lines": 0,
+                "files": 0,
+                "total": 0,
+            },
+            "files": {},
+        }
+    )
 
     if commit_dict["numstats"]:
         stats = parse_stats_from_text(commit_dict["numstats"])
