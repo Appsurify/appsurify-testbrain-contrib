@@ -41,6 +41,7 @@ jobs:
         run: |
           poetry install --with test;
           pip3 install appsurifyci --pre
+          pip3 install appsurify-testbrain-cli==2024.1.21
       - name: "Run tests"
         run: |
           poetry run pytest --verbose --failed-first -o junit_family=xunit1 -o junit_suite_name=pytest-${{ matrix.os }}-PY${{ matrix.python-version }} --junitxml=reports/pytest/${{ github.sha }}/junit-${{ matrix.os }}-PY${{ matrix.python-version }}.xml --cov-report xml:reports/coverage/${{ github.sha }}/${{ matrix.os }}-PY${{ matrix.python-version }}.xml --cov=src/ tests/
