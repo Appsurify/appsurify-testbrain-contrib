@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="172.537">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_squish_legacy.suite_legacy_license_fb" skipped="0" tests="11" time="172.537">
+		<testcase name="preconditions" time="0.069000"/>
+		<testcase name="test_selectable_coverage_15018_script_level_a" time="22.593000"/>
+		<testcase name="test_selectable_coverage_15018_script_mcdc" time="22.384000"/>
+		<testcase name="test_selectable_coverage_15018_wiz_level_a" time="33.111000"/>
+		<testcase name="test_selectable_coverage_15018_wiz_mcdc" time="32.806000"/>
+		<testcase name="test_selectable_coverage_licenses_level_case_14875" time="51.999000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.103000"/>
+		<testcase name="test_pep8_compliance" time="9.171000"/>
+		<testcase name="test_input_dir_compliance" time="0.121000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.180000"/>
+	</testsuite>
+</testsuites>

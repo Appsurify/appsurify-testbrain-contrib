@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="24" time="854.3699999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_unit_coverage.suite_coverage_viewer_updates_sfp" skipped="0" tests="24" time="854.3699999999999">
+		<testcase name="preconditions" time="25.836000"/>
+		<testcase name="test_delete_test_case_cvg_viewer" time="41.616000"/>
+		<testcase name="test_disable_enable_coverage_cvg_viewer" time="41.515000"/>
+		<testcase name="test_edit_save_cba" time="39.797000"/>
+		<testcase name="test_edit_test_case_cvg_viewer" time="40.151000"/>
+		<testcase name="test_enable_disable_result_cvg_viewer" time="52.400000"/>
+		<testcase name="test_enable_tc_internally_linked_class" time="53.589000"/>
+		<testcase name="test_env_incr_rebuild_cvf_viewer" time="46.652000"/>
+		<testcase name="test_env_rebuild_cvf_viewer" time="46.017000"/>
+		<testcase name="test_env_update_cvf_viewer" time="56.476000"/>
+		<testcase name="test_execute_test_case_cvg_viewer" time="35.102000"/>
+		<testcase name="test_import_script_cvg_viewer" time="42.633000"/>
+		<testcase name="test_imported_result_cvg_viewer" time="42.093000"/>
+		<testcase name="test_initialize_coverage_cvf_viewer" time="44.011000"/>
+		<testcase name="test_initialize_custom_coverage_cvf_viewer" time="39.462000"/>
+		<testcase name="test_remove_all_coverage_data_cvg_viewer" time="40.921000"/>
+		<testcase name="test_rename_test_case_cvg_viewer" time="39.605000"/>
+		<testcase name="test_uninst_close_open_inst_cvf_viewer" time="69.199000"/>
+		<testcase name="test_uninstrument_coverage_cvf_viewer" time="42.265000"/>
+		<testcase name="postconditions" time="5.248000"/>
+		<testcase name="test_py_md_compliance" time="0.386000"/>
+		<testcase name="test_pep8_compliance" time="8.583000"/>
+		<testcase name="test_input_dir_compliance" time="0.407000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.406000"/>
+	</testsuite>
+</testsuites>

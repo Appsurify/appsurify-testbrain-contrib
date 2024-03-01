@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="244.62999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_symbolic_constants_table.suite_open_close_scv" skipped="0" tests="11" time="244.62999999999997">
+		<testcase name="preconditions" time="7.594000"/>
+		<testcase name="test_auto_mode" time="66.463000"/>
+		<testcase name="test_auto_mode_testcases_tab" time="41.697000"/>
+		<testcase name="test_override_mode_right_click_slider" time="39.053000"/>
+		<testcase name="test_override_mode_toolbar" time="39.320000"/>
+		<testcase name="test_override_mode_view_menu" time="39.483000"/>
+		<testcase name="postconditions" time="5.166000"/>
+		<testcase name="test_py_md_compliance" time="0.081000"/>
+		<testcase name="test_pep8_compliance" time="5.596000"/>
+		<testcase name="test_input_dir_compliance" time="0.075000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.102000"/>
+	</testsuite>
+</testsuites>

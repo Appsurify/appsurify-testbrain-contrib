@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="31" time="178.40099999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_test.suite_actuals_to_expected_c" skipped="0" tests="31" time="178.40099999999998">
+		<testcase name="preconditions"/>
+		<testcase name="test_char_array" time="7.862000"/>
+		<testcase name="test_convert_octal_hex_strings" time="5.468000"/>
+		<testcase name="test_enum" time="7.370000"/>
+		<testcase name="test_negative_char" time="7.234000"/>
+		<testcase name="test_negative_float" time="7.455000"/>
+		<testcase name="test_negative_int" time="7.578000"/>
+		<testcase name="test_no_convert_octal_hex_strings" time="6.032000"/>
+		<testcase name="test_no_result" time="5.438000"/>
+		<testcase name="test_no_result_subprogram" time="5.416000"/>
+		<testcase name="test_no_result_unit" time="5.600000"/>
+		<testcase name="test_null_strings" time="10.107000"/>
+		<testcase name="test_param_ctor_call" time="7.366000"/>
+		<testcase name="test_positive_char" time="7.865000"/>
+		<testcase name="test_positive_float" time="7.746000"/>
+		<testcase name="test_positive_int" time="7.348000"/>
+		<testcase name="test_specify_environment" time="6.759000"/>
+		<testcase name="test_specify_environment_error" time="6.943000"/>
+		<testcase name="test_specify_subprogram" time="7.548000"/>
+		<testcase name="test_specify_subprogram_error" time="6.702000"/>
+		<testcase name="test_specify_testcase" time="6.699000"/>
+		<testcase name="test_specify_testcase_csv_error" time="4.380000"/>
+		<testcase name="test_specify_testcase_error" time="4.358000"/>
+		<testcase name="test_specify_unit" time="7.225000"/>
+		<testcase name="test_specify_unit_error" time="9.486000"/>
+		<testcase name="test_unsigned" time="7.785000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.041000"/>
+		<testcase name="test_pep8_compliance" time="4.543000"/>
+		<testcase name="test_input_dir_compliance" time="0.024000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.023000"/>
+	</testsuite>
+</testsuites>

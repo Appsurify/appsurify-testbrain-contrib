@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="26" time="147.29100000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment.suite_incremental_rebuild" skipped="0" tests="26" time="147.29100000000003">
+		<testcase name="preconditions"/>
+		<testcase name="test_56429_invalid_dependencies" time="5.493000"/>
+		<testcase name="test_62063_undeclared_function_dependencies" time="4.762000"/>
+		<testcase name="test_gnu_system_marker" time="11.731000"/>
+		<testcase name="test_inc_rebuild_coverage" time="10.622000"/>
+		<testcase name="test_inc_rebuild_delete_probe" time="7.733000"/>
+		<testcase name="test_inc_rebuild_for_env_script_does_not_exist" time="4.639000"/>
+		<testcase name="test_inc_rebuild_for_invalid_env_script" time="4.680000"/>
+		<testcase name="test_inc_rebuild_for_search_dirs_relative_paths" time="6.675000"/>
+		<testcase name="test_inc_rebuild_probe_points" time="13.379000"/>
+		<testcase name="test_inc_rebuild_sbf_main" time="5.531000"/>
+		<testcase name="test_inc_rebuild_update_probe" time="18.166000"/>
+		<testcase name="test_library_stub" time="5.593000"/>
+		<testcase name="test_previously_not_compiled" time="7.107000"/>
+		<testcase name="test_static_member" time="5.549000"/>
+		<testcase name="test_suppressed_stub" time="4.938000"/>
+		<testcase name="test_symbolic_constants_added" time="5.411000"/>
+		<testcase name="test_unapplied_test_data" time="5.240000"/>
+		<testcase name="test_undefined_template_dtor" time="5.110000"/>
+		<testcase name="test_undefined_virtual_dtor" time="4.386000"/>
+		<testcase name="test_uninstantiated_variable_template" time="4.430000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="6.076000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="882.1550000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover_source_files_view.suite_source_file_perspective" skipped="0" tests="23" time="882.1550000000002">
+		<testcase name="preconditions" time="7.864000"/>
+		<testcase name="test_ada_file_coverage_viewer" time="53.969000"/>
+		<testcase name="test_add_remove_headers" time="110.875000"/>
+		<testcase name="test_close_cvg_viewer_for_blacklisted_files" time="61.831000"/>
+		<testcase name="test_display_coverage_bars_branch" time="42.525000"/>
+		<testcase name="test_display_coverage_bars_func_call" time="41.975000"/>
+		<testcase name="test_display_coverage_bars_mcdc" time="57.099000"/>
+		<testcase name="test_display_coverage_bars_statement" time="40.713000"/>
+		<testcase name="test_double_click_header" time="40.725000"/>
+		<testcase name="test_header_properties" time="32.728000"/>
+		<testcase name="test_header_refreshed_after_mod_reinst_all" time="48.385000"/>
+		<testcase name="test_header_refreshed_after_mod_reinst_one" time="48.657000"/>
+		<testcase name="test_instrument_with_headers" time="42.217000"/>
+		<testcase name="test_right_click_header_and_source_menu" time="42.902000"/>
+		<testcase name="test_right_click_header_menu" time="37.266000"/>
+		<testcase name="test_right_click_header_remove" time="61.102000"/>
+		<testcase name="test_sfp_option_off_to_on" time="45.798000"/>
+		<testcase name="test_sfp_option_on_to_off" time="55.152000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.202000"/>
+		<testcase name="test_pep8_compliance" time="9.643000"/>
+		<testcase name="test_input_dir_compliance" time="0.296000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.231000"/>
+	</testsuite>
+</testsuites>

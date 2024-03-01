@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="3.017">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_edgfe.test_parse.suite_arm" skipped="0" tests="9" time="3.017">
+		<testcase name="preconditions"/>
+		<testcase name="test_56010_asm_block_in_c" time="0.054000"/>
+		<testcase name="test_packed_ctor" time="0.043000"/>
+		<testcase name="test_version_5_headers" time="0.390000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="2.520000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

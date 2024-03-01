@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="51.32399999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment.suite_incremental_rebuild_sbf" skipped="0" tests="21" time="51.32399999999999">
+		<testcase name="preconditions" time="4.514000"/>
+		<testcase name="test_add_whitespace_uut_source_inc_rebuild" time="1.785000"/>
+		<testcase name="test_change_func_dependency_head_full_rebuild_req" time="1.188000"/>
+		<testcase name="test_change_func_dependency_source_rebuild_unec" time="1.776000"/>
+		<testcase name="test_change_func_uut_head_full_rebuild_req" time="1.234000"/>
+		<testcase name="test_change_func_uut_source_inc_rebuild" time="2.037000"/>
+		<testcase name="test_disable_coverage_incremental_rebuild" time="9.145000"/>
+		<testcase name="test_inc_rebuild_affected_coverage_removed" time="7.578000"/>
+		<testcase name="test_incremental_rebuild_invalidate_cba" time="3.972000"/>
+		<testcase name="test_incremental_rebuild_preserve_cba" time="3.467000"/>
+		<testcase name="test_no_code_change_rebuild_unec" time="1.635000"/>
+		<testcase name="test_templates" time="4.365000"/>
+		<testcase name="test_var_decl_dependency_head_full_rebuild_req" time="1.489000"/>
+		<testcase name="test_var_decl_uut_head_full_rebuild_req" time="1.086000"/>
+		<testcase name="test_var_def_dependency_source_rebuild_unec" time="1.589000"/>
+		<testcase name="test_var_def_uut_source_full_rebuild_req" time="1.215000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="3.215000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

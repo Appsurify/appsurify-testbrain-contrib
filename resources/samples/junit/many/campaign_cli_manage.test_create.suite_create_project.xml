@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="33" time="97.09800000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_create.suite_create_project" skipped="0" tests="33" time="97.09800000000001">
+		<testcase name="preconditions"/>
+		<testcase name="test_add_environments_recursively" time="7.580000"/>
+		<testcase name="test_continue_importing_environment_when_one_fails" time="4.691000"/>
+		<testcase name="test_create_cover_environment" time="4.442000"/>
+		<testcase name="test_create_project_after_not_found" time="2.386000"/>
+		<testcase name="test_create_project_from_compiler" time="2.152000"/>
+		<testcase name="test_create_project_from_directory_with_rsp_env" time="4.965000"/>
+		<testcase name="test_create_project_from_directory_with_two_env" time="8.293000"/>
+		<testcase name="test_create_project_permission_denied" time="0.279000"/>
+		<testcase name="test_create_project_with_ada_cfg" time="2.985000"/>
+		<testcase name="test_create_project_with_cfg" time="4.193000"/>
+		<testcase name="test_create_project_with_invalid_cfg" time="0.276000"/>
+		<testcase name="test_create_with_invalid_db_catch_sqlite" time="8.638000"/>
+		<testcase name="test_debug" time="0.567000"/>
+		<testcase name="test_directory_arg_does_not_exist" time="0.302000"/>
+		<testcase name="test_duplicate_environment_name" time="7.494000"/>
+		<testcase name="test_import_duplicate_environment_name" time="5.820000"/>
+		<testcase name="test_import_environment_does_not_exist" time="4.778000"/>
+		<testcase name="test_project_add_level_no_value" time="1.189000"/>
+		<testcase name="test_project_group_more_than_once" time="1.186000"/>
+		<testcase name="test_project_group_no_value" time="0.739000"/>
+		<testcase name="test_project_group_not_found" time="1.712000"/>
+		<testcase name="test_project_name_already_exists" time="0.779000"/>
+		<testcase name="test_project_name_contains_invalid_character" time="0.248000"/>
+		<testcase name="test_project_name_not_present" time="0.240000"/>
+		<testcase name="test_project_single_quote_dir" time="1.082000"/>
+		<testcase name="test_replace_duplicate_environment" time="6.217000"/>
+		<testcase name="test_use_hierarchy_when_compiler_tag_is_empty" time="5.476000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.039000"/>
+		<testcase name="test_pep8_compliance" time="8.297000"/>
+		<testcase name="test_input_dir_compliance" time="0.028000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.025000"/>
+	</testsuite>
+</testsuites>

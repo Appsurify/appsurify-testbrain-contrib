@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="56.876">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_project_manipulation.suite_environment_storage_location" skipped="0" tests="18" time="56.876">
+		<testcase name="preconditions" time="12.024000"/>
+		<testcase name="test_allow_environment_variables_to_be_given" time="5.825000"/>
+		<testcase name="test_build_environment_in_new_storage_location" time="6.435000"/>
+		<testcase name="test_custom_directory_non_env_files_retained" time="2.837000"/>
+		<testcase name="test_default_directory_removed" time="2.052000"/>
+		<testcase name="test_ensure_subdirectory_of_root_source" time="1.218000"/>
+		<testcase name="test_must_specify_environment" time="2.192000"/>
+		<testcase name="test_report_error_directory_does_not_exist" time="0.840000"/>
+		<testcase name="test_report_error_when_file_given" time="0.687000"/>
+		<testcase name="test_report_error_when_files_already_exist" time="1.240000"/>
+		<testcase name="test_report_error_when_monitored_environment_given" time="6.585000"/>
+		<testcase name="test_root_source_directory_must_be_set" time="2.076000"/>
+		<testcase name="test_use_legacy_root_source_directory" time="7.659000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="5.181000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

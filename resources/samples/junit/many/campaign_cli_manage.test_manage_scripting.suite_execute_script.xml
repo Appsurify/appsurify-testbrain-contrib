@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="43.02100000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_manage_scripting.suite_execute_script" skipped="0" tests="8" time="43.02100000000001">
+		<testcase name="preconditions" time="19.908000"/>
+		<testcase name="test_stderr_to_log" time="6.361000"/>
+		<testcase name="test_stdout_to_log" time="13.343000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="3.384000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

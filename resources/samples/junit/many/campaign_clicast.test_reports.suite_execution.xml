@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="96.87100000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_reports.suite_execution" skipped="0" tests="21" time="96.87100000000001">
+		<testcase name="preconditions" time="1.227000"/>
+		<testcase name="test_code_sym_const_in_compound_iteration" time="5.319000"/>
+		<testcase name="test_config_sym_const_in_compound_iteration" time="5.458000"/>
+		<testcase name="test_event_warnings" time="7.176000"/>
+		<testcase name="test_exit_event" time="4.031000"/>
+		<testcase name="test_harness_output_files_error_html" time="4.452000"/>
+		<testcase name="test_macros" time="5.792000"/>
+		<testcase name="test_mixed_data_types" time="6.390000"/>
+		<testcase name="test_null_strings" time="4.121000"/>
+		<testcase name="test_report_after_test_error" time="4.652000"/>
+		<testcase name="test_report_unknown_event_error" time="5.079000"/>
+		<testcase name="test_report_unknown_event_error_reason" time="5.249000"/>
+		<testcase name="test_timeout_text_html" time="17.651000"/>
+		<testcase name="test_user_sym_const_in_compound_iteration" time="5.605000"/>
+		<testcase name="test_vcdb_sym_const_in_compound_iteration" time="5.410000"/>
+		<testcase name="test_vct_map_data" time="6.622000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="2.598000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

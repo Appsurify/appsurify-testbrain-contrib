@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="33" time="120.22899999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_concrete_classes" skipped="0" tests="33" time="120.22899999999996">
+		<testcase name="preconditions" time="4.975000"/>
+		<testcase name="test_base_param_noncopyable" time="6.608000"/>
+		<testcase name="test_configure_stubs_user_code" time="6.197000"/>
+		<testcase name="test_covariant_return_type_no_override" time="3.234000"/>
+		<testcase name="test_covariant_return_type_override" time="3.569000"/>
+		<testcase name="test_default_arg_private_type" time="2.220000"/>
+		<testcase name="test_deleted_inherited_ctor" time="4.834000"/>
+		<testcase name="test_final_class_def" time="3.350000"/>
+		<testcase name="test_forward_declared" time="3.870000"/>
+		<testcase name="test_forward_declared_param" time="1.669000"/>
+		<testcase name="test_inaccessible_template_arg" time="4.538000"/>
+		<testcase name="test_inherited_default_ctor_unusable" time="4.661000"/>
+		<testcase name="test_inherited_non_default_ctor" time="4.373000"/>
+		<testcase name="test_member_func_r_obj_requires_move" time="5.033000"/>
+		<testcase name="test_namespace_template_arguments" time="5.546000"/>
+		<testcase name="test_no_callable_ctor" time="2.990000"/>
+		<testcase name="test_no_move_or_copy_return" time="3.069000"/>
+		<testcase name="test_non_direct_inherited_members" time="1.761000"/>
+		<testcase name="test_noncopyable_pure_virtual_return" time="3.669000"/>
+		<testcase name="test_not_supported_type" time="7.493000"/>
+		<testcase name="test_overridden_pure_virtual" time="1.574000"/>
+		<testcase name="test_param_same_name_as_class" time="4.985000"/>
+		<testcase name="test_pure_virtual_unique_ptr_incomplete_type" time="4.645000"/>
+		<testcase name="test_qualified_template_name_when_shadowed" time="4.762000"/>
+		<testcase name="test_scope_assoc_type" time="5.076000"/>
+		<testcase name="test_split_uc_files" time="6.522000"/>
+		<testcase name="test_stubbed_ctor_member_init" time="1.746000"/>
+		<testcase name="test_template_no_move_copy_return" time="3.151000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="4.066000"/>
+		<testcase name="test_input_dir_compliance" time="0.015000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.014000"/>
+	</testsuite>
+</testsuites>

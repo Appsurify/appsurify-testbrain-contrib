@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="453.8759999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment_ada.suite_builder_use_cases" skipped="0" tests="22" time="453.8759999999999">
+		<testcase name="preconditions" time="0.001000"/>
+		<testcase name="test_access_procedure_in_different_instances" time="37.453000"/>
+		<testcase name="test_access_subprogram" time="21.670000"/>
+		<testcase name="test_constant_pointer_in_different_instances" time="35.126000"/>
+		<testcase name="test_constant_pointers" time="35.598000"/>
+		<testcase name="test_instance_of_nested_generics" time="21.446000"/>
+		<testcase name="test_long_string_literal" time="20.904000"/>
+		<testcase name="test_overridden_standard_types" time="25.320000"/>
+		<testcase name="test_parent_source_not_found_muwb" time="11.517000"/>
+		<testcase name="test_proc_for_string_access" time="23.941000"/>
+		<testcase name="test_same_typename_in_different_instances" time="24.556000"/>
+		<testcase name="test_sibling_generics" time="25.663000"/>
+		<testcase name="test_stub_raises_exception" time="24.263000"/>
+		<testcase name="test_unconstrained_array_in_different_instances" time="43.426000"/>
+		<testcase name="test_variant_record_in_different_instances" time="36.278000"/>
+		<testcase name="test_variant_records" time="37.319000"/>
+		<testcase name="test_volatile_in_generics" time="24.938000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.102000"/>
+		<testcase name="test_pep8_compliance" time="4.269000"/>
+		<testcase name="test_input_dir_compliance" time="0.042000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.044000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="242.614">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_compound_view.suite_show_slot_data" skipped="0" tests="11" time="242.614">
+		<testcase name="preconditions" time="8.558000"/>
+		<testcase name="test_cannot_execute_when_print_false_w_expecteds" time="41.640000"/>
+		<testcase name="test_set_print_to_false" time="37.395000"/>
+		<testcase name="test_set_print_to_false_reopen" time="51.758000"/>
+		<testcase name="test_set_print_to_true" time="37.287000"/>
+		<testcase name="test_set_print_to_true_reopen" time="53.770000"/>
+		<testcase name="postconditions" time="5.140000"/>
+		<testcase name="test_py_md_compliance" time="0.050000"/>
+		<testcase name="test_pep8_compliance" time="6.883000"/>
+		<testcase name="test_input_dir_compliance" time="0.076000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.057000"/>
+	</testsuite>
+</testsuites>

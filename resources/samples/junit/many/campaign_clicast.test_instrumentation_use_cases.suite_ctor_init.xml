@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="313.26599999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_ctor_init" skipped="0" tests="52" time="313.26599999999996">
+		<testcase name="preconditions" time="4.431000"/>
+		<testcase name="test_branch_assign_off_animation" time="7.020000"/>
+		<testcase name="test_branch_assign_off_buffered" time="6.971000"/>
+		<testcase name="test_branch_assign_off_realtime" time="7.320000"/>
+		<testcase name="test_branch_assign_off_realtime_animation" time="7.284000"/>
+		<testcase name="test_branch_assign_off_realtime_buffered" time="7.206000"/>
+		<testcase name="test_branch_param_off_animation" time="6.663000"/>
+		<testcase name="test_branch_param_off_buffered" time="6.455000"/>
+		<testcase name="test_branch_param_off_realtime" time="6.337000"/>
+		<testcase name="test_branch_param_off_realtime_animation" time="6.348000"/>
+		<testcase name="test_branch_param_off_realtime_buffered" time="6.945000"/>
+		<testcase name="test_function" time="6.178000"/>
+		<testcase name="test_function_function_call" time="6.141000"/>
+		<testcase name="test_level_a_assign_off_animation" time="7.073000"/>
+		<testcase name="test_level_a_assign_off_buffered" time="6.889000"/>
+		<testcase name="test_level_a_assign_off_realtime" time="7.559000"/>
+		<testcase name="test_level_a_assign_off_realtime_animation" time="7.290000"/>
+		<testcase name="test_level_a_assign_off_realtime_buffered" time="6.949000"/>
+		<testcase name="test_level_a_param_off_animation" time="6.522000"/>
+		<testcase name="test_level_a_param_off_buffered" time="6.934000"/>
+		<testcase name="test_level_a_param_off_realtime" time="6.444000"/>
+		<testcase name="test_level_a_param_off_realtime_animation" time="6.998000"/>
+		<testcase name="test_level_a_param_off_realtime_buffered" time="6.857000"/>
+		<testcase name="test_level_b_assign_off_animation" time="7.089000"/>
+		<testcase name="test_level_b_assign_off_buffered" time="6.983000"/>
+		<testcase name="test_level_b_assign_off_realtime" time="6.686000"/>
+		<testcase name="test_level_b_assign_off_realtime_animation" time="6.869000"/>
+		<testcase name="test_level_b_assign_off_realtime_buffered" time="5.902000"/>
+		<testcase name="test_level_b_param_off_animation" time="7.160000"/>
+		<testcase name="test_level_b_param_off_buffered" time="6.986000"/>
+		<testcase name="test_level_b_param_off_realtime" time="7.087000"/>
+		<testcase name="test_level_b_param_off_realtime_animation" time="6.780000"/>
+		<testcase name="test_level_b_param_off_realtime_buffered" time="6.772000"/>
+		<testcase name="test_mcdc_assign_off_animation" time="7.174000"/>
+		<testcase name="test_mcdc_assign_off_buffered" time="7.107000"/>
+		<testcase name="test_mcdc_assign_off_realtime" time="6.804000"/>
+		<testcase name="test_mcdc_assign_off_realtime_animation" time="6.614000"/>
+		<testcase name="test_mcdc_assign_off_realtime_buffered" time="6.998000"/>
+		<testcase name="test_mcdc_param_off_animation" time="7.873000"/>
+		<testcase name="test_mcdc_param_off_buffered" time="7.284000"/>
+		<testcase name="test_mcdc_param_off_realtime" time="6.946000"/>
+		<testcase name="test_mcdc_param_off_realtime_animation" time="6.888000"/>
+		<testcase name="test_mcdc_param_off_realtime_buffered" time="6.754000"/>
+		<testcase name="test_mcdc_test_assign_off" time="1.209000"/>
+		<testcase name="test_mcdc_test_param_off" time="1.301000"/>
+		<testcase name="test_statement" time="7.311000"/>
+		<testcase name="test_statement_function_call" time="7.222000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.052000"/>
+		<testcase name="test_pep8_compliance" time="2.480000"/>
+		<testcase name="test_input_dir_compliance" time="0.072000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.049000"/>
+	</testsuite>
+</testsuites>

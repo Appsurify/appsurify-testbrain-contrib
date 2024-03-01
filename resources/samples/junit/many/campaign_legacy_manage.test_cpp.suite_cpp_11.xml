@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="229.707">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_11" skipped="0" tests="13" time="229.707">
+		<testcase name="preconditions" time="1.030000"/>
+		<testcase name="test_edg_multi_uuts" time="91.963000"/>
+		<testcase name="test_edg_nested_types" time="7.788000"/>
+		<testcase name="test_edg_overloaded_address_of" time="7.958000"/>
+		<testcase name="test_edg_pointer_aggregates" time="7.771000"/>
+		<testcase name="test_edg_pointer_basetype" time="7.986000"/>
+		<testcase name="test_edg_pragma_instantiate" time="8.040000"/>
+		<testcase name="test_edg_private_prototype_stub" time="8.295000"/>
+		<testcase name="test_edg_stub_by_function" time="85.807000"/>
+		<testcase name="postconditions" time="0.020000"/>
+		<testcase name="test_pep8_compliance" time="2.956000"/>
+		<testcase name="test_input_dir_compliance" time="0.049000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.044000"/>
+	</testsuite>
+</testsuites>

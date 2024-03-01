@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="8.023000000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcwrap.test_vcwrap.suite_diagnostics" skipped="0" tests="9" time="8.023000000000001">
+		<testcase name="preconditions" time="4.124000"/>
+		<testcase name="test_build_dir_does_not_exist" time="0.206000"/>
+		<testcase name="test_build_dir_not_writable" time="0.160000"/>
+		<testcase name="test_parse_failed" time="0.203000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="3.316000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

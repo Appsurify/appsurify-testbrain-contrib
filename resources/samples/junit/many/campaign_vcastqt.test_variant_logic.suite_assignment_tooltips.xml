@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="293.252">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_variant_logic.suite_assignment_tooltips" skipped="0" tests="13" time="293.252">
+		<testcase name="preconditions" time="8.036000"/>
+		<testcase name="test_display_logic_selector_explanation" time="34.645000"/>
+		<testcase name="test_display_status_explanation" time="32.512000"/>
+		<testcase name="test_status_display_full_error" time="44.756000"/>
+		<testcase name="test_tab_tooltip" time="32.358000"/>
+		<testcase name="test_tab_tooltip_save_as" time="48.576000"/>
+		<testcase name="test_tab_tooltip_save_as_tab_closed" time="44.913000"/>
+		<testcase name="test_unit_subprog_testcase_logic_tooltips" time="38.374000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.078000"/>
+		<testcase name="test_pep8_compliance" time="8.749000"/>
+		<testcase name="test_input_dir_compliance" time="0.168000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.087000"/>
+	</testsuite>
+</testsuites>

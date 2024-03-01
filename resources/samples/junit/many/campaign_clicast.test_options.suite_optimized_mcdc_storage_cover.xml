@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="20" time="60.241">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_optimized_mcdc_storage_cover" skipped="0" tests="20" time="60.241">
+		<testcase name="preconditions" time="2.531000"/>
+		<testcase name="test_optimized_mcdc_cpp_on" time="4.864000"/>
+		<testcase name="test_optimized_mcdc_off" time="3.746000"/>
+		<testcase name="test_optimized_mcdc_on" time="3.059000"/>
+		<testcase name="test_optimized_mcdc_on_animation" time="3.760000"/>
+		<testcase name="test_optimized_mcdc_on_buffered" time="3.604000"/>
+		<testcase name="test_optimized_mcdc_on_buffered_macro" time="3.823000"/>
+		<testcase name="test_optimized_mcdc_on_realtime" time="3.494000"/>
+		<testcase name="test_optimized_mcdc_on_threshold_0" time="3.809000"/>
+		<testcase name="test_optimized_mcdc_reinst_after_threshold_change" time="5.466000"/>
+		<testcase name="test_optimized_mcdc_reinst_file" time="3.520000"/>
+		<testcase name="test_optimized_mcdc_threshold_bad_value_too_high" time="2.900000"/>
+		<testcase name="test_optimized_mcdc_threshold_bad_value_too_low" time="2.617000"/>
+		<testcase name="test_optimized_statement_mcdc_off" time="3.600000"/>
+		<testcase name="test_optimized_statement_mcdc_on" time="4.844000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.030000"/>
+		<testcase name="test_pep8_compliance" time="4.522000"/>
+		<testcase name="test_input_dir_compliance" time="0.018000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.034000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="25" time="696.319">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_files_tab.suite_coverage_viewer_a" skipped="0" tests="25" time="696.319">
+		<testcase name="preconditions" time="31.721000"/>
+		<testcase name="test_full_basis" time="31.685000"/>
+		<testcase name="test_full_branch" time="29.107000"/>
+		<testcase name="test_full_cba_only_branch" time="34.919000"/>
+		<testcase name="test_full_cba_only_function" time="34.373000"/>
+		<testcase name="test_full_cba_only_level_a" time="36.067000"/>
+		<testcase name="test_full_cba_only_level_b" time="35.838000"/>
+		<testcase name="test_full_cba_only_mcdc" time="35.535000"/>
+		<testcase name="test_full_cba_only_statement" time="36.470000"/>
+		<testcase name="test_full_due_to_cba_branch" time="37.982000"/>
+		<testcase name="test_full_due_to_cba_function" time="37.455000"/>
+		<testcase name="test_full_due_to_cba_level_a" time="39.336000"/>
+		<testcase name="test_full_due_to_cba_level_b" time="38.321000"/>
+		<testcase name="test_full_due_to_cba_mcdc" time="39.480000"/>
+		<testcase name="test_full_due_to_cba_statement" time="37.456000"/>
+		<testcase name="test_full_function" time="29.064000"/>
+		<testcase name="test_full_level_a" time="29.445000"/>
+		<testcase name="test_full_level_b" time="29.344000"/>
+		<testcase name="test_full_mcdc" time="29.734000"/>
+		<testcase name="test_full_statement" time="29.035000"/>
+		<testcase name="postconditions" time="5.311000"/>
+		<testcase name="test_py_md_compliance" time="0.290000"/>
+		<testcase name="test_pep8_compliance" time="7.564000"/>
+		<testcase name="test_input_dir_compliance" time="0.415000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.372000"/>
+	</testsuite>
+</testsuites>

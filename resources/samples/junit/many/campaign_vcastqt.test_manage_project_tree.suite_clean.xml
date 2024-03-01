@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="345.134">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_project_tree.suite_clean" skipped="0" tests="15" time="345.134">
+		<testcase name="preconditions" time="67.273000"/>
+		<testcase name="test_cancel_clean" time="28.098000"/>
+		<testcase name="test_clean_comp_results_removed" time="25.084000"/>
+		<testcase name="test_clean_env_results_removed" time="26.191000"/>
+		<testcase name="test_clean_grp_results_removed" time="25.298000"/>
+		<testcase name="test_clean_option_allowed" time="33.722000"/>
+		<testcase name="test_clean_option_not_allowed" time="38.507000"/>
+		<testcase name="test_clean_proj_results_removed" time="26.774000"/>
+		<testcase name="test_clean_ts_results_removed" time="25.820000"/>
+		<testcase name="test_multi_select_and_clean_skip_cover" time="31.899000"/>
+		<testcase name="postconditions" time="5.286000"/>
+		<testcase name="test_py_md_compliance" time="0.231000"/>
+		<testcase name="test_pep8_compliance" time="10.516000"/>
+		<testcase name="test_input_dir_compliance" time="0.241000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.194000"/>
+	</testsuite>
+</testsuites>

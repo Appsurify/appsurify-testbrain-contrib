@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="240.08599999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_system_testing.suite_edit_script" skipped="0" tests="11" time="240.08599999999996">
+		<testcase name="preconditions" time="10.408000"/>
+		<testcase name="test_implementation_warning" time="47.027000"/>
+		<testcase name="test_import_error_disables_build_exec" time="40.778000"/>
+		<testcase name="test_name_error_disables_build_exec" time="40.546000"/>
+		<testcase name="test_syntax_error_disables_build_exec" time="43.127000"/>
+		<testcase name="test_syntax_error_reload" time="45.884000"/>
+		<testcase name="postconditions" time="5.199000"/>
+		<testcase name="test_py_md_compliance" time="0.087000"/>
+		<testcase name="test_pep8_compliance" time="6.814000"/>
+		<testcase name="test_input_dir_compliance" time="0.111000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.105000"/>
+	</testsuite>
+</testsuites>

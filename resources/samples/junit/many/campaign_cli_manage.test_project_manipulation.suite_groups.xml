@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="32.804">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_project_manipulation.suite_groups" skipped="0" tests="10" time="32.804">
+		<testcase name="preconditions" time="1.334000"/>
+		<testcase name="test_add_existing_monitored_env_to_group" time="8.453000"/>
+		<testcase name="test_add_monitored_environment_to_group" time="6.309000"/>
+		<testcase name="test_group_in_multiple_suites_add_env" time="7.119000"/>
+		<testcase name="test_group_in_multiple_suites_import_monitored_env" time="5.544000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="4.031000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

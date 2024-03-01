@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="105.822">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_17" skipped="0" tests="12" time="105.822">
+		<testcase name="preconditions" time="1.079000"/>
+		<testcase name="test_file_extension" time="9.104000"/>
+		<testcase name="test_friend" time="7.510000"/>
+		<testcase name="test_friend_functions" time="9.199000"/>
+		<testcase name="test_funct_ptr" time="8.852000"/>
+		<testcase name="test_global_array_of_ptr" time="7.678000"/>
+		<testcase name="test_global_in_main" time="30.871000"/>
+		<testcase name="test_gnu_basis_test_cpp" time="28.001000"/>
+		<testcase name="postconditions" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="3.494000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

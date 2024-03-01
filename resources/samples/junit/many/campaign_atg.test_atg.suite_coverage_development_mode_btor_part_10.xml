@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="33" time="356.3490000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_development_mode_btor_part_10" skipped="0" tests="33" time="356.3490000000001">
+		<testcase name="preconditions"/>
+		<testcase name="test_templated_functions" time="13.359000"/>
+		<testcase name="test_templated_structs_of_the_same_name" time="12.287000"/>
+		<testcase name="test_templates_involving_structs" time="11.969000"/>
+		<testcase name="test_tern_nested_in_if" time="12.261000"/>
+		<testcase name="test_ternary" time="11.628000"/>
+		<testcase name="test_testable_routines" time="12.390000"/>
+		<testcase name="test_this_direct_comparison" time="12.939000"/>
+		<testcase name="test_timeout_zero" time="12.099000"/>
+		<testcase name="test_typedef_crash" time="11.042000"/>
+		<testcase name="test_typedeffed_struct_as_method_param" time="11.284000"/>
+		<testcase name="test_typemismatch_this" time="12.034000"/>
+		<testcase name="test_udiv_test" time="12.307000"/>
+		<testcase name="test_unicode_uncomplient_string" time="10.780000"/>
+		<testcase name="test_union_overlap" time="11.602000"/>
+		<testcase name="test_unnamed_stub_param" time="11.698000"/>
+		<testcase name="test_urem" time="11.218000"/>
+		<testcase name="test_vcast_c_example_manager" time="15.359000"/>
+		<testcase name="test_vcast_c_example_vscode" time="15.444000"/>
+		<testcase name="test_vcast_cpp_example_manager" time="18.275000"/>
+		<testcase name="test_vcast_cpp_example_manager_extra" time="13.377000"/>
+		<testcase name="test_vcast_cpp_example_minimal_fields" time="0.059000"/>
+		<testcase name="test_vcast_cpp_example_vscode" time="18.730000"/>
+		<testcase name="test_virtual_vs_non_virtual_stubs" time="13.062000"/>
+		<testcase name="test_void_field_inside_struct" time="13.045000"/>
+		<testcase name="test_void_star_field" time="15.229000"/>
+		<testcase name="test_void_star_tests" time="13.928000"/>
+		<testcase name="test_volatile_const_arrays" time="13.749000"/>
+		<testcase name="test_walk_method_not_walk_ctor" time="12.533000"/>
+		<testcase name="postconditions" time="0.083000"/>
+		<testcase name="test_pep8_compliance" time="2.396000"/>
+		<testcase name="test_input_dir_compliance" time="0.094000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.089000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="83.351">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_project_manipulation.suite_project_hierarchy" skipped="0" tests="18" time="83.351">
+		<testcase name="preconditions" time="13.771000"/>
+		<testcase name="test_add_environment_to_suite" time="1.993000"/>
+		<testcase name="test_delete_all_compilers" time="2.370000"/>
+		<testcase name="test_delete_all_environments" time="2.184000"/>
+		<testcase name="test_delete_all_test_suites" time="3.908000"/>
+		<testcase name="test_delete_group_from_project" time="19.080000"/>
+		<testcase name="test_delete_levels" time="3.426000"/>
+		<testcase name="test_remove_env_from_group" time="1.082000"/>
+		<testcase name="test_remove_env_from_group_missing_arg" time="1.056000"/>
+		<testcase name="test_remove_environment_from_suite" time="2.307000"/>
+		<testcase name="test_remove_group_from_suite" time="1.236000"/>
+		<testcase name="test_remove_group_from_suite_missing_arg" time="1.164000"/>
+		<testcase name="test_remove_two_groups_one_environment" time="24.062000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="5.672000"/>
+		<testcase name="test_input_dir_compliance" time="0.021000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

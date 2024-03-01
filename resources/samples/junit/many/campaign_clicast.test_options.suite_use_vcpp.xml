@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="57.64500000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_use_vcpp" skipped="0" tests="12" time="57.64500000000002">
+		<testcase name="preconditions" time="21.260000"/>
+		<testcase name="test_90122_control_z" time="4.544000"/>
+		<testcase name="test_char_string_literal" time="6.271000"/>
+		<testcase name="test_digit_separator" time="4.209000"/>
+		<testcase name="test_symlink" time="4.368000"/>
+		<testcase name="test_vcpp_with_comments" time="6.201000"/>
+		<testcase name="test_vcpp_without_comments" time="5.390000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="5.359000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.020000"/>
+	</testsuite>
+</testsuites>

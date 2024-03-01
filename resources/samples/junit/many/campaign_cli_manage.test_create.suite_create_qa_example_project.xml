@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="143.99300000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_create.suite_create_qa_example_project" skipped="0" tests="9" time="143.99300000000002">
+		<testcase name="preconditions"/>
+		<testcase name="test_create_demo" time="113.230000"/>
+		<testcase name="test_create_qa_demo_with_striping_enabled" time="14.684000"/>
+		<testcase name="test_project_name_already_exists" time="9.910000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="6.148000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="155.74500000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_keyboard_use" skipped="0" tests="10" time="155.74500000000003">
+		<testcase name="preconditions" time="8.187000"/>
+		<testcase name="test_accept_value_goto_next" time="35.848000"/>
+		<testcase name="test_navigate_tree" time="30.884000"/>
+		<testcase name="test_scroll_to_enum" time="34.063000"/>
+		<testcase name="test_toggle_checkbox" time="33.226000"/>
+		<testcase name="postconditions" time="5.461000"/>
+		<testcase name="test_py_md_compliance" time="0.043000"/>
+		<testcase name="test_pep8_compliance" time="7.850000"/>
+		<testcase name="test_input_dir_compliance" time="0.097000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.086000"/>
+	</testsuite>
+</testsuites>

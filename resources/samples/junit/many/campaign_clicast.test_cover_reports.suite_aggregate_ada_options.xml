@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="30" time="92.12899999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_aggregate_ada_options" skipped="0" tests="30" time="92.12899999999999">
+		<testcase name="preconditions" time="3.486000"/>
+		<testcase name="test_full_cvg_w_indicator_level_a" time="4.034000"/>
+		<testcase name="test_full_cvg_w_indicator_level_b" time="3.715000"/>
+		<testcase name="test_full_cvg_w_indicator_statement" time="3.628000"/>
+		<testcase name="test_full_fs_level_a" time="4.567000"/>
+		<testcase name="test_full_fs_mcdc" time="4.176000"/>
+		<testcase name="test_full_function_coverage_basis" time="4.135000"/>
+		<testcase name="test_full_function_coverage_branch" time="3.754000"/>
+		<testcase name="test_full_function_coverage_level_a" time="4.294000"/>
+		<testcase name="test_full_function_coverage_level_b" time="3.564000"/>
+		<testcase name="test_full_function_coverage_mcdc" time="4.001000"/>
+		<testcase name="test_full_function_coverage_statement" time="3.697000"/>
+		<testcase name="test_full_simplified_level_a" time="3.690000"/>
+		<testcase name="test_full_simplified_mcdc" time="3.407000"/>
+		<testcase name="test_no_coverage_basis" time="2.372000"/>
+		<testcase name="test_no_coverage_branch" time="2.621000"/>
+		<testcase name="test_no_coverage_level_a" time="2.469000"/>
+		<testcase name="test_no_coverage_level_b" time="2.202000"/>
+		<testcase name="test_no_coverage_mcdc" time="2.766000"/>
+		<testcase name="test_no_coverage_statement" time="2.676000"/>
+		<testcase name="test_no_coverage_w_indicator_level_a" time="2.764000"/>
+		<testcase name="test_no_coverage_w_indicator_level_b" time="2.955000"/>
+		<testcase name="test_no_coverage_w_indicator_statement" time="2.629000"/>
+		<testcase name="test_partial_cvg_w_indicator_level_a" time="4.142000"/>
+		<testcase name="test_partial_cvg_w_indicator_level_b" time="4.097000"/>
+		<testcase name="test_partial_cvg_w_indicator_statement" time="4.038000"/>
+		<testcase name="postconditions" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="2.173000"/>
+		<testcase name="test_input_dir_compliance" time="0.034000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.029000"/>
+	</testsuite>
+</testsuites>

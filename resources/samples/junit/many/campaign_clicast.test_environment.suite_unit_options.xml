@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="18.651999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment.suite_unit_options" skipped="0" tests="9" time="18.651999999999997">
+		<testcase name="preconditions"/>
+		<testcase name="test_83113_unit_arguments_for_quickparse" time="3.730000"/>
+		<testcase name="test_case_sensitivity" time="4.310000"/>
+		<testcase name="test_compiler_options" time="8.058000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="2.544000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

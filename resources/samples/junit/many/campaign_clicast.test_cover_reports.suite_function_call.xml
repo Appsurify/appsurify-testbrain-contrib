@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="114.03099999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_function_call" skipped="0" tests="23" time="114.03099999999998">
+		<testcase name="preconditions" time="4.308000"/>
+		<testcase name="test_cba_sfp_coverage" time="6.187000"/>
+		<testcase name="test_cba_tu_coverage" time="6.542000"/>
+		<testcase name="test_duplicate_source_names" time="7.269000"/>
+		<testcase name="test_global_buffer_optimizations" time="5.172000"/>
+		<testcase name="test_html" time="6.198000"/>
+		<testcase name="test_html_c" time="9.116000"/>
+		<testcase name="test_no_coverage_data" time="4.729000"/>
+		<testcase name="test_no_function_call_instrumentation" time="2.689000"/>
+		<testcase name="test_report_same_for_ffc_or_option" time="12.043000"/>
+		<testcase name="test_sfp_coverage" time="4.826000"/>
+		<testcase name="test_statement_branch_with_ffc_option" time="3.613000"/>
+		<testcase name="test_statement_mcdc_with_ffc_option" time="4.275000"/>
+		<testcase name="test_statement_with_ffc_option" time="4.101000"/>
+		<testcase name="test_statement_with_option" time="4.467000"/>
+		<testcase name="test_switch_coverage_perspective_types" time="13.933000"/>
+		<testcase name="test_text" time="4.826000"/>
+		<testcase name="test_unit_specified" time="5.530000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.026000"/>
+		<testcase name="test_pep8_compliance" time="4.136000"/>
+		<testcase name="test_input_dir_compliance" time="0.030000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

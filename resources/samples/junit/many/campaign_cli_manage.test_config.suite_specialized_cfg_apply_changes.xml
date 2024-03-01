@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="145.02599999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_config.suite_specialized_cfg_apply_changes" skipped="0" tests="13" time="145.02599999999998">
+		<testcase name="preconditions" time="11.746000"/>
+		<testcase name="test_apply_changes_keep_spzd_src_dir" time="8.770000"/>
+		<testcase name="test_diff_option_agg_lvl_keep_spzd_option" time="13.506000"/>
+		<testcase name="test_same_option_dupe_lvl_remove_spzd_option" time="23.160000"/>
+		<testcase name="test_same_src_dir_dupe_lvl_remove_spzd_src_dir" time="14.932000"/>
+		<testcase name="test_save_cfg_to_specialized_env" time="17.534000"/>
+		<testcase name="test_save_spzd_option_same_agg_diff_dupe" time="21.792000"/>
+		<testcase name="test_saving_shared_cfg_removes_specialized_cfg" time="27.545000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="6.011000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

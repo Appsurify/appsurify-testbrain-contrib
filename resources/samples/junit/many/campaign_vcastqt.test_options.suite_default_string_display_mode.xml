@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="385.73999999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_options.suite_default_string_display_mode" skipped="0" tests="11" time="385.73999999999995">
+		<testcase name="preconditions" time="34.661000"/>
+		<testcase name="test_default" time="37.201000"/>
+		<testcase name="test_display_mode_array_as_array" time="46.021000"/>
+		<testcase name="test_display_mode_pointer_as_pointer" time="45.760000"/>
+		<testcase name="test_script_import_display_mode_array" time="100.586000"/>
+		<testcase name="test_script_import_display_mode_pointer" time="106.532000"/>
+		<testcase name="postconditions" time="5.391000"/>
+		<testcase name="test_py_md_compliance" time="0.156000"/>
+		<testcase name="test_pep8_compliance" time="9.006000"/>
+		<testcase name="test_input_dir_compliance" time="0.240000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.186000"/>
+	</testsuite>
+</testsuites>

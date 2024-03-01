@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="19.182000000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_cmd_during_env_open_close_cpp" skipped="0" tests="11" time="19.182000000000002">
+		<testcase name="preconditions" time="4.198000"/>
+		<testcase name="test_command_fails" time="1.742000"/>
+		<testcase name="test_environment_rebuild" time="4.550000"/>
+		<testcase name="test_execute_batch" time="1.177000"/>
+		<testcase name="test_tools_cover_statement" time="1.562000"/>
+		<testcase name="test_vcv_environment_name" time="1.681000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="4.254000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

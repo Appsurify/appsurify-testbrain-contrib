@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="47" time="28.718999999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_license_gen.suite_feature_options" skipped="0" tests="47" time="28.718999999999998">
+		<testcase name="preconditions"/>
+		<testcase name="test_future_start_date" time="0.601000"/>
+		<testcase name="test_future_start_date_edition" time="0.594000"/>
+		<testcase name="test_global_time_zone_empty" time="0.636000"/>
+		<testcase name="test_global_time_zone_empty_edition" time="0.603000"/>
+		<testcase name="test_global_time_zone_invalid_string" time="0.593000"/>
+		<testcase name="test_global_time_zone_invalid_string_edition" time="0.584000"/>
+		<testcase name="test_global_time_zone_no" time="0.598000"/>
+		<testcase name="test_global_time_zone_no_edition" time="0.634000"/>
+		<testcase name="test_global_time_zone_yes" time="0.597000"/>
+		<testcase name="test_global_time_zone_yes_edition" time="0.595000"/>
+		<testcase name="test_multiple_node_lock_ids" time="0.654000"/>
+		<testcase name="test_multiple_node_lock_ids_edition" time="0.604000"/>
+		<testcase name="test_node_lock_ids" time="0.626000"/>
+		<testcase name="test_node_lock_ids_edition" time="0.601000"/>
+		<testcase name="test_past_start_date" time="0.641000"/>
+		<testcase name="test_past_start_date_edition" time="0.602000"/>
+		<testcase name="test_remote_desktop_empty" time="0.652000"/>
+		<testcase name="test_remote_desktop_empty_edition" time="0.624000"/>
+		<testcase name="test_remote_desktop_invalid_string" time="0.651000"/>
+		<testcase name="test_remote_desktop_invalid_string_edition" time="0.678000"/>
+		<testcase name="test_remote_desktop_no" time="0.611000"/>
+		<testcase name="test_remote_desktop_no_edition" time="0.618000"/>
+		<testcase name="test_remote_desktop_yes" time="0.657000"/>
+		<testcase name="test_remote_desktop_yes_edition" time="0.599000"/>
+		<testcase name="test_time_zone_list" time="0.612000"/>
+		<testcase name="test_time_zone_list_dst" time="0.598000"/>
+		<testcase name="test_time_zone_list_dst_edition" time="0.598000"/>
+		<testcase name="test_time_zone_list_dst_no_dupes" time="0.633000"/>
+		<testcase name="test_time_zone_list_dst_no_dupes_edition" time="0.615000"/>
+		<testcase name="test_time_zone_list_edges_dst" time="0.651000"/>
+		<testcase name="test_time_zone_list_edges_dst_edition" time="0.686000"/>
+		<testcase name="test_time_zone_list_edition" time="0.628000"/>
+		<testcase name="test_time_zone_negative" time="0.612000"/>
+		<testcase name="test_time_zone_negative_dst" time="0.643000"/>
+		<testcase name="test_time_zone_negative_dst_edition" time="0.627000"/>
+		<testcase name="test_time_zone_negative_edition" time="0.693000"/>
+		<testcase name="test_time_zone_positive" time="0.628000"/>
+		<testcase name="test_time_zone_positive_dst" time="0.706000"/>
+		<testcase name="test_time_zone_positive_dst_edition" time="0.651000"/>
+		<testcase name="test_time_zone_positive_edition" time="0.622000"/>
+		<testcase name="test_user_based_licensing" time="0.671000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.039000"/>
+		<testcase name="test_pep8_compliance" time="2.898000"/>
+		<testcase name="test_input_dir_compliance" time="0.031000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.024000"/>
+	</testsuite>
+</testsuites>

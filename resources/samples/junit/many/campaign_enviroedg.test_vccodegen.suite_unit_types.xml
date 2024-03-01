@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="39.859">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_vccodegen.suite_unit_types" skipped="0" tests="15" time="39.859">
+		<testcase name="preconditions" time="0.773000"/>
+		<testcase name="test_agile_header_sbf_unit" time="3.614000"/>
+		<testcase name="test_agile_header_uut_unit" time="3.143000"/>
+		<testcase name="test_agile_source_sbf_unit" time="3.190000"/>
+		<testcase name="test_agile_source_uut_unit" time="3.148000"/>
+		<testcase name="test_library_uut_unit" time="3.172000"/>
+		<testcase name="test_not_a_stub_unit" time="4.064000"/>
+		<testcase name="test_object_file_uut_unit" time="3.833000"/>
+		<testcase name="test_sbf_unit" time="3.937000"/>
+		<testcase name="test_stub_unit" time="4.134000"/>
+		<testcase name="test_uut_unit" time="3.702000"/>
+		<testcase name="postconditions" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="3.112000"/>
+		<testcase name="test_input_dir_compliance" time="0.017000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

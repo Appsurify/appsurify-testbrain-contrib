@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="243.956">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_features.suite_requirements_gateway_cover" skipped="0" tests="11" time="243.956">
+		<testcase name="preconditions" time="9.146000"/>
+		<testcase name="test_licensed_permit" time="38.482000"/>
+		<testcase name="test_open_env_w_requirements_ent_permit" time="63.566000"/>
+		<testcase name="test_open_env_w_requirements_pro_permit" time="66.237000"/>
+		<testcase name="test_unlicensed_coverage_results_deny" time="25.173000"/>
+		<testcase name="test_unlicensed_deny" time="32.379000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.227000"/>
+		<testcase name="test_pep8_compliance" time="8.239000"/>
+		<testcase name="test_input_dir_compliance" time="0.280000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.227000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="65.115">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_options.suite_auto_concrete_class_gen" skipped="0" tests="7" time="65.115">
+		<testcase name="preconditions" time="9.080000"/>
+		<testcase name="test_inherited_pure_virtuals" time="50.420000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.035000"/>
+		<testcase name="test_pep8_compliance" time="5.431000"/>
+		<testcase name="test_input_dir_compliance" time="0.084000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.065000"/>
+	</testsuite>
+</testsuites>

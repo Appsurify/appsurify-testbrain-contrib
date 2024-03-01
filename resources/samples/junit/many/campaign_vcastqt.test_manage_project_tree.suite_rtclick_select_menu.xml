@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="321.7199999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_project_tree.suite_rtclick_select_menu" skipped="0" tests="11" time="321.7199999999999">
+		<testcase name="preconditions" time="38.298000"/>
+		<testcase name="test_select_all_children" time="39.044000"/>
+		<testcase name="test_select_env_w_env_tsts_changes" time="97.621000"/>
+		<testcase name="test_select_envs_not_built" time="43.151000"/>
+		<testcase name="test_select_envs_not_built_from_menubar" time="30.831000"/>
+		<testcase name="test_select_rt_click_menu" time="59.422000"/>
+		<testcase name="postconditions" time="5.292000"/>
+		<testcase name="test_py_md_compliance" time="0.127000"/>
+		<testcase name="test_pep8_compliance" time="7.669000"/>
+		<testcase name="test_input_dir_compliance" time="0.145000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.120000"/>
+	</testsuite>
+</testsuites>

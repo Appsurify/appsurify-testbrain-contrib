@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="38" time="4.569">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcwrap.test_interpreter.suite_msvc" skipped="0" tests="38" time="4.569">
+		<testcase name="preconditions"/>
+		<testcase name="test_compile" time="0.003000"/>
+		<testcase name="test_compile_add_args" time="0.001000"/>
+		<testcase name="test_compile_dir_as_output" time="0.003000"/>
+		<testcase name="test_compile_link_several_files_no_output" time="0.002000"/>
+		<testcase name="test_compile_link_several_files_with_output" time="0.003000"/>
+		<testcase name="test_compile_link_single_file_no_output" time="0.002000"/>
+		<testcase name="test_compile_link_single_file_with_output" time="0.009000"/>
+		<testcase name="test_compile_multiple_files" time="0.007000"/>
+		<testcase name="test_compile_multiple_files_add_remove_args" time="0.007000"/>
+		<testcase name="test_compile_multiple_output_files" time="0.009000"/>
+		<testcase name="test_compile_no_output" time="0.007000"/>
+		<testcase name="test_compile_object_file_as_unit_option" time="0.005000"/>
+		<testcase name="test_compile_output_flag_absolute" time="0.005000"/>
+		<testcase name="test_compile_output_flag_colon" time="0.005000"/>
+		<testcase name="test_compile_output_flag_with_space" time="0.006000"/>
+		<testcase name="test_compile_remove_args" time="0.011000"/>
+		<testcase name="test_compile_supported_source_extension" time="0.011000"/>
+		<testcase name="test_link_only_several_files_no_output" time="0.011000"/>
+		<testcase name="test_link_only_several_files_no_output_cl" time="0.010000"/>
+		<testcase name="test_link_only_several_files_with_output" time="0.009000"/>
+		<testcase name="test_link_only_several_files_with_output_cl" time="0.010000"/>
+		<testcase name="test_link_only_single_file_no_output" time="0.011000"/>
+		<testcase name="test_link_only_single_file_no_output_cl" time="0.012000"/>
+		<testcase name="test_link_only_single_file_with_output" time="0.007000"/>
+		<testcase name="test_link_only_single_file_with_output_cl" time="0.007000"/>
+		<testcase name="test_no_compile_unsupported_source_extension" time="0.007000"/>
+		<testcase name="test_other_command" time="0.007000"/>
+		<testcase name="test_preprocess_add_args" time="0.011000"/>
+		<testcase name="test_preprocess_add_remove_args" time="0.011000"/>
+		<testcase name="test_preprocess_fi_flag_not_supported" time="0.012000"/>
+		<testcase name="test_preprocess_fi_flag_supported" time="0.010000"/>
+		<testcase name="test_preprocess_remove_args" time="0.009000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.013000"/>
+		<testcase name="test_pep8_compliance" time="4.294000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

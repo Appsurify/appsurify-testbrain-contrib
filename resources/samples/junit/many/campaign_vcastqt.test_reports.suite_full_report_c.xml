@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="771.598">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_reports.suite_full_report_c" skipped="0" tests="22" time="771.598">
+		<testcase name="preconditions" time="39.611000"/>
+		<testcase name="test_control_flow_reordered_html" time="49.315000"/>
+		<testcase name="test_control_flow_reordered_text" time="45.918000"/>
+		<testcase name="test_extra_event_html" time="45.677000"/>
+		<testcase name="test_extra_event_text" time="45.557000"/>
+		<testcase name="test_full_report" time="45.768000"/>
+		<testcase name="test_full_report_template_info" time="45.891000"/>
+		<testcase name="test_missing_control_flow_html" time="45.930000"/>
+		<testcase name="test_missing_control_flow_text" time="45.918000"/>
+		<testcase name="test_next_fail_button_html" time="42.802000"/>
+		<testcase name="test_next_fail_button_text" time="42.907000"/>
+		<testcase name="test_next_pass_button_html" time="42.466000"/>
+		<testcase name="test_next_pass_button_text" time="46.545000"/>
+		<testcase name="test_previous_fail_button_html" time="43.388000"/>
+		<testcase name="test_previous_fail_button_text" time="43.727000"/>
+		<testcase name="test_previous_pass_button_html" time="42.457000"/>
+		<testcase name="test_previous_pass_button_text" time="43.946000"/>
+		<testcase name="postconditions" time="5.355000"/>
+		<testcase name="test_py_md_compliance" time="0.125000"/>
+		<testcase name="test_pep8_compliance" time="8.028000"/>
+		<testcase name="test_input_dir_compliance" time="0.136000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.131000"/>
+	</testsuite>
+</testsuites>

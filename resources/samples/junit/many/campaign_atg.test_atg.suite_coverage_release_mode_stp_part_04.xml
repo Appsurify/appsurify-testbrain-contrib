@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="738.1129999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_release_mode_stp_part_04" skipped="0" tests="52" time="738.1129999999998">
+		<testcase name="preconditions"/>
+		<testcase name="test_float_casts" time="17.253000"/>
+		<testcase name="test_floating_allocation_check" time="15.476000"/>
+		<testcase name="test_floating_no_model" time="15.374000"/>
+		<testcase name="test_fo_const_typeerror" time="14.543000"/>
+		<testcase name="test_fo_for_class_ptr" time="15.193000"/>
+		<testcase name="test_fo_method_call_loop" time="16.833000"/>
+		<testcase name="test_force_malloc_expand" time="15.016000"/>
+		<testcase name="test_foreign_symbol_as_arg" time="14.476000"/>
+		<testcase name="test_fp_array" time="15.146000"/>
+		<testcase name="test_fp_nan" time="13.959000"/>
+		<testcase name="test_fp_neg" time="13.810000"/>
+		<testcase name="test_fp_returning_non_ptr_struct" time="14.813000"/>
+		<testcase name="test_fp_returning_ptr_struct" time="15.825000"/>
+		<testcase name="test_fp_struct" time="16.590000"/>
+		<testcase name="test_fp_typedef" time="15.215000"/>
+		<testcase name="test_global_array" time="15.427000"/>
+		<testcase name="test_global_class_constructor_init" time="15.785000"/>
+		<testcase name="test_global_deref_global" time="13.602000"/>
+		<testcase name="test_global_deref_local_at_decl" time="16.664000"/>
+		<testcase name="test_global_deref_param" time="16.239000"/>
+		<testcase name="test_global_eq_null" time="14.660000"/>
+		<testcase name="test_global_fp" time="16.312000"/>
+		<testcase name="test_global_int" time="16.160000"/>
+		<testcase name="test_global_local" time="16.307000"/>
+		<testcase name="test_global_local_eq_null" time="16.248000"/>
+		<testcase name="test_global_non_ptr_struct_fp" time="17.605000"/>
+		<testcase name="test_global_not_eq_null" time="16.046000"/>
+		<testcase name="test_global_param" time="16.472000"/>
+		<testcase name="test_global_param_local" time="14.856000"/>
+		<testcase name="test_global_ptr" time="15.548000"/>
+		<testcase name="test_global_ptr_global" time="14.747000"/>
+		<testcase name="test_global_ptr_local" time="15.324000"/>
+		<testcase name="test_global_ptr_local_at_decl" time="17.006000"/>
+		<testcase name="test_global_ptr_param" time="16.118000"/>
+		<testcase name="test_global_ptr_param_scalar" time="15.966000"/>
+		<testcase name="test_global_ptr_struct_fp" time="15.760000"/>
+		<testcase name="test_global_ptr_two_function_issue" time="15.870000"/>
+		<testcase name="test_global_slr_global" time="15.571000"/>
+		<testcase name="test_global_slr_local" time="15.406000"/>
+		<testcase name="test_global_slr_local_at_decl" time="16.145000"/>
+		<testcase name="test_global_slr_param" time="14.775000"/>
+		<testcase name="test_global_struct_with_ptr_fields" time="17.029000"/>
+		<testcase name="test_global_void_ptr" time="13.608000"/>
+		<testcase name="test_goto_backjump" time="17.146000"/>
+		<testcase name="test_gp_historic" time="17.973000"/>
+		<testcase name="test_grandparentinheritance" time="14.795000"/>
+		<testcase name="test_half_alive_lhs" time="14.731000"/>
+		<testcase name="postconditions" time="0.144000"/>
+		<testcase name="test_pep8_compliance" time="2.342000"/>
+		<testcase name="test_input_dir_compliance" time="0.105000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.099000"/>
+	</testsuite>
+</testsuites>

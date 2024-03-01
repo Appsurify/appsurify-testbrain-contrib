@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="331.5849999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_project_open_environment.suite_modify_unit_envs" skipped="0" tests="9" time="331.5849999999999">
+		<testcase name="preconditions" time="22.654000"/>
+		<testcase name="test_add_cba_to_env_and_clean" time="115.446000"/>
+		<testcase name="test_close_manage_status_tab_crash" time="93.427000"/>
+		<testcase name="test_update_env_with_manage_base_dirs" time="83.965000"/>
+		<testcase name="postconditions" time="5.222000"/>
+		<testcase name="test_py_md_compliance" time="0.070000"/>
+		<testcase name="test_pep8_compliance" time="10.186000"/>
+		<testcase name="test_input_dir_compliance" time="0.487000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.128000"/>
+	</testsuite>
+</testsuites>

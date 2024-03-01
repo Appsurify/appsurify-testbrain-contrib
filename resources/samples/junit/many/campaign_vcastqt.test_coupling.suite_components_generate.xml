@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="373.6859999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_coupling.suite_components_generate" skipped="0" tests="11" time="373.6859999999999">
+		<testcase name="preconditions" time="5.733000"/>
+		<testcase name="test_clean_after_regenerating_components" time="98.639000"/>
+		<testcase name="test_generate_components_from_dirs" time="57.459000"/>
+		<testcase name="test_open_editor_then_add_headers" time="79.163000"/>
+		<testcase name="test_open_editor_then_remove_headers" time="68.838000"/>
+		<testcase name="test_regenerate_components" time="51.471000"/>
+		<testcase name="postconditions" time="5.155000"/>
+		<testcase name="test_py_md_compliance" time="0.147000"/>
+		<testcase name="test_pep8_compliance" time="6.804000"/>
+		<testcase name="test_input_dir_compliance" time="0.139000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.138000"/>
+	</testsuite>
+</testsuites>

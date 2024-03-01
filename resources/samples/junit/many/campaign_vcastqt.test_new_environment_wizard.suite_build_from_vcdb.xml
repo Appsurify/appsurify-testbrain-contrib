@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="36" time="1141.6640000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_new_environment_wizard.suite_build_from_vcdb" skipped="0" tests="36" time="1141.6640000000002">
+		<testcase name="preconditions" time="8.628000"/>
+		<testcase name="test_additional_unit_specific_arguments" time="40.370000"/>
+		<testcase name="test_all_info_from_vcdb" time="53.350000"/>
+		<testcase name="test_build_with_multiple_verbs" time="54.427000"/>
+		<testcase name="test_change_order_of_search_dir" time="43.882000"/>
+		<testcase name="test_change_type_of_search_dir" time="46.378000"/>
+		<testcase name="test_commands_update_with_new_vcdb" time="29.118000"/>
+		<testcase name="test_config_alt_compile_verb" time="16.297000"/>
+		<testcase name="test_config_compile_verbs" time="16.510000"/>
+		<testcase name="test_default_source_dirs_in_options" time="37.709000"/>
+		<testcase name="test_defaults_path_option" time="30.763000"/>
+		<testcase name="test_env_var_vcdb" time="51.463000"/>
+		<testcase name="test_error_loading_vcdb" time="16.677000"/>
+		<testcase name="test_invalid_initial_condition" time="16.844000"/>
+		<testcase name="test_load_env_with_env_var" time="17.146000"/>
+		<testcase name="test_load_env_with_vcshell" time="17.223000"/>
+		<testcase name="test_load_multiple_uut_from_db" time="25.465000"/>
+		<testcase name="test_rebuild" time="64.226000"/>
+		<testcase name="test_scrolling_table" time="37.302000"/>
+		<testcase name="test_search_lists_removed_on_vcdb_removal" time="41.681000"/>
+		<testcase name="test_set_path_type_with_vcdb" time="56.920000"/>
+		<testcase name="test_specify_then_unspecify_vcdb" time="82.070000"/>
+		<testcase name="test_valid_db_invalid_selection" time="16.890000"/>
+		<testcase name="test_validate_empty_vcdb" time="36.736000"/>
+		<testcase name="test_vcdb_cmd_verb_from_config" time="23.234000"/>
+		<testcase name="test_verb_filtering" time="34.532000"/>
+		<testcase name="test_verb_widget_resizing" time="25.862000"/>
+		<testcase name="test_verbs_not_in_db" time="52.249000"/>
+		<testcase name="test_widgets_disabled_on_invalid_vcdb" time="27.244000"/>
+		<testcase name="test_with_different_compiler" time="56.853000"/>
+		<testcase name="test_wizard_options" time="44.998000"/>
+		<testcase name="postconditions" time="5.489000"/>
+		<testcase name="test_py_md_compliance" time="0.416000"/>
+		<testcase name="test_pep8_compliance" time="11.735000"/>
+		<testcase name="test_input_dir_compliance" time="0.477000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.500000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="11.241999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment.suite_gnu_extern_inline" skipped="0" tests="9" time="11.241999999999997">
+		<testcase name="preconditions" time="3.479000"/>
+		<testcase name="test_noninline_def_is_testable" time="2.281000"/>
+		<testcase name="test_stub_not_classified_as_testable" time="0.641000"/>
+		<testcase name="test_stub_of_noninline_decl" time="2.179000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="2.643000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

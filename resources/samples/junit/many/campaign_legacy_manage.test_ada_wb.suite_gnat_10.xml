@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="85.07">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada_wb.suite_gnat_10" skipped="0" tests="11" time="85.07">
+		<testcase name="preconditions" time="1.919000"/>
+		<testcase name="test_nested" time="12.192000"/>
+		<testcase name="test_nested_compound_ada" time="11.265000"/>
+		<testcase name="test_new_arch" time="26.999000"/>
+		<testcase name="test_no_param" time="9.922000"/>
+		<testcase name="test_no_sub" time="10.203000"/>
+		<testcase name="test_overload" time="10.216000"/>
+		<testcase name="postconditions" time="0.031000"/>
+		<testcase name="test_pep8_compliance" time="2.270000"/>
+		<testcase name="test_input_dir_compliance" time="0.035000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.018000"/>
+	</testsuite>
+</testsuites>

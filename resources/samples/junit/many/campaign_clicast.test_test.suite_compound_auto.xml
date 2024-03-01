@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="25.171">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_test.suite_compound_auto" skipped="0" tests="13" time="25.171">
+		<testcase name="preconditions" time="3.565000"/>
+		<testcase name="test_auto_fin" time="1.304000"/>
+		<testcase name="test_auto_init" time="2.717000"/>
+		<testcase name="test_multiple_tests_compound_auto_init" time="2.898000"/>
+		<testcase name="test_nested_auto_cpd_export" time="1.352000"/>
+		<testcase name="test_script_export" time="1.255000"/>
+		<testcase name="test_script_import" time="1.486000"/>
+		<testcase name="test_toggle_cli_auto_cpd" time="7.732000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="2.842000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

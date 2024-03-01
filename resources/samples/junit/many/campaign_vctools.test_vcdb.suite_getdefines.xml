@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="20.745">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_vcdb.suite_getdefines" skipped="0" tests="19" time="20.745">
+		<testcase name="preconditions" time="2.108000"/>
+		<testcase name="test_defines_attribute_unused" time="1.449000"/>
+		<testcase name="test_defines_double_quotes" time="1.001000"/>
+		<testcase name="test_defines_macro_array" time="1.183000"/>
+		<testcase name="test_defines_macro_func" time="1.274000"/>
+		<testcase name="test_defines_num" time="1.197000"/>
+		<testcase name="test_defines_prefix" time="1.313000"/>
+		<testcase name="test_defines_prepend_var" time="0.551000"/>
+		<testcase name="test_defines_string" time="1.023000"/>
+		<testcase name="test_defines_white_space" time="0.564000"/>
+		<testcase name="test_defines_with_space" time="1.173000"/>
+		<testcase name="test_file_missing" time="0.283000"/>
+		<testcase name="test_parenthesis" time="1.110000"/>
+		<testcase name="test_special_chars_in_same_macro" time="1.168000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="5.314000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

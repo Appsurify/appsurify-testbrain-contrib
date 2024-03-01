@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="40" time="131.167">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_aggregate_c_single_line" skipped="0" tests="40" time="131.167">
+		<testcase name="preconditions" time="2.749000"/>
+		<testcase name="test_full_basis" time="3.054000"/>
+		<testcase name="test_full_branch" time="3.371000"/>
+		<testcase name="test_full_cba_only_branch" time="2.681000"/>
+		<testcase name="test_full_cba_only_level_a" time="2.496000"/>
+		<testcase name="test_full_cba_only_level_b" time="2.299000"/>
+		<testcase name="test_full_cba_only_mcdc" time="2.910000"/>
+		<testcase name="test_full_cba_only_statement" time="2.728000"/>
+		<testcase name="test_full_due_to_cba_branch" time="3.289000"/>
+		<testcase name="test_full_due_to_cba_level_a" time="3.603000"/>
+		<testcase name="test_full_due_to_cba_level_b" time="3.159000"/>
+		<testcase name="test_full_due_to_cba_mcdc" time="3.574000"/>
+		<testcase name="test_full_due_to_cba_statement" time="3.424000"/>
+		<testcase name="test_full_imported_basis" time="8.648000"/>
+		<testcase name="test_full_imported_branch" time="5.010000"/>
+		<testcase name="test_full_imported_level_a" time="5.874000"/>
+		<testcase name="test_full_imported_level_b" time="4.974000"/>
+		<testcase name="test_full_imported_mcdc" time="4.814000"/>
+		<testcase name="test_full_imported_statement" time="4.737000"/>
+		<testcase name="test_full_level_a" time="2.916000"/>
+		<testcase name="test_full_level_b" time="2.331000"/>
+		<testcase name="test_full_mcdc" time="3.200000"/>
+		<testcase name="test_full_statement" time="2.201000"/>
+		<testcase name="test_partial_basis" time="2.709000"/>
+		<testcase name="test_partial_branch" time="2.240000"/>
+		<testcase name="test_partial_imported_basis" time="4.103000"/>
+		<testcase name="test_partial_imported_branch" time="4.492000"/>
+		<testcase name="test_partial_imported_level_a" time="4.332000"/>
+		<testcase name="test_partial_imported_level_b" time="4.657000"/>
+		<testcase name="test_partial_imported_mcdc" time="4.316000"/>
+		<testcase name="test_partial_imported_statement" time="5.019000"/>
+		<testcase name="test_partial_level_a" time="2.861000"/>
+		<testcase name="test_partial_level_b" time="3.075000"/>
+		<testcase name="test_partial_mcdc" time="3.375000"/>
+		<testcase name="test_partial_statement" time="4.018000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.022000"/>
+		<testcase name="test_pep8_compliance" time="1.854000"/>
+		<testcase name="test_input_dir_compliance" time="0.030000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.022000"/>
+	</testsuite>
+</testsuites>

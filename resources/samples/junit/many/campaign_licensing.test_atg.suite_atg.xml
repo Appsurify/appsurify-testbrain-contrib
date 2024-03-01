@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="28.684999999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_atg.suite_atg" skipped="0" tests="10" time="28.684999999999995">
+		<testcase name="preconditions" time="4.289000"/>
+		<testcase name="test_cpp_enterprise_license" time="7.271000"/>
+		<testcase name="test_license_no_ci" time="2.174000"/>
+		<testcase name="test_no_license_ci" time="2.199000"/>
+		<testcase name="test_vcast_atg_license" time="7.541000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="5.186000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

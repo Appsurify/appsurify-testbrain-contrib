@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="296.98299999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cba_editor.suite_editor_after_import_cover" skipped="0" tests="11" time="296.98299999999995">
+		<testcase name="preconditions" time="8.664000"/>
+		<testcase name="test_cba_via_clicast_editable" time="59.526000"/>
+		<testcase name="test_cba_via_import_cvr_editable" time="76.648000"/>
+		<testcase name="test_symlink_dir_cba_via_import_cvr_editable" time="58.497000"/>
+		<testcase name="test_test_result_via_clicast_editable" time="38.813000"/>
+		<testcase name="test_test_result_via_import_cvr_editable" time="46.778000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.102000"/>
+		<testcase name="test_pep8_compliance" time="7.684000"/>
+		<testcase name="test_input_dir_compliance" time="0.143000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.128000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="56.30299999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_16" skipped="0" tests="13" time="56.30299999999999">
+		<testcase name="preconditions" time="1.206000"/>
+		<testcase name="test_edg_volatile" time="8.195000"/>
+		<testcase name="test_edg_windows" time="0.001000"/>
+		<testcase name="test_enum_cpp" time="8.844000"/>
+		<testcase name="test_enum_same_value" time="7.598000"/>
+		<testcase name="test_exception" time="9.018000"/>
+		<testcase name="test_exception_spec" time="0.004000"/>
+		<testcase name="test_extern" time="9.129000"/>
+		<testcase name="test_inheritance" time="9.472000"/>
+		<testcase name="postconditions" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="2.801000"/>
+		<testcase name="test_input_dir_compliance" time="0.016000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

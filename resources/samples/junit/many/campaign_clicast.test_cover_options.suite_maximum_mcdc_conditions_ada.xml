@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="16.822000000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_options.suite_maximum_mcdc_conditions_ada" skipped="0" tests="8" time="16.822000000000003">
+		<testcase name="preconditions" time="1.615000"/>
+		<testcase name="test_cover_exceeded_mcdc" time="6.424000"/>
+		<testcase name="test_cover_not_exceeded_mcdc" time="5.656000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.112000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

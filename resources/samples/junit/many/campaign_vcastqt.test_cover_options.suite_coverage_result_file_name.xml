@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="106.722">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover_options.suite_coverage_result_file_name" skipped="0" tests="8" time="106.722">
+		<testcase name="preconditions" time="11.529000"/>
+		<testcase name="test_option_off" time="45.088000"/>
+		<testcase name="test_option_on" time="41.015000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.044000"/>
+		<testcase name="test_pep8_compliance" time="8.901000"/>
+		<testcase name="test_input_dir_compliance" time="0.076000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.069000"/>
+	</testsuite>
+</testsuites>

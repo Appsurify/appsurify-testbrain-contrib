@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="39" time="401.641">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_config.suite_apply_changes" skipped="0" tests="39" time="401.641">
+		<testcase name="preconditions" time="38.605000"/>
+		<testcase name="test_abstract_compiler_from_env_script" time="19.763000"/>
+		<testcase name="test_apply_cba_with_switch_case_statements" time="43.005000"/>
+		<testcase name="test_apply_cfg_changes" time="7.373000"/>
+		<testcase name="test_apply_cfg_changes_with_linker_error" time="14.734000"/>
+		<testcase name="test_apply_changes_keep_src_dir" time="9.394000"/>
+		<testcase name="test_apply_manage_option_changes" time="11.197000"/>
+		<testcase name="test_apply_tst_changes" time="11.837000"/>
+		<testcase name="test_apply_vct_changes" time="4.707000"/>
+		<testcase name="test_clean_environment_uses_no_op_changes" time="1.438000"/>
+		<testcase name="test_dismiss_coverage_changes" time="7.985000"/>
+		<testcase name="test_dismiss_probe_changes" time="10.935000"/>
+		<testcase name="test_dismiss_symbolic_constants_change" time="8.193000"/>
+		<testcase name="test_dismiss_tst_changes" time="7.886000"/>
+		<testcase name="test_dismiss_vct_changes" time="7.717000"/>
+		<testcase name="test_display_cfg_changes" time="10.303000"/>
+		<testcase name="test_display_probes_changes" time="6.378000"/>
+		<testcase name="test_display_tst_changes" time="4.160000"/>
+		<testcase name="test_display_vct_changes" time="4.315000"/>
+		<testcase name="test_env_changes_with_none_set_error" time="25.071000"/>
+		<testcase name="test_exclude_options_set_at_parent_levels" time="17.265000"/>
+		<testcase name="test_explicit_dupe_context_keep_shared_option" time="10.213000"/>
+		<testcase name="test_ignore_coverage_type_case" time="16.795000"/>
+		<testcase name="test_manage_options_changes" time="4.447000"/>
+		<testcase name="test_manage_options_changes_rsp" time="3.817000"/>
+		<testcase name="test_no_initial_changes" time="4.363000"/>
+		<testcase name="test_remove_option_set_at_parent_levels" time="15.645000"/>
+		<testcase name="test_same_option_at_dupe_lvl_keep_shared_option" time="9.785000"/>
+		<testcase name="test_same_option_at_parent_lvl_remove_option" time="10.286000"/>
+		<testcase name="test_same_src_dir_at_dupe_lvl_keep_shared_src_dir" time="10.244000"/>
+		<testcase name="test_same_src_dir_at_parent_lvl_remove_src_dir" time="10.803000"/>
+		<testcase name="test_save_tst_fail_to_copy" time="4.311000"/>
+		<testcase name="test_update_option_set_at_parent_level" time="18.871000"/>
+		<testcase name="test_vcm_read_only_reports_error" time="2.696000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.028000"/>
+		<testcase name="test_pep8_compliance" time="7.021000"/>
+		<testcase name="test_input_dir_compliance" time="0.028000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.027000"/>
+	</testsuite>
+</testsuites>

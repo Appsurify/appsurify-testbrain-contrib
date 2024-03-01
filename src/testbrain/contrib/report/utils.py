@@ -4,6 +4,7 @@ import re
 import typing as t
 from io import BytesIO
 
+import chardet
 from dateutil import parser as datetime_parser
 
 try:
@@ -13,6 +14,7 @@ except ImportError:
 
 
 RE_NS = re.compile(r"\{.*\}")
+RE_HIDDEN = re.compile(r"^.*?(?=<\?)", flags=re.DOTALL)
 
 
 def nested_itemgetter(*path):
@@ -74,12 +76,14 @@ def parse_type_info(name: str) -> str:
 
 
 def normalize_xml_text(text: t.AnyStr) -> bytes:
+    if isinstance(text, bytes):
+        result = chardet.detect(text)
+        encoding = result["encoding"]
+        if encoding is not None:
+            text = text.decode(encoding)
     if isinstance(text, str):
+        text = RE_HIDDEN.sub("", text)
         text = text.encode("utf-8")
-
-    if text.startswith(codecs.BOM_UTF8):
-        text = text.decode("utf-8-sig").encode("utf-8")
-
     return text
 
 

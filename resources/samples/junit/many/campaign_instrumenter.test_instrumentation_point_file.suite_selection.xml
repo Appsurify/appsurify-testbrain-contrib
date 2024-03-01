@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="5.665">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_instrumenter.test_instrumentation_point_file.suite_selection" skipped="0" tests="7" time="5.665">
+		<testcase name="preconditions" time="2.382000"/>
+		<testcase name="test_statement" time="0.814000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="2.458000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

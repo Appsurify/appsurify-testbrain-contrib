@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="265.78700000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_function_pointer_support" skipped="0" tests="11" time="265.78700000000003">
+		<testcase name="preconditions" time="4.208000"/>
+		<testcase name="test_inline_function_pointer" time="64.998000"/>
+		<testcase name="test_inline_function_pointer_cpp" time="35.091000"/>
+		<testcase name="test_list_of_compatible_func_for_float_func_ptr" time="34.826000"/>
+		<testcase name="test_list_of_compatible_func_for_int_func_ptr" time="38.258000"/>
+		<testcase name="test_use_function_pointer" time="45.185000"/>
+		<testcase name="test_validate_function_pointer_fields" time="35.977000"/>
+		<testcase name="postconditions" time="0.088000"/>
+		<testcase name="test_pep8_compliance" time="6.938000"/>
+		<testcase name="test_input_dir_compliance" time="0.113000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.105000"/>
+	</testsuite>
+</testsuites>

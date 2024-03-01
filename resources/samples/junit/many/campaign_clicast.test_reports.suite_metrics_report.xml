@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="15.497">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_reports.suite_metrics_report" skipped="0" tests="8" time="15.497">
+		<testcase name="preconditions" time="0.790000"/>
+		<testcase name="test_execution_supersedes_cba_for_mcdc_pairs" time="7.370000"/>
+		<testcase name="test_long_names" time="4.546000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="2.774000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="888.462">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_system_testing.suite_migrated_cover" skipped="0" tests="17" time="888.462">
+		<testcase name="preconditions" time="21.781000"/>
+		<testcase name="test_base_dirs_editable_if_no_manage_base_dirs" time="91.732000"/>
+		<testcase name="test_build_full" time="38.370000"/>
+		<testcase name="test_build_interactive" time="155.715000"/>
+		<testcase name="test_build_interactive_cancel" time="36.125000"/>
+		<testcase name="test_build_interactive_enc_corrupt" time="107.769000"/>
+		<testcase name="test_build_interactive_error" time="61.341000"/>
+		<testcase name="test_execute_full_and_clean" time="63.731000"/>
+		<testcase name="test_execute_incremental" time="45.791000"/>
+		<testcase name="test_relative_paths" time="104.996000"/>
+		<testcase name="test_update_interactive" time="62.999000"/>
+		<testcase name="test_update_interactive_cancel" time="84.044000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.385000"/>
+		<testcase name="test_pep8_compliance" time="12.910000"/>
+		<testcase name="test_input_dir_compliance" time="0.380000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.393000"/>
+	</testsuite>
+</testsuites>

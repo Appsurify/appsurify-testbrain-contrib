@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="48.256">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_build_execute.suite_change_based_testing_blackbox_ada" skipped="0" tests="7" time="48.256">
+		<testcase name="preconditions" time="7.770000"/>
+		<testcase name="test_ada_subprogram_code_changed_migrated" time="21.871000"/>
+		<testcase name="test_ada_subprogram_code_changed_monitored" time="13.466000"/>
+		<testcase name="postconditions" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="5.137000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

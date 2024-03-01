@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="94.00200000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_21" skipped="0" tests="13" time="94.00200000000001">
+		<testcase name="preconditions" time="1.189000"/>
+		<testcase name="test_man_driv_uut_cpp" time="9.147000"/>
+		<testcase name="test_no_bp_const_branch_import" time="56.088000"/>
+		<testcase name="test_no_exceptions" time="7.620000"/>
+		<testcase name="test_no_uncalled_template" time="0.006000"/>
+		<testcase name="test_no_uncalled_template_coi" time="0.006000"/>
+		<testcase name="test_no_uncalled_template_empty" time="0.009000"/>
+		<testcase name="test_no_uncalled_template_large" time="16.869000"/>
+		<testcase name="test_object_file_testing" time="0.017000"/>
+		<testcase name="postconditions" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="2.985000"/>
+		<testcase name="test_input_dir_compliance" time="0.025000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.029000"/>
+	</testsuite>
+</testsuites>

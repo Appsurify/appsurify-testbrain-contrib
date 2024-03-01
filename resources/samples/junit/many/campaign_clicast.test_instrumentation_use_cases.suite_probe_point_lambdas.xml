@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="48.763999999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_probe_point_lambdas" skipped="0" tests="11" time="48.763999999999996">
+		<testcase name="preconditions" time="1.138000"/>
+		<testcase name="test_apply_instrumented" time="8.367000"/>
+		<testcase name="test_apply_uninstrumented" time="10.099000"/>
+		<testcase name="test_auto_pack_lambdas" time="9.590000"/>
+		<testcase name="test_env_script_instrumented" time="6.794000"/>
+		<testcase name="test_env_script_uninstrumented" time="8.956000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="3.800000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

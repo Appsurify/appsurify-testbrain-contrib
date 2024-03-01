@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="301.24299999999994">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_view.suite_requirements_tab" skipped="0" tests="14" time="301.24299999999994">
+		<testcase name="preconditions" time="14.044000"/>
+		<testcase name="test_add" time="36.153000"/>
+		<testcase name="test_add_remove_testcase_requirement" time="33.199000"/>
+		<testcase name="test_copy_requirement_to_clipboard" time="34.044000"/>
+		<testcase name="test_drag_and_drop" time="35.673000"/>
+		<testcase name="test_encoding_in_view" time="33.249000"/>
+		<testcase name="test_export_test_script" time="36.928000"/>
+		<testcase name="test_import_test_script" time="35.520000"/>
+		<testcase name="test_search" time="34.786000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.089000"/>
+		<testcase name="test_pep8_compliance" time="7.328000"/>
+		<testcase name="test_input_dir_compliance" time="0.133000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.097000"/>
+	</testsuite>
+</testsuites>

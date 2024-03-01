@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="6.004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcwrap.test_options.suite_command" skipped="0" tests="14" time="6.004">
+		<testcase name="preconditions" time="1.419000"/>
+		<testcase name="test_argument_handling" time="0.228000"/>
+		<testcase name="test_command_fails_to_start" time="0.132000"/>
+		<testcase name="test_command_reading_from_stdin" time="0.136000"/>
+		<testcase name="test_command_stderr" time="0.155000"/>
+		<testcase name="test_command_stdout" time="0.152000"/>
+		<testcase name="test_command_success" time="0.240000"/>
+		<testcase name="test_no_command" time="0.084000"/>
+		<testcase name="test_space_in_command" time="0.368000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.078000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

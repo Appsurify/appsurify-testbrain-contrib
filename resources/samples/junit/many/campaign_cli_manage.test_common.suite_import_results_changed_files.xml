@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="93.11">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_common.suite_import_results_changed_files" skipped="0" tests="9" time="93.11">
+		<testcase name="preconditions" time="18.045000"/>
+		<testcase name="test_basic_root_source_dir" time="0.559000"/>
+		<testcase name="test_changed_files_from_imp_results_local_build" time="32.537000"/>
+		<testcase name="test_changed_files_from_imp_results_no_local_build" time="27.991000"/>
+		<testcase name="test_envvar_root_source_dir" time="9.110000"/>
+		<testcase name="postconditions" time="0.015000"/>
+		<testcase name="test_pep8_compliance" time="4.827000"/>
+		<testcase name="test_input_dir_compliance" time="0.015000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>
