@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="10.870000000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_vcutil_instrument.suite_stdout" skipped="0" tests="12" time="10.870000000000001">
+		<testcase name="preconditions" time="1.099000"/>
+		<testcase name="test_concurrent_job_count" time="1.051000"/>
+		<testcase name="test_incremental_file_count" time="2.174000"/>
+		<testcase name="test_instrument_status_msg" time="0.002000"/>
+		<testcase name="test_limited_concurrent_job_count" time="1.099000"/>
+		<testcase name="test_no_concurrent_job_count" time="1.445000"/>
+		<testcase name="test_processing_options_file" time="0.987000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="2.994000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

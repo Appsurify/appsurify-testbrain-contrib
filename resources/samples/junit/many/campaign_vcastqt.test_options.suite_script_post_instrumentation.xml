@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="142.75399999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_options.suite_script_post_instrumentation" skipped="0" tests="8" time="142.75399999999996">
+		<testcase name="preconditions" time="8.619000"/>
+		<testcase name="test_script_w_correct_path" time="71.532000"/>
+		<testcase name="test_script_w_incorrect_path" time="52.244000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.027000"/>
+		<testcase name="test_pep8_compliance" time="10.197000"/>
+		<testcase name="test_input_dir_compliance" time="0.078000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.057000"/>
+	</testsuite>
+</testsuites>

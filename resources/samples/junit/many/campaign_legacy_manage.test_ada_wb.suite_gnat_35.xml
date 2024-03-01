@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="97.13799999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada_wb.suite_gnat_35" skipped="0" tests="12" time="97.13799999999999">
+		<testcase name="preconditions" time="2.115000"/>
+		<testcase name="test_sema" time="11.074000"/>
+		<testcase name="test_sharps" time="10.357000"/>
+		<testcase name="test_standalone_subprogram" time="11.323000"/>
+		<testcase name="test_str665" time="14.615000"/>
+		<testcase name="test_str888" time="11.703000"/>
+		<testcase name="test_strange_types_muwb" time="18.079000"/>
+		<testcase name="test_strings" time="15.539000"/>
+		<testcase name="postconditions" time="0.023000"/>
+		<testcase name="test_pep8_compliance" time="2.271000"/>
+		<testcase name="test_input_dir_compliance" time="0.017000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.022000"/>
+	</testsuite>
+</testsuites>

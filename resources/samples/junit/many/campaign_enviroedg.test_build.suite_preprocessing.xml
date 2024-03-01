@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="55.572">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_preprocessing" skipped="0" tests="17" time="55.572">
+		<testcase name="preconditions"/>
+		<testcase name="test_post_preprocessing" time="5.387000"/>
+		<testcase name="test_post_preprocessing_build_multiple_units" time="7.644000"/>
+		<testcase name="test_post_preprocessing_for_multiple_conditions" time="7.056000"/>
+		<testcase name="test_post_preprocessing_for_multiple_files" time="4.343000"/>
+		<testcase name="test_renesas_sh_preprocessing" time="2.348000"/>
+		<testcase name="test_symlinks" time="9.448000"/>
+		<testcase name="test_vcast_dont_use_search_list_includes_disabled" time="2.252000"/>
+		<testcase name="test_vcast_dont_use_search_list_includes_enabled" time="4.061000"/>
+		<testcase name="test_vcast_use_dir_list_for_includes_disabled" time="4.554000"/>
+		<testcase name="test_vcast_use_dir_list_for_includes_enabled" time="1.970000"/>
+		<testcase name="test_vcpp_preprocessing" time="3.559000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="2.910000"/>
+		<testcase name="test_input_dir_compliance" time="0.024000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="213.86600000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_struct_pointer" skipped="0" tests="9" time="213.86600000000004">
+		<testcase name="preconditions" time="8.129000"/>
+		<testcase name="test_allocate_size_reopen" time="76.199000"/>
+		<testcase name="test_export_tst_script" time="76.510000"/>
+		<testcase name="test_ptree_item_property_dialog" time="40.147000"/>
+		<testcase name="postconditions" time="5.144000"/>
+		<testcase name="test_py_md_compliance" time="0.092000"/>
+		<testcase name="test_pep8_compliance" time="7.434000"/>
+		<testcase name="test_input_dir_compliance" time="0.109000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.102000"/>
+	</testsuite>
+</testsuites>

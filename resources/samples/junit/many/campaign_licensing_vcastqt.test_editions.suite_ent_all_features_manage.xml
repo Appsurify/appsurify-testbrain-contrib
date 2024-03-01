@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="391.46999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_editions.suite_ent_all_features_manage" skipped="0" tests="17" time="391.46999999999997">
+		<testcase name="preconditions" time="27.471000"/>
+		<testcase name="test_open_proj_check_toolbar" time="25.756000"/>
+		<testcase name="test_open_proj_check_menubar" time="31.855000"/>
+		<testcase name="test_open_proj_check_options" time="25.433000"/>
+		<testcase name="test_closed_proj_check_menubar" time="31.094000"/>
+		<testcase name="test_closed_proj_check_options" time="61.311000"/>
+		<testcase name="test_closed_proj_check_toolbar" time="21.631000"/>
+		<testcase name="test_right_click_compiler" time="31.088000"/>
+		<testcase name="test_right_click_env" time="38.772000"/>
+		<testcase name="test_right_click_group" time="23.662000"/>
+		<testcase name="test_right_click_project" time="24.043000"/>
+		<testcase name="test_right_click_suite" time="32.927000"/>
+		<testcase name="postconditions" time="6.349000"/>
+		<testcase name="test_py_md_compliance" time="0.164000"/>
+		<testcase name="test_pep8_compliance" time="9.365000"/>
+		<testcase name="test_input_dir_compliance" time="0.292000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.257000"/>
+	</testsuite>
+</testsuites>

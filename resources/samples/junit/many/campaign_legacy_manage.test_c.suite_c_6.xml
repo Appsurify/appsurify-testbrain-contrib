@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="64.969">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_6" skipped="0" tests="13" time="64.969">
+		<testcase name="preconditions" time="0.957000"/>
+		<testcase name="test_edg_ptr_2342" time="7.165000"/>
+		<testcase name="test_edg_ptr_2357" time="6.435000"/>
+		<testcase name="test_edg_ptr_2377" time="7.103000"/>
+		<testcase name="test_edg_ptr_896" time="7.080000"/>
+		<testcase name="test_edg_recursive" time="7.166000"/>
+		<testcase name="test_edg_typedef_unconstrained" time="7.359000"/>
+		<testcase name="test_enum_c" time="10.514000"/>
+		<testcase name="test_event_check_c" time="8.299000"/>
+		<testcase name="postconditions" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="2.851000"/>
+		<testcase name="test_input_dir_compliance" time="0.017000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

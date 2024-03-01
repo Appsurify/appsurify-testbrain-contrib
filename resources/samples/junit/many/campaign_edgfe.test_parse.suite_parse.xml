@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="17.764000000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_edgfe.test_parse.suite_parse" skipped="0" tests="21" time="17.764000000000003">
+		<testcase name="preconditions"/>
+		<testcase name="test_ashware" time="0.056000"/>
+		<testcase name="test_command_line_option_ignore_static_assert_c" time="0.047000"/>
+		<testcase name="test_command_line_option_ignore_static_assert_cpp" time="0.049000"/>
+		<testcase name="test_cosmic_whitespace_after_at" time="0.041000"/>
+		<testcase name="test_cpp20_constraint_subsumption" time="0.050000"/>
+		<testcase name="test_discretionary_error_as_warning" time="0.102000"/>
+		<testcase name="test_hpux" time="0.111000"/>
+		<testcase name="test_large_stack_on_linux" time="11.472000"/>
+		<testcase name="test_metaware_arc" time="0.080000"/>
+		<testcase name="test_nec_v850" time="0.283000"/>
+		<testcase name="test_pic_mplab_c18" time="0.137000"/>
+		<testcase name="test_raisonance_stm8" time="0.069000"/>
+		<testcase name="test_rowley" time="0.060000"/>
+		<testcase name="test_suggest_correct_target_size" time="0.126000"/>
+		<testcase name="test_vs2015_case_57235" time="0.500000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="4.557000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

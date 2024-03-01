@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="11.359000000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_options.suite_delimiter" skipped="0" tests="12" time="11.359000000000002">
+		<testcase name="preconditions" time="2.165000"/>
+		<testcase name="test_getcommand" time="0.528000"/>
+		<testcase name="test_getdefines" time="0.266000"/>
+		<testcase name="test_getincludes" time="0.462000"/>
+		<testcase name="test_getincludes_quoted_comma" time="1.985000"/>
+		<testcase name="test_getoption" time="0.513000"/>
+		<testcase name="test_getppoptions" time="0.286000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="5.130000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

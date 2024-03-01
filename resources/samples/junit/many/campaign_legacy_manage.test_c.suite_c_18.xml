@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="100.72500000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_18" skipped="0" tests="13" time="100.72500000000001">
+		<testcase name="preconditions" time="1.388000"/>
+		<testcase name="test_type_test_c" time="10.484000"/>
+		<testcase name="test_typedef_array" time="8.415000"/>
+		<testcase name="test_typedef_cstring" time="13.216000"/>
+		<testcase name="test_typedef_double_star" time="10.322000"/>
+		<testcase name="test_typedef_scalar" time="16.201000"/>
+		<testcase name="test_typedef_struct" time="8.494000"/>
+		<testcase name="test_typedef_struct_stub" time="9.432000"/>
+		<testcase name="test_typedef_void" time="18.799000"/>
+		<testcase name="postconditions" time="0.023000"/>
+		<testcase name="test_pep8_compliance" time="3.927000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

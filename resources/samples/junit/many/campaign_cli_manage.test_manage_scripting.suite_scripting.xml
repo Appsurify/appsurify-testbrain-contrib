@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="39.387">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_manage_scripting.suite_scripting" skipped="0" tests="16" time="39.387">
+		<testcase name="preconditions" time="4.372000"/>
+		<testcase name="test_abort_running_script_containing_invalid_line" time="1.400000"/>
+		<testcase name="test_call_python_from_manage_command_script" time="4.309000"/>
+		<testcase name="test_continue_on_error" time="5.119000"/>
+		<testcase name="test_existing_project_must_be_given" time="0.268000"/>
+		<testcase name="test_report_error_creating_project_from_script" time="1.611000"/>
+		<testcase name="test_report_error_when_ci_command_used" time="0.574000"/>
+		<testcase name="test_report_error_when_script_does_not_exist" time="0.613000"/>
+		<testcase name="test_run_manage_script" time="5.633000"/>
+		<testcase name="test_run_manage_script_with_group" time="5.461000"/>
+		<testcase name="test_run_script_with_command_containing_quotes" time="4.757000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="5.247000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

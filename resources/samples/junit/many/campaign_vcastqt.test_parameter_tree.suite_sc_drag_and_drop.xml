@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="34" time="1374.7830000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_sc_drag_and_drop" skipped="0" tests="34" time="1374.7830000000004">
+		<testcase name="preconditions" time="12.736000"/>
+		<testcase name="test_dd_macro_float_to_float" time="50.942000"/>
+		<testcase name="test_dd_macro_int_to_int" time="48.454000"/>
+		<testcase name="test_dd_macro_int_to_int_return" time="48.650000"/>
+		<testcase name="test_dd_max_double_stub" time="47.249000"/>
+		<testcase name="test_dd_max_int_stub" time="47.196000"/>
+		<testcase name="test_dd_multi_items_to_list" time="62.232000"/>
+		<testcase name="test_dd_sc_bool_to_bool" time="40.051000"/>
+		<testcase name="test_dd_sc_char_to_char" time="40.218000"/>
+		<testcase name="test_dd_sc_double_to_double" time="49.087000"/>
+		<testcase name="test_dd_sc_double_to_double_return" time="49.103000"/>
+		<testcase name="test_dd_sc_enum_to_enum_1" time="49.020000"/>
+		<testcase name="test_dd_sc_enum_to_enum_2" time="48.600000"/>
+		<testcase name="test_dd_sc_float_to_float" time="49.309000"/>
+		<testcase name="test_dd_sc_int_to_int" time="49.173000"/>
+		<testcase name="test_dd_sc_int_to_int_return" time="49.550000"/>
+		<testcase name="test_dd_sc_int_to_string" time="36.602000"/>
+		<testcase name="test_dd_sc_long_to_long" time="49.165000"/>
+		<testcase name="test_dd_sc_longdouble_to_longdouble" time="49.679000"/>
+		<testcase name="test_dd_sc_longlong_to_longlong" time="49.341000"/>
+		<testcase name="test_dd_sc_sort_to_short" time="49.221000"/>
+		<testcase name="test_dd_sc_string_to_string" time="37.118000"/>
+		<testcase name="test_dd_sc_uchar_to_uchar" time="49.353000"/>
+		<testcase name="test_dd_sc_uint_to_uint" time="49.313000"/>
+		<testcase name="test_dd_sc_ulong_to_ulong" time="49.626000"/>
+		<testcase name="test_dd_sc_ulonglong_to_ulonglong" time="49.977000"/>
+		<testcase name="test_dd_sc_ushort_to_ushort" time="49.881000"/>
+		<testcase name="test_dd_sc_wchar_to_wchar" time="49.778000"/>
+		<testcase name="test_sc_syntax_in_tst" time="49.092000"/>
+		<testcase name="postconditions" time="5.271000"/>
+		<testcase name="test_py_md_compliance" time="0.426000"/>
+		<testcase name="test_pep8_compliance" time="8.459000"/>
+		<testcase name="test_input_dir_compliance" time="0.438000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.473000"/>
+	</testsuite>
+</testsuites>

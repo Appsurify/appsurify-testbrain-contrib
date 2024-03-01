@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="37.029999999999994">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_inst_included_files_w_known_exts_cover" skipped="0" tests="11" time="37.029999999999994">
+		<testcase name="preconditions" time="3.370000"/>
+		<testcase name="test_base_dirs_configured_header_file" time="6.125000"/>
+		<testcase name="test_base_dirs_configured_source_file" time="4.914000"/>
+		<testcase name="test_dir_with_dots_95373" time="5.755000"/>
+		<testcase name="test_no_base_dirs_configured_cov_for_headers_off" time="5.441000"/>
+		<testcase name="test_no_base_dirs_configured_cov_for_headers_on" time="5.231000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="6.146000"/>
+		<testcase name="test_input_dir_compliance" time="0.019000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

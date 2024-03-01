@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="31" time="348.202">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_reports.suite_original_source_c" skipped="0" tests="31" time="348.202">
+		<testcase name="preconditions" time="14.468000"/>
+		<testcase name="test_full_basis" time="9.707000"/>
+		<testcase name="test_full_branch" time="7.983000"/>
+		<testcase name="test_full_cba_only_basis" time="20.372000"/>
+		<testcase name="test_full_cba_only_branch" time="14.389000"/>
+		<testcase name="test_full_cba_only_level_a" time="14.728000"/>
+		<testcase name="test_full_cba_only_level_b" time="15.285000"/>
+		<testcase name="test_full_cba_only_mcdc" time="14.333000"/>
+		<testcase name="test_full_cba_only_statement" time="14.504000"/>
+		<testcase name="test_full_due_to_cba_basis" time="21.176000"/>
+		<testcase name="test_full_due_to_cba_branch" time="14.997000"/>
+		<testcase name="test_full_due_to_cba_level_a" time="16.483000"/>
+		<testcase name="test_full_due_to_cba_level_b" time="15.030000"/>
+		<testcase name="test_full_due_to_cba_mcdc" time="14.546000"/>
+		<testcase name="test_full_due_to_cba_statement" time="15.340000"/>
+		<testcase name="test_full_level_a" time="8.224000"/>
+		<testcase name="test_full_level_b" time="8.453000"/>
+		<testcase name="test_full_mcdc" time="9.225000"/>
+		<testcase name="test_full_statement" time="9.073000"/>
+		<testcase name="test_imported_results" time="24.559000"/>
+		<testcase name="test_partial_basis" time="12.220000"/>
+		<testcase name="test_partial_branch" time="9.950000"/>
+		<testcase name="test_partial_level_a" time="11.106000"/>
+		<testcase name="test_partial_level_b" time="9.293000"/>
+		<testcase name="test_partial_mcdc" time="8.788000"/>
+		<testcase name="test_partial_statement" time="9.186000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.030000"/>
+		<testcase name="test_pep8_compliance" time="4.701000"/>
+		<testcase name="test_input_dir_compliance" time="0.028000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.025000"/>
+	</testsuite>
+</testsuites>

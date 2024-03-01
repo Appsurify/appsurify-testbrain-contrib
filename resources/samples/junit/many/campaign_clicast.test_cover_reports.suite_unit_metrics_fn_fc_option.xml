@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="39.334">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_unit_metrics_fn_fc_option" skipped="0" tests="21" time="39.334">
+		<testcase name="preconditions" time="2.870000"/>
+		<testcase name="test_full_cba_only_level_a_fn_fc" time="2.653000"/>
+		<testcase name="test_full_cba_only_level_b_fn_fc" time="2.215000"/>
+		<testcase name="test_full_cba_only_statement_fn_fc" time="2.202000"/>
+		<testcase name="test_full_due_to_cba_level_a_fn_fc" time="2.671000"/>
+		<testcase name="test_full_due_to_cba_level_b_fn_fc" time="2.822000"/>
+		<testcase name="test_full_due_to_cba_stmt_fn_fc" time="2.764000"/>
+		<testcase name="test_full_level_a_fn_fc" time="2.250000"/>
+		<testcase name="test_full_level_b_fn_fc" time="2.202000"/>
+		<testcase name="test_full_stmt_fn_fc" time="2.532000"/>
+		<testcase name="test_no_coverage_level_a_fn_fc" time="1.872000"/>
+		<testcase name="test_no_coverage_level_b_fn_fc" time="1.874000"/>
+		<testcase name="test_no_coverage_stmt_fn_fc" time="1.772000"/>
+		<testcase name="test_partial_level_a_fn_fc" time="2.116000"/>
+		<testcase name="test_partial_level_b_fn_fc" time="2.211000"/>
+		<testcase name="test_partial_stmt_fn_fc" time="2.205000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="2.069000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

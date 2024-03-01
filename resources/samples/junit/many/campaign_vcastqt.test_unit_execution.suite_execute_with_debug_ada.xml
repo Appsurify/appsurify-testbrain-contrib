@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="146.60899999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_unit_execution.suite_execute_with_debug_ada" skipped="0" tests="9" time="146.60899999999998">
+		<testcase name="preconditions" time="15.348000"/>
+		<testcase name="test_generate_uninstrumented_harness" time="44.556000"/>
+		<testcase name="test_use_instrumented_harness" time="42.934000"/>
+		<testcase name="test_use_uninstrumented_harness" time="31.725000"/>
+		<testcase name="postconditions" time="5.119000"/>
+		<testcase name="test_py_md_compliance" time="0.041000"/>
+		<testcase name="test_pep8_compliance" time="6.330000"/>
+		<testcase name="test_input_dir_compliance" time="0.469000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.087000"/>
+	</testsuite>
+</testsuites>

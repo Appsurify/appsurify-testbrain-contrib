@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="12.13">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcwrap.test_options.suite_env" skipped="0" tests="15" time="12.13">
+		<testcase name="preconditions" time="5.075000"/>
+		<testcase name="test_absolute_dir_as_env" time="0.633000"/>
+		<testcase name="test_absolute_file_as_env" time="0.432000"/>
+		<testcase name="test_invalid_env" time="0.215000"/>
+		<testcase name="test_no_env" time="0.134000"/>
+		<testcase name="test_nonexistent_env_dir" time="0.210000"/>
+		<testcase name="test_nonexistent_env_file" time="0.212000"/>
+		<testcase name="test_relative_dir_as_env" time="0.360000"/>
+		<testcase name="test_relative_file_as_env" time="0.551000"/>
+		<testcase name="test_valid_env" time="0.385000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="3.897000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

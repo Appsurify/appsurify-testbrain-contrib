@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="92.49900000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_build_from_vcdb" skipped="0" tests="23" time="92.49900000000001">
+		<testcase name="preconditions" time="2.192000"/>
+		<testcase name="test_additional_unit_specific_arguments" time="7.014000"/>
+		<testcase name="test_database_doesnt_match_compiler" time="0.650000"/>
+		<testcase name="test_different_directory_types" time="6.518000"/>
+		<testcase name="test_exclude_path" time="5.935000"/>
+		<testcase name="test_file_does_not_exist" time="0.588000"/>
+		<testcase name="test_incorrect_command_verb" time="0.741000"/>
+		<testcase name="test_invalid_database_file" time="0.687000"/>
+		<testcase name="test_modify_vcdb_file" time="8.652000"/>
+		<testcase name="test_no_compiler_template_set" time="0.659000"/>
+		<testcase name="test_no_unit_specific_arguments" time="7.188000"/>
+		<testcase name="test_override_search_directory" time="6.226000"/>
+		<testcase name="test_unit_specific_includes" time="7.524000"/>
+		<testcase name="test_vcdb_flags" time="5.030000"/>
+		<testcase name="test_with_different_compiler" time="8.745000"/>
+		<testcase name="test_with_environment_variable" time="6.353000"/>
+		<testcase name="test_with_relative_path" time="6.310000"/>
+		<testcase name="test_with_unit_specific_arguments" time="6.590000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.037000"/>
+		<testcase name="test_pep8_compliance" time="4.794000"/>
+		<testcase name="test_input_dir_compliance" time="0.038000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.028000"/>
+	</testsuite>
+</testsuites>

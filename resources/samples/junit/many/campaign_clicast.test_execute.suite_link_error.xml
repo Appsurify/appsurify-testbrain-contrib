@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="36.230000000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_execute.suite_link_error" skipped="0" tests="18" time="36.230000000000004">
+		<testcase name="preconditions" time="5.252000"/>
+		<testcase name="test_fix_execute_batch" time="2.845000"/>
+		<testcase name="test_fix_execute_batch_sub" time="3.227000"/>
+		<testcase name="test_fix_execute_batch_unit" time="2.887000"/>
+		<testcase name="test_fix_execute_run" time="2.419000"/>
+		<testcase name="test_fix_uc_execute_batch" time="4.111000"/>
+		<testcase name="test_fix_uc_execute_run" time="3.250000"/>
+		<testcase name="test_no_change_execute_batch" time="1.744000"/>
+		<testcase name="test_no_change_execute_batch_sub" time="1.585000"/>
+		<testcase name="test_no_change_execute_batch_unit" time="1.714000"/>
+		<testcase name="test_no_change_execute_debug" time="1.333000"/>
+		<testcase name="test_no_change_execute_incremental" time="1.280000"/>
+		<testcase name="test_no_change_execute_run" time="1.530000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="3.021000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.012000"/>
+	</testsuite>
+</testsuites>

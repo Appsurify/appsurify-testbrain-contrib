@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="135.968">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_target_options.suite_header_options" skipped="0" tests="8" time="135.968">
+		<testcase name="preconditions" time="6.337000"/>
+		<testcase name="test_no_sprintf_defined_off" time="61.832000"/>
+		<testcase name="test_no_sprintf_defined_on" time="59.378000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.046000"/>
+		<testcase name="test_pep8_compliance" time="8.274000"/>
+		<testcase name="test_input_dir_compliance" time="0.053000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.048000"/>
+	</testsuite>
+</testsuites>

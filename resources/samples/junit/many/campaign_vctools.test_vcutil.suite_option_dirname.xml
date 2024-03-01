@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="20.879999999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_vcutil.suite_option_dirname" skipped="0" tests="18" time="20.879999999999995">
+		<testcase name="preconditions" time="1.509000"/>
+		<testcase name="test_abspath" time="1.285000"/>
+		<testcase name="test_childdir_in_path" time="0.810000"/>
+		<testcase name="test_dir_not_writable" time="0.591000"/>
+		<testcase name="test_empty_dir" time="0.432000"/>
+		<testcase name="test_envvar_in_path" time="0.823000"/>
+		<testcase name="test_extra_file_with_diff_compiler" time="3.525000"/>
+		<testcase name="test_file_not_readable" time="1.764000"/>
+		<testcase name="test_incremental" time="0.927000"/>
+		<testcase name="test_missing_src" time="0.443000"/>
+		<testcase name="test_missing_srcfile" time="1.094000"/>
+		<testcase name="test_newfile_in_srcdir" time="1.263000"/>
+		<testcase name="test_relative_path" time="1.721000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="4.663000"/>
+		<testcase name="test_input_dir_compliance" time="0.008000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

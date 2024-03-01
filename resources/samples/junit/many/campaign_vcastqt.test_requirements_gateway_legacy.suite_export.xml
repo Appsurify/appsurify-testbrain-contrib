@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="796.9469999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_requirements_gateway_legacy.suite_export" skipped="0" tests="21" time="796.9469999999999">
+		<testcase name="preconditions" time="49.603000"/>
+		<testcase name="test_add_req_execute_export" time="53.383000"/>
+		<testcase name="test_auto_init_tests_diff_req" time="53.884000"/>
+		<testcase name="test_auto_init_tests_same_req" time="53.688000"/>
+		<testcase name="test_export_env_name_only" time="45.657000"/>
+		<testcase name="test_export_env_name_passfail" time="45.577000"/>
+		<testcase name="test_export_env_name_tc_name" time="45.325000"/>
+		<testcase name="test_export_passfail_only" time="45.679000"/>
+		<testcase name="test_export_requirement_data_only" time="45.787000"/>
+		<testcase name="test_export_tc_name_only" time="45.798000"/>
+		<testcase name="test_export_tc_name_passfail" time="45.564000"/>
+		<testcase name="test_remove_req_no_execute_export" time="50.419000"/>
+		<testcase name="test_remove_testcase_no_execute_export" time="48.089000"/>
+		<testcase name="test_two_env_parallel" time="81.383000"/>
+		<testcase name="test_two_env_series" time="54.558000"/>
+		<testcase name="test_export_to_csv_no_env" time="24.591000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.180000"/>
+		<testcase name="test_pep8_compliance" time="7.377000"/>
+		<testcase name="test_input_dir_compliance" time="0.213000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.192000"/>
+	</testsuite>
+</testsuites>

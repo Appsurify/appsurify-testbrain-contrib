@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="128.81799999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_editions.suite_pro_multi_lang" skipped="0" tests="9" time="128.81799999999998">
+		<testcase name="preconditions" time="8.451000"/>
+		<testcase name="test_stock_check_toolbar" time="15.515000"/>
+		<testcase name="test_stock_check_menubar" time="28.206000"/>
+		<testcase name="test_stock_check_options" time="61.616000"/>
+		<testcase name="postconditions" time="6.371000"/>
+		<testcase name="test_py_md_compliance" time="0.088000"/>
+		<testcase name="test_pep8_compliance" time="8.405000"/>
+		<testcase name="test_input_dir_compliance" time="0.101000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.065000"/>
+	</testsuite>
+</testsuites>

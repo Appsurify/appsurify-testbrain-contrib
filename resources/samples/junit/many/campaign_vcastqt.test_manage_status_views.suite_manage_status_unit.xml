@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="433.045">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_status_views.suite_manage_status_unit" skipped="0" tests="12" time="433.045">
+		<testcase name="preconditions" time="51.465000"/>
+		<testcase name="test_build_execute_migrated_hide_details" time="67.031000"/>
+		<testcase name="test_build_migrated_show_details" time="69.949000"/>
+		<testcase name="test_build_monitored_hide_details" time="45.021000"/>
+		<testcase name="test_build_one_env_multiple_groups_same_testsuite" time="33.177000"/>
+		<testcase name="test_execute_migrated_show_details" time="55.042000"/>
+		<testcase name="test_execute_two_envs_monitored_show_details" time="95.210000"/>
+		<testcase name="postconditions" time="5.289000"/>
+		<testcase name="test_py_md_compliance" time="0.154000"/>
+		<testcase name="test_pep8_compliance" time="10.365000"/>
+		<testcase name="test_input_dir_compliance" time="0.174000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.168000"/>
+	</testsuite>
+</testsuites>

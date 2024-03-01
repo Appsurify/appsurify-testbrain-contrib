@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="664.4680000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_release_mode_stp_part_09" skipped="0" tests="52" time="664.4680000000003">
+		<testcase name="preconditions"/>
+		<testcase name="test_stubs_fptr_valgen_mapping" time="16.569000"/>
+		<testcase name="test_stubs_is_null" time="16.318000"/>
+		<testcase name="test_stubs_malloc_test" time="15.243000"/>
+		<testcase name="test_stubs_multiple_calls" time="15.921000"/>
+		<testcase name="test_stubs_multiple_nested_calls" time="14.265000"/>
+		<testcase name="test_stubs_no_model" time="15.164000"/>
+		<testcase name="test_stubs_ptr_assign_to_scalar" time="14.205000"/>
+		<testcase name="test_stubs_ptr_avj_example" time="16.026000"/>
+		<testcase name="test_stubs_ptr_const_idx" time="16.441000"/>
+		<testcase name="test_stubs_ptr_func_idx" time="17.486000"/>
+		<testcase name="test_stubs_ptr_global" time="15.976000"/>
+		<testcase name="test_stubs_ptr_local" time="14.904000"/>
+		<testcase name="test_stubs_ptr_local_at_decl" time="15.306000"/>
+		<testcase name="test_stubs_ptr_multiple_calls" time="16.698000"/>
+		<testcase name="test_stubs_ptr_multiple_nested_calls" time="16.772000"/>
+		<testcase name="test_stubs_ptr_not_null_with_value" time="16.628000"/>
+		<testcase name="test_stubs_ptr_null_check" time="14.584000"/>
+		<testcase name="test_stubs_ptr_padding_issue" time="15.112000"/>
+		<testcase name="test_stubs_ptr_param" time="13.356000"/>
+		<testcase name="test_stubs_ptr_partial_rollback" time="13.842000"/>
+		<testcase name="test_stubs_ptr_placeholder" time="14.639000"/>
+		<testcase name="test_stubs_ptr_simple" time="15.344000"/>
+		<testcase name="test_stubs_ptr_slr_arguments" time="14.893000"/>
+		<testcase name="test_stubs_ptr_subsequent_alloc" time="14.139000"/>
+		<testcase name="test_stubs_reset_count_before_fo" time="14.389000"/>
+		<testcase name="test_stubs_ret_and_ref_st_with_ptr_fd" time="15.742000"/>
+		<testcase name="test_stubs_returning_ptr_to_st" time="13.104000"/>
+		<testcase name="test_stubs_returning_struct_at_init" time="12.783000"/>
+		<testcase name="test_stubs_returning_structs" time="15.934000"/>
+		<testcase name="test_stubs_returning_voids_ptr" time="13.866000"/>
+		<testcase name="test_stubs_sbr_struct_pointer_field_problem" time="13.866000"/>
+		<testcase name="test_stubs_simple" time="12.570000"/>
+		<testcase name="test_stubs_slr_global" time="12.020000"/>
+		<testcase name="test_stubs_slr_local" time="11.845000"/>
+		<testcase name="test_stubs_slr_local_at_decl" time="11.894000"/>
+		<testcase name="test_stubs_slr_param" time="11.931000"/>
+		<testcase name="test_stubs_slr_void_ret_sbf" time="11.246000"/>
+		<testcase name="test_stubs_standalone" time="11.673000"/>
+		<testcase name="test_stubs_support_in_is" time="12.633000"/>
+		<testcase name="test_stubs_test_dot_stubs" time="12.642000"/>
+		<testcase name="test_stubs_union_broken" time="11.479000"/>
+		<testcase name="test_stubs_with_altered_arguments" time="12.227000"/>
+		<testcase name="test_stubs_with_local" time="11.642000"/>
+		<testcase name="test_switch_default" time="12.511000"/>
+		<testcase name="test_symbolic_index" time="11.966000"/>
+		<testcase name="test_templ_global" time="12.086000"/>
+		<testcase name="test_template_class_constructors" time="12.129000"/>
+		<testcase name="postconditions" time="0.105000"/>
+		<testcase name="test_pep8_compliance" time="2.134000"/>
+		<testcase name="test_input_dir_compliance" time="0.121000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.099000"/>
+	</testsuite>
+</testsuites>

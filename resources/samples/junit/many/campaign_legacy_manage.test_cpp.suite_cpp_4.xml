@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="20" time="545.338">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_4" skipped="0" tests="20" time="545.338">
+		<testcase name="preconditions" time="1.254000"/>
+		<testcase name="test_access_control" time="11.071000"/>
+		<testcase name="test_almost_anon" time="31.197000"/>
+		<testcase name="test_basis_test_cch_cpp" time="34.741000"/>
+		<testcase name="test_basis_test_cpp" time="16.172000"/>
+		<testcase name="test_block_coverage_cpp" time="233.139000"/>
+		<testcase name="test_bp_const_branch_import" time="58.352000"/>
+		<testcase name="test_class_ptr" time="9.019000"/>
+		<testcase name="test_class_ptr_harness_commands" time="7.664000"/>
+		<testcase name="test_class_ptr_stub" time="8.459000"/>
+		<testcase name="test_multiple_uut_cpp" time="29.278000"/>
+		<testcase name="test_multiple_uut_sbf_cpp" time="9.849000"/>
+		<testcase name="test_ptr_1860" time="22.617000"/>
+		<testcase name="test_return_reference" time="8.720000"/>
+		<testcase name="test_specialized_template" time="13.217000"/>
+		<testcase name="test_tutorial_cpp" time="46.488000"/>
+		<testcase name="postconditions" time="0.036000"/>
+		<testcase name="test_pep8_compliance" time="3.954000"/>
+		<testcase name="test_input_dir_compliance" time="0.053000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.058000"/>
+	</testsuite>
+</testsuites>

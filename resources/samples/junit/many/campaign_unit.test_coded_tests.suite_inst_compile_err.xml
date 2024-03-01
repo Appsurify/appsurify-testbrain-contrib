@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="29.558000000000007">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_unit.test_coded_tests.suite_inst_compile_err" skipped="0" tests="10" time="29.558000000000007">
+		<testcase name="preconditions" time="10.117000"/>
+		<testcase name="test_add_file" time="1.550000"/>
+		<testcase name="test_exec_batch" time="3.677000"/>
+		<testcase name="test_exec_err_fixed" time="7.152000"/>
+		<testcase name="test_exec_prior_err" time="3.434000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.607000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

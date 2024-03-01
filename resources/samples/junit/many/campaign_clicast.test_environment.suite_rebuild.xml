@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="65.86">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment.suite_rebuild" skipped="0" tests="21" time="65.86">
+		<testcase name="preconditions" time="3.190000"/>
+		<testcase name="test_absolute_variant_logic_path_round_trip" time="7.036000"/>
+		<testcase name="test_compile_error" time="3.088000"/>
+		<testcase name="test_env_var_variant_logic_path_round_trip" time="7.713000"/>
+		<testcase name="test_link_error" time="3.960000"/>
+		<testcase name="test_no_write_permissions_rebuild_fails" time="0.915000"/>
+		<testcase name="test_parse_error" time="2.822000"/>
+		<testcase name="test_rebuild_c_env" time="3.349000"/>
+		<testcase name="test_rebuild_full" time="3.603000"/>
+		<testcase name="test_rebuild_full_lower" time="3.545000"/>
+		<testcase name="test_rebuild_short" time="3.602000"/>
+		<testcase name="test_rebuild_short_lower" time="3.171000"/>
+		<testcase name="test_rebuild_with_readonly_env_file" time="0.004000"/>
+		<testcase name="test_rebuild_with_unapplied_test_data" time="4.202000"/>
+		<testcase name="test_relative_variant_logic_path_round_trip" time="6.802000"/>
+		<testcase name="test_startup_file_compile_error" time="3.508000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="5.318000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="33.588">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_default_ctors" skipped="0" tests="11" time="33.588">
+		<testcase name="preconditions" time="0.539000"/>
+		<testcase name="test_ambiguous_default_ctor" time="5.148000"/>
+		<testcase name="test_enable_if_instantiated" time="6.234000"/>
+		<testcase name="test_enable_if_not_instantiated" time="6.418000"/>
+		<testcase name="test_inherited_deleted_default_ctor" time="4.074000"/>
+		<testcase name="test_virtual_func_incomplete_template_type" time="4.940000"/>
+		<testcase name="test_virtual_func_incomplete_type" time="3.224000"/>
+		<testcase name="postconditions" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="3.000000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

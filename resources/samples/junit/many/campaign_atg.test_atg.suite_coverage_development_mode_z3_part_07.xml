@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="610.4879999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_development_mode_z3_part_07" skipped="0" tests="52" time="610.4879999999999">
+		<testcase name="preconditions"/>
+		<testcase name="test_restrict_floats_only" time="14.706000"/>
+		<testcase name="test_restrict_loops" time="12.417000"/>
+		<testcase name="test_return_dead" time="13.416000"/>
+		<testcase name="test_return_decision" time="12.510000"/>
+		<testcase name="test_return_void" time="14.958000"/>
+		<testcase name="test_sbr_empty_param_values" time="13.313000"/>
+		<testcase name="test_sbr_param_no_alloc" time="13.647000"/>
+		<testcase name="test_self_alias_loop" time="12.856000"/>
+		<testcase name="test_shift_assign" time="12.396000"/>
+		<testcase name="test_shift_right" time="12.089000"/>
+		<testcase name="test_shift_tests" time="13.916000"/>
+		<testcase name="test_shifts_of_differing_bitwidths" time="12.450000"/>
+		<testcase name="test_silent_partials" time="11.370000"/>
+		<testcase name="test_simple_float" time="15.584000"/>
+		<testcase name="test_simple_loops" time="18.935000"/>
+		<testcase name="test_simple_struct_access_floats" time="12.460000"/>
+		<testcase name="test_skipped_call_count" time="13.183000"/>
+		<testcase name="test_smtexception_no_fit" time="11.699000"/>
+		<testcase name="test_solver_timeout" time="12.969000"/>
+		<testcase name="test_static_init_cpp" time="12.835000"/>
+		<testcase name="test_static_init_fm" time="11.710000"/>
+		<testcase name="test_static_local_fm" time="11.794000"/>
+		<testcase name="test_static_method_calls" time="12.668000"/>
+		<testcase name="test_std_containers" time="19.706000"/>
+		<testcase name="test_std_strings" time="0.064000"/>
+		<testcase name="test_std_vector" time="0.076000"/>
+		<testcase name="test_struct_allocation_arrow" time="11.983000"/>
+		<testcase name="test_struct_anon" time="11.494000"/>
+		<testcase name="test_struct_as_classes" time="15.092000"/>
+		<testcase name="test_struct_assign" time="13.594000"/>
+		<testcase name="test_struct_atg181" time="11.681000"/>
+		<testcase name="test_struct_atg189" time="12.432000"/>
+		<testcase name="test_struct_avj_test" time="12.609000"/>
+		<testcase name="test_struct_deref_assign" time="13.242000"/>
+		<testcase name="test_struct_fail" time="13.533000"/>
+		<testcase name="test_struct_fail_2" time="13.873000"/>
+		<testcase name="test_struct_field_access" time="14.072000"/>
+		<testcase name="test_struct_field_assignment" time="14.479000"/>
+		<testcase name="test_struct_flattening_issues" time="16.481000"/>
+		<testcase name="test_struct_flattening_simple_var_regression" time="16.117000"/>
+		<testcase name="test_struct_global_dot" time="14.481000"/>
+		<testcase name="test_struct_initializer" time="12.656000"/>
+		<testcase name="test_struct_nested_stct_ptr_inc" time="12.724000"/>
+		<testcase name="test_struct_nesting" time="13.086000"/>
+		<testcase name="test_struct_nesting_assign" time="12.578000"/>
+		<testcase name="test_struct_pointer_undefined_index" time="13.420000"/>
+		<testcase name="test_struct_pointer_void_comparison" time="13.813000"/>
+		<testcase name="postconditions" time="0.187000"/>
+		<testcase name="test_pep8_compliance" time="2.784000"/>
+		<testcase name="test_input_dir_compliance" time="0.168000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.182000"/>
+	</testsuite>
+</testsuites>

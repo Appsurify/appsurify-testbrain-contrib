@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="46.38300000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_mcdc_for_init" skipped="0" tests="12" time="46.38300000000001">
+		<testcase name="preconditions" time="5.311000"/>
+		<testcase name="test_basis_path" time="8.316000"/>
+		<testcase name="test_branch" time="7.073000"/>
+		<testcase name="test_level_a" time="7.535000"/>
+		<testcase name="test_level_b" time="6.878000"/>
+		<testcase name="test_mcdc" time="7.825000"/>
+		<testcase name="test_mcdc_test" time="1.350000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.005000"/>
+		<testcase name="test_pep8_compliance" time="2.073000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

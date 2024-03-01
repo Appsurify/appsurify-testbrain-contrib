@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="320.83900000000006">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_22" skipped="0" tests="16" time="320.83900000000006">
+		<testcase name="preconditions" time="1.034000"/>
+		<testcase name="test_object_file_testing_cov" time="12.088000"/>
+		<testcase name="test_offset" time="9.181000"/>
+		<testcase name="test_operator_overloaded" time="9.526000"/>
+		<testcase name="test_optimized_coverage_cpp" time="169.929000"/>
+		<testcase name="test_past_end" time="7.253000"/>
+		<testcase name="test_private_class" time="6.838000"/>
+		<testcase name="test_private_inheritance" time="7.067000"/>
+		<testcase name="test_ptr_1352" time="70.804000"/>
+		<testcase name="test_ptr_1397_cpp" time="7.612000"/>
+		<testcase name="test_ptr_1700" time="7.260000"/>
+		<testcase name="test_scope" time="9.546000"/>
+		<testcase name="postconditions" time="0.023000"/>
+		<testcase name="test_pep8_compliance" time="2.615000"/>
+		<testcase name="test_input_dir_compliance" time="0.039000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.024000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="43" time="187.618">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_probe_point_cover" skipped="0" tests="43" time="187.618">
+		<testcase name="preconditions" time="2.561000"/>
+		<testcase name="test_apply" time="4.007000"/>
+		<testcase name="test_branch_locations" time="4.267000"/>
+		<testcase name="test_function_locations" time="4.546000"/>
+		<testcase name="test_int_function_exit_probe" time="4.778000"/>
+		<testcase name="test_line_column_probe_point" time="4.677000"/>
+		<testcase name="test_mcdc_locations" time="4.151000"/>
+		<testcase name="test_probe_point_dos_formatted_source" time="4.076000"/>
+		<testcase name="test_probe_point_dump_coverage_data" time="4.531000"/>
+		<testcase name="test_probe_point_only_locations" time="4.915000"/>
+		<testcase name="test_probe_point_only_locations_c" time="4.807000"/>
+		<testcase name="test_remove_subprogram" time="2.549000"/>
+		<testcase name="test_skip_ada_files" time="7.012000"/>
+		<testcase name="test_statement_branch_function_fc_locations" time="4.271000"/>
+		<testcase name="test_statement_branch_locations" time="4.011000"/>
+		<testcase name="test_statement_branch_locations_block" time="4.208000"/>
+		<testcase name="test_statement_branch_locations_c" time="6.560000"/>
+		<testcase name="test_statement_branch_locations_c_before_decl" time="3.716000"/>
+		<testcase name="test_statement_function_fc_locations" time="9.000000"/>
+		<testcase name="test_statement_locations" time="8.300000"/>
+		<testcase name="test_statement_locations_block" time="4.195000"/>
+		<testcase name="test_statement_mcdc_function_fc_locations" time="4.646000"/>
+		<testcase name="test_statement_mcdc_locations" time="4.359000"/>
+		<testcase name="test_statement_mcdc_locations_block" time="4.220000"/>
+		<testcase name="test_uninstrumentation" time="7.653000"/>
+		<testcase name="test_vcast_probe_print_decorated_function" time="4.424000"/>
+		<testcase name="test_vcast_probe_print_error_binary_dump" time="5.335000"/>
+		<testcase name="test_vcast_probe_print_float" time="4.732000"/>
+		<testcase name="test_vcast_probe_print_function" time="5.034000"/>
+		<testcase name="test_vcast_probe_print_id" time="5.315000"/>
+		<testcase name="test_vcast_probe_print_id_str" time="5.191000"/>
+		<testcase name="test_vcast_probe_print_int" time="5.257000"/>
+		<testcase name="test_vcast_probe_print_mangled_function" time="4.590000"/>
+		<testcase name="test_vcast_probe_print_no_float_invalid_use" time="3.692000"/>
+		<testcase name="test_vcast_probe_print_no_float_no_error" time="3.591000"/>
+		<testcase name="test_vcast_probe_print_unit" time="5.068000"/>
+		<testcase name="test_vcast_probe_print_unsigned" time="4.897000"/>
+		<testcase name="test_void_function_exit_probe" time="4.459000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.028000"/>
+		<testcase name="test_pep8_compliance" time="3.905000"/>
+		<testcase name="test_input_dir_compliance" time="0.037000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.047000"/>
+	</testsuite>
+</testsuites>

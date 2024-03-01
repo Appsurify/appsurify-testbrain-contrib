@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="228.27300000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_compound_view.suite_compound_only" skipped="0" tests="10" time="228.27300000000002">
+		<testcase name="preconditions" time="8.280000"/>
+		<testcase name="test_execute_nested_compounds" time="48.935000"/>
+		<testcase name="test_execution_disabled_compound_only" time="46.034000"/>
+		<testcase name="test_import_export_nested_compounds" time="61.704000"/>
+		<testcase name="test_single_testcase_report" time="51.600000"/>
+		<testcase name="postconditions" time="5.187000"/>
+		<testcase name="test_py_md_compliance" time="0.071000"/>
+		<testcase name="test_pep8_compliance" time="6.298000"/>
+		<testcase name="test_input_dir_compliance" time="0.085000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.079000"/>
+	</testsuite>
+</testsuites>

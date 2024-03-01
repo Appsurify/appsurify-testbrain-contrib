@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="571.9829999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_requirements_gateway.suite_settings" skipped="0" tests="18" time="571.9829999999998">
+		<testcase name="preconditions" time="8.366000"/>
+		<testcase name="test_toggle_legacy_mode_json_exists" time="62.957000"/>
+		<testcase name="test_toggle_legacy_mode_db_exists" time="56.698000"/>
+		<testcase name="test_change_repo_canceled" time="31.641000"/>
+		<testcase name="test_change_repo_location" time="31.369000"/>
+		<testcase name="test_env_var_invalid_path_cred" time="31.163000"/>
+		<testcase name="test_env_var_invalid_path_repo" time="31.363000"/>
+		<testcase name="test_env_var_path" time="32.911000"/>
+		<testcase name="test_invalid_repo" time="32.602000"/>
+		<testcase name="test_no_repo" time="30.953000"/>
+		<testcase name="test_set_credentials_file" time="72.063000"/>
+		<testcase name="test_settings_repository_required" time="49.931000"/>
+		<testcase name="test_toggle_legacy_mode_both_exists" time="87.151000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.244000"/>
+		<testcase name="test_pep8_compliance" time="12.016000"/>
+		<testcase name="test_input_dir_compliance" time="0.356000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.199000"/>
+	</testsuite>
+</testsuites>

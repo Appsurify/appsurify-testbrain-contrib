@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="41" time="170.284">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_clicast_legacy.suite_legacy_b_c_1" skipped="0" tests="41" time="170.284">
+		<testcase name="preconditions" time="3.606000"/>
+		<testcase name="test_ddci_target_denied" time="4.236000"/>
+		<testcase name="test_ddci_target_permitted" time="4.076000"/>
+		<testcase name="test_hightec_target_denied" time="4.602000"/>
+		<testcase name="test_hightec_target_permitted" time="4.003000"/>
+		<testcase name="test_rsp_arm_denied" time="4.313000"/>
+		<testcase name="test_rsp_arm_permitted" time="4.292000"/>
+		<testcase name="test_rsp_codewarrior_denied" time="4.463000"/>
+		<testcase name="test_rsp_codewarrior_permitted" time="4.945000"/>
+		<testcase name="test_rsp_composer_denied" time="5.723000"/>
+		<testcase name="test_rsp_composer_permitted" time="5.173000"/>
+		<testcase name="test_rsp_cosmic_denied" time="4.174000"/>
+		<testcase name="test_rsp_cosmic_permitted" time="4.689000"/>
+		<testcase name="test_rsp_diab_denied" time="4.841000"/>
+		<testcase name="test_rsp_diab_permitted" time="4.306000"/>
+		<testcase name="test_rsp_fujitsu_denied" time="4.074000"/>
+		<testcase name="test_rsp_fujitsu_permitted" time="5.164000"/>
+		<testcase name="test_rsp_green_denied" time="4.660000"/>
+		<testcase name="test_rsp_green_permitted" time="4.886000"/>
+		<testcase name="test_rsp_iar_denied" time="4.710000"/>
+		<testcase name="test_rsp_iar_permitted" time="4.933000"/>
+		<testcase name="test_rsp_metaware_denied" time="4.868000"/>
+		<testcase name="test_rsp_metaware_permitted" time="4.551000"/>
+		<testcase name="test_rsp_nec_permitted" time="5.039000"/>
+		<testcase name="test_rsp_paradigm_denied" time="4.851000"/>
+		<testcase name="test_rsp_paradigm_permitted" time="4.702000"/>
+		<testcase name="test_rsp_renesas_denied" time="5.734000"/>
+		<testcase name="test_rsp_renesas_permitted" time="4.540000"/>
+		<testcase name="test_rsp_tasking_denied" time="4.515000"/>
+		<testcase name="test_rsp_tasking_permitted" time="4.915000"/>
+		<testcase name="test_rsp_visualdsp_denied" time="4.693000"/>
+		<testcase name="test_rsp_visualdsp_permitted" time="4.673000"/>
+		<testcase name="test_rsp_vxworks_denied" time="4.118000"/>
+		<testcase name="test_rsp_vxworks_permitted" time="4.317000"/>
+		<testcase name="test_stmicro_target_denied" time="4.090000"/>
+		<testcase name="test_stmicro_target_permitted" time="4.266000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.073000"/>
+		<testcase name="test_pep8_compliance" time="4.377000"/>
+		<testcase name="test_input_dir_compliance" time="0.051000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.042000"/>
+	</testsuite>
+</testsuites>

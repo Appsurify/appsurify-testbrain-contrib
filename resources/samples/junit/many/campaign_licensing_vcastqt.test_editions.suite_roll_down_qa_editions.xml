@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="259.679">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_editions.suite_roll_down_qa_editions" skipped="0" tests="10" time="259.679">
+		<testcase name="preconditions" time="9.717000"/>
+		<testcase name="test_ent_qa_ent_cover" time="55.393000"/>
+		<testcase name="test_ent_qa_pro_cover" time="56.063000"/>
+		<testcase name="test_ent_qa_pro_qa" time="75.793000"/>
+		<testcase name="test_pro_qa_pro_cover" time="55.432000"/>
+		<testcase name="postconditions" time="0.214000"/>
+		<testcase name="test_py_md_compliance" time="0.147000"/>
+		<testcase name="test_pep8_compliance" time="6.603000"/>
+		<testcase name="test_input_dir_compliance" time="0.162000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.155000"/>
+	</testsuite>
+</testsuites>

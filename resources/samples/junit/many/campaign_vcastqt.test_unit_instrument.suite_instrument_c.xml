@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="914.2910000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_unit_instrument.suite_instrument_c" skipped="0" tests="22" time="914.2910000000003">
+		<testcase name="preconditions" time="14.501000"/>
+		<testcase name="test_cover_basis_path" time="53.933000"/>
+		<testcase name="test_cover_branch" time="51.520000"/>
+		<testcase name="test_cover_function" time="51.434000"/>
+		<testcase name="test_cover_function_function_call" time="51.533000"/>
+		<testcase name="test_cover_mcdc" time="51.576000"/>
+		<testcase name="test_cover_none" time="58.453000"/>
+		<testcase name="test_cover_statement" time="52.323000"/>
+		<testcase name="test_cover_statement_branch" time="51.500000"/>
+		<testcase name="test_cover_statement_mcdc" time="52.089000"/>
+		<testcase name="test_cover_statement_mcdc_sfp" time="61.457000"/>
+		<testcase name="test_level_a_function_call" time="58.748000"/>
+		<testcase name="test_level_a_function_function_call" time="58.718000"/>
+		<testcase name="test_level_b_function_call" time="57.989000"/>
+		<testcase name="test_level_b_function_function_call" time="58.157000"/>
+		<testcase name="test_statement_function_call" time="58.512000"/>
+		<testcase name="test_statement_function_function_call" time="58.813000"/>
+		<testcase name="postconditions" time="5.243000"/>
+		<testcase name="test_py_md_compliance" time="0.242000"/>
+		<testcase name="test_pep8_compliance" time="7.125000"/>
+		<testcase name="test_input_dir_compliance" time="0.191000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.234000"/>
+	</testsuite>
+</testsuites>

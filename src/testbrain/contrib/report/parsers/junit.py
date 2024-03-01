@@ -6,7 +6,6 @@ try:
 except ImportError:
     from xml.etree import ElementTree as etree  # noqa
 
-
 from .. import utils
 from ..models.junit import (
     JUnitTestCase,

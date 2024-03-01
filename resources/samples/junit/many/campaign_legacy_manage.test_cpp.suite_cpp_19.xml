@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="66.65400000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_19" skipped="0" tests="11" time="66.65400000000001">
+		<testcase name="preconditions" time="1.122000"/>
+		<testcase name="test_cpp_combo_off" time="10.963000"/>
+		<testcase name="test_cpp_combo_on" time="12.607000"/>
+		<testcase name="test_cpp_stubuc_failsafe" time="9.258000"/>
+		<testcase name="test_declaration" time="10.239000"/>
+		<testcase name="test_default_params" time="10.007000"/>
+		<testcase name="test_gnu_strict_prototypes" time="9.454000"/>
+		<testcase name="postconditions" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="2.957000"/>
+		<testcase name="test_input_dir_compliance" time="0.025000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

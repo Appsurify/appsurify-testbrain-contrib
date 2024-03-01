@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="89.335">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_manage_events.suite_target_setup" skipped="0" tests="12" time="89.335">
+		<testcase name="preconditions" time="22.292000"/>
+		<testcase name="test_create_env_ada_setup_teardown" time="6.269000"/>
+		<testcase name="test_create_env_c_setup_teardown" time="10.750000"/>
+		<testcase name="test_default_python_repository_contents" time="10.689000"/>
+		<testcase name="test_default_setup_and_teardown_called" time="8.110000"/>
+		<testcase name="test_env_var_in_setup_teardown" time="8.542000"/>
+		<testcase name="test_setup_and_teardown_called" time="8.386000"/>
+		<testcase name="test_setup_teardown_module_reload" time="9.423000"/>
+		<testcase name="postconditions" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="4.842000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="26" time="234.91699999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_build_execute.suite_build_cover" skipped="0" tests="26" time="234.91699999999997">
+		<testcase name="preconditions" time="8.187000"/>
+		<testcase name="test_build_execute_with_missing_src" time="13.136000"/>
+		<testcase name="test_components_xml" time="7.821000"/>
+		<testcase name="test_enc_run_failure" time="10.265000"/>
+		<testcase name="test_env_delete_failure" time="10.904000"/>
+		<testcase name="test_env_delete_failure_force_remove" time="7.856000"/>
+		<testcase name="test_full_build" time="9.753000"/>
+		<testcase name="test_full_build_execute" time="11.867000"/>
+		<testcase name="test_full_build_execute_components" time="11.850000"/>
+		<testcase name="test_full_execute" time="6.339000"/>
+		<testcase name="test_incr_build_uses_cvr_from_repo" time="12.755000"/>
+		<testcase name="test_incremental_build_execute" time="8.297000"/>
+		<testcase name="test_incremental_build_execute_components" time="8.437000"/>
+		<testcase name="test_interactive_build_execute_components" time="11.368000"/>
+		<testcase name="test_migrate_cba" time="9.411000"/>
+		<testcase name="test_migrate_imported_results" time="10.986000"/>
+		<testcase name="test_migrate_probe_points" time="7.617000"/>
+		<testcase name="test_migrate_unit_build_execute_cover" time="12.761000"/>
+		<testcase name="test_regressionable_components" time="19.650000"/>
+		<testcase name="test_relative_paths" time="17.614000"/>
+		<testcase name="test_set_configuration" time="10.769000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.023000"/>
+		<testcase name="test_pep8_compliance" time="7.204000"/>
+		<testcase name="test_input_dir_compliance" time="0.025000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.022000"/>
+	</testsuite>
+</testsuites>

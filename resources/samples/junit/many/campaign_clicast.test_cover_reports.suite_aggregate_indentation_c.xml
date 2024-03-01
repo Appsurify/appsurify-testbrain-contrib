@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="56.457999999999984">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_aggregate_indentation_c" skipped="0" tests="23" time="56.457999999999984">
+		<testcase name="preconditions" time="4.461000"/>
+		<testcase name="test_basis_path" time="2.678000"/>
+		<testcase name="test_basis_path_report" time="0.830000"/>
+		<testcase name="test_branch" time="2.646000"/>
+		<testcase name="test_function" time="2.603000"/>
+		<testcase name="test_function_function_call" time="2.790000"/>
+		<testcase name="test_level_a" time="2.654000"/>
+		<testcase name="test_level_a_function_call" time="2.668000"/>
+		<testcase name="test_level_b" time="2.351000"/>
+		<testcase name="test_level_b_function_call" time="2.506000"/>
+		<testcase name="test_mcdc" time="2.716000"/>
+		<testcase name="test_mcdc_test" time="0.828000"/>
+		<testcase name="test_statement" time="2.731000"/>
+		<testcase name="test_statement_function_call" time="2.579000"/>
+		<testcase name="test_vcast_coverage_field_indent" time="4.779000"/>
+		<testcase name="test_vcast_cvg_field_indent_level_a_fn_call" time="4.553000"/>
+		<testcase name="test_vcast_cvg_field_indent_level_b_fn_call" time="4.961000"/>
+		<testcase name="test_vcast_cvg_field_indent_statement_fn_call" time="4.626000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.026000"/>
+		<testcase name="test_pep8_compliance" time="2.440000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.019000"/>
+	</testsuite>
+</testsuites>

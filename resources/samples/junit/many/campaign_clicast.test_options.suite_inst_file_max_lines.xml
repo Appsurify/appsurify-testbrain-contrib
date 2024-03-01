@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="35.89399999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_inst_file_max_lines" skipped="0" tests="10" time="35.89399999999999">
+		<testcase name="preconditions" time="1.302000"/>
+		<testcase name="test_change_max" time="12.171000"/>
+		<testcase name="test_over_max" time="6.135000"/>
+		<testcase name="test_under_max" time="6.638000"/>
+		<testcase name="test_unset_variables_36691" time="4.989000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="4.638000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

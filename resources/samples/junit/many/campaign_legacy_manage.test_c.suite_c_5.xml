@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="129.69600000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_5" skipped="0" tests="14" time="129.69600000000003">
+		<testcase name="preconditions" time="1.111000"/>
+		<testcase name="test_dinner_c" time="10.294000"/>
+		<testcase name="test_double_star_stub" time="7.289000"/>
+		<testcase name="test_edg_anonymous" time="11.294000"/>
+		<testcase name="test_edg_extern" time="10.325000"/>
+		<testcase name="test_edg_extern_in_funct" time="8.234000"/>
+		<testcase name="test_edg_forward_reference" time="51.062000"/>
+		<testcase name="test_edg_globals_only" time="10.156000"/>
+		<testcase name="test_edg_macros" time="8.048000"/>
+		<testcase name="test_edg_not_anonymous" time="8.518000"/>
+		<testcase name="postconditions" time="0.037000"/>
+		<testcase name="test_pep8_compliance" time="3.275000"/>
+		<testcase name="test_input_dir_compliance" time="0.027000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.026000"/>
+	</testsuite>
+</testsuites>

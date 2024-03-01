@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="58.434">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_backwards_compatibility_cover.suite_supported_legacy_envs" skipped="0" tests="7" time="58.434">
+		<testcase name="preconditions" time="4.329000"/>
+		<testcase name="test_oldest_supported_version" time="42.373000"/>
+		<testcase name="postconditions" time="5.208000"/>
+		<testcase name="test_py_md_compliance" time="0.021000"/>
+		<testcase name="test_pep8_compliance" time="6.439000"/>
+		<testcase name="test_input_dir_compliance" time="0.035000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.029000"/>
+	</testsuite>
+</testsuites>

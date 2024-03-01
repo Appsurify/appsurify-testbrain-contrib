@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="733.9140000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_editions.suite_permit_deny_manage_c" skipped="0" tests="19" time="733.9140000000001">
+		<testcase name="preconditions" time="8.297000"/>
+		<testcase name="test_build_execute_permit" time="35.454000"/>
+		<testcase name="test_build_permit" time="36.017000"/>
+		<testcase name="test_c_ent_open_close_open" time="65.474000"/>
+		<testcase name="test_open_close_mcdc" time="63.580000"/>
+		<testcase name="test_open_close_req_gateway" time="71.114000"/>
+		<testcase name="test_open_deny" time="35.153000"/>
+		<testcase name="test_open_permit" time="37.693000"/>
+		<testcase name="test_open_un" time="69.626000"/>
+		<testcase name="test_retry_after_build_failure" time="40.823000"/>
+		<testcase name="test_rt_click_group_deny" time="32.440000"/>
+		<testcase name="test_rt_click_group_un" time="86.222000"/>
+		<testcase name="test_rt_click_unit_tests_permit" time="76.766000"/>
+		<testcase name="test_second_open_uses_lic" time="63.230000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.528000"/>
+		<testcase name="test_pep8_compliance" time="9.976000"/>
+		<testcase name="test_input_dir_compliance" time="0.921000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.600000"/>
+	</testsuite>
+</testsuites>

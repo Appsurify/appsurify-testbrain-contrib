@@ -15,6 +15,7 @@ class XMLReportParser(abc.ABC):
     _test: t.Any
     _namespace: str = ""
 
+    # _parser = etree.XMLParser(recover=True)
     @property
     def xml(self) -> etree.Element:
         return self._xml
@@ -38,14 +39,19 @@ class XMLReportParser(abc.ABC):
     @classmethod
     def fromstring(cls, text: t.AnyStr):
         text = utils.normalize_xml_text(text)
-        tree = etree.fromstring(text)
-        return cls.from_root(root=tree)
+        try:
+            tree = etree.fromstring(text)
+            return cls.from_root(root=tree)
+        except Exception:
+            text = utils.normalize_xml_text("""<testsuites></testsuites>""")
+            tree = etree.fromstring(text)
+            return cls.from_root(root=tree)
 
     @classmethod
     def fromfile(cls, filename: pathlib.Path):
-        text = utils.normalize_xml_text(filename.read_text(encoding="utf-8"))
-        tree = etree.fromstring(text)
-        return cls.from_root(root=tree)
+        file_text = filename.read_bytes()
+        text = utils.normalize_xml_text(file_text)
+        return cls.fromstring(text=text)
 
     @classmethod
     def from_root(cls, root: etree.Element):

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="25" time="896.7829999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_variant_logic.suite_assignment_hierarchy_view_interactions" skipped="0" tests="25" time="896.7829999999999">
+		<testcase name="preconditions" time="13.233000"/>
+		<testcase name="test_added_testcase" time="47.246000"/>
+		<testcase name="test_added_testcase_change_status" time="58.649000"/>
+		<testcase name="test_click_duplicate_testcase" time="39.132000"/>
+		<testcase name="test_delete_added_testcases" time="48.313000"/>
+		<testcase name="test_delete_multiple_testcases" time="44.411000"/>
+		<testcase name="test_delete_testcase" time="43.708000"/>
+		<testcase name="test_delete_then_add_testcases" time="50.207000"/>
+		<testcase name="test_drag_duplicate_testcase" time="27.749000"/>
+		<testcase name="test_duplicate_test_with_disabled_status" time="41.831000"/>
+		<testcase name="test_duplicate_test_with_enabled_status" time="42.188000"/>
+		<testcase name="test_duplicate_test_with_error_status" time="42.083000"/>
+		<testcase name="test_hierarchy_stateless_changes" time="53.903000"/>
+		<testcase name="test_imported_testcase" time="47.259000"/>
+		<testcase name="test_init_filter_logic_assignment_table" time="32.905000"/>
+		<testcase name="test_insert_min_mid_max" time="44.262000"/>
+		<testcase name="test_rename_testcase" time="44.007000"/>
+		<testcase name="test_renamed_testcase_change_status" time="52.730000"/>
+		<testcase name="test_single_row_shown_selected" time="33.552000"/>
+		<testcase name="test_table_sorting_matches_hierarchy_view" time="80.347000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.285000"/>
+		<testcase name="test_pep8_compliance" time="8.192000"/>
+		<testcase name="test_input_dir_compliance" time="0.324000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.267000"/>
+	</testsuite>
+</testsuites>

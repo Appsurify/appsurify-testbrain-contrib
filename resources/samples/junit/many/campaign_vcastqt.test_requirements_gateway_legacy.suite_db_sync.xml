@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="346.785">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_requirements_gateway_legacy.suite_db_sync" skipped="0" tests="10" time="346.785">
+		<testcase name="preconditions" time="5.880000"/>
+		<testcase name="test_env_delete" time="90.941000"/>
+		<testcase name="test_env_rebuild" time="95.169000"/>
+		<testcase name="test_env_rename" time="73.780000"/>
+		<testcase name="test_tc_rename" time="73.686000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.184000"/>
+		<testcase name="test_pep8_compliance" time="6.786000"/>
+		<testcase name="test_input_dir_compliance" time="0.183000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.176000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="395.603">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_null_string" skipped="0" tests="11" time="395.603">
+		<testcase name="preconditions" time="8.376000"/>
+		<testcase name="test_list" time="99.276000"/>
+		<testcase name="test_not_equal" time="57.938000"/>
+		<testcase name="test_repeated_value_short_format" time="61.282000"/>
+		<testcase name="test_repeated_value_with_commas" time="61.109000"/>
+		<testcase name="test_scalar" time="94.628000"/>
+		<testcase name="postconditions" time="5.112000"/>
+		<testcase name="test_py_md_compliance" time="0.166000"/>
+		<testcase name="test_pep8_compliance" time="7.316000"/>
+		<testcase name="test_input_dir_compliance" time="0.182000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.218000"/>
+	</testsuite>
+</testsuites>

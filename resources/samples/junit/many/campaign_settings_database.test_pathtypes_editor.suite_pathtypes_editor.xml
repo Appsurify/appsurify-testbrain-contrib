@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="187.014">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_settings_database.test_pathtypes_editor.suite_pathtypes_editor" skipped="0" tests="23" time="187.014">
+		<testcase name="preconditions" time="2.462000"/>
+		<testcase name="test_apply_button" time="10.862000"/>
+		<testcase name="test_autoload_db_from_cfg" time="5.829000"/>
+		<testcase name="test_backup_on_apply" time="5.012000"/>
+		<testcase name="test_cancel_button" time="11.691000"/>
+		<testcase name="test_change_pathtype" time="14.146000"/>
+		<testcase name="test_change_pathtype_recursive" time="13.634000"/>
+		<testcase name="test_multiselect_paths" time="8.739000"/>
+		<testcase name="test_ok_button" time="11.650000"/>
+		<testcase name="test_path_type_col_when_no_change" time="6.593000"/>
+		<testcase name="test_popup_on_new_compile_cmd_no" time="11.543000"/>
+		<testcase name="test_popup_on_new_compile_cmd_yes" time="12.176000"/>
+		<testcase name="test_popup_on_new_db_no" time="9.798000"/>
+		<testcase name="test_popup_on_new_db_yes" time="10.300000"/>
+		<testcase name="test_popup_on_new_inc_flag_no" time="10.446000"/>
+		<testcase name="test_popup_on_new_inc_flag_yes" time="10.297000"/>
+		<testcase name="test_undo" time="13.705000"/>
+		<testcase name="test_undo_recursive" time="11.027000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.157000"/>
+		<testcase name="test_pep8_compliance" time="6.558000"/>
+		<testcase name="test_input_dir_compliance" time="0.223000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.166000"/>
+	</testsuite>
+</testsuites>

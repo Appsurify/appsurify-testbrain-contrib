@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="69.82900000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_create.suite_create_example_project" skipped="0" tests="10" time="69.82900000000001">
+		<testcase name="preconditions"/>
+		<testcase name="test_create_default_ada_env_when_no_examples_built" time="27.022000"/>
+		<testcase name="test_create_default_c_env_when_no_examples_built" time="13.767000"/>
+		<testcase name="test_current_directory_contains_unit_test_env" time="10.985000"/>
+		<testcase name="test_do_not_import_cover_envs" time="14.021000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="4.009000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="759.77">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cba_editor.suite_cba_editor_updates" skipped="0" tests="22" time="759.77">
+		<testcase name="preconditions" time="19.661000"/>
+		<testcase name="test_add_cba_result_cba_editor_ut" time="38.778000"/>
+		<testcase name="test_add_imported_result_cba_editor" time="47.428000"/>
+		<testcase name="test_add_imported_result_cba_editor_ut" time="37.389000"/>
+		<testcase name="test_add_regular_result_cba_editor" time="44.990000"/>
+		<testcase name="test_add_regular_result_cba_editor_ut" time="34.589000"/>
+		<testcase name="test_change_regular_result_compound_only" time="37.062000"/>
+		<testcase name="test_edit_regular_result" time="39.835000"/>
+		<testcase name="test_import_cba_result_cba_editor" time="48.500000"/>
+		<testcase name="test_import_cba_result_cba_editor_ut" time="44.155000"/>
+		<testcase name="test_import_imported_result_cba_editor" time="45.119000"/>
+		<testcase name="test_import_imported_result_cba_editor_ut" time="37.298000"/>
+		<testcase name="test_remove_cba_result_cba_editor" time="51.073000"/>
+		<testcase name="test_remove_cba_result_cba_editor_ut" time="40.596000"/>
+		<testcase name="test_remove_imported_result_cba_editor" time="47.592000"/>
+		<testcase name="test_remove_imported_result_cba_editor_ut" time="48.632000"/>
+		<testcase name="test_remove_regular_result_cba_editor" time="47.951000"/>
+		<testcase name="test_remove_regular_result_cba_editor_ut" time="39.427000"/>
+		<testcase name="postconditions" time="0.346000"/>
+		<testcase name="test_pep8_compliance" time="8.567000"/>
+		<testcase name="test_input_dir_compliance" time="0.374000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.408000"/>
+	</testsuite>
+</testsuites>

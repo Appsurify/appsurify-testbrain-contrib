@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="542.9269999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_new_environment_wizard.suite_load_env_script_c" skipped="0" tests="17" time="542.9269999999999">
+		<testcase name="preconditions" time="4.170000"/>
+		<testcase name="test_all_with_stub_and_ignore" time="55.983000"/>
+		<testcase name="test_cancel_load_env_script" time="73.487000"/>
+		<testcase name="test_env_exists_cancel" time="56.033000"/>
+		<testcase name="test_env_wiz_on_file_name_case_change" time="7.791000"/>
+		<testcase name="test_invalid_env_script" time="27.108000"/>
+		<testcase name="test_missing_file" time="50.866000"/>
+		<testcase name="test_multiple_search_dir_abs_and_rel" time="49.424000"/>
+		<testcase name="test_multiple_search_dir_w_env_var" time="49.561000"/>
+		<testcase name="test_multiple_units" time="52.502000"/>
+		<testcase name="test_stub_all" time="51.875000"/>
+		<testcase name="test_stub_none" time="50.625000"/>
+		<testcase name="postconditions" time="5.206000"/>
+		<testcase name="test_py_md_compliance" time="0.146000"/>
+		<testcase name="test_pep8_compliance" time="7.784000"/>
+		<testcase name="test_input_dir_compliance" time="0.170000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.196000"/>
+	</testsuite>
+</testsuites>

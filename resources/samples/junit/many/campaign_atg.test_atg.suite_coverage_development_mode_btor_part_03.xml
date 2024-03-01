@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="641.329">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_development_mode_btor_part_03" skipped="0" tests="52" time="641.329">
+		<testcase name="preconditions" time="0.001000"/>
+		<testcase name="test_ctor_for_ctor_params" time="16.310000"/>
+		<testcase name="test_ctor_for_dummy_stubs" time="11.777000"/>
+		<testcase name="test_ctor_for_fields" time="12.969000"/>
+		<testcase name="test_ctor_for_member_variables" time="12.143000"/>
+		<testcase name="test_ctor_global" time="12.703000"/>
+		<testcase name="test_data_api" time="11.800000"/>
+		<testcase name="test_dead_fields" time="10.963000"/>
+		<testcase name="test_decision_involving_structs" time="11.799000"/>
+		<testcase name="test_derived_class_example_2" time="10.762000"/>
+		<testcase name="test_detecting_param_as_local" time="13.088000"/>
+		<testcase name="test_different_bracket_statements" time="14.080000"/>
+		<testcase name="test_different_depth_ambiguity" time="12.112000"/>
+		<testcase name="test_differing_bitwidth_shifts" time="11.589000"/>
+		<testcase name="test_differing_float_double_conversions" time="13.697000"/>
+		<testcase name="test_dik_constructor" time="12.839000"/>
+		<testcase name="test_dik_nonconstant_aggregate" time="12.510000"/>
+		<testcase name="test_dik_none_no_ctor" time="13.410000"/>
+		<testcase name="test_div_overflow" time="13.923000"/>
+		<testcase name="test_do_while" time="16.244000"/>
+		<testcase name="test_do_while_do_while" time="15.747000"/>
+		<testcase name="test_do_while_one_followed_by_if" time="17.637000"/>
+		<testcase name="test_double_assignment_example" time="13.800000"/>
+		<testcase name="test_double_pointer_runtime_error" time="14.340000"/>
+		<testcase name="test_dummy_time_credit" time="14.794000"/>
+		<testcase name="test_duped_namespace_qualifiers" time="15.104000"/>
+		<testcase name="test_dynamic_init_ck_aggregate" time="16.264000"/>
+		<testcase name="test_dynamic_init_expression" time="14.266000"/>
+		<testcase name="test_edg_workaround1" time="13.923000"/>
+		<testcase name="test_empty_pointer_index_error" time="14.144000"/>
+		<testcase name="test_empty_struct" time="14.058000"/>
+		<testcase name="test_enk_new_delete" time="15.412000"/>
+		<testcase name="test_enum_cpp" time="14.971000"/>
+		<testcase name="test_enum_names" time="15.426000"/>
+		<testcase name="test_enum_pointer_reference" time="14.613000"/>
+		<testcase name="test_exception_on_designator" time="13.508000"/>
+		<testcase name="test_exceptions_trigger" time="16.372000"/>
+		<testcase name="test_excessive_val_ext" time="15.260000"/>
+		<testcase name="test_excessive_val_ext_loop" time="0.190000"/>
+		<testcase name="test_existing_mem_region" time="13.381000"/>
+		<testcase name="test_extern_array" time="16.981000"/>
+		<testcase name="test_external_bool_input" time="14.448000"/>
+		<testcase name="test_external_bool_input_cpp" time="13.281000"/>
+		<testcase name="test_faked_derived_class" time="13.732000"/>
+		<testcase name="test_fext" time="13.612000"/>
+		<testcase name="test_field_initializers" time="13.012000"/>
+		<testcase name="test_find_ternary_examples" time="12.739000"/>
+		<testcase name="test_flattened_pointer_value_705" time="12.748000"/>
+		<testcase name="postconditions" time="0.226000"/>
+		<testcase name="test_pep8_compliance" time="2.322000"/>
+		<testcase name="test_input_dir_compliance" time="0.135000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.164000"/>
+	</testsuite>
+</testsuites>

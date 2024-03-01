@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="365.621">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_system_testing.suite_run_migrated_system_tests_interactively" skipped="0" tests="16" time="365.621">
+		<testcase name="preconditions" time="22.189000"/>
+		<testcase name="test_default_dialog_and_cancel" time="27.946000"/>
+		<testcase name="test_multi_select" time="26.390000"/>
+		<testcase name="test_multi_select_right_click_run" time="43.588000"/>
+		<testcase name="test_multi_select_run_button" time="42.020000"/>
+		<testcase name="test_regex_supported" time="25.456000"/>
+		<testcase name="test_remember_filter_settings" time="60.903000"/>
+		<testcase name="test_run_button" time="27.060000"/>
+		<testcase name="test_search_is_case_insensitive" time="25.745000"/>
+		<testcase name="test_test_status_combination" time="25.996000"/>
+		<testcase name="test_wildcards_not_supported" time="25.463000"/>
+		<testcase name="postconditions" time="5.091000"/>
+		<testcase name="test_py_md_compliance" time="0.138000"/>
+		<testcase name="test_pep8_compliance" time="7.330000"/>
+		<testcase name="test_input_dir_compliance" time="0.158000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.148000"/>
+	</testsuite>
+</testsuites>

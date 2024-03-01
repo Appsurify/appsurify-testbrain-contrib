@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="19.092000000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_run.suite_variant_logic" skipped="0" tests="10" time="19.092000000000002">
+		<testcase name="preconditions"/>
+		<testcase name="test_env_var_absolute_logics_path" time="4.189000"/>
+		<testcase name="test_env_var_relative_logics_path" time="4.261000"/>
+		<testcase name="test_relative_logics_path" time="3.905000"/>
+		<testcase name="test_unrunnable_set_on_script_run" time="3.883000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="2.837000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

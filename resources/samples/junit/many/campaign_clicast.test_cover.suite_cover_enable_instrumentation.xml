@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="21.771">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover.suite_cover_enable_instrumentation" skipped="0" tests="14" time="21.771">
+		<testcase name="preconditions" time="4.835000"/>
+		<testcase name="test_continue_toggle_when_single_source_fails" time="2.466000"/>
+		<testcase name="test_enable" time="0.754000"/>
+		<testcase name="test_enable_with_instrumented_orig_sources" time="3.733000"/>
+		<testcase name="test_instrumented_to_original_fails" time="1.165000"/>
+		<testcase name="test_original_to_bak_fails" time="0.689000"/>
+		<testcase name="test_skip_enable_when_already_in_place" time="1.426000"/>
+		<testcase name="test_source_instrumentation_state_invalid" time="1.879000"/>
+		<testcase name="test_sources_dont_match_in_place_option" time="1.543000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="3.263000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

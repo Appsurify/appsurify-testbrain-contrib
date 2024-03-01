@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="773.641">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada.suite_gnat_4" skipped="0" tests="14" time="773.641">
+		<testcase name="preconditions" time="1.953000"/>
+		<testcase name="test_complex_types" time="11.554000"/>
+		<testcase name="test_configurable_io_basic" time="69.609000"/>
+		<testcase name="test_configurable_io_basic_ada83" time="61.750000"/>
+		<testcase name="test_configurable_io_compiled" time="244.456000"/>
+		<testcase name="test_configurable_io_compiled_ada83" time="238.717000"/>
+		<testcase name="test_configurable_io_simple" time="62.140000"/>
+		<testcase name="test_configurable_io_simple_ada83" time="59.758000"/>
+		<testcase name="test_configure_stubs_ada" time="13.523000"/>
+		<testcase name="test_control_flow" time="7.703000"/>
+		<testcase name="postconditions" time="0.048000"/>
+		<testcase name="test_pep8_compliance" time="2.305000"/>
+		<testcase name="test_input_dir_compliance" time="0.066000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.059000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="96.491">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_python_apps.test_atg_utils.suite_fptr_env_modifier" skipped="0" tests="19" time="96.491">
+		<testcase name="preconditions" time="1.066000"/>
+		<testcase name="test_changes_add_additional_stub_on_additiona_001" time="7.175000"/>
+		<testcase name="test_changes_add_additional_stub_on_prototype_001" time="6.287000"/>
+		<testcase name="test_changes_add_new_prototype_mistmatched_un_001" time="6.508000"/>
+		<testcase name="test_changes_add_prototype_additional_stub_on_001" time="7.034000"/>
+		<testcase name="test_changes_add_prototype_additional_stub_on_002" time="6.777000"/>
+		<testcase name="test_changes_mapped_to_self_additional_stub" time="5.991000"/>
+		<testcase name="test_changes_mapped_to_self_new_prototype" time="6.237000"/>
+		<testcase name="test_changes_new_prototype_additional_stub" time="6.423000"/>
+		<testcase name="test_changes_new_prototype_additional_stub_wi_001" time="6.855000"/>
+		<testcase name="test_changes_uncalled_prototype_additional_st_001" time="6.267000"/>
+		<testcase name="test_no_changes_additional_stub_exists" time="6.977000"/>
+		<testcase name="test_no_changes_call_via_sbf" time="6.508000"/>
+		<testcase name="test_no_changes_call_via_uut_prototype_stubs" time="6.289000"/>
+		<testcase name="test_no_changes_prototype_additional_stub_exi_001" time="6.610000"/>
+		<testcase name="postconditions" time="0.052000"/>
+		<testcase name="test_pep8_compliance" time="3.363000"/>
+		<testcase name="test_input_dir_compliance" time="0.034000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.038000"/>
+	</testsuite>
+</testsuites>
