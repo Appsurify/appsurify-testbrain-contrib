@@ -1,5 +1,3 @@
-import sys
-import datetime
 import pytest
 import pathlib
 

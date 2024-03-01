@@ -89,18 +89,28 @@ mypy = "^1.6.1"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.coverage.run]
+branch = true
+source = [
+    "./src/testbrain/",
+]
+omit = [
+    ".venv/",
+    "dev-scripts/",
+    "src/testbrain/contrib/system/crashdump.py",
+    "src/testbrain/contrib/system/platform.py",
+]
+
+[tool.coverage.report]
+ignore_errors = true
+
 [tool.pytest.ini_options]
-addopts = "--verbose" #  "-rA"
+addopts = "--verbose -rA"
 pythonpath = "./src/testbrain"
 testpaths = ["./tests/"]
-#python_files = ["test_*.py", "*_test.py"]
-#python_classes = ["Test", "Acceptance"]
-#python_functions = ["test"]
-#junit_family = "xunit1" # "xunit1"
-#junit_suite_name = "pytest"
-#junit_logging = "all"
-#junit_log_passing_tests = true
-#junit_duration_report = "call"
+python_files = ["test_*.py", ]
+junit_family = "xunit1" # "xunit1"
+
 
 [tool.black]
 line-length = 88

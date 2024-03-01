@@ -1,5 +1,5 @@
+import re
 import typing as t
-from re import split
 
 import testbrain.contrib
 from testbrain.contrib.system import platform
@@ -14,7 +14,7 @@ pkg_platform = (
 
 
 def from_camel_case(name: str) -> str:
-    words = [word for word in split(r"(?=[A-Z])", name) if word]
+    words = [word for word in re.split(r"(?=[A-Z])", name) if word]
     return "-".join(words).lower()
 
 

@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-
-#!/usr/bin/env python3
-# requires python>3.6
-
-# upload - https://www.youtube.com/watch?v=zhpI6Yhz9_4&ab_channel=MakerBytes
-# python setup.py sdist
-# twine upload --git-url https://upload.pypi.org/legacy/ dist/*
-
 import json
 import logging
 import logging.handlers as handlers
@@ -18,6 +9,8 @@ from datetime import datetime
 from functools import reduce
 from subprocess import PIPE, Popen
 
+from testbrain.contrib.scm.tfvc.patterns import f_pattern
+
 try:
     import requests
     from requests.adapters import HTTPAdapter, Retry
@@ -25,8 +18,6 @@ try:
 except ImportError:
     warnings.warn("Please install 'requests'. 'pip install requests'")
     sys.exit(1)
-
-import re
 
 DEFAULT_BRANCH = "$/Philips.PIC/PIIC iX/Main"
 CURRENT_BRANCH = DEFAULT_BRANCH
@@ -36,7 +27,8 @@ logHandler = handlers.RotatingFileHandler(
 )
 logging.basicConfig(
     level=logging.DEBUG,
-    format="%(asctime)s [%(levelname)s] <%(module)s> (%(funcName)s) %(lineno)d: %(message)s",
+    format="%(asctime)s [%(levelname)s] <%(module)s> "
+    "(%(funcName)s) %(lineno)d: %(message)s",
     handlers=(logHandler,),
 )
 
@@ -897,12 +889,12 @@ def _get_last_commit_sha(key):
 
 
 def slugify(value):
-    import re
-    import unicodedata
-
-    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore")
-    value = str(re.sub("[^\w\s-]", "", value).strip().lower())
-    value = str(re.sub("[-\s]+", "-", value))
+    # import re
+    # import unicodedata
+    #
+    # value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore")
+    # value = str(re.sub("[^\w\s-]", "", value).strip().lower())
+    # value = str(re.sub("[-\s]+", "-", value))
     # ...
     return value
 
