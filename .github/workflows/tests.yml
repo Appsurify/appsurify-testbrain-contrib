@@ -14,15 +14,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [Ubuntu, macOS, Windows]
+        os: [ubuntu, windows, macos]
         python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
         poetry-version: ["1.7.1"]
         include:
-          - os: Ubuntu
+          - os: ubuntu
             image: ubuntu-latest
-          - os: Windows
+          - os: windows
             image: windows-latest
-          - os: macOS
+          - os: macos
             image: macos-latest
     steps:
       - name: "Checkout Repository"
@@ -53,7 +53,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
             name: reports-pytest-${{ github.sha }}
-            path: reports/pytest/${{ github.sha }}/${{ matrix.os }}/
+            path: reports/pytest/${{ github.sha }}
             retention-days: 3
 #  run-testbrain-report:
 #    name: pytest upload reports to testbrain
