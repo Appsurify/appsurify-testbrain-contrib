@@ -49,12 +49,19 @@ jobs:
         if: always()
         run: |
           testbrain report push --server ${{ vars.TESTBRAIN_SERVER }} --token ${{ secrets.TESTBRAIN_TOKEN }} --project ${{ vars.TESTBRAIN_PROJECT }} --testsuite "pytest" --branch ${{ github.ref_name }} --commit ${{ github.sha }} --report-type "junit" --import-type "prioritized" --path reports/pytest/${{ github.sha }}/${{ matrix.os }}/pytest-py${{ matrix.python-version }}.xml; python3 -c "exit()"
-      - name: "Upload Test Reports"
-        uses: actions/upload-artifact@v4
-        with:
-            name: reports-pytest-${{ github.sha }}
-            path: reports/pytest/${{ github.sha }}/${{ matrix.os }}/
-            retention-days: 7
+  debug:
+    name: show files
+    runs-on: ubuntu-latest
+    steps:
+      - name: "SHOW"
+        run: |
+          ls -larth reports/pytest/
+#      - name: "Upload Test Reports"
+#        uses: actions/upload-artifact@v4
+#        with:
+#            name: reports-pytest-${{ github.sha }}-${{ matrix.os }}
+#            path: reports/pytest/${{ github.sha }}/${{ matrix.os }}/pytest-py${{ matrix.python-version }}.xml
+#            retention-days: 7
 #  run-testbrain-report:
 #    name: pytest upload reports to testbrain
 #    runs-on: ${{ matrix.image }}
