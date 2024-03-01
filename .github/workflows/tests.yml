@@ -54,7 +54,7 @@ jobs:
         with:
             name: reports-pytest-${{ github.sha }}
             path: reports/pytest/${{ github.sha }}
-            retention-days: 3
+            retention-days: 7
 #  run-testbrain-report:
 #    name: pytest upload reports to testbrain
 #    runs-on: ${{ matrix.image }}
