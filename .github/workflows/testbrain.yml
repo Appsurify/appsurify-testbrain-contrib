@@ -9,7 +9,7 @@ on:
 
 jobs:
   delivery:
-    name: "Delivery"
+    name: "Delivery to TB server"
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout git"
