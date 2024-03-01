@@ -9,7 +9,7 @@ on:
 
 jobs:
   run-pytests:
-    name: pytest on ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    name: pytest on ${{ matrix.os }} (python ${{ matrix.python-version }})
     runs-on: ${{ matrix.image }}
     strategy:
       fail-fast: false
@@ -53,7 +53,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
             name: reports-pytest-${{ github.sha }}
-            path: reports/pytest/${{ github.sha }}
+            path: reports/pytest/${{ github.sha }}/${{ matrix.os }}/
             retention-days: 7
 #  run-testbrain-report:
 #    name: pytest upload reports to testbrain
