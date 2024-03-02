@@ -206,6 +206,8 @@ jobs:
         with:
           name: appsurify-testbrain-contrib-results-pytest-linux-${{ github.sha }}
           path: reports/
+      - name: "Debug list reports"
+        run: ls -R reports/
       - name: "Setup Python"
         uses: actions/setup-python@v4
         with:
@@ -245,6 +247,8 @@ jobs:
         with:
           name: appsurify-testbrain-contrib-results-pytest-macos-${{ github.sha }}
           path: reports/
+      - name: "Debug list reports"
+        run: ls -R reports/
       - name: "Setup Python"
         uses: actions/setup-python@v4
         with:
@@ -284,6 +288,8 @@ jobs:
         with:
           name: appsurify-testbrain-contrib-results-pytest-windows-${{ github.sha }}
           path: reports/
+      - name: "Debug list reports"
+        run: ls -R reports/
       - name: "Setup Python"
         uses: actions/setup-python@v4
         with:
