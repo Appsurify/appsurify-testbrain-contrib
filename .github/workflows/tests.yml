@@ -167,6 +167,8 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
+          path: reports/pytest/${{ github.sha }}/
+      - run: ls -R reports/pytest/${{ github.sha }}/
       - name: "Setup Python"
         uses: actions/setup-python@v4
         with:
