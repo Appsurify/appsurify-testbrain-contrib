@@ -9,7 +9,7 @@ on:
 
 jobs:
   testbrain-repository:
-    name: push repository changes
+    name: Testbrain repository
     runs-on: ubuntu-latest
     steps:
       - name: "Delivery"
@@ -17,7 +17,7 @@ jobs:
   pytest-linux:
     name: pytest on Linux (py${{ matrix.python-version }})
     runs-on: ubuntu-latest
-    if: ${{ success() }}
+    if: success()
     needs: [testbrain-repository]
     strategy:
       fail-fast: false
@@ -46,14 +46,15 @@ jobs:
           poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/linux/pytest-results-linux-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
       - name: "Upload Test Reports"
         uses: actions/upload-artifact@v3
+        if: always()
         with:
-            name: pytest-results-${{ github.sha }}
+            name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
             path: reports/pytest/${{ github.sha }}/
             retention-days: 7
   pytest-macos:
     name: pytest on macOS (py${{ matrix.python-version }})
     runs-on: macos-latest
-    if: ${{ success() }}
+    if: success()
     needs: [ testbrain-repository ]
     strategy:
       fail-fast: false
@@ -82,14 +83,15 @@ jobs:
           poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/macos/pytest-results-macos-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
       - name: "Upload Test Reports"
         uses: actions/upload-artifact@v3
+        if: always()
         with:
-            name: pytest-results-${{ github.sha }}
+            name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
             path: reports/pytest/${{ github.sha }}/
             retention-days: 7
   pytest-windows:
     name: pytest on Windows (py${{ matrix.python-version }})
     runs-on: windows-latest
-    if: ${{ success() }}
+    if: success()
     needs: [ testbrain-repository ]
     strategy:
       fail-fast: false
@@ -118,10 +120,19 @@ jobs:
           poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/windows/pytest-results-windows-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
       - name: "Upload Test Reports"
         uses: actions/upload-artifact@v3
+        if: always()
         with:
-            name: pytest-results-${{ github.sha }}
+            name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
             path: reports/pytest/${{ github.sha }}/
             retention-days: 7
+  testbrain-report:
+    name: Testbrain report
+    runs-on: ubuntu-latest
+    if: always()
+    needs: [ pytest-linux, pytest-macos, pytest-windows ]
+    steps:
+      - name: "Push report"
+        run: echo "OK"
 #      - name: "Upload reports to TB Server"
 #        if: always()
 #        run: |
