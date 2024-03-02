@@ -165,6 +165,8 @@ jobs:
           path: reports/
           pattern: appsurify-testbrain-contrib-results-pytest-*
           merge-multiple: true
+      - name: "Debug list reports"
+        run: ls -R reports/
       - name: "Setup Python"
         uses: actions/setup-python@v4
         with:
