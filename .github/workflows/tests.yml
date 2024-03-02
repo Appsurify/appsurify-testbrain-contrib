@@ -1,4 +1,4 @@
-name: "Test"
+name: "Testbrain Flow"
 
 on:
   workflow_dispatch:
@@ -9,11 +9,39 @@ on:
 
 jobs:
   testbrain-repository:
-    name: Testbrain repository
+    name: testbrain repository
     runs-on: ubuntu-latest
     steps:
-      - name: "Delivery"
-        run: echo "OK"
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: "Setup Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+      - name: "Setup testbrain cli"
+        run: |
+          pip3 install appsurifyci --pre;
+          pip3 install appsurify-testbrain-cli;
+      - name: "Push changes to the server"
+        run: |
+          testbrain repository git push \
+          --repo-dir ${{ github.workspace }} \
+          --server ${{ vars.TESTBRAIN_SERVER }} \
+          --token ${{ secrets.TESTBRAIN_TOKEN }} \
+          --project ${{ vars.TESTBRAIN_PROJECT }} \
+          --branch ${{ github.ref_name }} \
+          --commit ${{ github.sha }} \
+          --number ${{ vars.TESTBRAIN_NUMBER_OF_COMMITS }} \
+          --loglevel INFO
+      - name: "Upload crashdumps"
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: testbrain-repository-crashdump
+          path: .crashdumps/
+          retention-days: 3
   pytest-linux:
     name: pytest on Linux (py${{ matrix.python-version }})
     runs-on: ubuntu-latest
@@ -43,8 +71,10 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/linux/pytest-results-linux-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
-      - name: "Upload Test Reports"
+          poetry run pytest \
+          --junitxml=reports/pytest/${{ github.sha }}/linux/pytest-results-linux-py${{ matrix.python-version }}.xml \
+          -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
+      - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
         with:
@@ -80,8 +110,10 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/macos/pytest-results-macos-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
-      - name: "Upload Test Reports"
+          poetry run pytest \
+          --junitxml=reports/pytest/${{ github.sha }}/macos/pytest-results-macos-py${{ matrix.python-version }}.xml \
+          -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
+      - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
         with:
@@ -117,8 +149,10 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/windows/pytest-results-windows-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
-      - name: "Upload Test Reports"
+          poetry run pytest \
+          --junitxml=reports/pytest/${{ github.sha }}/windows/pytest-results-windows-py${{ matrix.python-version }}.xml \
+          -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
+      - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
         with:
@@ -126,39 +160,44 @@ jobs:
             path: reports/pytest/${{ github.sha }}/
             retention-days: 7
   testbrain-report:
-    name: Testbrain report
+    name: testbrain report
     runs-on: ubuntu-latest
     if: always()
     needs: [ pytest-linux, pytest-macos, pytest-windows ]
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ["linux", "macos", "windows"]
     steps:
-      - name: "Push report"
-        run: echo "OK"
-#      - name: "Upload reports to TB Server"
-#        if: always()
-#        run: |
-#          testbrain report push --server ${{ vars.TESTBRAIN_SERVER }} --token ${{ secrets.TESTBRAIN_TOKEN }} --project ${{ vars.TESTBRAIN_PROJECT }} --testsuite "pytest" --branch ${{ github.ref_name }} --commit ${{ github.sha }} --report-type "junit" --import-type "prioritized" --path reports/pytest/${{ github.sha }}/${{ matrix.os }}/pytest-py${{ matrix.python-version }}.xml; python3 -c "exit()"
-#      - name: "Upload Test Reports"
-#        uses: actions/upload-artifact@v4
-#        with:
-#            name: reports-pytest-${{ github.sha }}
-#            path: reports/pytest/${{ github.sha }}/${{ matrix.os }}/pytest-py${{ matrix.python-version }}.xml
-#            retention-days: 7
-#  run-testbrain-report:
-#    name: pytest upload reports to testbrain
-#    runs-on: ${{ matrix.image }}
-#    strategy:
-#      fail-fast: false
-#      matrix:
-#        os: [ Ubuntu, macOS, Windows ]
-#        include:
-#          - os: Ubuntu
-#            image: ubuntu-latest
-#          - os: Windows
-#            image: windows-latest
-#          - os: macOS
-#            image: macos-latest
-#    steps:
-#      - name: "Download Test Reports"
-#        uses: actions/download-artifact@v4
-#        with:
-#          name:
+      - name: "Download pytest reports"
+        uses: actions/download-artifact@v3
+        with:
+          name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
+      - name: "Setup Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+      - name: "Setup testbrain cli"
+        run: |
+          pip3 install appsurifyci --pre;
+          pip3 install appsurify-testbrain-cli;
+      - name: "Push test reports to server"
+        run: |
+          testbrain report push \
+          --server ${{ vars.TESTBRAIN_SERVER }} \
+          --token ${{ secrets.TESTBRAIN_TOKEN }} \
+          --project ${{ vars.TESTBRAIN_PROJECT }} \
+          --testsuite pytest \
+          --branch ${{ github.ref_name }} \
+          --commit ${{ github.sha }} \
+          --report-type junit \
+          --import-type prioritized \
+          --path reports/pytest/${{ github.sha }}/${{ matrix.os }}/ \
+          --merge
+      - name: "Upload crashdumps"
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: testbrain-report-crashdump
+          path: .crashdumps/
+          retention-days: 3
