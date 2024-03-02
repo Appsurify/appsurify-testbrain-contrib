@@ -71,13 +71,13 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/linux/pytest-results-linux-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
+          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/results-pytest-linux-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
         with:
-            name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
-            path: reports/pytest/${{ github.sha }}/
+            name: appsurify-testbrain-contrib-results-pytest-linux-${{ github.sha }}
+            path: reports/
             retention-days: 7
   pytest-macos:
     name: pytest on macOS (py${{ matrix.python-version }})
@@ -108,13 +108,13 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/macos/pytest-results-macos-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
+          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/results-pytest-macos-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
         with:
-            name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
-            path: reports/pytest/${{ github.sha }}/
+            name: appsurify-testbrain-contrib-results-pytest-macos-${{ github.sha }}
+            path: reports/
             retention-days: 7
   pytest-windows:
     name: pytest on Windows (py${{ matrix.python-version }})
@@ -145,30 +145,26 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/windows/pytest-results-windows-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
+          poetry run pytest --junitxml=reports/results-pytest-windows-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
         with:
-            name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
-            path: reports/pytest/${{ github.sha }}/
+            name: appsurify-testbrain-contrib-results-pytest-windows-${{ github.sha }}
+            path: reports/
             retention-days: 7
   testbrain-report:
-    name: testbrain report
+    name: testbrain report (pytest)
     runs-on: ubuntu-latest
     if: always()
     needs: [ pytest-linux, pytest-macos, pytest-windows ]
-    strategy:
-      fail-fast: false
-      matrix:
-        os: ["linux", "macos", "windows"]
     steps:
       - name: "Download pytest reports"
         uses: actions/download-artifact@v3
         with:
-          name: appsurify-testbrain-contrib-pytest-results-${{ github.sha }}
-          path: reports/pytest/${{ github.sha }}/
-      - run: ls -R reports/pytest/${{ github.sha }}/
+          path: reports/
+          pattern: appsurify-testbrain-contrib-results-pytest-*
+          merge-multiple: true
       - name: "Setup Python"
         uses: actions/setup-python@v4
         with:
@@ -188,7 +184,7 @@ jobs:
           --commit ${{ github.sha }} \
           --report-type junit \
           --import-type prioritized \
-          --path reports/pytest/${{ github.sha }}/${{ matrix.os }}/ \
+          --path reports/ \
           --merge
       - name: "Upload crashdumps"
         uses: actions/upload-artifact@v3
