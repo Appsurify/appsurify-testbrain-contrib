@@ -193,3 +193,120 @@ jobs:
           name: testbrain-report-crashdump
           path: .crashdumps/
           retention-days: 3
+  testbrain-report-linux:
+    name: testbrain report (pytest-linux)
+    runs-on: ubuntu-latest
+    if: always()
+    needs: [ pytest-linux ]
+    steps:
+      - name: "Download pytest linux reports"
+        uses: actions/download-artifact@v3
+        with:
+          name: appsurify-testbrain-contrib-results-pytest-linux-${{ github.sha }}
+          path: reports/
+      - name: "Setup Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+      - name: "Setup testbrain cli"
+        run: |
+          pip3 install appsurifyci --pre;
+          pip3 install appsurify-testbrain-cli;
+      - name: "Push test reports to server"
+        run: |
+          testbrain report push \
+          --server ${{ vars.TESTBRAIN_SERVER }} \
+          --token ${{ secrets.TESTBRAIN_TOKEN }} \
+          --project ${{ vars.TESTBRAIN_PROJECT }} \
+          --testsuite pytest-linux \
+          --branch ${{ github.ref_name }} \
+          --commit ${{ github.sha }} \
+          --report-type junit \
+          --import-type prioritized \
+          --path reports/ \
+          --merge
+      - name: "Upload crashdumps"
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: testbrain-report-linux-crashdump
+          path: .crashdumps/
+          retention-days: 3
+  testbrain-report-macos:
+    name: testbrain report (pytest-macos)
+    runs-on: ubuntu-latest
+    if: always()
+    needs: [ pytest-macos ]
+    steps:
+      - name: "Download pytest macos reports"
+        uses: actions/download-artifact@v3
+        with:
+          name: appsurify-testbrain-contrib-results-pytest-macos-${{ github.sha }}
+          path: reports/
+      - name: "Setup Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+      - name: "Setup testbrain cli"
+        run: |
+          pip3 install appsurifyci --pre;
+          pip3 install appsurify-testbrain-cli;
+      - name: "Push test reports to server"
+        run: |
+          testbrain report push \
+          --server ${{ vars.TESTBRAIN_SERVER }} \
+          --token ${{ secrets.TESTBRAIN_TOKEN }} \
+          --project ${{ vars.TESTBRAIN_PROJECT }} \
+          --testsuite pytest-macos \
+          --branch ${{ github.ref_name }} \
+          --commit ${{ github.sha }} \
+          --report-type junit \
+          --import-type prioritized \
+          --path reports/ \
+          --merge
+      - name: "Upload crashdumps"
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: testbrain-report-macos-crashdump
+          path: .crashdumps/
+          retention-days: 3
+  testbrain-report-windows:
+    name: testbrain report (pytest-windows)
+    runs-on: ubuntu-latest
+    if: always()
+    needs: [ pytest-windows ]
+    steps:
+      - name: "Download pytest windows reports"
+        uses: actions/download-artifact@v3
+        with:
+          name: appsurify-testbrain-contrib-results-pytest-windows-${{ github.sha }}
+          path: reports/
+      - name: "Setup Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+      - name: "Setup testbrain cli"
+        run: |
+          pip3 install appsurifyci --pre;
+          pip3 install appsurify-testbrain-cli;
+      - name: "Push test reports to server"
+        run: |
+          testbrain report push \
+          --server ${{ vars.TESTBRAIN_SERVER }} \
+          --token ${{ secrets.TESTBRAIN_TOKEN }} \
+          --project ${{ vars.TESTBRAIN_PROJECT }} \
+          --testsuite pytest-windows \
+          --branch ${{ github.ref_name }} \
+          --commit ${{ github.sha }} \
+          --report-type junit \
+          --import-type prioritized \
+          --path reports/ \
+          --merge
+      - name: "Upload crashdumps"
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: testbrain-report-windows-crashdump
+          path: .crashdumps/
+          retention-days: 3
