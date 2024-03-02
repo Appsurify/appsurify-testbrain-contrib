@@ -18,7 +18,7 @@ class Process(abc.ABC):
             work_dir = pathlib.Path(".").resolve()
 
         self._work_dir = work_dir
-        logger.debug(f"Set up execution working dir - {self._work_dir}")
+        logger.debug(f"Set up execution working dir: {self._work_dir}")
 
         logger.debug("Set up environment: inherited from OS")
         self.env = os.environ

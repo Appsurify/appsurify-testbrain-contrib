@@ -1,10 +1,7 @@
-import datetime
 import pytest
 import pathlib
 
-from testbrain.contrib.report import utils
 from testbrain.contrib.report.mergers.junit import JUnitReportMerger
-from testbrain.contrib.report.models.testbrain import TestbrainTestSuite
 from testbrain.contrib.report.parsers import JUnitReportParser
 from testbrain.contrib.report.converters import JUnit2TestbrainReportConverter
 

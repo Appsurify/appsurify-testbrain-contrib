@@ -3,8 +3,6 @@ import logging
 import typing as t
 
 import requests
-from requests.adapters import BaseAdapter
-from requests.auth import AuthBase
 from urllib3.util import Retry
 
 from testbrain.contrib.client.adapters import TCPKeepAliveAdapter
@@ -27,7 +25,6 @@ DEFAULT_TIMEOUT: float = 120.0
 
 DEFAULT_HEADERS: t.Dict[t.AnyStr, t.Any] = {
     "Connection": "keep-alive",
-    # "Content-Type": "application/json",
 }
 
 
@@ -113,7 +110,7 @@ class HttpClient(abc.ABC):
 
     def request(self, method: str, url: str, **kwargs) -> requests.Response:
         logger.debug("Request configuring")
-        auth: HTTPTokenAuth = kwargs.pop("auth", None)
+        auth: t.Optional[HTTPTokenAuth] = kwargs.pop("auth", None)
         headers: t.Optional[dict] = kwargs.pop("headers", DEFAULT_HEADERS)
         max_retries: t.Optional[T_MAX_RETRIES] = kwargs.pop(
             "max_retries", DEFAULT_MAX_RETRIES
@@ -122,9 +119,6 @@ class HttpClient(abc.ABC):
 
         if isinstance(timeout, int) or isinstance(timeout, float):
             timeout = (timeout, timeout)
-
-        # if "files" in kwargs and "content_type" not in kwargs:
-        #     headers["Content-Type"] = "multipart/form-data"
 
         logger.debug("Request get connection session")
         session = self.get_session(auth=auth, headers=headers, max_retries=max_retries)
