@@ -71,9 +71,7 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest \
-          --junitxml=reports/pytest/${{ github.sha }}/linux/pytest-results-linux-py${{ matrix.python-version }}.xml \
-          -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
+          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/linux/pytest-results-linux-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
@@ -110,9 +108,7 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest \
-          --junitxml=reports/pytest/${{ github.sha }}/macos/pytest-results-macos-py${{ matrix.python-version }}.xml \
-          -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
+          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/macos/pytest-results-macos-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
@@ -149,9 +145,7 @@ jobs:
           pip3 install appsurify-testbrain-cli;
       - name: "Invoke pytest"
         run: |
-          poetry run pytest \
-          --junitxml=reports/pytest/${{ github.sha }}/windows/pytest-results-windows-py${{ matrix.python-version }}.xml \
-          -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
+          poetry run pytest --junitxml=reports/pytest/${{ github.sha }}/windows/pytest-results-windows-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
         uses: actions/upload-artifact@v3
         if: always()
