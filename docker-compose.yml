@@ -8,7 +8,7 @@ services:
       dockerfile: ./compose/Dockerfile.py38
     image: appsurify-testbrain-contrib:pytest-py38
     container_name: contrib-pytest-py38
-    command: poetry run pytest --junitxml=reports/pytest-py38.xml -o junit_suite_name=pytest-py38
+    command: poetry run pytest --junitxml=reports/results-pytest-linux-py3.8.xml -o junit_suite_name=pytest-linux-py3.8
     volumes:
       - ./:/app/data
 
@@ -18,7 +18,7 @@ services:
       dockerfile: ./compose/Dockerfile.py39
     image: appsurify-testbrain-contrib:pytest-py39
     container_name: contrib-pytest-py39
-    command: poetry run pytest --junitxml=reports/pytest-py39.xml -o junit_suite_name=pytest-py39
+    command: poetry run pytest --junitxml=reports/results-pytest-linux-py3.9.xml -o junit_suite_name=pytest-linux-py3.9
     volumes:
       - ./:/app/data
 
@@ -28,7 +28,7 @@ services:
       dockerfile: ./compose/Dockerfile.py310
     image: appsurify-testbrain-contrib:pytest-py310
     container_name: contrib-pytest-py310
-    command: poetry run pytest --junitxml=reports/pytest-py310.xml -o junit_suite_name=pytest-py310
+    command: poetry run pytest --junitxml=reports/results-pytest-linux-py3.10.xml -o junit_suite_name=pytest-linux-py3.10
     volumes:
       - ./:/app/data
 
@@ -38,7 +38,7 @@ services:
       dockerfile: ./compose/Dockerfile.py311
     image: appsurify-testbrain-contrib:pytest-py311
     container_name: contrib-pytest-py311
-    command: poetry run pytest --junitxml=reports/pytest-py311.xml -o junit_suite_name=pytest-py311
+    command: poetry run pytest --junitxml=reports/results-pytest-linux-py3.11.xml -o junit_suite_name=pytest-linux-py3.11
     volumes:
       - ./:/app/data
 
@@ -48,7 +48,7 @@ services:
       dockerfile: ./compose/Dockerfile.py312
     image: appsurify-testbrain-contrib:pytest-py312
     container_name: contrib-pytest-py312
-    command: poetry run pytest --junitxml=reports/pytest-py312.xml -o junit_suite_name=pytest-py312
+    command: poetry run pytest --junitxml=reports/results-pytest-linux-py3.12.xml -o junit_suite_name=pytest-linux-py3.12
     volumes:
       - ./:/app/data
 
