@@ -36,7 +36,7 @@ jobs:
           --number ${{ vars.TESTBRAIN_NUMBER_OF_COMMITS }} \
           --loglevel INFO
       - name: "Upload crashdumps"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: testbrain-repository-crashdump
@@ -73,7 +73,7 @@ jobs:
         run: |
           poetry run pytest --junitxml=reports/results-pytest-linux-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-linux-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
             name: appsurify-testbrain-contrib-results-pytest-linux-${{ github.sha }}
@@ -110,7 +110,7 @@ jobs:
         run: |
           poetry run pytest --junitxml=reports/results-pytest-macos-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-macos-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
             name: appsurify-testbrain-contrib-results-pytest-macos-${{ github.sha }}
@@ -147,7 +147,7 @@ jobs:
         run: |
           poetry run pytest --junitxml=reports/results-pytest-windows-py${{ matrix.python-version }}.xml -o junit_suite_name=pytest-windows-py${{ matrix.python-version }}
       - name: "Upload pytest reports"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
             name: appsurify-testbrain-contrib-results-pytest-windows-${{ github.sha }}
@@ -189,7 +189,7 @@ jobs:
           --path reports/ \
           --merge
       - name: "Upload crashdumps"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: testbrain-report-crashdump
@@ -230,7 +230,7 @@ jobs:
           --path reports/ \
           --merge
       - name: "Upload crashdumps"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: testbrain-report-linux-crashdump
@@ -271,7 +271,7 @@ jobs:
           --path reports/ \
           --merge
       - name: "Upload crashdumps"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: testbrain-report-macos-crashdump
@@ -312,7 +312,7 @@ jobs:
           --path reports/ \
           --merge
       - name: "Upload crashdumps"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: testbrain-report-windows-crashdump
