@@ -1,4 +1,5 @@
 import abc
+import logging
 import pathlib
 import typing as t
 
@@ -8,6 +9,8 @@ except ImportError:
     from xml.etree import ElementTree as etree  # noqa
 
 from .. import utils
+
+logger = logging.getLogger(__name__)
 
 
 class XMLReportParser(abc.ABC):
@@ -37,15 +40,17 @@ class XMLReportParser(abc.ABC):
         return self._test.model_dump_xml()
 
     @classmethod
-    def fromstring(cls, text: t.AnyStr):
+    def fromstring(cls, text: t.AnyStr, ignore_errors: t.Optional[bool] = True):
         text = utils.normalize_xml_text(text)
         try:
             tree = etree.fromstring(text)
-            return cls.from_root(root=tree)
-        except Exception:
+        except Exception as exc:
+            logger.error(f"Error parsing with: {exc}", exc_info=False)
+            if not ignore_errors:
+                raise exc
             text = utils.normalize_xml_text("""<testsuites></testsuites>""")
             tree = etree.fromstring(text)
-            return cls.from_root(root=tree)
+        return cls.from_root(root=tree)
 
     @classmethod
     def fromfile(cls, filename: pathlib.Path):
