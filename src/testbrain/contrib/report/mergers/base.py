@@ -1,4 +1,5 @@
 import abc
+import logging
 import pathlib
 import typing as t
 
@@ -6,6 +7,9 @@ try:
     from lxml import etree
 except ImportError:
     from xml.etree import ElementTree as etree  # noqa
+
+
+logger = logging.getLogger(__name__)
 
 
 class ReportMerger(abc.ABC):
@@ -22,15 +26,18 @@ class ReportMerger(abc.ABC):
                     continue
 
                 try:
-                    parser = cls._parser.fromstring(file.read_text(encoding="utf-8"))
-                except ValueError:
+                    parser = cls._parser.fromstring(
+                        file.read_text(encoding="utf-8"), ignore_errors=False
+                    )
+                except Exception as exc:
+                    logger.error(f"Could not parse: {file} ({exc})", exc_info=False)
                     continue
 
                 parser.parse()
                 report = parser.result
 
                 reports.append(report)
-
+        logger.info(f"Merging {len(reports)} files")
         return cls.from_reports(reports=reports)
 
     @classmethod
