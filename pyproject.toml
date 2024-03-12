@@ -69,6 +69,7 @@ pydantic = "^2.5.3"
 python-dateutil = "^2.8.2"
 requests = "^2.31.0"
 chardet = "^5.2.0"
+urllib3 = "^2.2.1"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.2"

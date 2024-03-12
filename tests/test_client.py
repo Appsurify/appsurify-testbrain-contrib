@@ -1,6 +1,8 @@
 import pytest
 from urllib.parse import urljoin
 
+import requests
+
 from testbrain.contrib.client.client import HttpClient
 from testbrain.contrib.client.auth import HTTPAPIAuth
 from testbrain.contrib.client.utils import get_user_agent
@@ -18,6 +20,15 @@ def test_post_request(requests_mock):
     api_client = HttpClient()
     api_response = api_client.post("http://demo.testbrain.cloud")
     assert api_response.status_code == 201
+
+
+def test_post_request_connection_timeout(requests_mock):
+    requests_mock.post(
+        "http://demo.testbrain.cloud", exc=requests.exceptions.ConnectionError
+    )
+    api_client = HttpClient()
+    with pytest.raises(requests.exceptions.ConnectionError):
+        api_client.post("http://demo.testbrain.cloud")
 
 
 def test_header_ua(requests_mock):

@@ -17,8 +17,8 @@ DEFAULT_MAX_RETRIES: T_MAX_RETRIES = Retry(
     total=3,
     backoff_factor=0.3,
     status_forcelist=[500, 502, 503, 504],
-    allowed_methods={"GET", "POST"},
-    raise_on_status=False,
+    allowed_methods=["GET", "POST"],
+    raise_on_status=True,
 )
 
 DEFAULT_TIMEOUT: float = 120.0
@@ -124,6 +124,7 @@ class HttpClient(abc.ABC):
         session = self.get_session(auth=auth, headers=headers, max_retries=max_retries)
         logger.debug(f"Request settings: {timeout} {max_retries}")
         logger.debug(f"Request starting: [{method}] {url} {session.headers}")
+
         response = session.request(method, url, timeout=timeout, **kwargs)
         logger.debug(
             f"Request finished: [{response.status_code}] {response.content[:255]}"
