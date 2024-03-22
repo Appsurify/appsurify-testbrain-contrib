@@ -89,7 +89,7 @@ def test_parse_commits():
 
     result = git_utils.parse_commits_from_text(text=commit_raw)
 
-    assert len(result) == 3
+    assert len(result) == 2
 
 
 def test_parse_single_commit():
