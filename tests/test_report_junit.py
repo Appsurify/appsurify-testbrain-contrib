@@ -129,7 +129,7 @@ def test_parse_junit_report_fromstring(directory_resource_samples_junit):
     junit_parser = JUnitReportParser.fromstring(report_filepath.read_text())
     junit_parser.parse()
     junit_report = junit_parser.result
-    assert junit_report.tests == 2
+    assert junit_report.tests == 3
 
 
 def test_parse_junit_report_props(directory_resource_samples_junit):
