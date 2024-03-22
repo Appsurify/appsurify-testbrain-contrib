@@ -1,0 +1,1 @@
+{"uuid": "5c1727e0-1826-48c2-a688-963a99a22057", "children": ["3feef489-5029-4ca6-a21a-92883ca4297a"], "befores": [{"name": "pytester", "status": "passed", "start": 1710872972050, "stop": 1710872972054}], "afters": [{"name": "pytester::_finalize", "status": "passed", "start": 1710872972065, "stop": 1710872972066}], "start": 1710872972050, "stop": 1710872972066}

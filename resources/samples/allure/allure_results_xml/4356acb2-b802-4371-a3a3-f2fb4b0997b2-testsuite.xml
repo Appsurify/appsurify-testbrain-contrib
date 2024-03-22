@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1707473957840'
+                stop='1707474186851'>
+    <name>Add and Remove columns tests</name>
+    <title>Add and Remove columns tests</title>
+    <test-cases>
+        <test-case start='1707473957841' status='broken' stop='1707474186851'>
+            <name>S000001 | Validate default add remove columns dialog from - Normal
+                project | Simple Minds |
+                ./test/specs/active/S001_addRemoveColumns/S001_01_addRemoveColumnsBasic
+            </name>
+            <title>S000001 | Validate default add remove columns dialog from - Normal
+                project | Simple Minds |
+                ./test/specs/active/S001_addRemoveColumns/S001_01_addRemoveColumnsBasic
+            </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot'
+                            source='cc61556f-5789-4fed-98f2-5ef212c8acfc-attachment.png'
+                            type='image/png' size='91816'/>
+                <attachment title='Execution video'
+                            source='d8b0fd6a-3cf7-415e-b794-06d32812502a-attachment.mp4'
+                            type='video/mp4' size='53'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "option=DEVE2E"
+                    because element wasn't found
+                </message>
+                <stack-trace>Error: Can't call click on element with selector
+                    "option=DEVE2E" because element wasn't found
+                    at implicitWait
+                    (D:\tem\xshare-test-suite\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn
+                    (D:\tem\xshare-test-suite\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn
+                    (D:\tem\xshare-test-suite\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Object.login
+                    (D:/tem/xshare-test-suite/test/page-objects/login-page.js:212:9)
+                    at Operations
+                    (D:/tem/xshare-test-suite/test/page-objects/operationsMaster.js:90:24)
+                    at Context.&lt;anonymous>
+                    (D:/tem/xshare-test-suite/test/page-objects/common.js:835:5)
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,1 @@
+{"uuid": "b88780fb-f455-48b0-be2b-744a7f45bbb0", "children": ["e7a78a06-0f45-4e3c-9ef5-2daf0a6ebfa0"], "befores": [{"name": "lazy_fixture_runner", "status": "passed", "start": 1710872971169, "stop": 1710872971169}], "afters": [{"name": "lazy_fixture_runner::0", "status": "passed", "start": 1710872971191, "stop": 1710872971191}], "start": 1710872971169, "stop": 1710872971191}
