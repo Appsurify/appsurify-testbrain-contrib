@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="449.1829999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_tree.suite_find_widget" skipped="0" tests="17" time="449.1829999999999">
+		<testcase name="preconditions" time="11.328000"/>
+		<testcase name="test_find_history" time="36.335000"/>
+		<testcase name="test_filter_next_previous_button" time="38.206000"/>
+		<testcase name="test_filter_with_column" time="49.768000"/>
+		<testcase name="test_filter_with_fail_button" time="44.233000"/>
+		<testcase name="test_filter_with_matchcase" time="38.274000"/>
+		<testcase name="test_filter_with_pass_button" time="44.544000"/>
+		<testcase name="test_find_enter_keypress" time="32.364000"/>
+		<testcase name="test_find_matchcase" time="33.030000"/>
+		<testcase name="test_find_previous_next_button" time="34.501000"/>
+		<testcase name="test_find_text_notfound" time="32.364000"/>
+		<testcase name="test_find_with_column" time="48.196000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.295000"/>
+		<testcase name="test_pep8_compliance" time="5.123000"/>
+		<testcase name="test_input_dir_compliance" time="0.335000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.287000"/>
+	</testsuite>
+</testsuites>

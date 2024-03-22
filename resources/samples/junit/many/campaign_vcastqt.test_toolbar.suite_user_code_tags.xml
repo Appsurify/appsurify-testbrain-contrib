@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="484.387">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_toolbar.suite_user_code_tags" skipped="0" tests="18" time="484.387">
+		<testcase name="preconditions" time="9.908000"/>
+		<testcase name="test_copy_leaf_item" time="41.113000"/>
+		<testcase name="test_copy_parent_item" time="36.272000"/>
+		<testcase name="test_filter" time="36.606000"/>
+		<testcase name="test_filter_activate" time="44.928000"/>
+		<testcase name="test_filter_active" time="31.466000"/>
+		<testcase name="test_filter_multiple" time="38.452000"/>
+		<testcase name="test_filter_on_reload" time="52.352000"/>
+		<testcase name="test_find" time="33.930000"/>
+		<testcase name="test_find_backward" time="32.670000"/>
+		<testcase name="test_row_height" time="29.550000"/>
+		<testcase name="test_row_width" time="48.003000"/>
+		<testcase name="test_verify_contents" time="36.680000"/>
+		<testcase name="postconditions" time="5.192000"/>
+		<testcase name="test_py_md_compliance" time="0.161000"/>
+		<testcase name="test_pep8_compliance" time="6.729000"/>
+		<testcase name="test_input_dir_compliance" time="0.207000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.168000"/>
+	</testsuite>
+</testsuites>

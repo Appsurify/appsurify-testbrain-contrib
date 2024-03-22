@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="24" time="65.032">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_gnu" skipped="0" tests="24" time="65.032">
+		<testcase name="preconditions" time="4.768000"/>
+		<testcase name="test_asm_number" time="4.778000"/>
+		<testcase name="test_basis_path" time="3.863000"/>
+		<testcase name="test_basis_path_analysis" time="0.755000"/>
+		<testcase name="test_basis_path_analysis_decl_off" time="1.643000"/>
+		<testcase name="test_basis_path_decl_off" time="4.568000"/>
+		<testcase name="test_branch" time="3.151000"/>
+		<testcase name="test_branch_decl_off" time="3.739000"/>
+		<testcase name="test_level_a" time="3.765000"/>
+		<testcase name="test_level_a_decl_off" time="3.554000"/>
+		<testcase name="test_level_b" time="3.369000"/>
+		<testcase name="test_level_b_decl_off" time="3.972000"/>
+		<testcase name="test_mcdc" time="3.425000"/>
+		<testcase name="test_mcdc_decl_off" time="3.629000"/>
+		<testcase name="test_mcdc_test" time="0.716000"/>
+		<testcase name="test_mcdc_test_decl_off" time="1.093000"/>
+		<testcase name="test_statement" time="3.306000"/>
+		<testcase name="test_statement_decl_off" time="3.795000"/>
+		<testcase name="test_switch_local_label" time="4.691000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="2.408000"/>
+		<testcase name="test_input_dir_compliance" time="0.027000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

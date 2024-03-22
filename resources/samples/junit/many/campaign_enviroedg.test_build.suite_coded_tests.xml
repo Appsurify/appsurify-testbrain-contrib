@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="29.551000000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_coded_tests" skipped="0" tests="11" time="29.551000000000002">
+		<testcase name="preconditions" time="1.153000"/>
+		<testcase name="test_support_default_value" time="2.821000"/>
+		<testcase name="test_support_disabled" time="3.703000"/>
+		<testcase name="test_support_enabled_multi_uut" time="8.631000"/>
+		<testcase name="test_support_enabled_single_uut" time="7.065000"/>
+		<testcase name="test_unsupported_compiler" time="1.425000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="4.730000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

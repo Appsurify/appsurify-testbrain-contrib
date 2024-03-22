@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="427.355">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_tree.suite_manage_testcases" skipped="0" tests="12" time="427.355">
+		<testcase name="preconditions" time="56.957000"/>
+		<testcase name="test_duplicate_specialized" time="46.861000"/>
+		<testcase name="test_execute_specialized" time="96.899000"/>
+		<testcase name="test_only_common_tst_change" time="42.013000"/>
+		<testcase name="test_specialize_common_in_common_compound_error" time="58.269000"/>
+		<testcase name="test_toggle_compound_only_specialized" time="49.048000"/>
+		<testcase name="test_toggle_specialized_status" time="67.748000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.183000"/>
+		<testcase name="test_pep8_compliance" time="8.958000"/>
+		<testcase name="test_input_dir_compliance" time="0.232000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.187000"/>
+	</testsuite>
+</testsuites>

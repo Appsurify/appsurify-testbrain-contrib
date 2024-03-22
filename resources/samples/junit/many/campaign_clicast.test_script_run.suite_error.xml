@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="25" time="69.52699999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_run.suite_error" skipped="0" tests="25" time="69.52699999999999">
+		<testcase name="preconditions" time="5.893000"/>
+		<testcase name="test_array_unsupported_type" time="7.699000"/>
+		<testcase name="test_attribute_bad_unit_param" time="1.443000"/>
+		<testcase name="test_bad_std_array_index" time="0.738000"/>
+		<testcase name="test_bad_uc_parameter" time="2.814000"/>
+		<testcase name="test_class_not_a_child" time="4.815000"/>
+		<testcase name="test_empty_std_array_index" time="3.827000"/>
+		<testcase name="test_extra_std_array_index" time="0.747000"/>
+		<testcase name="test_invalid_class_info" time="4.239000"/>
+		<testcase name="test_invalid_mallocs" time="0.820000"/>
+		<testcase name="test_missing_array_index" time="4.007000"/>
+		<testcase name="test_missing_value" time="1.425000"/>
+		<testcase name="test_nontestable_functions" time="0.758000"/>
+		<testcase name="test_not_stubbed_function" time="0.653000"/>
+		<testcase name="test_read_only_std_array" time="5.499000"/>
+		<testcase name="test_star_after_class_name" time="4.643000"/>
+		<testcase name="test_unexpected_array_index" time="1.597000"/>
+		<testcase name="test_unknown_class_instance" time="6.065000"/>
+		<testcase name="test_vct_map_import_fails" time="5.206000"/>
+		<testcase name="test_zero_length_std_array" time="0.718000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.018000"/>
+		<testcase name="test_pep8_compliance" time="5.854000"/>
+		<testcase name="test_input_dir_compliance" time="0.029000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.020000"/>
+	</testsuite>
+</testsuites>

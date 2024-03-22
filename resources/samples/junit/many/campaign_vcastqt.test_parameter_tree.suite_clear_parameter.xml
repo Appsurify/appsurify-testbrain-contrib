@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="295.15500000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_clear_parameter" skipped="0" tests="14" time="295.15500000000003">
+		<testcase name="preconditions" time="9.138000"/>
+		<testcase name="test_clear_array_item" time="35.263000"/>
+		<testcase name="test_clear_arrays_expected_values" time="36.333000"/>
+		<testcase name="test_clear_arrays_input_values" time="36.121000"/>
+		<testcase name="test_clear_both_input_and_expected" time="32.907000"/>
+		<testcase name="test_clear_constructor_53297" time="33.828000"/>
+		<testcase name="test_clear_entire_array" time="32.531000"/>
+		<testcase name="test_clear_only_expected" time="33.917000"/>
+		<testcase name="test_clear_only_input" time="33.720000"/>
+		<testcase name="postconditions" time="5.220000"/>
+		<testcase name="test_py_md_compliance" time="0.110000"/>
+		<testcase name="test_pep8_compliance" time="5.820000"/>
+		<testcase name="test_input_dir_compliance" time="0.131000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.116000"/>
+	</testsuite>
+</testsuites>

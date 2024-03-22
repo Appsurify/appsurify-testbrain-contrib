@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="145.694">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment_ada.suite_configurable_io" skipped="0" tests="14" time="145.694">
+		<testcase name="preconditions" time="0.465000"/>
+		<testcase name="test_basic_compiled_input" time="23.058000"/>
+		<testcase name="test_basic_normal_input" time="9.949000"/>
+		<testcase name="test_coldfire_compiled_input" time="25.071000"/>
+		<testcase name="test_coldfire_normal_input" time="11.759000"/>
+		<testcase name="test_deos_compiled_input" time="24.068000"/>
+		<testcase name="test_deos_normal_input" time="11.841000"/>
+		<testcase name="test_simple_compiled_input" time="24.757000"/>
+		<testcase name="test_simple_normal_input" time="10.485000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.017000"/>
+		<testcase name="test_pep8_compliance" time="4.186000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.025000"/>
+	</testsuite>
+</testsuites>

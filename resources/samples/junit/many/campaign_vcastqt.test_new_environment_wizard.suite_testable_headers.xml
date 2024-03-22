@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="78.628">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_new_environment_wizard.suite_testable_headers" skipped="0" tests="7" time="78.628">
+		<testcase name="preconditions" time="5.119000"/>
+		<testcase name="test_no_duplicate_headers" time="61.870000"/>
+		<testcase name="postconditions" time="5.282000"/>
+		<testcase name="test_py_md_compliance" time="0.023000"/>
+		<testcase name="test_pep8_compliance" time="6.267000"/>
+		<testcase name="test_input_dir_compliance" time="0.037000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.030000"/>
+	</testsuite>
+</testsuites>

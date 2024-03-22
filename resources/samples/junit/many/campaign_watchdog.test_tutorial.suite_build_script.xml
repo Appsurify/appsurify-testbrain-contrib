@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="4.283">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_watchdog.test_tutorial.suite_build_script" skipped="0" tests="10" time="4.283">
+		<testcase name="preconditions" time="0.011000"/>
+		<testcase name="test_run_compile_executable" time="0.422000"/>
+		<testcase name="test_run_compile_fails_exit_nonzero" time="0.194000"/>
+		<testcase name="test_run_compile_no_stdin_executable" time="0.308000"/>
+		<testcase name="test_run_compile_no_stdin_fails_exit_nonzero" time="0.176000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.160000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

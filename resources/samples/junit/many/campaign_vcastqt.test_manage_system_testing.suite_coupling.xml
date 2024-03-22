@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="210.20599999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_system_testing.suite_coupling" skipped="0" tests="8" time="210.20599999999996">
+		<testcase name="preconditions" time="19.400000"/>
+		<testcase name="test_interactive_build_migrated_coupling_env" time="117.330000"/>
+		<testcase name="test_migrate_build_and_edit_components" time="64.187000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.093000"/>
+		<testcase name="test_pep8_compliance" time="9.029000"/>
+		<testcase name="test_input_dir_compliance" time="0.081000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.086000"/>
+	</testsuite>
+</testsuites>

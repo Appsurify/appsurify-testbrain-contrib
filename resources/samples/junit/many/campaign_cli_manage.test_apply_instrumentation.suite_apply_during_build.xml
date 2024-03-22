@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="116.67900000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_apply_instrumentation.suite_apply_during_build" skipped="0" tests="16" time="116.67900000000002">
+		<testcase name="preconditions" time="9.061000"/>
+		<testcase name="test_apply_during_build" time="3.047000"/>
+		<testcase name="test_case_preserved_with_apply_during_build" time="8.324000"/>
+		<testcase name="test_from_apply_always" time="12.155000"/>
+		<testcase name="test_from_never" time="8.210000"/>
+		<testcase name="test_instrumentation_reverted_after_build_failure" time="5.084000"/>
+		<testcase name="test_migrated_from_always" time="15.311000"/>
+		<testcase name="test_migrated_from_during_build" time="9.589000"/>
+		<testcase name="test_migrated_from_never" time="13.633000"/>
+		<testcase name="test_multiple_environments_unit_overlap" time="10.027000"/>
+		<testcase name="test_uninstrument_updates_timestamps" time="15.397000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="6.806000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="20.726">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_run.suite_ignore_name_value_errors" skipped="0" tests="11" time="20.726">
+		<testcase name="preconditions" time="3.446000"/>
+		<testcase name="test_ignored_and_expected_error" time="2.240000"/>
+		<testcase name="test_ignored_and_subprogram_error" time="1.546000"/>
+		<testcase name="test_ignored_errors" time="7.588000"/>
+		<testcase name="test_import_two_scripts" time="0.777000"/>
+		<testcase name="test_script_create_only_ignored" time="2.879000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.006000"/>
+		<testcase name="test_pep8_compliance" time="2.232000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

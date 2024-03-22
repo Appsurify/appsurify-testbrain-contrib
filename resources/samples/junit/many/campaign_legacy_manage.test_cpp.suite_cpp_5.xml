@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="199.426">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_5" skipped="0" tests="13" time="199.426">
+		<testcase name="preconditions" time="1.051000"/>
+		<testcase name="test_c_source_selected" time="7.293000"/>
+		<testcase name="test_composition" time="7.876000"/>
+		<testcase name="test_compound_tutorial_cpp" time="37.348000"/>
+		<testcase name="test_const_ref_return" time="7.510000"/>
+		<testcase name="test_constructor" time="14.486000"/>
+		<testcase name="test_coverage_import_cpp" time="13.014000"/>
+		<testcase name="test_set_expected_from_actual" time="99.002000"/>
+		<testcase name="test_unused_param" time="8.531000"/>
+		<testcase name="postconditions" time="0.026000"/>
+		<testcase name="test_pep8_compliance" time="3.226000"/>
+		<testcase name="test_input_dir_compliance" time="0.030000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.033000"/>
+	</testsuite>
+</testsuites>

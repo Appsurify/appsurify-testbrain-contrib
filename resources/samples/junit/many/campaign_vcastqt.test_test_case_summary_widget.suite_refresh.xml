@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="215.79399999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_summary_widget.suite_refresh" skipped="0" tests="11" time="215.79399999999995">
+		<testcase name="preconditions" time="8.555000"/>
+		<testcase name="test_delete_test_case" time="42.513000"/>
+		<testcase name="test_execute_test_case" time="35.141000"/>
+		<testcase name="test_insert_test_case" time="36.476000"/>
+		<testcase name="test_rename_test_case" time="40.289000"/>
+		<testcase name="test_save_test_case" time="41.301000"/>
+		<testcase name="postconditions" time="5.253000"/>
+		<testcase name="test_py_md_compliance" time="0.089000"/>
+		<testcase name="test_pep8_compliance" time="5.990000"/>
+		<testcase name="test_input_dir_compliance" time="0.081000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.106000"/>
+	</testsuite>
+</testsuites>

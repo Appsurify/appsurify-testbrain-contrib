@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="26" time="380.2610000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_build_execute.suite_specialized_tests" skipped="0" tests="26" time="380.2610000000001">
+		<testcase name="preconditions" time="30.754000"/>
+		<testcase name="test_add_specialized_testcase" time="18.137000"/>
+		<testcase name="test_attempt_rename_to_invalid_tst" time="7.314000"/>
+		<testcase name="test_attempt_tst_rename_on_monitored_environment" time="7.257000"/>
+		<testcase name="test_delete_testcases_removes_custom_name" time="22.432000"/>
+		<testcase name="test_disabled_env_del_specialized_tst_cleanup" time="21.548000"/>
+		<testcase name="test_env_del_specialized_tst_cleanup" time="23.029000"/>
+		<testcase name="test_incremental_build_execute" time="11.439000"/>
+		<testcase name="test_invalid_env_del_specialized_tst_cleanup" time="22.559000"/>
+		<testcase name="test_invoke_tst_script_maintenance" time="30.041000"/>
+		<testcase name="test_original_source_report" time="19.635000"/>
+		<testcase name="test_rename_compiler" time="16.477000"/>
+		<testcase name="test_rename_duplicate_named_specialized_testcase" time="22.050000"/>
+		<testcase name="test_rename_level_with_custom_tst_name" time="8.650000"/>
+		<testcase name="test_rename_specialized_tst" time="18.617000"/>
+		<testcase name="test_rename_testsuite" time="16.631000"/>
+		<testcase name="test_same_name_specialized_testcases_multiple_envs" time="19.851000"/>
+		<testcase name="test_set_storage_location" time="16.235000"/>
+		<testcase name="test_specialized_tst_name_exists_different_context" time="11.119000"/>
+		<testcase name="test_toggle_common_to_specialized" time="13.239000"/>
+		<testcase name="test_toggle_specialized_to_common" time="18.342000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.021000"/>
+		<testcase name="test_pep8_compliance" time="4.845000"/>
+		<testcase name="test_input_dir_compliance" time="0.021000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.018000"/>
+	</testsuite>
+</testsuites>

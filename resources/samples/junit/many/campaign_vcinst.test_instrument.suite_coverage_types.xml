@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="62.446999999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcinst.test_instrument.suite_coverage_types" skipped="0" tests="18" time="62.446999999999996">
+		<testcase name="preconditions" time="4.275000"/>
+		<testcase name="test_basis_paths" time="4.311000"/>
+		<testcase name="test_branch" time="4.332000"/>
+		<testcase name="test_function" time="3.926000"/>
+		<testcase name="test_function_function_call" time="4.201000"/>
+		<testcase name="test_level_a_function_call" time="4.372000"/>
+		<testcase name="test_level_b_function_call" time="4.938000"/>
+		<testcase name="test_mcdc" time="4.176000"/>
+		<testcase name="test_probe_point" time="5.055000"/>
+		<testcase name="test_statement" time="3.525000"/>
+		<testcase name="test_statement_branch" time="4.508000"/>
+		<testcase name="test_statement_function_call" time="5.306000"/>
+		<testcase name="test_statement_mcdc" time="4.622000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.045000"/>
+		<testcase name="test_pep8_compliance" time="4.742000"/>
+		<testcase name="test_input_dir_compliance" time="0.034000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.079000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="24" time="204.05699999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_reports.suite_aggregate_options" skipped="0" tests="24" time="204.05699999999996">
+		<testcase name="preconditions" time="9.435000"/>
+		<testcase name="test_full_coverage_with_indicator" time="14.125000"/>
+		<testcase name="test_full_function_coverage_basis" time="10.762000"/>
+		<testcase name="test_full_function_coverage_branch" time="8.613000"/>
+		<testcase name="test_full_function_coverage_level_a" time="9.559000"/>
+		<testcase name="test_full_function_coverage_level_b" time="8.253000"/>
+		<testcase name="test_full_function_coverage_mcdc" time="9.592000"/>
+		<testcase name="test_full_function_coverage_statement" time="8.249000"/>
+		<testcase name="test_full_simplified_level_a" time="8.832000"/>
+		<testcase name="test_full_simplified_mcdc" time="9.030000"/>
+		<testcase name="test_no_coverage_basis" time="6.941000"/>
+		<testcase name="test_no_coverage_branch" time="6.660000"/>
+		<testcase name="test_no_coverage_level_a" time="7.228000"/>
+		<testcase name="test_no_coverage_level_b" time="7.240000"/>
+		<testcase name="test_no_coverage_mcdc" time="7.393000"/>
+		<testcase name="test_no_coverage_statement" time="7.843000"/>
+		<testcase name="test_no_coverage_with_indicator" time="9.790000"/>
+		<testcase name="test_no_tic_files_simplified_level_a" time="23.732000"/>
+		<testcase name="test_no_tic_files_simplified_mcdc" time="25.741000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.017000"/>
+		<testcase name="test_pep8_compliance" time="4.989000"/>
+		<testcase name="test_input_dir_compliance" time="0.017000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.016000"/>
+	</testsuite>
+</testsuites>

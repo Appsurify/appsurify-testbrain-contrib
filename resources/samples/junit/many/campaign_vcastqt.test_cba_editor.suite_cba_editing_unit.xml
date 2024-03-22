@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="196.815">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cba_editor.suite_cba_editing_unit" skipped="0" tests="9" time="196.815">
+		<testcase name="preconditions" time="7.523000"/>
+		<testcase name="test_adding_cba_analysis" time="56.271000"/>
+		<testcase name="test_cba_for_multiple_branches_on_one_line" time="57.523000"/>
+		<testcase name="test_invalidated_cba_in_editor_after_fn_call" time="63.370000"/>
+		<testcase name="postconditions" time="5.241000"/>
+		<testcase name="test_py_md_compliance" time="0.054000"/>
+		<testcase name="test_pep8_compliance" time="6.702000"/>
+		<testcase name="test_input_dir_compliance" time="0.068000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.063000"/>
+	</testsuite>
+</testsuites>

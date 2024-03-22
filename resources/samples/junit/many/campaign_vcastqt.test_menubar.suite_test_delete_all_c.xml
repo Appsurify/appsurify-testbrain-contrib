@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="104.28499999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_menubar.suite_test_delete_all_c" skipped="0" tests="8" time="104.28499999999998">
+		<testcase name="preconditions" time="7.942000"/>
+		<testcase name="test_delete_all_backup" time="49.643000"/>
+		<testcase name="test_delete_no_backup" time="39.468000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.038000"/>
+		<testcase name="test_pep8_compliance" time="7.047000"/>
+		<testcase name="test_input_dir_compliance" time="0.088000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.059000"/>
+	</testsuite>
+</testsuites>

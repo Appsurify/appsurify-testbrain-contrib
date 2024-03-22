@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="419.942">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_project_tree.suite_expand_collapse" skipped="0" tests="14" time="419.942">
+		<testcase name="preconditions" time="33.671000"/>
+		<testcase name="test_default_state" time="47.740000"/>
+		<testcase name="test_default_state_overridden" time="73.023000"/>
+		<testcase name="test_expand_collapse_double_click_item" time="22.931000"/>
+		<testcase name="test_expand_on_env_close" time="44.692000"/>
+		<testcase name="test_shortcut_toggle_off" time="46.142000"/>
+		<testcase name="test_shortcut_toggle_on" time="45.558000"/>
+		<testcase name="test_toggle_off" time="45.753000"/>
+		<testcase name="test_toggle_on" time="45.378000"/>
+		<testcase name="postconditions" time="5.331000"/>
+		<testcase name="test_py_md_compliance" time="0.095000"/>
+		<testcase name="test_pep8_compliance" time="9.366000"/>
+		<testcase name="test_input_dir_compliance" time="0.114000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.148000"/>
+	</testsuite>
+</testsuites>

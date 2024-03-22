@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="44.89300000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_cover_overloaded_logical" skipped="0" tests="16" time="44.89300000000001">
+		<testcase name="preconditions" time="5.951000"/>
+		<testcase name="test_opt_off_branch" time="3.796000"/>
+		<testcase name="test_opt_off_mcdc" time="4.032000"/>
+		<testcase name="test_opt_off_mcdc_test" time="1.226000"/>
+		<testcase name="test_opt_off_statement_branch" time="3.801000"/>
+		<testcase name="test_opt_off_statement_mcdc" time="4.353000"/>
+		<testcase name="test_opt_on_branch" time="4.036000"/>
+		<testcase name="test_opt_on_mcdc" time="4.405000"/>
+		<testcase name="test_opt_on_mcdc_test" time="1.564000"/>
+		<testcase name="test_opt_on_statement_branch" time="4.092000"/>
+		<testcase name="test_opt_on_statement_mcdc" time="4.268000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="3.333000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

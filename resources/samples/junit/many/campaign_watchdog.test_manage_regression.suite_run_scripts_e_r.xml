@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="199.25299999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_watchdog.test_manage_regression.suite_run_scripts_e_r" skipped="0" tests="13" time="199.25299999999996">
+		<testcase name="preconditions" time="0.634000"/>
+		<testcase name="test_import" time="6.395000"/>
+		<testcase name="test_locking" time="13.673000"/>
+		<testcase name="test_monitor_regression_script" time="25.847000"/>
+		<testcase name="test_path_difference" time="26.352000"/>
+		<testcase name="test_paths" time="31.253000"/>
+		<testcase name="test_push" time="49.419000"/>
+		<testcase name="test_regressionable_vcm" time="18.976000"/>
+		<testcase name="test_relative_datasource" time="22.755000"/>
+		<testcase name="postconditions" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="3.934000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

@@ -1,6 +1,11 @@
 import datetime
 import typing as t
 
+try:
+    from lxml import etree
+except ImportError:
+    from xml.etree import ElementTree as etree  # noqa
+
 from .. import utils
 from ..models.junit import (
     JUnitTestCase,
@@ -12,16 +17,9 @@ from ..models.junit import (
 )
 from .base import XMLReportParser
 
-if t.TYPE_CHECKING:
-    try:
-        from lxml import etree
-    except ImportError:
-        from xml.etree import ElementTree as etree  # noqa
-
 
 class JUnitReportParser(XMLReportParser):
     _test: JUnitTestSuites
-    # _namespace = ""
 
     def __init__(self, xml):
         super().__init__(xml)
@@ -31,6 +29,10 @@ class JUnitReportParser(XMLReportParser):
     def from_root(cls, root: "etree.Element"):
         instance = super().from_root(root=root)
         return instance
+
+    @property
+    def result(self) -> JUnitTestSuites:
+        return self._test
 
     def parse(self) -> JUnitTestSuites:
         self.read_root()

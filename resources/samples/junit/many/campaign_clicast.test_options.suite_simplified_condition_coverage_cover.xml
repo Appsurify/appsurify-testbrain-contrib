@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="67.62200000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_simplified_condition_coverage_cover" skipped="0" tests="19" time="67.62200000000001">
+		<testcase name="preconditions" time="4.154000"/>
+		<testcase name="test_reinst_file_level_a_to_level_a" time="2.978000"/>
+		<testcase name="test_reinst_file_level_a_to_mcdc" time="3.200000"/>
+		<testcase name="test_reinst_file_mcdc_to_level_a" time="3.001000"/>
+		<testcase name="test_reinst_file_mcdc_to_mcdc" time="3.330000"/>
+		<testcase name="test_simplified_mcdc_on" time="3.085000"/>
+		<testcase name="test_simplified_mcdc_reinst_after_option_change_ft" time="6.192000"/>
+		<testcase name="test_simplified_mcdc_reinst_after_option_change_tf" time="6.507000"/>
+		<testcase name="test_simplified_mcdc_reinst_file" time="2.530000"/>
+		<testcase name="test_simplified_off_imported_to_on" time="5.289000"/>
+		<testcase name="test_simplified_off_imported_to_on_levela" time="6.236000"/>
+		<testcase name="test_simplified_on_imported_to_off" time="6.807000"/>
+		<testcase name="test_simplified_on_imported_to_off_levela" time="5.999000"/>
+		<testcase name="test_simplified_statement_mcdc_on" time="2.788000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.016000"/>
+		<testcase name="test_pep8_compliance" time="5.481000"/>
+		<testcase name="test_input_dir_compliance" time="0.016000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

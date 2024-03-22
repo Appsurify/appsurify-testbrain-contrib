@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="46.169">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_jit.suite_suppress_test_code_coverage" skipped="0" tests="14" time="46.169">
+		<testcase name="preconditions" time="6.800000"/>
+		<testcase name="test_header_lib" time="4.074000"/>
+		<testcase name="test_header_lib_temp_inst" time="4.460000"/>
+		<testcase name="test_suppress_header" time="4.359000"/>
+		<testcase name="test_suppress_header_temp_inst" time="5.207000"/>
+		<testcase name="test_suppress_inlined_test" time="3.814000"/>
+		<testcase name="test_suppress_inlined_test_temp_inst" time="3.655000"/>
+		<testcase name="test_suppress_test_dir" time="3.775000"/>
+		<testcase name="test_suppress_test_dir_temp_inst" time="4.189000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="5.803000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

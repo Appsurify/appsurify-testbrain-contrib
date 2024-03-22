@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="20.005000000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing.test_vcinst.suite_instrument" skipped="0" tests="12" time="20.005000000000003">
+		<testcase name="preconditions" time="1.874000"/>
+		<testcase name="test_no_available_seats" time="1.959000"/>
+		<testcase name="test_seats_available" time="2.149000"/>
+		<testcase name="test_signed_input_file_avail_seats" time="2.172000"/>
+		<testcase name="test_signed_input_file_expired" time="2.074000"/>
+		<testcase name="test_signed_input_file_invalid" time="2.044000"/>
+		<testcase name="test_signed_input_file_no_seats" time="2.197000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="5.506000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.010000"/>
+	</testsuite>
+</testsuites>

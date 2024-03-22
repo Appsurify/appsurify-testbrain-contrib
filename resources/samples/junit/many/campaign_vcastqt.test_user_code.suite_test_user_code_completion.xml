@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="358.869">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_user_code.suite_test_user_code_completion" skipped="0" tests="14" time="358.869">
+		<testcase name="preconditions" time="8.184000"/>
+		<testcase name="test_autocomplete_shows_up_expected_uc" time="42.884000"/>
+		<testcase name="test_autocomplete_shows_up_insert_uc" time="39.659000"/>
+		<testcase name="test_autocomplete_shows_up_popup" time="45.669000"/>
+		<testcase name="test_autocomplete_shows_up_properties_expected" time="41.521000"/>
+		<testcase name="test_autocomplete_shows_up_properties_input" time="41.569000"/>
+		<testcase name="test_completion_disabled" time="38.513000"/>
+		<testcase name="test_popup_position_constant" time="47.986000"/>
+		<testcase name="test_retype_start_tag" time="39.302000"/>
+		<testcase name="postconditions" time="5.242000"/>
+		<testcase name="test_py_md_compliance" time="0.138000"/>
+		<testcase name="test_pep8_compliance" time="7.912000"/>
+		<testcase name="test_input_dir_compliance" time="0.129000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.161000"/>
+	</testsuite>
+</testsuites>

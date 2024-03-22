@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="643.3359999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_compound_view.suite_compound_auto" skipped="0" tests="16" time="643.3359999999999">
+		<testcase name="preconditions" time="8.463000"/>
+		<testcase name="test_ada_source_code_execution_report" time="59.147000"/>
+		<testcase name="test_close_open_auto" time="72.359000"/>
+		<testcase name="test_compound_auto_regression_scripts" time="61.968000"/>
+		<testcase name="test_control_flow_execution_report" time="43.909000"/>
+		<testcase name="test_execution_report_shows_auto_compound" time="40.082000"/>
+		<testcase name="test_modify_compound_auto" time="67.113000"/>
+		<testcase name="test_nested_compound_execution_report" time="43.499000"/>
+		<testcase name="test_no_multiple_auto" time="76.797000"/>
+		<testcase name="test_no_multiple_auto_init_compound" time="77.722000"/>
+		<testcase name="test_probe_point_execution_report" time="80.636000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.338000"/>
+		<testcase name="test_pep8_compliance" time="10.629000"/>
+		<testcase name="test_input_dir_compliance" time="0.393000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.281000"/>
+	</testsuite>
+</testsuites>

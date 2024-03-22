@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="30" time="1162.5790000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_tree.suite_unit_test_variants" skipped="0" tests="30" time="1162.5790000000002">
+		<testcase name="preconditions" time="14.408000"/>
+		<testcase name="test_delete" time="36.180000"/>
+		<testcase name="test_rebuild_full" time="41.545000"/>
+		<testcase name="test_rebuild_increment" time="55.213000"/>
+		<testcase name="test_reload_logics_file_action" time="45.180000"/>
+		<testcase name="test_reload_logics_file_click_duplicate" time="43.622000"/>
+		<testcase name="test_reload_logics_file_delete" time="43.117000"/>
+		<testcase name="test_reload_logics_file_detach_from_map" time="66.401000"/>
+		<testcase name="test_reload_logics_file_drag_duplicate" time="27.822000"/>
+		<testcase name="test_reload_logics_file_execute_batch" time="59.571000"/>
+		<testcase name="test_reload_logics_file_execute_compound" time="49.467000"/>
+		<testcase name="test_reload_logics_file_execute_single" time="52.194000"/>
+		<testcase name="test_reload_logics_file_generate_csv" time="61.617000"/>
+		<testcase name="test_reload_logics_file_generate_vct" time="57.755000"/>
+		<testcase name="test_reload_logics_file_incremental_rebuild" time="50.296000"/>
+		<testcase name="test_reload_logics_file_insert_min_mid_max" time="44.309000"/>
+		<testcase name="test_reload_logics_file_insert_test_case" time="42.829000"/>
+		<testcase name="test_reload_logics_file_logic_name_changed" time="49.153000"/>
+		<testcase name="test_reload_logics_file_no_logic_editor" time="31.820000"/>
+		<testcase name="test_reload_logics_file_script_import" time="56.404000"/>
+		<testcase name="test_reopen" time="51.990000"/>
+		<testcase name="test_script_import" time="45.595000"/>
+		<testcase name="test_testcase_enabled_disabled" time="30.339000"/>
+		<testcase name="test_update_change" time="55.472000"/>
+		<testcase name="test_update_no_change" time="38.736000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.470000"/>
+		<testcase name="test_pep8_compliance" time="9.953000"/>
+		<testcase name="test_input_dir_compliance" time="0.515000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.606000"/>
+	</testsuite>
+</testsuites>

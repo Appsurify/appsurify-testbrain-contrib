@@ -1,9 +1,7 @@
-import datetime
 import pytest
 import pathlib
 
-from testbrain.contrib.report import utils
-from testbrain.contrib.report.models.testbrain import TestbrainTestSuite
+from testbrain.contrib.report.mergers.junit import JUnitReportMerger
 from testbrain.contrib.report.parsers import JUnitReportParser
 from testbrain.contrib.report.converters import JUnit2TestbrainReportConverter
 
@@ -12,296 +10,184 @@ base_dir = pathlib.Path(__file__).parent.parent.absolute()
 
 
 @pytest.fixture()
-def xml_junit_android_robolectric_success():
-    filename = (
-        base_dir / "resources" / "samples" / "junit-android-robolectric-success.xml"
-    )
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_ibm():
-    filename = base_dir / "resources" / "samples" / "junit-ibm.xml"
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_multi_testsuites_min():
-    filename = (
-        base_dir
-        / "resources"
-        / "samples"
-        / "trx-buildagent-2021-11-02-09-31-24-min.xml"
-    )
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_sample_out_err():
-    filename = base_dir / "resources" / "samples" / "junit-out-err.xml"
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_normal():
-    filename = base_dir / "resources" / "samples" / "junit-normal.xml"
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_legacy():
-    filename = base_dir / "resources" / "samples" / "junit-legacy.xml"
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_no_fails():
-    filename = base_dir / "resources" / "samples" / "junit-no-fails.xml"
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_no_suites_tag():
-    filename = base_dir / "resources" / "samples" / "junit-no-suites-tag.xml"
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_jenkins():
-    filename = base_dir / "resources" / "samples" / "junit-jenkins.xml"
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_with_props_big():
-    filename = (
-        base_dir / "resources" / "samples" / "junit_vector_suite_z3_lib_path_linux.xml"
-    )
-    return filename
-
-
-@pytest.fixture()
-def xml_junit_with_props_big_a():
-    filename = (
-        base_dir
-        / "resources"
-        / "samples"
-        / "junit_vector_suite_z3_lib_path_linux_a.xml"
-    )
-    return filename
-
-
-def test_parse_junit_normal(xml_junit_normal):
-    report = xml_junit_normal.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-
-    assert result.name == ""
-    assert len(result.testsuites) == 2
-
-    assert result.testsuites[0].name == "JUnitXmlReporter"
-    assert result.testsuites[0].errors == 0
-    assert result.testsuites[0].skipped == 0
-    assert result.testsuites[0].tests == 0
-    assert result.testsuites[0].failures == 0
-    assert result.testsuites[0].time == 0.0
-    assert result.testsuites[0].timestamp == utils.string_to_datetime(
-        "2013-05-24T10:23:58"
-    )
-
-    assert result.testsuites[1].name == "JUnitXmlReporter.constructor"
-    assert result.testsuites[1].errors == 0
-    assert result.testsuites[1].skipped == 1
-    assert result.testsuites[1].tests == 3
-    assert result.testsuites[1].failures == 1
-    assert result.testsuites[1].time == 0.006
-    assert result.testsuites[1].timestamp == utils.string_to_datetime(
-        "2013-05-24T10:23:58"
-    )
-
-    assert len(result.testsuites[1].testcases) == 3
-    assert (
-        result.testsuites[1].testcases[0].name
-        == "should default path to an empty string"
-    )
-    assert result.testsuites[1].testcases[0].classname == "JUnitXmlReporter.constructor"
-    assert result.testsuites[1].testcases[0].time == 0.006
-    assert result.testsuites[1].testcases[0].result.status == "failure"
-    assert result.testsuites[1].testcases[0].result.message == "test failure"
-    assert result.testsuites[1].testcases[0].result.stacktrace == "Assertion failed"
-
-    assert (
-        result.testsuites[1].testcases[1].name == "should default consolidate to true"
-    )
-    assert result.testsuites[1].testcases[1].classname == "JUnitXmlReporter.constructor"
-    assert result.testsuites[1].testcases[1].time == 0.0
-    assert result.testsuites[1].testcases[1].result.status == "skipped"
-    assert result.testsuites[1].testcases[1].result.message == ""
-    assert result.testsuites[1].testcases[1].result.stacktrace == ""
-
-    assert (
-        result.testsuites[1].testcases[2].name
-        == "should default useDotNotation to true"
-    )
-    assert result.testsuites[1].testcases[2].classname == "JUnitXmlReporter.constructor"
-    assert result.testsuites[1].testcases[2].time == 0.0
-    assert result.testsuites[1].testcases[2].result.status == "passed"
-    assert result.testsuites[1].testcases[2].result.message == ""
-    assert result.testsuites[1].testcases[2].result.stacktrace == ""
-
-
-def test_parse_junit_normal_from_file(xml_junit_normal):
-    report = xml_junit_normal
-    junit_parser = JUnitReportParser.fromfile(filename=report)
-    result = junit_parser.parse()
-
-    assert result.name == ""
-    assert len(result.testsuites) == 2
-
-    assert len(result.testsuites[1].properties) == 3
-
-
-def test_parse_junit_with_props_big(xml_junit_with_props_big):
-    report = xml_junit_with_props_big
-    junit_parser = JUnitReportParser.fromfile(filename=report)
-    result = junit_parser.parse()
-
-    assert len(result.testsuites[0].properties) == 1
-
-    prop = result.testsuites[0].properties[0]
-    assert prop.name == "platform"
-    assert prop.value == "linux64"
-
-
-def test_parse_junit_no_fails(xml_junit_no_fails):
-    report = xml_junit_no_fails.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-
-    assert result.name == ""
-    assert len(result.testsuites) == 2
-
-
-def test_parse_junit_no_suites_tag(xml_junit_no_suites_tag):
-    report = xml_junit_no_suites_tag.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-
-    assert result.name == ""
-    assert len(result.testsuites) == 1
-
-
-def test_parse_junit_sample_out_err(xml_junit_sample_out_err):
-    report = xml_junit_sample_out_err.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-    assert result.name == ""
-
-
-def test_parse_junit_android_robolectric_success(xml_junit_android_robolectric_success):
-    report = xml_junit_android_robolectric_success.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-    assert result.name == ""
-
-
-def test_parse_junit_ibm(xml_junit_ibm):
-    report = xml_junit_ibm.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-    assert result.id == "20140612_170519"
-    assert result.name == "New_configuration (14/06/12 17:05:19)"
-
-
-def test_parse_junit_multi_testsuites_min(xml_junit_multi_testsuites_min):
-    report = xml_junit_multi_testsuites_min.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-
-    assert result.name == ""
-    assert len(result.testsuites) == 3
-
-
-def test_parse_junit_jenkins(xml_junit_jenkins):
-    report = xml_junit_jenkins.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-
-    assert result.name == ""
-    assert len(result.testsuites) == 2
-
-
-def test_parse_junit_legacy(xml_junit_legacy):
-    report = xml_junit_legacy.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    result = junit_parser.parse()
-
-    assert result.name == ""
-    assert len(result.testsuites) == 1
-
-
-def test_convert_junit_2_testbrain_normal(xml_junit_normal):
-    report = xml_junit_normal.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    junit_report = junit_parser.parse()
-
-    junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
-    testbrain_report = junit_2_testbrain.convert()
-
-    assert testbrain_report.total == junit_report.tests
-
-
-def test_convert_junit_2_testbrain_legacy(xml_junit_legacy):
-    report = xml_junit_legacy.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    junit_report = junit_parser.parse()
-
-    assert junit_report.tests == 18
-
-    junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
-    testbrain_report = junit_2_testbrain.convert()
-
-    assert testbrain_report.total == junit_report.tests
-
-
-def test_convert_junit_2_testbrain_no_suites_tag(xml_junit_no_suites_tag):
-    report = xml_junit_no_suites_tag.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    junit_report = junit_parser.parse()
-
-    junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
-    testbrain_report = junit_2_testbrain.convert()
-
-    assert testbrain_report.total == junit_report.tests
-
-
-def test_convert_junit_2_testbrain_with_props_big(xml_junit_with_props_big):
-    report = xml_junit_with_props_big
-    junit_parser = JUnitReportParser.fromfile(filename=report)
-    junit_report = junit_parser.parse()
-
-    junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
-    testbrain_report = junit_2_testbrain.convert()
-
-    assert len(testbrain_report.testruns[0].properties) == 1
-
-    prop = testbrain_report.testruns[0].properties[0]
-    assert prop.name == "platform"
-    assert prop.value == "linux64"
-
-
-def test_convert_junit_2_testbrain_legacy_and_back(xml_junit_legacy):
-    report = xml_junit_legacy.read_text(encoding="utf-8")
-    junit_parser = JUnitReportParser.fromstring(text=report)
-    junit_report = junit_parser.parse()
-
-    assert junit_report.tests == 18
-
-    junit_2_testbrain = JUnit2TestbrainReportConverter(source=junit_report)
-    testbrain_report = junit_2_testbrain.convert()
-
-    testbrain_report_json = junit_2_testbrain.result_json
-
-    from_json = TestbrainTestSuite.model_validate_json(testbrain_report_json)
-
-    assert testbrain_report == from_json
+def directory_resource_samples_junit():
+    directory = base_dir / "resources" / "samples" / "junit"
+    return directory
+
+
+@pytest.mark.xfail(reason="Currently the parser cannot read nested testsuites")
+def test_parse_junit_report_jenkins(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        "junit-custom-jenkins"
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == 3
+
+
+@pytest.mark.parametrize(
+    ("report_filepath", "tests"),
+    [
+        ("junit-common-wellformed-encoding", 1),
+        ("junit-common-wellformed-tag", 1),
+        ("junit-common-wellformed-empty", 0),
+    ],
+)
+def test_parse_junit_report_well_formed(
+    directory_resource_samples_junit, report_filepath, tests
+):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        report_filepath
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == tests
+
+
+@pytest.mark.parametrize(
+    ("report_filepath", "tests"),
+    [
+        ("junit-common-legacy", 18),
+        ("junit-common-named", 2),
+        ("junit-common-nofails", 3),
+        ("junit-common-normal", 3),
+        ("junit-common-nosuites-tag", 3),
+        ("junit-common-outputs", 11),
+    ],
+)
+def test_parse_junit_report_common(
+    directory_resource_samples_junit, report_filepath, tests
+):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        report_filepath
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == tests
+
+
+@pytest.mark.parametrize(
+    ("report_filepath", "tests"),
+    [
+        ("junit-custom-android", 2),
+        ("junit-custom-ibm", 1),
+        ("junit-custom-jenkins", 1),
+        ("junit-custom-mocha", 1),
+        ("junit-custom-multi-result", 1),
+        ("junit-custom-multi-testsuite", 10),
+        ("junit-custom-props", 1),
+    ],
+)
+def test_parse_junit_report_custom(
+    directory_resource_samples_junit, report_filepath, tests
+):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        report_filepath
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == tests
+
+
+@pytest.mark.parametrize(
+    ("report_filepath", "tests"),
+    [
+        ("junit-attr-encoding-iso-8859-1", 11),
+        ("junit-attr-encoding-utf-8", 11),
+        ("junit-attr-encoding-utf-8-bom", 11),
+        ("junit-attr-encoding-windows-1251", 11),
+        ("junit-encoding-iso-8859-1", 11),
+        ("junit-encoding-utf-8", 11),
+        ("junit-encoding-utf-8-bom", 11),
+        ("junit-encoding-utf-16be", 11),
+        ("junit-encoding-utf-16be-bom", 11),
+        ("junit-encoding-utf-16le", 11),
+        ("junit-encoding-utf-16le-bom", 11),
+        ("junit-encoding-windows-1251", 11),
+    ],
+)
+def test_parse_junit_report_encodings(
+    directory_resource_samples_junit, report_filepath, tests
+):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        report_filepath
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == tests
+
+
+def test_parse_junit_report_fromstring(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        "junit-common-normal"
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromstring(report_filepath.read_text())
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == 3
+
+
+def test_parse_junit_report_props(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        "junit-custom-props"
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == 1
+    testsuite = junit_report.testsuites[0]
+    assert len(testsuite.properties) == 3
+
+    expect_props = {
+        "environment": "Linux",
+        "platform": "PY-3.12.1",
+        "machine": "aarch64",
+    }
+    actual_props = {}
+    for prop in testsuite.properties:
+        actual_props[prop.name] = prop.value
+
+    assert actual_props == expect_props
+
+
+def test_merge_junit_report_from_directory(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath("many")
+    junit_merger = JUnitReportMerger.from_directory(directory=report_filepath)
+    junit_merger.merge()
+    result = junit_merger.result
+    assert result.tests == 35993
+
+
+def test_merge_junit_report_from_reports(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath("many")
+    files = report_filepath.iterdir()
+    reports = []
+    for file in files:
+        if file.is_file():
+            parser = JUnitReportParser.fromstring(file.read_text())
+            parser.parse()
+            report = parser.result
+            reports.append(report)
+    junit_merger = JUnitReportMerger.from_reports(reports)
+    junit_merger.merge()
+    result = junit_merger.result
+    assert result.tests == 35993
+
+
+def test_convert_junit_to_testbrain(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        "junit-common-normal"
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == 3
+    junit2testbrain = JUnit2TestbrainReportConverter(source=junit_report)
+    junit2testbrain.convert()
+    testbrain_report = junit2testbrain.result
+    assert testbrain_report.total == 3

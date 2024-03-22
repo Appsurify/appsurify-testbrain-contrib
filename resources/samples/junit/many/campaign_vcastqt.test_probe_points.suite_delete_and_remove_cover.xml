@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="653.555">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_probe_points.suite_delete_and_remove_cover" skipped="0" tests="14" time="653.555">
+		<testcase name="preconditions" time="14.030000"/>
+		<testcase name="test_delete_all_from_toolbar" time="82.449000"/>
+		<testcase name="test_remove_all_from_coverage_view" time="49.055000"/>
+		<testcase name="test_remove_all_from_probe_point_view" time="49.701000"/>
+		<testcase name="test_remove_func_probe_point" time="97.644000"/>
+		<testcase name="test_remove_probe_points_for_subprogram_cvg_view" time="56.003000"/>
+		<testcase name="test_remove_probe_points_for_subprogram_prb_view" time="55.958000"/>
+		<testcase name="test_remove_single_probe_point_from_editor" time="144.885000"/>
+		<testcase name="test_undo_remove" time="94.067000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.192000"/>
+		<testcase name="test_pep8_compliance" time="9.159000"/>
+		<testcase name="test_input_dir_compliance" time="0.232000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.180000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="45.37500000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_std_function" skipped="0" tests="12" time="45.37500000000001">
+		<testcase name="preconditions" time="0.744000"/>
+		<testcase name="test_no_call_using_std_function" time="7.707000"/>
+		<testcase name="test_not_supported_type" time="5.377000"/>
+		<testcase name="test_option_off" time="5.432000"/>
+		<testcase name="test_option_on" time="7.830000"/>
+		<testcase name="test_std_function_nullptr" time="4.981000"/>
+		<testcase name="test_typedef_sig_pointer" time="7.603000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.014000"/>
+		<testcase name="test_pep8_compliance" time="5.668000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.008000"/>
+	</testsuite>
+</testsuites>

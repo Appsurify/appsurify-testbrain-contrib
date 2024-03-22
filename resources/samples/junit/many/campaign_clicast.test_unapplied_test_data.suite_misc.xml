@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="49" time="76.913">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_unapplied_test_data.suite_misc" skipped="0" tests="49" time="76.913">
+		<testcase name="preconditions" time="3.738000"/>
+		<testcase name="test_add_subprogram" time="2.022000"/>
+		<testcase name="test_add_value" time="2.476000"/>
+		<testcase name="test_broken" time="0.791000"/>
+		<testcase name="test_critical_error_message_comments" time="0.765000"/>
+		<testcase name="test_duplicate_export_mergeable" time="0.701000"/>
+		<testcase name="test_duplicate_replaces_different_contents" time="1.480000"/>
+		<testcase name="test_duplicate_tests_different_script" time="1.413000"/>
+		<testcase name="test_duplicate_unique_id_different_contents_export" time="0.756000"/>
+		<testcase name="test_error_message_comments_do_not_hold_state" time="1.359000"/>
+		<testcase name="test_minor_before_critical" time="0.812000"/>
+		<testcase name="test_minor_error_message_comments" time="0.701000"/>
+		<testcase name="test_new_add_replace_remove" time="1.517000"/>
+		<testcase name="test_no_name_export_equal_features" time="0.936000"/>
+		<testcase name="test_no_subprogram_export_equal_features" time="0.798000"/>
+		<testcase name="test_no_subprogram_no_name_export_equal_features" time="0.834000"/>
+		<testcase name="test_no_test_script_command_type_fix_externally" time="1.351000"/>
+		<testcase name="test_no_unique_ids_export_equal_features" time="0.890000"/>
+		<testcase name="test_no_unit_export_equal_features" time="0.626000"/>
+		<testcase name="test_no_unit_no_name_export_equal_features" time="0.673000"/>
+		<testcase name="test_no_unit_no_subprogram_export_equal_features" time="0.712000"/>
+		<testcase name="test_one_value_fix" time="1.473000"/>
+		<testcase name="test_remove" time="1.904000"/>
+		<testcase name="test_remove_different" time="3.843000"/>
+		<testcase name="test_replace_subprogram" time="1.868000"/>
+		<testcase name="test_replace_value" time="1.786000"/>
+		<testcase name="test_same_name_different_unit_subprogram" time="2.788000"/>
+		<testcase name="test_same_name_subprogram_different_unit" time="2.743000"/>
+		<testcase name="test_same_name_unit_different_subprogram" time="2.669000"/>
+		<testcase name="test_source_file_exported_as_unit_equal_features" time="1.305000"/>
+		<testcase name="test_source_file_exported_as_unit_unequal_features" time="1.321000"/>
+		<testcase name="test_source_file_minor_drop" time="0.807000"/>
+		<testcase name="test_triple_add_subprogram" time="2.749000"/>
+		<testcase name="test_triple_add_value" time="2.471000"/>
+		<testcase name="test_triple_remove" time="2.544000"/>
+		<testcase name="test_triple_replace_subprogram" time="2.670000"/>
+		<testcase name="test_triple_replace_value" time="2.693000"/>
+		<testcase name="test_triple_unapplied_import" time="2.747000"/>
+		<testcase name="test_two_commands_fix_one" time="1.181000"/>
+		<testcase name="test_two_minor" time="0.848000"/>
+		<testcase name="test_two_test_adds_partial_import_same_test" time="1.350000"/>
+		<testcase name="test_two_tests_fix_one" time="1.351000"/>
+		<testcase name="test_two_values_fix_both" time="1.324000"/>
+		<testcase name="test_two_values_fix_one" time="1.576000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.058000"/>
+		<testcase name="test_pep8_compliance" time="5.418000"/>
+		<testcase name="test_input_dir_compliance" time="0.028000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.047000"/>
+	</testsuite>
+</testsuites>

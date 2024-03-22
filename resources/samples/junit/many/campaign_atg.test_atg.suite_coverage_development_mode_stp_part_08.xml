@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="673.8059999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_development_mode_stp_part_08" skipped="0" tests="52" time="673.8059999999999">
+		<testcase name="preconditions"/>
+		<testcase name="test_struct_ptr_assign" time="12.080000"/>
+		<testcase name="test_struct_recursive" time="13.036000"/>
+		<testcase name="test_struct_register" time="11.884000"/>
+		<testcase name="test_struct_subscript_array_to_ptr" time="12.652000"/>
+		<testcase name="test_struct_undecl" time="13.329000"/>
+		<testcase name="test_struct_values_1" time="16.188000"/>
+		<testcase name="test_struct_values_2" time="15.929000"/>
+		<testcase name="test_struct_var_init" time="13.660000"/>
+		<testcase name="test_struct_various" time="14.441000"/>
+		<testcase name="test_struct_with_const_pointer_field" time="13.806000"/>
+		<testcase name="test_struct_with_ptr" time="14.212000"/>
+		<testcase name="test_structs_arrays" time="13.902000"/>
+		<testcase name="test_structs_arrow_problem" time="14.982000"/>
+		<testcase name="test_structs_cast" time="13.592000"/>
+		<testcase name="test_structs_dot_field_assign" time="13.727000"/>
+		<testcase name="test_structs_extract" time="14.464000"/>
+		<testcase name="test_structs_missing_alloc" time="13.787000"/>
+		<testcase name="test_structs_nested_jpp" time="12.969000"/>
+		<testcase name="test_structs_param" time="12.472000"/>
+		<testcase name="test_structs_pointer_to_stct" time="13.392000"/>
+		<testcase name="test_structs_pointer_to_stct_asgn" time="12.661000"/>
+		<testcase name="test_structs_ptr2stct_with_stct_with_int" time="13.675000"/>
+		<testcase name="test_structs_simple_1" time="12.594000"/>
+		<testcase name="test_structs_simple_ex" time="12.915000"/>
+		<testcase name="test_structs_with_doubles" time="13.717000"/>
+		<testcase name="test_structs_with_floats" time="13.337000"/>
+		<testcase name="test_stub_by_ref" time="16.717000"/>
+		<testcase name="test_stub_cast_return_dynamic_init" time="14.074000"/>
+		<testcase name="test_stub_fptr_assign_and_alloc_check" time="13.693000"/>
+		<testcase name="test_stub_fptr_assigned_a_function" time="16.250000"/>
+		<testcase name="test_stub_return_from_child" time="15.199000"/>
+		<testcase name="test_stub_returning_reference" time="17.423000"/>
+		<testcase name="test_stub_returning_reference_2" time="16.087000"/>
+		<testcase name="test_stub_test" time="15.317000"/>
+		<testcase name="test_stubs_array_of_int" time="15.726000"/>
+		<testcase name="test_stubs_assign_redundant_se_test" time="15.929000"/>
+		<testcase name="test_stubs_deref_global" time="13.631000"/>
+		<testcase name="test_stubs_deref_local_at_decl" time="13.495000"/>
+		<testcase name="test_stubs_deref_param" time="13.710000"/>
+		<testcase name="test_stubs_fptr_1" time="13.300000"/>
+		<testcase name="test_stubs_fptr_2" time="13.607000"/>
+		<testcase name="test_stubs_fptr_3" time="15.516000"/>
+		<testcase name="test_stubs_fptr_inf_rec_in_cond_with_assign" time="14.246000"/>
+		<testcase name="test_stubs_fptr_pointer_on_typedef" time="15.541000"/>
+		<testcase name="test_stubs_fptr_redundant_deref" time="15.741000"/>
+		<testcase name="test_stubs_fptr_stubs_returning_fptr" time="16.509000"/>
+		<testcase name="test_stubs_sbr_struct_under_address_of" time="15.394000"/>
+		<testcase name="postconditions" time="0.145000"/>
+		<testcase name="test_pep8_compliance" time="2.734000"/>
+		<testcase name="test_input_dir_compliance" time="0.228000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.191000"/>
+	</testsuite>
+</testsuites>

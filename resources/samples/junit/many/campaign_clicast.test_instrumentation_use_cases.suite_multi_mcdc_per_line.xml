@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="63.97">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_instrumentation_use_cases.suite_multi_mcdc_per_line" skipped="0" tests="16" time="63.97">
+		<testcase name="preconditions" time="5.758000"/>
+		<testcase name="test_branch_option_off" time="6.028000"/>
+		<testcase name="test_branch_option_on" time="5.933000"/>
+		<testcase name="test_level_a_option_off" time="7.117000"/>
+		<testcase name="test_level_a_option_on" time="7.291000"/>
+		<testcase name="test_level_b_option_off" time="6.031000"/>
+		<testcase name="test_level_b_option_on" time="6.199000"/>
+		<testcase name="test_mcdc_option_off" time="6.296000"/>
+		<testcase name="test_mcdc_option_on" time="7.536000"/>
+		<testcase name="test_mcdc_test_option_off" time="1.651000"/>
+		<testcase name="test_mcdc_test_option_on" time="1.819000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.018000"/>
+		<testcase name="test_pep8_compliance" time="2.276000"/>
+		<testcase name="test_input_dir_compliance" time="0.010000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.007000"/>
+	</testsuite>
+</testsuites>

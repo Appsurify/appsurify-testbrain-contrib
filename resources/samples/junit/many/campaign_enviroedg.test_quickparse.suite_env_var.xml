@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="6.095000000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_quickparse.suite_env_var" skipped="0" tests="7" time="6.095000000000001">
+		<testcase name="preconditions"/>
+		<testcase name="test_parse_error" time="3.511000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="2.576000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.001000"/>
+	</testsuite>
+</testsuites>

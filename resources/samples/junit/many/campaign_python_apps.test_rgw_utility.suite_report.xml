@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="134.037">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_python_apps.test_rgw_utility.suite_report" skipped="0" tests="10" time="134.037">
+		<testcase name="preconditions"/>
+		<testcase name="test_req_events" time="30.521000"/>
+		<testcase name="test_req_snapshot" time="31.008000"/>
+		<testcase name="test_tc_events" time="34.293000"/>
+		<testcase name="test_tc_snapshot" time="33.065000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="5.108000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.016000"/>
+	</testsuite>
+</testsuites>

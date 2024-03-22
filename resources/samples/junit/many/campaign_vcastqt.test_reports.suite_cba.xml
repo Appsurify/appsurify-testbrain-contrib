@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="536.9279999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_reports.suite_cba" skipped="0" tests="15" time="536.9279999999999">
+		<testcase name="preconditions" time="8.352000"/>
+		<testcase name="test_empty_result" time="49.217000"/>
+		<testcase name="test_imported_from_cba_file" time="45.650000"/>
+		<testcase name="test_imported_from_cvr_file" time="56.211000"/>
+		<testcase name="test_no_result" time="33.119000"/>
+		<testcase name="test_result_from_cba_editor" time="49.725000"/>
+		<testcase name="test_result_from_cba_editor_sfp" time="63.053000"/>
+		<testcase name="test_result_renamed" time="51.283000"/>
+		<testcase name="test_result_with_notes" time="51.664000"/>
+		<testcase name="test_result_with_requirements" time="64.024000"/>
+		<testcase name="test_two_results_from_cba_editor" time="55.560000"/>
+		<testcase name="postconditions" time="0.103000"/>
+		<testcase name="test_pep8_compliance" time="8.695000"/>
+		<testcase name="test_input_dir_compliance" time="0.136000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.136000"/>
+	</testsuite>
+</testsuites>

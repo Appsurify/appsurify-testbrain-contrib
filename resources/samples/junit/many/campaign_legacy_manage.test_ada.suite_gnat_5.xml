@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="522.0449999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada.suite_gnat_5" skipped="0" tests="13" time="522.0449999999998">
+		<testcase name="preconditions" time="1.522000"/>
+		<testcase name="test_compound_for_batch" time="43.624000"/>
+		<testcase name="test_compound_tutorial_ada" time="67.724000"/>
+		<testcase name="test_coverage_ada" time="148.803000"/>
+		<testcase name="test_coverage_animation_ada" time="102.556000"/>
+		<testcase name="test_curt" time="9.492000"/>
+		<testcase name="test_custom_coverage_ada" time="36.370000"/>
+		<testcase name="test_depend" time="9.132000"/>
+		<testcase name="test_sbf_for_ada" time="100.846000"/>
+		<testcase name="postconditions" time="0.031000"/>
+		<testcase name="test_pep8_compliance" time="1.873000"/>
+		<testcase name="test_input_dir_compliance" time="0.036000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.036000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="2.9530000000000003">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_edgfe.test_parse_target_testsuite.suite_cosmic" skipped="0" tests="8" time="2.9530000000000003">
+		<testcase name="preconditions" time="0.001000"/>
+		<testcase name="test_6812" time="0.799000"/>
+		<testcase name="test_s12x" time="0.044000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="2.095000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

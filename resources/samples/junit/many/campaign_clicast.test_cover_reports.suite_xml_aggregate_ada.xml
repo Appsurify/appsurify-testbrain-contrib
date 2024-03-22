@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="25.253000000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_xml_aggregate_ada" skipped="0" tests="12" time="25.253000000000004">
+		<testcase name="preconditions" time="4.139000"/>
+		<testcase name="test_ada_basis" time="3.689000"/>
+		<testcase name="test_ada_branch" time="3.294000"/>
+		<testcase name="test_ada_mcdc" time="2.931000"/>
+		<testcase name="test_ada_statement" time="3.311000"/>
+		<testcase name="test_ada_statement_branch" time="2.861000"/>
+		<testcase name="test_ada_statement_mcdc" time="3.152000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="1.841000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="1151.792">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_getting_started.suite_welcome_page_links" skipped="0" tests="23" time="1151.792">
+		<testcase name="preconditions" time="11.065000"/>
+		<testcase name="test_build_each_environment" time="170.863000"/>
+		<testcase name="test_example_basic_class_blackbox" time="68.456000"/>
+		<testcase name="test_example_basic_class_whitebox" time="67.692000"/>
+		<testcase name="test_example_class_inheritance" time="67.777000"/>
+		<testcase name="test_example_cpp_exceptions" time="67.701000"/>
+		<testcase name="test_example_cpp_templates" time="67.884000"/>
+		<testcase name="test_example_csv_based_testing" time="50.567000"/>
+		<testcase name="test_example_enterprise_unit_testing_environment" time="53.232000"/>
+		<testcase name="test_example_namespaces" time="67.867000"/>
+		<testcase name="test_example_stl_containers" time="64.328000"/>
+		<testcase name="test_example_stubbing_malloc" time="67.843000"/>
+		<testcase name="test_example_tutorial_ada" time="73.629000"/>
+		<testcase name="test_example_tutorial_c" time="71.143000"/>
+		<testcase name="test_example_tutorial_cpp" time="67.985000"/>
+		<testcase name="test_example_void_star" time="67.880000"/>
+		<testcase name="test_open_release_notes_help" time="14.322000"/>
+		<testcase name="test_release_notes_welcome" time="16.171000"/>
+		<testcase name="postconditions" time="5.565000"/>
+		<testcase name="test_py_md_compliance" time="0.144000"/>
+		<testcase name="test_pep8_compliance" time="8.997000"/>
+		<testcase name="test_input_dir_compliance" time="0.544000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.137000"/>
+	</testsuite>
+</testsuites>

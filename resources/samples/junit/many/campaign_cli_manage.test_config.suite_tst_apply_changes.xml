@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="88.544">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_config.suite_tst_apply_changes" skipped="0" tests="12" time="88.544">
+		<testcase name="preconditions" time="24.289000"/>
+		<testcase name="test_add_common_and_specialized" time="8.106000"/>
+		<testcase name="test_add_common_to_env_with_specialized_testcase" time="9.904000"/>
+		<testcase name="test_apply_specialized_tst_changes" time="13.948000"/>
+		<testcase name="test_remove_specialized_testcase" time="11.296000"/>
+		<testcase name="test_toggle_common_to_specialized" time="4.203000"/>
+		<testcase name="test_toggle_specialized_to_common" time="12.146000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="4.619000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.011000"/>
+	</testsuite>
+</testsuites>

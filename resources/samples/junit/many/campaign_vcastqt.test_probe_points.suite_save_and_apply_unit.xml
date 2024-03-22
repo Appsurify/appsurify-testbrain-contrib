@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="28" time="1504.658">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_probe_points.suite_save_and_apply_unit" skipped="0" tests="28" time="1504.658">
+		<testcase name="preconditions" time="21.510000"/>
+		<testcase name="test_add_apply_confirm_dont_save_two_units" time="58.930000"/>
+		<testcase name="test_add_apply_confirm_save_one_unit" time="57.321000"/>
+		<testcase name="test_add_apply_confirm_save_two_units" time="52.884000"/>
+		<testcase name="test_add_probe_point_and_apply_via_incr_rebuild" time="55.584000"/>
+		<testcase name="test_add_probe_point_and_apply_via_rebuild" time="59.371000"/>
+		<testcase name="test_add_probe_point_and_apply_via_status" time="57.102000"/>
+		<testcase name="test_add_probe_point_and_execute_mcdc_crash" time="66.842000"/>
+		<testcase name="test_add_probe_point_and_only_save" time="70.865000"/>
+		<testcase name="test_add_probe_point_dont_save" time="53.178000"/>
+		<testcase name="test_add_two_units_apply_via_status_one_unit" time="61.806000"/>
+		<testcase name="test_applied_func_probe_in_report" time="70.454000"/>
+		<testcase name="test_apply_prob_point_on_duplicate_line" time="76.036000"/>
+		<testcase name="test_applying_all_probe_points_menu_item" time="44.328000"/>
+		<testcase name="test_close_button_but_then_cancel" time="63.417000"/>
+		<testcase name="test_close_button_but_then_no" time="61.787000"/>
+		<testcase name="test_deactivate_exit_func_probe_in_report" time="92.594000"/>
+		<testcase name="test_deactivate_func_probe_in_report" time="93.526000"/>
+		<testcase name="test_decline_confirm_apply_all" time="49.523000"/>
+		<testcase name="test_dropped_func_probe_in_report" time="69.704000"/>
+		<testcase name="test_edit_file_scope_probe" time="84.304000"/>
+		<testcase name="test_edit_func_probe" time="87.462000"/>
+		<testcase name="test_edit_regular_probe" time="84.986000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.311000"/>
+		<testcase name="test_pep8_compliance" time="10.234000"/>
+		<testcase name="test_input_dir_compliance" time="0.293000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.306000"/>
+	</testsuite>
+</testsuites>

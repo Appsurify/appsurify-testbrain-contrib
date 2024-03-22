@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="23" time="1141.4609999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_compound_view.suite_iterations" skipped="0" tests="23" time="1141.4609999999996">
+		<testcase name="preconditions" time="13.205000"/>
+		<testcase name="test_all_slots_zero_iterations" time="53.367000"/>
+		<testcase name="test_invalid_symbolic_constant" time="66.332000"/>
+		<testcase name="test_iterations_cannot_exceed_max" time="35.790000"/>
+		<testcase name="test_mixed_slots_zero_iterations" time="53.263000"/>
+		<testcase name="test_save_code_symbolic_constant_resave_code" time="71.254000"/>
+		<testcase name="test_save_code_symbolic_constant_resave_config" time="71.631000"/>
+		<testcase name="test_save_code_symbolic_constant_resave_literal" time="71.142000"/>
+		<testcase name="test_save_code_symbolic_constant_resave_user" time="72.956000"/>
+		<testcase name="test_save_literal_resave_code_symbolic_constant" time="70.072000"/>
+		<testcase name="test_save_literal_resave_config_symbolic_constant" time="70.025000"/>
+		<testcase name="test_save_literal_resave_literal" time="69.931000"/>
+		<testcase name="test_save_literal_resave_user_symbolic_constant" time="72.198000"/>
+		<testcase name="test_save_literal_resave_vcdb_symbolic_constant" time="70.124000"/>
+		<testcase name="test_symbolic_constant_copy_action" time="66.009000"/>
+		<testcase name="test_valid_sc_auto_completion" time="65.757000"/>
+		<testcase name="test_valid_symbolic_constant" time="72.552000"/>
+		<testcase name="test_verify_tooltip" time="60.822000"/>
+		<testcase name="postconditions" time="5.316000"/>
+		<testcase name="test_py_md_compliance" time="0.254000"/>
+		<testcase name="test_pep8_compliance" time="8.926000"/>
+		<testcase name="test_input_dir_compliance" time="0.271000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.264000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="138.68900000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_project_tree.suite_delete_nodes_modified_config" skipped="0" tests="10" time="138.68900000000002">
+		<testcase name="preconditions" time="10.138000"/>
+		<testcase name="test_delete_above_node_modified_config_with_save" time="31.330000"/>
+		<testcase name="test_delete_above_node_unmodified_config" time="26.199000"/>
+		<testcase name="test_delete_same_node_as_modified_config_no_save" time="28.988000"/>
+		<testcase name="test_delete_same_node_as_modified_config_with_save" time="28.829000"/>
+		<testcase name="postconditions" time="5.230000"/>
+		<testcase name="test_py_md_compliance" time="0.117000"/>
+		<testcase name="test_pep8_compliance" time="7.687000"/>
+		<testcase name="test_input_dir_compliance" time="0.098000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.073000"/>
+	</testsuite>
+</testsuites>

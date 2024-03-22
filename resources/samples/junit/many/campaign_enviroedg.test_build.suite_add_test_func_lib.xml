@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="9.321">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_add_test_func_lib" skipped="0" tests="7" time="9.321">
+		<testcase name="preconditions" time="4.092000"/>
+		<testcase name="test_wildcard" time="1.622000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.597000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

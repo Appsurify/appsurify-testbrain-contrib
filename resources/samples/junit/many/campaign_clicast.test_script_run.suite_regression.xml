@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="74.182">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_script_run.suite_regression" skipped="0" tests="18" time="74.182">
+		<testcase name="preconditions"/>
+		<testcase name="test_2018sp5_format" time="4.495000"/>
+		<testcase name="test_2021sp1_struct_format" time="6.183000"/>
+		<testcase name="test_add_noop" time="4.266000"/>
+		<testcase name="test_add_slot" time="4.732000"/>
+		<testcase name="test_first_char_unprintable" time="5.018000"/>
+		<testcase name="test_import_script_with_nullptr_char_values" time="5.125000"/>
+		<testcase name="test_repeated_strings" time="6.364000"/>
+		<testcase name="test_script_abort_no_features_no_crash" time="7.429000"/>
+		<testcase name="test_strict_rebuild_processing_line_msg" time="10.071000"/>
+		<testcase name="test_stubbed_global_multiple_uuts" time="4.878000"/>
+		<testcase name="test_unknown_test_case_option" time="4.183000"/>
+		<testcase name="test_version_6_4_2_format" time="5.673000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.010000"/>
+		<testcase name="test_pep8_compliance" time="5.725000"/>
+		<testcase name="test_input_dir_compliance" time="0.015000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.015000"/>
+	</testsuite>
+</testsuites>

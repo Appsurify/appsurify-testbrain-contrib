@@ -34,6 +34,10 @@ class MSTestReportParser(XMLReportParser):
             raise ValueError("Incorrect Report Format")
         return instance
 
+    @property
+    def result(self) -> MSTestTestRun:
+        return self._test
+
     def parse(self) -> MSTestTestRun:
         self.read_root()
         self.read_times()

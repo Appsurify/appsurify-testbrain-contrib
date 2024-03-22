@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="8" time="3.4139999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_vcshell.suite_errors" skipped="0" tests="8" time="3.4139999999999997">
+		<testcase name="preconditions"/>
+		<testcase name="test_no_cfg_template" time="0.104000"/>
+		<testcase name="test_vcshell_fails" time="0.201000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.002000"/>
+		<testcase name="test_pep8_compliance" time="3.101000"/>
+		<testcase name="test_input_dir_compliance" time="0.004000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.002000"/>
+	</testsuite>
+</testsuites>

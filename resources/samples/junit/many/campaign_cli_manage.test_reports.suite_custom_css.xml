@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="9" time="32.425">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_reports.suite_custom_css" skipped="0" tests="9" time="32.425">
+		<testcase name="preconditions" time="17.183000"/>
+		<testcase name="test_custom_css_option_set" time="2.447000"/>
+		<testcase name="test_custom_css_option_set_with_var" time="2.426000"/>
+		<testcase name="test_not_self_contained" time="3.860000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.009000"/>
+		<testcase name="test_pep8_compliance" time="6.489000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

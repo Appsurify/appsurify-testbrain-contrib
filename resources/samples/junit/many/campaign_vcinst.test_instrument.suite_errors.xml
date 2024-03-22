@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="62.077000000000005">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcinst.test_instrument.suite_errors" skipped="0" tests="14" time="62.077000000000005">
+		<testcase name="preconditions" time="4.111000"/>
+		<testcase name="test_invalid_coverage_type" time="10.615000"/>
+		<testcase name="test_invalid_unit_index" time="9.200000"/>
+		<testcase name="test_none_coverage_type_is_invalid" time="3.095000"/>
+		<testcase name="test_nonexistent_config_file" time="6.244000"/>
+		<testcase name="test_parse_failure" time="6.218000"/>
+		<testcase name="test_preprocess_failure" time="5.421000"/>
+		<testcase name="test_unwritable_destination" time="10.244000"/>
+		<testcase name="test_unwritable_source_dir" time="1.557000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.103000"/>
+		<testcase name="test_pep8_compliance" time="5.120000"/>
+		<testcase name="test_input_dir_compliance" time="0.051000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.098000"/>
+	</testsuite>
+</testsuites>

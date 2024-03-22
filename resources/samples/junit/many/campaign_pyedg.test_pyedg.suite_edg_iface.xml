@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="7.505999999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_pyedg.test_pyedg.suite_edg_iface" skipped="0" tests="15" time="7.505999999999999">
+		<testcase name="preconditions" time="0.001000"/>
+		<testcase name="test_all_pragmas" time="0.484000"/>
+		<testcase name="test_all_routines" time="0.412000"/>
+		<testcase name="test_all_types" time="0.433000"/>
+		<testcase name="test_arrays" time="0.404000"/>
+		<testcase name="test_attributes" time="0.344000"/>
+		<testcase name="test_calling_conventions" time="0.335000"/>
+		<testcase name="test_pointers" time="0.504000"/>
+		<testcase name="test_struct" time="0.607000"/>
+		<testcase name="test_union" time="0.360000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="3.603000"/>
+		<testcase name="test_input_dir_compliance" time="0.007000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.004000"/>
+	</testsuite>
+</testsuites>

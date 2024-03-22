@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="24" time="15.639999999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcwrap.test_interpreter.suite_custom_build_command_interpreter" skipped="0" tests="24" time="15.639999999999999">
+		<testcase name="preconditions" time="4.532000"/>
+		<testcase name="test_check_compiler_version" time="0.970000"/>
+		<testcase name="test_custom_script" time="0.231000"/>
+		<testcase name="test_error_return_value" time="0.173000"/>
+		<testcase name="test_invalid_return_type" time="0.210000"/>
+		<testcase name="test_missing_command_data" time="0.201000"/>
+		<testcase name="test_missing_command_type" time="0.228000"/>
+		<testcase name="test_missing_compile_command" time="0.331000"/>
+		<testcase name="test_missing_compile_command_data" time="0.242000"/>
+		<testcase name="test_missing_compiler_name" time="0.449000"/>
+		<testcase name="test_missing_instrumentation_directory" time="0.413000"/>
+		<testcase name="test_missing_instrumentation_filename" time="0.357000"/>
+		<testcase name="test_missing_output_filepath" time="0.360000"/>
+		<testcase name="test_missing_package_table" time="0.216000"/>
+		<testcase name="test_missing_process_fn" time="0.214000"/>
+		<testcase name="test_missing_single_compile_command" time="0.214000"/>
+		<testcase name="test_missing_source_path" time="0.229000"/>
+		<testcase name="test_no_source_files" time="0.230000"/>
+		<testcase name="test_script_not_found" time="0.413000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="5.375000"/>
+		<testcase name="test_input_dir_compliance" time="0.023000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.018000"/>
+	</testsuite>
+</testsuites>

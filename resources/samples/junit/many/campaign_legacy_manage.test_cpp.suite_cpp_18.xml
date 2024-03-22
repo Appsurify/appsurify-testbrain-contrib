@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="157.154">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_cpp.suite_cpp_18" skipped="0" tests="13" time="157.154">
+		<testcase name="preconditions" time="1.274000"/>
+		<testcase name="test_guitest_cpp" time="10.247000"/>
+		<testcase name="test_inheriting_functions" time="9.750000"/>
+		<testcase name="test_inline_specifier" time="9.999000"/>
+		<testcase name="test_instrument_params" time="84.855000"/>
+		<testcase name="test_math_cpp" time="8.459000"/>
+		<testcase name="test_multiple" time="10.029000"/>
+		<testcase name="test_namespace" time="9.677000"/>
+		<testcase name="test_namespace_classes" time="9.580000"/>
+		<testcase name="postconditions" time="0.012000"/>
+		<testcase name="test_pep8_compliance" time="3.219000"/>
+		<testcase name="test_input_dir_compliance" time="0.028000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.025000"/>
+	</testsuite>
+</testsuites>

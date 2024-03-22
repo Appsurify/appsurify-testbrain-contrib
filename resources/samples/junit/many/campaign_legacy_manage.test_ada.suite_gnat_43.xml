@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="6" time="14.491">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada.suite_gnat_43" skipped="0" tests="6" time="14.491">
+		<testcase name="preconditions" time="1.191000"/>
+		<testcase name="test_compile_generic_stubs" time="10.854000"/>
+		<testcase name="postconditions" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="2.430000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

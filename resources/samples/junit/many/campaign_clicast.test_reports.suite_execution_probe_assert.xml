@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="61.614999999999995">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_reports.suite_execution_probe_assert" skipped="0" tests="21" time="61.614999999999995">
+		<testcase name="preconditions" time="5.650000"/>
+		<testcase name="test_assert_in_file_scope_probe" time="3.271000"/>
+		<testcase name="test_control_flow" time="4.025000"/>
+		<testcase name="test_expected_count" time="3.736000"/>
+		<testcase name="test_expected_range" time="2.789000"/>
+		<testcase name="test_global_initialization" time="8.975000"/>
+		<testcase name="test_globals_display_each_event" time="4.823000"/>
+		<testcase name="test_globals_display_range_iteration" time="3.273000"/>
+		<testcase name="test_globals_display_slot_iteration" time="3.676000"/>
+		<testcase name="test_globals_display_testcase" time="3.157000"/>
+		<testcase name="test_null_string_as_description" time="2.739000"/>
+		<testcase name="test_order_of_events" time="2.519000"/>
+		<testcase name="test_probe_point_assert_before_uut" time="3.266000"/>
+		<testcase name="test_probe_point_listing" time="2.135000"/>
+		<testcase name="test_show_only_events_with_expected_results" time="2.630000"/>
+		<testcase name="test_true_false_as_conditions" time="2.438000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="2.483000"/>
+		<testcase name="test_input_dir_compliance" time="0.013000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.009000"/>
+	</testsuite>
+</testsuites>

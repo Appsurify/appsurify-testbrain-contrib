@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="44.906000000000006">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_automationcontroller.test_build_db.suite_vcshell_cmd_verb" skipped="0" tests="10" time="44.906000000000006">
+		<testcase name="preconditions" time="0.435000"/>
+		<testcase name="test_empty_vcshell_cmd_verb" time="12.843000"/>
+		<testcase name="test_invalid_vcshell_cmd_verb" time="1.690000"/>
+		<testcase name="test_vcshell_cmd_verb" time="12.262000"/>
+		<testcase name="test_vcshell_cmd_verb_env_var" time="13.403000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.003000"/>
+		<testcase name="test_pep8_compliance" time="4.262000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

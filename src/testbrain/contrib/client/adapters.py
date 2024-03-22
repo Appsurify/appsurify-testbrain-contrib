@@ -4,7 +4,6 @@ import warnings
 
 import requests
 from requests import adapters
-from urllib3 import PoolManager
 
 from testbrain.contrib.client.compat import connection, poolmanager
 from testbrain.contrib.client.exceptions import RequestsVersionTooOld

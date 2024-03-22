@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="16" time="47.961999999999996">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_instrumentation" skipped="0" tests="16" time="47.961999999999996">
+		<testcase name="preconditions" time="0.920000"/>
+		<testcase name="test_basis_path_test" time="5.673000"/>
+		<testcase name="test_compile_error_before_inst" time="1.279000"/>
+		<testcase name="test_decl_incompatible_func_template" time="7.711000"/>
+		<testcase name="test_driver_code_no_const_cast" time="4.013000"/>
+		<testcase name="test_inst_compile_failure" time="2.984000"/>
+		<testcase name="test_link_failure" time="3.779000"/>
+		<testcase name="test_none_obj_coverage" time="3.792000"/>
+		<testcase name="test_obj_coverage" time="3.934000"/>
+		<testcase name="test_statement" time="2.605000"/>
+		<testcase name="test_template_lambda_function" time="5.335000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.008000"/>
+		<testcase name="test_pep8_compliance" time="5.914000"/>
+		<testcase name="test_input_dir_compliance" time="0.009000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.006000"/>
+	</testsuite>
+</testsuites>

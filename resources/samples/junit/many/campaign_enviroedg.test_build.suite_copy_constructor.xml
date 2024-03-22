@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="67.10300000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_copy_constructor" skipped="0" tests="19" time="67.10300000000002">
+		<testcase name="preconditions" time="1.118000"/>
+		<testcase name="test_anonymous" time="4.076000"/>
+		<testcase name="test_array_uncallable_cctor" time="4.775000"/>
+		<testcase name="test_class_template_defined_not_called" time="4.761000"/>
+		<testcase name="test_class_template_non_copyable_args" time="8.379000"/>
+		<testcase name="test_const" time="5.090000"/>
+		<testcase name="test_copy_ctor" time="5.396000"/>
+		<testcase name="test_private_copy_ctor" time="4.579000"/>
+		<testcase name="test_reference" time="3.583000"/>
+		<testcase name="test_template" time="3.871000"/>
+		<testcase name="test_template_base" time="4.700000"/>
+		<testcase name="test_undefined_template_cctor" time="5.085000"/>
+		<testcase name="test_use_local_cctor" time="4.323000"/>
+		<testcase name="test_volatile" time="4.549000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.019000"/>
+		<testcase name="test_pep8_compliance" time="2.775000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.012000"/>
+	</testsuite>
+</testsuites>

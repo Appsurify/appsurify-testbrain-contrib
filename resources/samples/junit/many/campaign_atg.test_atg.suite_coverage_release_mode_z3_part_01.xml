@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="592.2810000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_release_mode_z3_part_01" skipped="0" tests="52" time="592.2810000000001">
+		<testcase name="preconditions"/>
+		<testcase name="test_1258_inherited_fields" time="13.076000"/>
+		<testcase name="test_1284_derived_class_cast" time="12.409000"/>
+		<testcase name="test_1784_align_walk" time="11.522000"/>
+		<testcase name="test_abstract_class" time="11.766000"/>
+		<testcase name="test_abstract_ctor_gen" time="14.858000"/>
+		<testcase name="test_abstract_field_class" time="11.372000"/>
+		<testcase name="test_addr_of" time="11.886000"/>
+		<testcase name="test_addr_of_mem_high" time="11.267000"/>
+		<testcase name="test_addr_of_stct_assign" time="10.809000"/>
+		<testcase name="test_aggreg_float" time="11.479000"/>
+		<testcase name="test_alias_loop" time="11.694000"/>
+		<testcase name="test_alias_loop_fieldaccess" time="11.956000"/>
+		<testcase name="test_alias_unhashable" time="10.322000"/>
+		<testcase name="test_all_alloc_for_ctor_body" time="12.171000"/>
+		<testcase name="test_allocallobals_for_params_and_function_calls" time="11.401000"/>
+		<testcase name="test_ambiguous_field_resolution" time="11.226000"/>
+		<testcase name="test_amsr_crash0" time="12.051000"/>
+		<testcase name="test_amsr_crash1" time="11.418000"/>
+		<testcase name="test_amsr_crash2" time="11.462000"/>
+		<testcase name="test_amsr_crash3a" time="12.517000"/>
+		<testcase name="test_amsr_crash3b" time="13.700000"/>
+		<testcase name="test_anon_namespace_global_var" time="12.161000"/>
+		<testcase name="test_anonfield" time="12.381000"/>
+		<testcase name="test_array_access" time="14.290000"/>
+		<testcase name="test_array_access_assign" time="12.020000"/>
+		<testcase name="test_array_init_using_aggregate" time="12.717000"/>
+		<testcase name="test_array_of_const" time="12.472000"/>
+		<testcase name="test_array_of_const_cpp" time="12.759000"/>
+		<testcase name="test_array_of_structs" time="11.745000"/>
+		<testcase name="test_arrays" time="11.874000"/>
+		<testcase name="test_arrays_of_structs" time="12.209000"/>
+		<testcase name="test_assign_in_cond" time="12.222000"/>
+		<testcase name="test_atg-869_incr_on_field_access" time="11.367000"/>
+		<testcase name="test_atg_653_guess_pointer_allocations" time="17.909000"/>
+		<testcase name="test_atg_725_vars_in_aggregate" time="11.852000"/>
+		<testcase name="test_auto_bitwidth" time="13.197000"/>
+		<testcase name="test_auto_bitwidth_cpp" time="12.858000"/>
+		<testcase name="test_base_class_cast" time="12.439000"/>
+		<testcase name="test_baseline_class_instance" time="11.772000"/>
+		<testcase name="test_baselining_example" time="11.418000"/>
+		<testcase name="test_basic_cpp_methods" time="16.041000"/>
+		<testcase name="test_basic_doubles_test" time="15.078000"/>
+		<testcase name="test_basic_float_test" time="21.825000"/>
+		<testcase name="test_basic_md_array" time="10.320000"/>
+		<testcase name="test_bit_field_test" time="13.179000"/>
+		<testcase name="test_bool_assign" time="10.940000"/>
+		<testcase name="test_bool_field_test" time="12.153000"/>
+		<testcase name="postconditions" time="0.149000"/>
+		<testcase name="test_pep8_compliance" time="2.343000"/>
+		<testcase name="test_input_dir_compliance" time="0.128000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.101000"/>
+	</testsuite>
+</testsuites>

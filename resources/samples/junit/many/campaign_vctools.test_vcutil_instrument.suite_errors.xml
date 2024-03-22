@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="10.82">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vctools.test_vcutil_instrument.suite_errors" skipped="0" tests="13" time="10.82">
+		<testcase name="preconditions" time="1.085000"/>
+		<testcase name="test_change_in_place_without_all" time="1.983000"/>
+		<testcase name="test_config_specified" time="1.263000"/>
+		<testcase name="test_config_specified_no_local" time="0.179000"/>
+		<testcase name="test_nonexistent_vcdb" time="0.166000"/>
+		<testcase name="test_parse_failure" time="0.720000"/>
+		<testcase name="test_preprocess_failure" time="0.813000"/>
+		<testcase name="test_vcutil_return_code" time="1.447000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.152000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

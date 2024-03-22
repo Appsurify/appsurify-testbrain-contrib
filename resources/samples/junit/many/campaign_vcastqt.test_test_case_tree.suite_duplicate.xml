@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="608.752">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_tree.suite_duplicate" skipped="0" tests="19" time="608.752">
+		<testcase name="preconditions" time="9.014000"/>
+		<testcase name="test_duplicate_auto_final" time="48.118000"/>
+		<testcase name="test_duplicate_auto_init" time="45.939000"/>
+		<testcase name="test_duplicate_compound" time="36.940000"/>
+		<testcase name="test_duplicate_compound_only" time="33.483000"/>
+		<testcase name="test_duplicate_init_test_case" time="35.775000"/>
+		<testcase name="test_duplicate_not_visible_for_items" time="39.161000"/>
+		<testcase name="test_duplicate_renamed_test" time="33.022000"/>
+		<testcase name="test_duplicate_saves_parameter_data" time="51.896000"/>
+		<testcase name="test_duplicate_success" time="32.619000"/>
+		<testcase name="test_duplicate_test_with_notes" time="34.983000"/>
+		<testcase name="test_duplicate_test_with_requirements" time="80.651000"/>
+		<testcase name="test_duplicate_test_with_requirements_legacy" time="75.790000"/>
+		<testcase name="test_duplicate_test_with_user_code" time="36.863000"/>
+		<testcase name="postconditions" time="5.307000"/>
+		<testcase name="test_py_md_compliance" time="0.200000"/>
+		<testcase name="test_pep8_compliance" time="8.463000"/>
+		<testcase name="test_input_dir_compliance" time="0.314000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.214000"/>
+	</testsuite>
+</testsuites>

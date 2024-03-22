@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="11" time="27.259">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_environment.suite_industry_mode" skipped="0" tests="11" time="27.259">
+		<testcase name="preconditions" time="0.001000"/>
+		<testcase name="test_env_automotive_industry_mode" time="4.813000"/>
+		<testcase name="test_env_avionics_industry_mode" time="4.634000"/>
+		<testcase name="test_env_industrial_industry_mode" time="4.771000"/>
+		<testcase name="test_env_medical_industry_mode" time="4.544000"/>
+		<testcase name="test_env_railway_industry_mode" time="4.921000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.563000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="35" time="138.09999999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_execute.suite_user_code" skipped="0" tests="35" time="138.09999999999997">
+		<testcase name="preconditions" time="3.711000"/>
+		<testcase name="test_86653_very_large_expected_user_code" time="32.756000"/>
+		<testcase name="test_delete_after_error" time="3.529000"/>
+		<testcase name="test_delete_after_error_batch" time="4.516000"/>
+		<testcase name="test_delete_all_after_error" time="4.385000"/>
+		<testcase name="test_driver_watchdog" time="1.368000"/>
+		<testcase name="test_execute_batch_compile_error" time="2.643000"/>
+		<testcase name="test_execute_batch_compound_compile_error" time="2.819000"/>
+		<testcase name="test_execute_batch_compound_link_error" time="3.045000"/>
+		<testcase name="test_execute_batch_link_error" time="2.635000"/>
+		<testcase name="test_execute_batch_sub_compile_error" time="2.444000"/>
+		<testcase name="test_execute_batch_sub_link_error" time="2.551000"/>
+		<testcase name="test_execute_batch_unit_compile_error" time="2.488000"/>
+		<testcase name="test_execute_batch_unit_link_error" time="2.623000"/>
+		<testcase name="test_execute_debug_compile_error" time="2.913000"/>
+		<testcase name="test_execute_debug_link_error" time="2.521000"/>
+		<testcase name="test_execute_incremental_compile_error" time="2.848000"/>
+		<testcase name="test_execute_incremental_link_error" time="3.091000"/>
+		<testcase name="test_execute_run_compile_error" time="2.642000"/>
+		<testcase name="test_execute_run_link_error" time="2.638000"/>
+		<testcase name="test_execution_order" time="10.714000"/>
+		<testcase name="test_inst_param_compile_error" time="3.694000"/>
+		<testcase name="test_revise_after_error_and_apply" time="3.800000"/>
+		<testcase name="test_revise_after_error_execute_batch" time="3.348000"/>
+		<testcase name="test_revise_after_error_execute_batch_sub" time="3.431000"/>
+		<testcase name="test_revise_after_error_execute_batch_unit" time="3.186000"/>
+		<testcase name="test_revise_after_error_execute_incremental" time="3.619000"/>
+		<testcase name="test_revise_after_error_execute_run" time="3.301000"/>
+		<testcase name="test_stubbed_array_variable" time="5.752000"/>
+		<testcase name="test_stubbed_global_variable_multiple_uuts" time="1.969000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.046000"/>
+		<testcase name="test_pep8_compliance" time="7.040000"/>
+		<testcase name="test_input_dir_compliance" time="0.018000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.016000"/>
+	</testsuite>
+</testsuites>

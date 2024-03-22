@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="22" time="636.9270000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_ala_carte.suite_stand_alone_ada" skipped="0" tests="22" time="636.9270000000001">
+		<testcase name="preconditions" time="9.006000"/>
+		<testcase name="test_stock_check_toolbar" time="15.266000"/>
+		<testcase name="test_stock_check_menubar" time="25.146000"/>
+		<testcase name="test_stock_check_options" time="53.843000"/>
+		<testcase name="test_prod_mode_check_toolbar" time="13.884000"/>
+		<testcase name="test_prod_mode_check_menubar" time="27.218000"/>
+		<testcase name="test_prod_mode_check_options" time="43.985000"/>
+		<testcase name="test_open_env_check_toolbar" time="34.984000"/>
+		<testcase name="test_open_env_check_menubar" time="47.041000"/>
+		<testcase name="test_open_env_check_options" time="63.833000"/>
+		<testcase name="test_closed_env_check_menubar" time="46.506000"/>
+		<testcase name="test_closed_env_check_options" time="64.725000"/>
+		<testcase name="test_closed_env_check_toolbar" time="33.557000"/>
+		<testcase name="test_right_click_compound_init" time="39.637000"/>
+		<testcase name="test_right_click_env" time="32.953000"/>
+		<testcase name="test_right_click_subprogram" time="33.090000"/>
+		<testcase name="test_right_click_unit" time="36.292000"/>
+		<testcase name="postconditions" time="6.497000"/>
+		<testcase name="test_py_md_compliance" time="0.265000"/>
+		<testcase name="test_pep8_compliance" time="8.602000"/>
+		<testcase name="test_input_dir_compliance" time="0.315000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.282000"/>
+	</testsuite>
+</testsuites>

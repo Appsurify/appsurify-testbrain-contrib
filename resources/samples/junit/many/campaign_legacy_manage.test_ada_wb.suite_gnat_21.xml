@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="24.960000000000004">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_ada_wb.suite_gnat_21" skipped="0" tests="7" time="24.960000000000004">
+		<testcase name="preconditions" time="2.034000"/>
+		<testcase name="test_package_renames_muwb" time="11.592000"/>
+		<testcase name="test_ptr_1547" time="9.218000"/>
+		<testcase name="postconditions" time="0.007000"/>
+		<testcase name="test_pep8_compliance" time="2.085000"/>
+		<testcase name="test_input_dir_compliance" time="0.011000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

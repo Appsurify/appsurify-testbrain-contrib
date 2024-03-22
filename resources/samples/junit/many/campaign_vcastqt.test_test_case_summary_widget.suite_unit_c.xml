@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="18" time="681.211">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_summary_widget.suite_unit_c" skipped="0" tests="18" time="681.211">
+		<testcase name="preconditions" time="72.064000"/>
+		<testcase name="test_dbl_click_row_opens_test_case" time="38.374000"/>
+		<testcase name="test_dynamic_update_results" time="44.582000"/>
+		<testcase name="test_exec_empty_test_case" time="46.614000"/>
+		<testcase name="test_export_csv" time="38.401000"/>
+		<testcase name="test_export_html" time="36.059000"/>
+		<testcase name="test_filter_each_column" time="40.329000"/>
+		<testcase name="test_japanese_csv" time="73.128000"/>
+		<testcase name="test_save_as_csv_with_delimiter" time="47.935000"/>
+		<testcase name="test_sort_descending" time="36.982000"/>
+		<testcase name="test_sort_each_column" time="53.145000"/>
+		<testcase name="test_test_case_types" time="58.408000"/>
+		<testcase name="test_track_current_selection_off" time="39.599000"/>
+		<testcase name="test_track_current_selection_on" time="41.928000"/>
+		<testcase name="postconditions" time="0.132000"/>
+		<testcase name="test_pep8_compliance" time="12.216000"/>
+		<testcase name="test_input_dir_compliance" time="1.038000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.277000"/>
+	</testsuite>
+</testsuites>

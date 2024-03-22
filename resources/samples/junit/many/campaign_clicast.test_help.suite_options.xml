@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="25" time="132.098">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_help.suite_options" skipped="0" tests="25" time="132.098">
+		<testcase name="preconditions"/>
+		<testcase name="test_help_each_option_ada" time="47.939000"/>
+		<testcase name="test_help_each_option_c" time="76.907000"/>
+		<testcase name="test_help_options_all_ada" time="0.382000"/>
+		<testcase name="test_help_options_all_c" time="0.290000"/>
+		<testcase name="test_help_options_builder_ada" time="0.332000"/>
+		<testcase name="test_help_options_builder_c" time="0.275000"/>
+		<testcase name="test_help_options_coverage_ada" time="0.320000"/>
+		<testcase name="test_help_options_coverage_c" time="0.279000"/>
+		<testcase name="test_help_options_defaults_ada" time="0.287000"/>
+		<testcase name="test_help_options_defaults_c" time="0.301000"/>
+		<testcase name="test_help_options_execute_ada" time="0.275000"/>
+		<testcase name="test_help_options_execute_c" time="0.272000"/>
+		<testcase name="test_help_options_language_ada" time="0.247000"/>
+		<testcase name="test_help_options_language_c" time="0.273000"/>
+		<testcase name="test_help_options_report_ada" time="0.274000"/>
+		<testcase name="test_help_options_report_c" time="0.231000"/>
+		<testcase name="test_help_options_target_ada" time="0.218000"/>
+		<testcase name="test_help_options_target_c" time="0.217000"/>
+		<testcase name="test_help_options_various_formats" time="0.445000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.030000"/>
+		<testcase name="test_pep8_compliance" time="2.243000"/>
+		<testcase name="test_input_dir_compliance" time="0.031000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.030000"/>
+	</testsuite>
+</testsuites>

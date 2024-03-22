@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="469.6530000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_new_environment_wizard.suite_library_stubs" skipped="0" tests="12" time="469.6530000000001">
+		<testcase name="preconditions" time="5.291000"/>
+		<testcase name="test_add_lib_stub" time="87.840000"/>
+		<testcase name="test_add_lib_stub_in_tdd" time="87.126000"/>
+		<testcase name="test_lib_stub_save_to_script" time="76.208000"/>
+		<testcase name="test_lib_stubs_honored_from_options_dig" time="75.066000"/>
+		<testcase name="test_rename_entries_in_wizard_update_dialog" time="88.502000"/>
+		<testcase name="test_tool_tip" time="36.304000"/>
+		<testcase name="postconditions" time="5.276000"/>
+		<testcase name="test_py_md_compliance" time="0.131000"/>
+		<testcase name="test_pep8_compliance" time="7.542000"/>
+		<testcase name="test_input_dir_compliance" time="0.180000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.187000"/>
+	</testsuite>
+</testsuites>

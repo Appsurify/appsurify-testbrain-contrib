@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="13" time="254.14700000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_other_compilers.suite_gnat_2005" skipped="0" tests="13" time="254.14700000000002">
+		<testcase name="preconditions" time="1.693000"/>
+		<testcase name="test_ada05_problems" time="65.401000"/>
+		<testcase name="test_ada_2005" time="118.045000"/>
+		<testcase name="test_not_null" time="11.096000"/>
+		<testcase name="test_null_procedure" time="9.022000"/>
+		<testcase name="test_return_generic_access" time="14.038000"/>
+		<testcase name="test_sbf_build_issues" time="10.012000"/>
+		<testcase name="test_utf8bom" time="12.977000"/>
+		<testcase name="test_wide_wide" time="9.305000"/>
+		<testcase name="postconditions" time="0.041000"/>
+		<testcase name="test_pep8_compliance" time="2.424000"/>
+		<testcase name="test_input_dir_compliance" time="0.048000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.045000"/>
+	</testsuite>
+</testsuites>

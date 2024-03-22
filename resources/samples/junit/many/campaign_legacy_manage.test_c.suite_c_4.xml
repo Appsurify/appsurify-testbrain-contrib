@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="100.729">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_4" skipped="0" tests="10" time="100.729">
+		<testcase name="preconditions" time="1.133000"/>
+		<testcase name="test_c_init" time="8.876000"/>
+		<testcase name="test_c_stubuc_nofailsafe" time="7.776000"/>
+		<testcase name="test_cover_init_import" time="33.874000"/>
+		<testcase name="test_cover_zero_init" time="38.119000"/>
+		<testcase name="test_date" time="7.607000"/>
+		<testcase name="postconditions" time="0.029000"/>
+		<testcase name="test_pep8_compliance" time="3.288000"/>
+		<testcase name="test_input_dir_compliance" time="0.014000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.013000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="15" time="338.828">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_files_tab.suite_coverage_viewer_options" skipped="0" tests="15" time="338.828">
+		<testcase name="preconditions" time="26.518000"/>
+		<testcase name="test_no_coverage_basis" time="29.715000"/>
+		<testcase name="test_no_coverage_branch" time="27.338000"/>
+		<testcase name="test_no_coverage_function" time="27.503000"/>
+		<testcase name="test_no_coverage_function_function_call" time="48.325000"/>
+		<testcase name="test_no_coverage_level_a" time="27.771000"/>
+		<testcase name="test_no_coverage_level_a_function_call" time="54.660000"/>
+		<testcase name="test_no_coverage_level_b" time="27.455000"/>
+		<testcase name="test_no_coverage_mcdc" time="27.659000"/>
+		<testcase name="test_no_coverage_statement" time="27.147000"/>
+		<testcase name="postconditions" time="5.181000"/>
+		<testcase name="test_py_md_compliance" time="0.221000"/>
+		<testcase name="test_pep8_compliance" time="8.896000"/>
+		<testcase name="test_input_dir_compliance" time="0.179000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.260000"/>
+	</testsuite>
+</testsuites>

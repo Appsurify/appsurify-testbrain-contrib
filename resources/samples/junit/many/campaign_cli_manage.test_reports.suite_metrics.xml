@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="37" time="444.1489999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_reports.suite_metrics" skipped="0" tests="37" time="444.1489999999999">
+		<testcase name="preconditions" time="16.045000"/>
+		<testcase name="test_file_selection" time="7.097000"/>
+		<testcase name="test_full_basis" time="10.945000"/>
+		<testcase name="test_full_branch" time="10.491000"/>
+		<testcase name="test_full_cba_only_branch" time="17.302000"/>
+		<testcase name="test_full_cba_only_func_func_call" time="27.038000"/>
+		<testcase name="test_full_cba_only_level_a" time="15.627000"/>
+		<testcase name="test_full_cba_only_level_b" time="15.742000"/>
+		<testcase name="test_full_cba_only_mcdc" time="13.570000"/>
+		<testcase name="test_full_cba_only_statement" time="12.935000"/>
+		<testcase name="test_full_due_to_cba_branch" time="16.211000"/>
+		<testcase name="test_full_due_to_cba_func_func_call" time="24.610000"/>
+		<testcase name="test_full_due_to_cba_level_a" time="16.373000"/>
+		<testcase name="test_full_due_to_cba_level_b" time="15.223000"/>
+		<testcase name="test_full_due_to_cba_mcdc" time="15.531000"/>
+		<testcase name="test_full_due_to_cba_statement" time="14.636000"/>
+		<testcase name="test_full_function_function_call" time="15.766000"/>
+		<testcase name="test_full_level_a" time="8.150000"/>
+		<testcase name="test_full_level_b" time="8.016000"/>
+		<testcase name="test_full_mcdc" time="8.126000"/>
+		<testcase name="test_full_statement" time="8.355000"/>
+		<testcase name="test_imported_results" time="21.101000"/>
+		<testcase name="test_nonprecise_path_file_selection" time="8.551000"/>
+		<testcase name="test_partial_basis" time="10.033000"/>
+		<testcase name="test_partial_branch" time="9.277000"/>
+		<testcase name="test_partial_function_function_call" time="17.862000"/>
+		<testcase name="test_partial_level_a" time="8.459000"/>
+		<testcase name="test_partial_level_b" time="8.623000"/>
+		<testcase name="test_partial_mcdc" time="9.337000"/>
+		<testcase name="test_partial_statement" time="8.741000"/>
+		<testcase name="test_path_selected_missing" time="7.661000"/>
+		<testcase name="test_path_selection" time="10.549000"/>
+		<testcase name="test_tic_files_function_function_call" time="21.188000"/>
+		<testcase name="postconditions" time="0.056000"/>
+		<testcase name="test_pep8_compliance" time="4.858000"/>
+		<testcase name="test_input_dir_compliance" time="0.027000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.037000"/>
+	</testsuite>
+</testsuites>

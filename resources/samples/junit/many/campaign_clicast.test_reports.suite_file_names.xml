@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="12.256">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_reports.suite_file_names" skipped="0" tests="10" time="12.256">
+		<testcase name="preconditions" time="5.080000"/>
+		<testcase name="test_directory_does_not_exist" time="0.740000"/>
+		<testcase name="test_file_cannot_be_written" time="1.146000"/>
+		<testcase name="test_filename_is_directory" time="0.682000"/>
+		<testcase name="test_not_a_directory" time="0.597000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="3.998000"/>
+		<testcase name="test_input_dir_compliance" time="0.006000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.003000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="31" time="120.39699999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_cba_options" skipped="0" tests="31" time="120.39699999999998">
+		<testcase name="preconditions" time="3.938000"/>
+		<testcase name="test_change_instr_keep_lose_results_lv_a_fn_call" time="5.282000"/>
+		<testcase name="test_change_instr_keep_lose_results_lv_b_fn_call" time="4.261000"/>
+		<testcase name="test_change_instr_keep_lose_results_stmt_fn_call" time="4.469000"/>
+		<testcase name="test_full_cba_results_level_a_fn_call" time="4.584000"/>
+		<testcase name="test_full_cba_results_level_b_fn_call" time="4.144000"/>
+		<testcase name="test_full_cba_results_statement_fn_call" time="4.605000"/>
+		<testcase name="test_full_regular_part_cba_same_name_lv_a_fn_call" time="4.972000"/>
+		<testcase name="test_full_regular_part_cba_same_name_lv_b_fn_call" time="4.335000"/>
+		<testcase name="test_full_regular_part_cba_same_name_stmt_fn_call" time="4.941000"/>
+		<testcase name="test_part_cba_full_regular_same_name_lv_a_fn_call" time="4.794000"/>
+		<testcase name="test_part_cba_full_regular_same_name_lv_b_fn_call" time="4.935000"/>
+		<testcase name="test_part_cba_full_regular_same_name_stmt_fn_call" time="4.074000"/>
+		<testcase name="test_partial_and_full_cba_results_level_a_fn_call" time="4.409000"/>
+		<testcase name="test_partial_and_full_cba_results_level_b_fn_call" time="4.405000"/>
+		<testcase name="test_partial_and_full_cba_results_stmt_fn_call" time="4.027000"/>
+		<testcase name="test_partial_cba_full_regular_level_a_fn_call" time="4.546000"/>
+		<testcase name="test_partial_cba_full_regular_level_b_fn_call" time="4.764000"/>
+		<testcase name="test_partial_cba_full_regular_stmt_fn_call" time="4.761000"/>
+		<testcase name="test_partial_cba_results_level_a_fn_call" time="4.303000"/>
+		<testcase name="test_partial_cba_results_level_b_fn_call" time="4.192000"/>
+		<testcase name="test_partial_cba_results_statement_fn_call" time="4.207000"/>
+		<testcase name="test_source_change_keep_results_level_a_fn_call" time="3.857000"/>
+		<testcase name="test_source_change_keep_results_level_b_fn_call" time="3.688000"/>
+		<testcase name="test_source_change_keep_results_stmt_fn_call" time="3.747000"/>
+		<testcase name="test_vcast_version_in_report" time="6.966000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.033000"/>
+		<testcase name="test_pep8_compliance" time="3.096000"/>
+		<testcase name="test_input_dir_compliance" time="0.044000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.018000"/>
+	</testsuite>
+</testsuites>

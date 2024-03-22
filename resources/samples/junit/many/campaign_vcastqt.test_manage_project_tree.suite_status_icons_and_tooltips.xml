@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="17" time="781.502">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_manage_project_tree.suite_status_icons_and_tooltips" skipped="0" tests="17" time="781.502">
+		<testcase name="preconditions" time="50.039000"/>
+		<testcase name="test_a_failed_b_empty" time="46.413000"/>
+		<testcase name="test_a_failed_b_failed" time="41.712000"/>
+		<testcase name="test_a_passed_b_empty" time="41.973000"/>
+		<testcase name="test_a_passed_b_failed" time="44.170000"/>
+		<testcase name="test_a_passed_b_passed" time="42.220000"/>
+		<testcase name="test_empty_test_case" time="41.714000"/>
+		<testcase name="test_empty_test_script" time="41.784000"/>
+		<testcase name="test_ffc_unit_env" time="71.832000"/>
+		<testcase name="test_imported_results" time="81.795000"/>
+		<testcase name="test_level_a_function_call" time="94.323000"/>
+		<testcase name="test_level_b_function_call" time="88.271000"/>
+		<testcase name="test_statement_function_call" time="84.593000"/>
+		<testcase name="postconditions" time="0.221000"/>
+		<testcase name="test_pep8_compliance" time="9.924000"/>
+		<testcase name="test_input_dir_compliance" time="0.282000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.236000"/>
+	</testsuite>
+</testsuites>

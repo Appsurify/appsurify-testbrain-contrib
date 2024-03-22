@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="31" time="291.801">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_options.suite_dump_binary_coverage" skipped="0" tests="31" time="291.801">
+		<testcase name="preconditions" time="2.438000"/>
+		<testcase name="test_block_statement" time="9.795000"/>
+		<testcase name="test_block_statement_macro" time="9.449000"/>
+		<testcase name="test_branch" time="9.635000"/>
+		<testcase name="test_branch_macro" time="10.177000"/>
+		<testcase name="test_function" time="10.032000"/>
+		<testcase name="test_function_function_call" time="13.734000"/>
+		<testcase name="test_function_function_call_macro" time="13.300000"/>
+		<testcase name="test_function_macro" time="9.616000"/>
+		<testcase name="test_level_a" time="10.010000"/>
+		<testcase name="test_level_a_fn_call_opt" time="13.319000"/>
+		<testcase name="test_level_a_fn_call_opt_macro" time="13.427000"/>
+		<testcase name="test_level_a_macro" time="10.281000"/>
+		<testcase name="test_level_b" time="9.778000"/>
+		<testcase name="test_level_b_fn_call_opt" time="13.385000"/>
+		<testcase name="test_level_b_fn_call_opt_macro" time="13.627000"/>
+		<testcase name="test_level_b_macro" time="9.677000"/>
+		<testcase name="test_mcdc" time="10.158000"/>
+		<testcase name="test_mcdc_macro" time="10.182000"/>
+		<testcase name="test_non_opti_mcdc" time="9.822000"/>
+		<testcase name="test_statement" time="9.974000"/>
+		<testcase name="test_statement_buffered_ascii_ignored" time="9.953000"/>
+		<testcase name="test_statement_macro" time="9.770000"/>
+		<testcase name="test_statement_stdout" time="9.907000"/>
+		<testcase name="test_static_non_opti_mcdc" time="9.618000"/>
+		<testcase name="test_stmt_fn_call_opt" time="13.268000"/>
+		<testcase name="test_stmt_fn_call_opt_macro" time="13.374000"/>
+		<testcase name="postconditions" time="0.068000"/>
+		<testcase name="test_pep8_compliance" time="3.890000"/>
+		<testcase name="test_input_dir_compliance" time="0.070000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.067000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="23.660999999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_project_manipulation.suite_locking_permissions_tests" skipped="0" tests="10" time="23.660999999999998">
+		<testcase name="preconditions" time="12.506000"/>
+		<testcase name="test_project_directory_read_only_denies_write" time="0.297000"/>
+		<testcase name="test_vcm_does_not_exist_denies_release_locks" time="0.247000"/>
+		<testcase name="test_vcm_read_only_allows_build" time="5.031000"/>
+		<testcase name="test_vcm_read_only_denies_write" time="0.627000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.004000"/>
+		<testcase name="test_pep8_compliance" time="4.939000"/>
+		<testcase name="test_input_dir_compliance" time="0.005000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.005000"/>
+	</testsuite>
+</testsuites>

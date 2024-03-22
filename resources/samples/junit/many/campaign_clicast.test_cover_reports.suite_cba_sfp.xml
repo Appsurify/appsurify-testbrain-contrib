@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="21" time="90.60999999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover_reports.suite_cba_sfp" skipped="0" tests="21" time="90.60999999999999">
+		<testcase name="preconditions" time="5.605000"/>
+		<testcase name="test_branch_cba_report_sfp" time="4.663000"/>
+		<testcase name="test_cba_pair_coverage_multiple_candidates" time="10.082000"/>
+		<testcase name="test_cba_pair_coverage_with_execution_result" time="7.657000"/>
+		<testcase name="test_column_headings_mcdc" time="4.968000"/>
+		<testcase name="test_function_and_call_cba_report_sfp" time="4.405000"/>
+		<testcase name="test_function_cba_report_sfp" time="4.201000"/>
+		<testcase name="test_mcdc_cba_report_sfp" time="5.048000"/>
+		<testcase name="test_multiple_func_same_line" time="3.594000"/>
+		<testcase name="test_statement_and_branch_cba_report_sfp" time="4.245000"/>
+		<testcase name="test_statement_and_call_cba_report_sfp" time="4.431000"/>
+		<testcase name="test_statement_branch_call_cba_report_sfp" time="4.696000"/>
+		<testcase name="test_statement_cba_report_sfp" time="3.713000"/>
+		<testcase name="test_statement_mcdc_call_cba_report_sfp" time="4.994000"/>
+		<testcase name="test_statement_mcdc_cba_report_sfp" time="4.488000"/>
+		<testcase name="test_template_instantiations" time="9.835000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.011000"/>
+		<testcase name="test_pep8_compliance" time="3.945000"/>
+		<testcase name="test_input_dir_compliance" time="0.012000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.017000"/>
+	</testsuite>
+</testsuites>

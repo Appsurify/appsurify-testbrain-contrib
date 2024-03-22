@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="45" time="86.022">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_cli_manage.test_system_tests.suite_categorical_run_system_tests" skipped="0" tests="45" time="86.022">
+		<testcase name="preconditions" time="14.843000"/>
+		<testcase name="test_automated" time="1.530000"/>
+		<testcase name="test_automated_failed" time="1.097000"/>
+		<testcase name="test_automated_failed_passed" time="1.191000"/>
+		<testcase name="test_automated_manual" time="2.155000"/>
+		<testcase name="test_automated_manual_failed" time="1.404000"/>
+		<testcase name="test_automated_manual_failed_passed" time="1.684000"/>
+		<testcase name="test_automated_manual_not_run" time="1.390000"/>
+		<testcase name="test_automated_manual_not_run_failed" time="1.658000"/>
+		<testcase name="test_automated_manual_not_run_failed_passed" time="2.111000"/>
+		<testcase name="test_automated_manual_not_run_passed" time="1.571000"/>
+		<testcase name="test_automated_manual_passed" time="1.309000"/>
+		<testcase name="test_automated_not_run" time="1.452000"/>
+		<testcase name="test_automated_not_run_failed" time="1.367000"/>
+		<testcase name="test_automated_not_run_failed_passed" time="1.400000"/>
+		<testcase name="test_automated_not_run_passed" time="1.220000"/>
+		<testcase name="test_automated_passed" time="1.022000"/>
+		<testcase name="test_deprecated_run_system_tests_option" time="3.123000"/>
+		<testcase name="test_failed_given" time="1.415000"/>
+		<testcase name="test_manual" time="1.346000"/>
+		<testcase name="test_manual_failed" time="1.306000"/>
+		<testcase name="test_manual_failed_passed" time="1.313000"/>
+		<testcase name="test_manual_not_run" time="1.216000"/>
+		<testcase name="test_manual_not_run_failed" time="1.622000"/>
+		<testcase name="test_manual_not_run_failed_passed" time="1.630000"/>
+		<testcase name="test_manual_not_run_passed" time="1.335000"/>
+		<testcase name="test_manual_passed" time="1.172000"/>
+		<testcase name="test_not_run_failed" time="1.898000"/>
+		<testcase name="test_not_run_given" time="1.283000"/>
+		<testcase name="test_not_run_passed" time="1.636000"/>
+		<testcase name="test_not_run_passed_failed" time="2.040000"/>
+		<testcase name="test_passed_failed_given" time="1.988000"/>
+		<testcase name="test_passed_given" time="1.414000"/>
+		<testcase name="test_run_all_tests" time="2.062000"/>
+		<testcase name="test_run_many_components" time="3.399000"/>
+		<testcase name="test_run_many_components_with_testcase" time="3.085000"/>
+		<testcase name="test_run_testcase_for_each_component" time="2.763000"/>
+		<testcase name="test_run_testcase_for_given_component" time="2.349000"/>
+		<testcase name="test_system_tests_contains_runtime_error" time="0.632000"/>
+		<testcase name="test_testcase_name_given" time="1.509000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.027000"/>
+		<testcase name="test_pep8_compliance" time="5.991000"/>
+		<testcase name="test_input_dir_compliance" time="0.035000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.029000"/>
+	</testsuite>
+</testsuites>

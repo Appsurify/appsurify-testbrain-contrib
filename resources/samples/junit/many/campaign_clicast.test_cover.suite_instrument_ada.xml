@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="27" time="66.191">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_cover.suite_instrument_ada" skipped="0" tests="27" time="66.191">
+		<testcase name="preconditions" time="4.694000"/>
+		<testcase name="test_instrument_basis_paths" time="3.503000"/>
+		<testcase name="test_instrument_branch" time="3.314000"/>
+		<testcase name="test_instrument_function" time="0.546000"/>
+		<testcase name="test_instrument_function_function_call" time="0.568000"/>
+		<testcase name="test_instrument_level_a_1" time="2.821000"/>
+		<testcase name="test_instrument_level_a_2" time="2.955000"/>
+		<testcase name="test_instrument_level_a_3" time="3.206000"/>
+		<testcase name="test_instrument_level_a_4" time="3.528000"/>
+		<testcase name="test_instrument_level_b_1" time="2.922000"/>
+		<testcase name="test_instrument_level_b_2" time="3.271000"/>
+		<testcase name="test_instrument_level_b_3" time="2.986000"/>
+		<testcase name="test_instrument_levela_w_gnat83" time="5.202000"/>
+		<testcase name="test_instrument_mcdc_1" time="3.494000"/>
+		<testcase name="test_instrument_mcdc_2" time="3.493000"/>
+		<testcase name="test_instrument_none" time="1.743000"/>
+		<testcase name="test_instrument_statement" time="3.369000"/>
+		<testcase name="test_specify_invalid_coverage_type" time="0.255000"/>
+		<testcase name="test_specify_invalid_unit" time="0.563000"/>
+		<testcase name="test_specify_unit" time="2.972000"/>
+		<testcase name="test_specify_unit_absolute_path" time="3.027000"/>
+		<testcase name="test_specify_unit_relative_path" time="2.719000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.015000"/>
+		<testcase name="test_pep8_compliance" time="4.993000"/>
+		<testcase name="test_input_dir_compliance" time="0.015000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.017000"/>
+	</testsuite>
+</testsuites>

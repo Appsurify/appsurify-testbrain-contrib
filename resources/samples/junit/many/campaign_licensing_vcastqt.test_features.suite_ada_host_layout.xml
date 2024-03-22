@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="348.9249999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_features.suite_ada_host_layout" skipped="0" tests="14" time="348.9249999999999">
+		<testcase name="preconditions" time="6.134000"/>
+		<testcase name="test_ada_env_menu_items" time="48.693000"/>
+		<testcase name="test_ada_env_options" time="42.693000"/>
+		<testcase name="test_ada_env_toolbar" time="39.736000"/>
+		<testcase name="test_ada_from_manage_menu_items" time="64.178000"/>
+		<testcase name="test_ada_from_manage_toolbar" time="55.145000"/>
+		<testcase name="test_ada_mode_menu_items" time="29.542000"/>
+		<testcase name="test_ada_mode_options" time="36.352000"/>
+		<testcase name="test_ada_mode_toolbar" time="18.937000"/>
+		<testcase name="postconditions" time="1.044000"/>
+		<testcase name="test_py_md_compliance" time="0.115000"/>
+		<testcase name="test_pep8_compliance" time="6.049000"/>
+		<testcase name="test_input_dir_compliance" time="0.162000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.145000"/>
+	</testsuite>
+</testsuites>

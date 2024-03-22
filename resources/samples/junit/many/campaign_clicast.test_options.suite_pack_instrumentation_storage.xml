@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="33" time="389.522">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_clicast.test_options.suite_pack_instrumentation_storage" skipped="0" tests="33" time="389.522">
+		<testcase name="preconditions" time="4.942000"/>
+		<testcase name="test_branch_buffered" time="13.784000"/>
+		<testcase name="test_branch_buffered_macro" time="14.205000"/>
+		<testcase name="test_branch_realtime" time="13.946000"/>
+		<testcase name="test_branch_realtime_macro" time="14.814000"/>
+		<testcase name="test_function_buffered" time="13.518000"/>
+		<testcase name="test_function_buffered_macro" time="14.002000"/>
+		<testcase name="test_function_function_call_buffered" time="14.482000"/>
+		<testcase name="test_function_function_call_buffered_macro" time="14.747000"/>
+		<testcase name="test_function_function_call_realtime" time="13.539000"/>
+		<testcase name="test_function_function_call_realtime_macro" time="13.247000"/>
+		<testcase name="test_function_realtime" time="13.063000"/>
+		<testcase name="test_function_realtime_macro" time="12.853000"/>
+		<testcase name="test_level_a_fn_call_opt_buffered" time="13.103000"/>
+		<testcase name="test_level_a_fn_call_opt_buffered_macro" time="14.813000"/>
+		<testcase name="test_level_a_fn_call_opt_realtime" time="13.806000"/>
+		<testcase name="test_level_a_fn_call_opt_realtime_macro" time="14.125000"/>
+		<testcase name="test_level_b_fn_call_opt_buffered" time="13.498000"/>
+		<testcase name="test_level_b_fn_call_opt_buffered_macro" time="13.400000"/>
+		<testcase name="test_level_b_fn_call_opt_realtime" time="13.344000"/>
+		<testcase name="test_level_b_fn_call_opt_realtime_macro" time="13.037000"/>
+		<testcase name="test_statement_buffered" time="13.672000"/>
+		<testcase name="test_statement_buffered_macro" time="12.398000"/>
+		<testcase name="test_statement_realtime" time="12.684000"/>
+		<testcase name="test_statement_realtime_macro" time="12.757000"/>
+		<testcase name="test_stmt_fn_call_opt_buffered" time="12.893000"/>
+		<testcase name="test_stmt_fn_call_opt_buffered_macro" time="13.304000"/>
+		<testcase name="test_stmt_fn_call_opt_realtime" time="13.938000"/>
+		<testcase name="test_stmt_fn_call_opt_realtime_macro" time="13.884000"/>
+		<testcase name="postconditions" time="0.082000"/>
+		<testcase name="test_pep8_compliance" time="3.491000"/>
+		<testcase name="test_input_dir_compliance" time="0.059000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.092000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="52" time="710.0630000000002">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_atg.test_atg.suite_coverage_release_mode_btor_part_02" skipped="0" tests="52" time="710.0630000000002">
+		<testcase name="preconditions"/>
+		<testcase name="test_bool_test" time="15.365000"/>
+		<testcase name="test_bool_test_cpp" time="14.887000"/>
+		<testcase name="test_bool_typedef" time="14.708000"/>
+		<testcase name="test_call_alloc" time="16.230000"/>
+		<testcase name="test_casts" time="15.734000"/>
+		<testcase name="test_char_extract_bits_issue" time="15.178000"/>
+		<testcase name="test_chars_with_typedefs" time="16.381000"/>
+		<testcase name="test_ck_dynamic_init_aliasing_crash" time="14.226000"/>
+		<testcase name="test_ck_int_rhs" time="14.309000"/>
+		<testcase name="test_ck_string" time="15.258000"/>
+		<testcase name="test_complex_float_example" time="12.026000"/>
+		<testcase name="test_conditional_allocation_allocallobals" time="13.532000"/>
+		<testcase name="test_conflict" time="12.870000"/>
+		<testcase name="test_const_address" time="13.604000"/>
+		<testcase name="test_const_field_as_param" time="15.499000"/>
+		<testcase name="test_const_field_imports" time="14.427000"/>
+		<testcase name="test_const_functions" time="13.738000"/>
+		<testcase name="test_const_inheritance" time="16.241000"/>
+		<testcase name="test_const_pointer_to_union" time="15.284000"/>
+		<testcase name="test_const_ptr_to_const" time="15.881000"/>
+		<testcase name="test_const_string_in_arg" time="15.360000"/>
+		<testcase name="test_const_tern" time="14.922000"/>
+		<testcase name="test_const_void_star" time="13.620000"/>
+		<testcase name="test_const_volatile" time="19.915000"/>
+		<testcase name="test_const_volatile_c" time="18.993000"/>
+		<testcase name="test_constant_init_test" time="15.571000"/>
+		<testcase name="test_constraint_shift" time="14.606000"/>
+		<testcase name="test_constructor_allocated_ptr" time="16.358000"/>
+		<testcase name="test_constructor_counts" time="15.678000"/>
+		<testcase name="test_constructor_initialisers_expanded" time="18.467000"/>
+		<testcase name="test_constructor_to_incomplete_class" time="15.311000"/>
+		<testcase name="test_cornwall" time="14.933000"/>
+		<testcase name="test_cpp_constructor_in_dyn_init" time="15.353000"/>
+		<testcase name="test_cpp_reference_to_a_class" time="15.340000"/>
+		<testcase name="test_cpp_references" time="16.168000"/>
+		<testcase name="test_cpp_references_no_ctor" time="15.315000"/>
+		<testcase name="test_cpp_return_null" time="15.644000"/>
+		<testcase name="test_cpp_static_member_variable" time="16.573000"/>
+		<testcase name="test_cpp_temp_init" time="15.558000"/>
+		<testcase name="test_cpp_use_no_copy_ctor" time="15.366000"/>
+		<testcase name="test_crashing_in_constant" time="13.912000"/>
+		<testcase name="test_ctor_allocallobals" time="14.694000"/>
+		<testcase name="test_ctor_allocallobals_via_new" time="15.276000"/>
+		<testcase name="test_ctor_called_from_param_of_other_ctor_type" time="12.642000"/>
+		<testcase name="test_ctor_delete" time="11.745000"/>
+		<testcase name="test_ctor_direct_base_class" time="11.713000"/>
+		<testcase name="test_ctor_for_all_params_n_stubs" time="12.787000"/>
+		<testcase name="postconditions" time="0.167000"/>
+		<testcase name="test_pep8_compliance" time="2.455000"/>
+		<testcase name="test_input_dir_compliance" time="0.129000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.114000"/>
+	</testsuite>
+</testsuites>

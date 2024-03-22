@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="37" time="178.98699999999997">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_enviroedg.test_build.suite_stub_none_obj_additional" skipped="0" tests="37" time="178.98699999999997">
+		<testcase name="preconditions" time="1.022000"/>
+		<testcase name="test_abstract_in_uut" time="6.348000"/>
+		<testcase name="test_abstract_with_auto_concrete" time="6.790000"/>
+		<testcase name="test_abstract_with_coverage" time="6.130000"/>
+		<testcase name="test_abstract_with_stubbed_ctor" time="5.444000"/>
+		<testcase name="test_abstract_without_auto_concrete" time="5.435000"/>
+		<testcase name="test_additional_stub" time="3.015000"/>
+		<testcase name="test_branch_coverage" time="5.474000"/>
+		<testcase name="test_duplicate_source_file_name" time="8.468000"/>
+		<testcase name="test_env_script_vcshell" time="5.347000"/>
+		<testcase name="test_function_coverage" time="5.872000"/>
+		<testcase name="test_function_function_call_coverage" time="6.272000"/>
+		<testcase name="test_level_a_fn_call_coverage" time="6.258000"/>
+		<testcase name="test_level_a_fn_fc_coverage" time="6.072000"/>
+		<testcase name="test_level_b_fn_call_coverage" time="5.973000"/>
+		<testcase name="test_level_b_fn_fc_coverage" time="5.965000"/>
+		<testcase name="test_library_existing_obj_stub" time="8.067000"/>
+		<testcase name="test_library_stub" time="7.802000"/>
+		<testcase name="test_mcdc_coverage" time="5.627000"/>
+		<testcase name="test_obj_unit_probe_point_in_script" time="5.796000"/>
+		<testcase name="test_object_file_out_of_date" time="4.961000"/>
+		<testcase name="test_statement_branch_coverage" time="5.530000"/>
+		<testcase name="test_statement_coverage" time="5.667000"/>
+		<testcase name="test_statement_mcdc_coverage" time="5.666000"/>
+		<testcase name="test_stmt_fn_call_coverage" time="5.765000"/>
+		<testcase name="test_stmt_fn_fc_coverage" time="5.581000"/>
+		<testcase name="test_stub_dependencies" time="2.984000"/>
+		<testcase name="test_subdirectory" time="5.046000"/>
+		<testcase name="test_symbolic_link" time="4.388000"/>
+		<testcase name="test_using_vc_parse_path_from_vcdb" time="3.446000"/>
+		<testcase name="test_using_vc_parse_path_with_coverage" time="3.757000"/>
+		<testcase name="test_using_vcdb" time="3.324000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.035000"/>
+		<testcase name="test_pep8_compliance" time="5.575000"/>
+		<testcase name="test_input_dir_compliance" time="0.038000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.047000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="77.52499999999998">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_test_case_view.suite_options" skipped="0" tests="7" time="77.52499999999998">
+		<testcase name="preconditions" time="8.890000"/>
+		<testcase name="test_display_global_data_after" time="55.633000"/>
+		<testcase name="postconditions" time="5.204000"/>
+		<testcase name="test_py_md_compliance" time="0.070000"/>
+		<testcase name="test_pep8_compliance" time="7.586000"/>
+		<testcase name="test_input_dir_compliance" time="0.053000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.089000"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="707.7529999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_legacy_manage.test_c.suite_c_9" skipped="0" tests="19" time="707.7529999999999">
+		<testcase name="preconditions" time="1.054000"/>
+		<testcase name="test_array_index_expression" time="8.964000"/>
+		<testcase name="test_auto_stub" time="363.137000"/>
+		<testcase name="test_basic_tutorial" time="28.145000"/>
+		<testcase name="test_basic_tutorial_sbf" time="30.660000"/>
+		<testcase name="test_block_coverage_c" time="150.237000"/>
+		<testcase name="test_cover_init_animation" time="10.035000"/>
+		<testcase name="test_int_c" time="14.726000"/>
+		<testcase name="test_int_ptr_c" time="10.279000"/>
+		<testcase name="test_legacy_basis_path" time="16.114000"/>
+		<testcase name="test_library_testing" time="11.173000"/>
+		<testcase name="test_library_testing_search_list" time="10.724000"/>
+		<testcase name="test_local_static" time="9.202000"/>
+		<testcase name="test_long_long_min" time="9.411000"/>
+		<testcase name="test_multiple_uut" time="30.195000"/>
+		<testcase name="postconditions" time="0.059000"/>
+		<testcase name="test_pep8_compliance" time="3.544000"/>
+		<testcase name="test_input_dir_compliance" time="0.035000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.059000"/>
+	</testsuite>
+</testsuites>

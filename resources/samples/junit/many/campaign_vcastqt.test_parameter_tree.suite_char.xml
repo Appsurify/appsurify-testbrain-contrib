@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="417.9170000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_parameter_tree.suite_char" skipped="0" tests="14" time="417.9170000000001">
+		<testcase name="preconditions" time="8.533000"/>
+		<testcase name="test_add_char_values" time="47.678000"/>
+		<testcase name="test_add_chars_using_range" time="45.525000"/>
+		<testcase name="test_add_special_chars" time="45.234000"/>
+		<testcase name="test_neg_zero_ada" time="73.556000"/>
+		<testcase name="test_neg_zero_c" time="49.096000"/>
+		<testcase name="test_numeric_value_in_char_fields_case_23067" time="48.293000"/>
+		<testcase name="test_too_many_chars" time="45.374000"/>
+		<testcase name="test_with_list_of_values" time="45.564000"/>
+		<testcase name="postconditions"/>
+		<testcase name="test_py_md_compliance" time="0.148000"/>
+		<testcase name="test_pep8_compliance" time="8.668000"/>
+		<testcase name="test_input_dir_compliance" time="0.135000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.113000"/>
+	</testsuite>
+</testsuites>

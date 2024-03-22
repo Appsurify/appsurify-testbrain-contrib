@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="19" time="912.0980000000001">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_vcastqt.test_cover.suite_requirements" skipped="0" tests="19" time="912.0980000000001">
+		<testcase name="preconditions" time="22.080000"/>
+		<testcase name="test_add_requirements_to_cba_result" time="45.663000"/>
+		<testcase name="test_add_requirements_to_imported_result" time="51.884000"/>
+		<testcase name="test_add_requirements_to_result" time="42.443000"/>
+		<testcase name="test_add_requirements_to_result_legacy" time="54.804000"/>
+		<testcase name="test_add_requirements_via_cli" time="89.055000"/>
+		<testcase name="test_filter_and_mark_all_results_as_reviewed" time="96.444000"/>
+		<testcase name="test_full_workflow" time="80.962000"/>
+		<testcase name="test_mark_results_with_out_of_sync_requirements" time="98.766000"/>
+		<testcase name="test_remove_requirements_from_result" time="52.351000"/>
+		<testcase name="test_remove_requirements_from_result_legacy" time="65.139000"/>
+		<testcase name="test_review_out_of_sync_requirements" time="106.259000"/>
+		<testcase name="test_search" time="43.972000"/>
+		<testcase name="test_search_cba" time="44.234000"/>
+		<testcase name="postconditions" time="5.235000"/>
+		<testcase name="test_py_md_compliance" time="0.313000"/>
+		<testcase name="test_pep8_compliance" time="11.726000"/>
+		<testcase name="test_input_dir_compliance" time="0.352000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.416000"/>
+	</testsuite>
+</testsuites>

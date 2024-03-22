@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="31" time="791.2009999999999">
+	<testsuite disabled="0" errors="0" failures="0" name="campaign_licensing_vcastqt.test_editions.suite_multiple_edition" skipped="0" tests="31" time="791.2009999999999">
+		<testcase name="preconditions" time="0.097000"/>
+		<testcase name="test_ada_ent_edition_option_both_available" time="17.773000"/>
+		<testcase name="test_ada_ent_edition_option_both_available_x" time="15.074000"/>
+		<testcase name="test_ada_ent_edition_option_multi_available" time="14.618000"/>
+		<testcase name="test_ada_lang_option_at_start" time="80.425000"/>
+		<testcase name="test_ada_option_only_c_available" time="12.470000"/>
+		<testcase name="test_ada_pro_edition_option_both_available" time="14.460000"/>
+		<testcase name="test_ada_pro_edition_option_multi_available" time="14.652000"/>
+		<testcase name="test_ada_team_edition_option_both_available" time="14.619000"/>
+		<testcase name="test_ada_team_edition_option_multi_available" time="14.403000"/>
+		<testcase name="test_c_ent_edition_option_both_available" time="15.115000"/>
+		<testcase name="test_c_ent_edition_option_multi_available" time="15.634000"/>
+		<testcase name="test_c_lang_option_at_start" time="84.325000"/>
+		<testcase name="test_c_option_only_ada_available" time="12.524000"/>
+		<testcase name="test_c_pro_edition_option_both_available" time="15.549000"/>
+		<testcase name="test_c_pro_edition_option_multi_available" time="15.207000"/>
+		<testcase name="test_c_team_edition_option_both_available" time="15.115000"/>
+		<testcase name="test_c_team_edition_option_multi_available" time="15.538000"/>
+		<testcase name="test_c_then_ada" time="21.307000"/>
+		<testcase name="test_close_environment" time="40.936000"/>
+		<testcase name="test_coverage_viewer_then_c" time="86.757000"/>
+		<testcase name="test_mcdc_open_qa_then_c" time="72.993000"/>
+		<testcase name="test_mcdc_qa_then_c" time="60.380000"/>
+		<testcase name="test_misspelled_ada_pro_edition_option" time="14.954000"/>
+		<testcase name="test_misspelled_c_pro_edition_option" time="15.210000"/>
+		<testcase name="test_x_option_at_start" time="79.820000"/>
+		<testcase name="postconditions" time="0.230000"/>
+		<testcase name="test_py_md_compliance" time="0.524000"/>
+		<testcase name="test_pep8_compliance" time="9.453000"/>
+		<testcase name="test_input_dir_compliance" time="0.527000"/>
+		<testcase name="test_suite_inheritance_compliance" time="0.512000"/>
+	</testsuite>
+</testsuites>
