@@ -9,7 +9,7 @@ from testbrain.contrib.client.utils import get_user_agent
 
 
 def test_get_request(requests_mock):
-    requests_mock.get("http://demo.testbrain.cloud", status_code=201)
+    requests_mock.get("http://demo.testbrain.cloud", status_code=200)
     api_client = HttpClient()
     api_response = api_client.get("http://demo.testbrain.cloud")
     assert api_response.status_code == 200
