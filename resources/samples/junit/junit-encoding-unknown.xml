@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites>
+  <testsuite name="ADO-Appsurify Run Triggered By Chauhan, Parish " tests="126" failures="15" timestamp="2024-03-21T22:05:28.798Z" skipped="1" failure-evaluating="0">
+    <testcase name="Copy of 2 - Make OSS licenses available to view in the Keycom app" classname="testim.io.test" time="27.241" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/7dYNdcNZ5DPfR9mw?result-id=DI98KsJJT5hEKJLT</system-out>
+    </testcase>
+    <testcase name="Copy of 36827: User should be able to create a Structure using a form." classname="testim.io.test" time="144.544" ownedBy="Abhishek Ghosh" ownerEmail="abhishek.ghosh@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/c6Ru1pej0ahsi1Rs?result-id=mwO8j4tsQ8fb4gdT</system-out>
+    </testcase>
+    <testcase name="Copy of 39714 : User should be able to add Sub Masters to a Sub Master" classname="testim.io.test" time="178.446" ownedBy="Reshma Nara" ownerEmail="reshma.narra@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Q7QN8zcGRdN2F7Cx?result-id=b9SN65jzE9nzPL0D</system-out>
+    </testcase>
+    <testcase name="Copy of 39713: User should be able to add Sub Masters to a Structure." classname="testim.io.test" time="239.581" ownedBy="Abhishek Ghosh" ownerEmail="abhishek.ghosh@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/0Zx9X6AhoxZlm0BE?result-id=kt3tC8UxtW6ObjUR</system-out>
+    </testcase>
+    <testcase name="Copy of 40913: User should be able to add SKD to a Master." classname="testim.io.test" time="94.838" ownedBy="Abhishek Ghosh" ownerEmail="abhishek.ghosh@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/qrhIkX2XaFHTQAQi?result-id=rDc0g4n4wTYbJihH</system-out>
+    </testcase>
+    <testcase name="Copy of 41558: User should be able to generate a TMK(Top Master Key) for a Structure" classname="testim.io.test" time="85.138" ownedBy="Abhishek Ghosh" ownerEmail="abhishek.ghosh@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/vTXtSJQyoVpocqcm?result-id=AwJ5iLblYx1CB6Tf</system-out>
+    </testcase>
+    <testcase name="Copy of 42188 ; User should be able to view Key System Hierarchy for a Structure" classname="testim.io.test" time="85.749" ownedBy="Reshma Nara" ownerEmail="reshma.narra@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/s3zrHAOj6vjZ5LzQ?result-id=xmLkoAYeUD4RCHE3</system-out>
+    </testcase>
+    <testcase name="Copy of 49795 : Verifying the structure kanban board has only two column for In Progress and MECS" classname="testim.io.test" time="29.825" ownedBy="Reshma Nara" ownerEmail="reshma.narra@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/TZhM6873hWknIEzP?result-id=F8YF1aFFi5u5leGu</system-out>
+    </testcase>
+    <testcase name="Copy of 40914: User should be able to delete a Master Structure." classname="testim.io.test" time="168.098" ownedBy="Abhishek Ghosh" ownerEmail="abhishek.ghosh@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/ZedjaYlygvFmLmGK?result-id=tGao1vQKhdznf2Fe</system-out>
+    </testcase>
+    <testcase name="Copy of 37439 : MECS interaction" classname="testim.io.test" time="387.024" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/MEcNfbJDYqeJcdh0?result-id=Wfd6k2a6fIASOxb6</system-out>
+    </testcase>
+    <testcase name="Copy of 50153 :Verify , user cannot edit the system when in pinning generation." classname="testim.io.test" time="0">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/WHT4JkJkUjWNqu8z?result-id=lplcbiCiVCk9RsML</system-out>
+      <skipped/>
+    </testcase>
+    <testcase name="Copy of 1 - 56220: Publish system with premecs error" classname="testim.io.test" time="404.22" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/o9ShCEKSHVjQ6G8j?result-id=9aDpbUZcpT47WYuM</system-out>
+    </testcase>
+    <testcase name="Copy of 43614: Validate fields in Dashboard" classname="testim.io.test" time="102.751" ownedBy="Abhishek Ghosh" ownerEmail="abhishek.ghosh@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/tA55DVCKUzoGNyuj?result-id=SIr5OUfdy4XA5dvm</system-out>
+    </testcase>
+    <testcase name="Copy of 51756:Convert to dummy TMK " classname="testim.io.test" time="90.933" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/w4yUmaa3Lweegb1H?result-id=zLuirKpXCd2dxifb</system-out>
+    </testcase>
+    <testcase name="Copy of 50720: For RCK master deactivates systems, Change Keys with suffix cannot be deleted " classname="testim.io.test" time="177.649" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/BiWoNyHoElcrsv40?result-id=6JQArbKRU9GDARqR</system-out>
+    </testcase>
+    <testcase name="Copy of 51536:Verify ,SOP change on child nodes" classname="testim.io.test" time="150.567" ownedBy="Abhishek Ghosh" ownerEmail="abhishek.ghosh@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/XCfTIbUjEf9OgUGE?result-id=NC2bZ4YyqMxjfWPq</system-out>
+    </testcase>
+    <testcase name="Copy of 50016: Verify, User Can Regular Search Functions &amp; Advanced Search Screen Functions." classname="testim.io.test" time="230.799" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/XtaR0Xii8eZ70Kxt?result-id=59fI3UxYbvXUi8pl</system-out>
+      <failure message="Step Failed: Expected: 'Falcon Standard'. Actual: ' Everest S ' More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/XtaR0Xii8eZ70Kxt?result-id=59fI3UxYbvXUi8pl"/>
+    </testcase>
+    <testcase name="Copy of 50016: Verify, User Can Regular Search Functions &amp; Advanced Search Screen Functions." classname="testim.io.test" time="251.648" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/6XUiNkF8VtHHurfu?result-id=LNswBT0dVcxCyXXi</system-out>
+      <failure message="Step Failed: Expected: 'Falcon Standard'. Actual: ' Schlage Obverse ' More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/6XUiNkF8VtHHurfu?result-id=LNswBT0dVcxCyXXi"/>
+    </testcase>
+    <testcase name="Copy of 51823:TMK Key section change" classname="testim.io.test" time="124.449" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/uuJU6nta9zGpOWjd?result-id=FJvU7EjgDr9KuDsC</system-out>
+    </testcase>
+    <testcase name="Copy of 52391:Dashboard: Has Documents field" classname="testim.io.test" time="117.36" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/ia926iIDuDdMQ5au?result-id=SqCSsYrQ5K1oM3BJ</system-out>
+    </testcase>
+    <testcase name="Copy of 52900:Confirmation when book is created in elevated key section" classname="testim.io.test" time="126.057" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/g1lVZQfRRneiAeRO?result-id=f9pGgU9gTOZHhK9B</system-out>
+    </testcase>
+    <testcase name="Copy of 53049: Construction key added from dash" classname="testim.io.test" time="124.857" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/5eTwMWvIbVQvnZXc?result-id=AqWxOINlhTsyPXRY</system-out>
+    </testcase>
+    <testcase name="Copy of 53512: Dealer spec do not allow the construction key type to be edited" classname="testim.io.test" time="183.212" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Qd45BaXzc5Vk7JTg?result-id=eDWhrIs2dRgTDeWE</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Qd45BaXzc5Vk7JTg?result-id=eDWhrIs2dRgTDeWE"/>
+    </testcase>
+    <testcase name="Copy of 53672:Not to create Duplicate Key " classname="testim.io.test" time="113.411" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/zOLpdYJZb5ug4PfG?result-id=7P0sJLcE4tmQZEdJ</system-out>
+    </testcase>
+    <testcase name="Copy of 53549:Assigned CONL to Cylinder" classname="testim.io.test" time="146.302" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/QSFvuPL9DimGC7el?result-id=Ns9GKGpV8yFinEgc</system-out>
+    </testcase>
+    <testcase name="Copy of 54411: Insert should show in list " classname="testim.io.test" time="121.324" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/YixDnJK6FfPe3jow?result-id=FH1cwLgjCsS2WKsI</system-out>
+    </testcase>
+    <testcase name="Copy of 55539: Keysection selection dropdown issue / saving KBA." classname="testim.io.test" time="131.308" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Jd9Yut0s7IsUApLa?result-id=QRJ3xDlDVJIrgJJ2</system-out>
+    </testcase>
+    <testcase name="Copy of 56127: Convert to TMK" classname="testim.io.test" time="107.943" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/yKU1tdQqFxL4ld5X?result-id=Eo6Ftgf4mne884j1</system-out>
+    </testcase>
+    <testcase name="Copy of 56272: Creating duplicate after adding CONL/Unverified issue on cylinder after SFK" classname="testim.io.test" time="112.553" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Pfo6j1pu7e1dhtRW?result-id=jL3e5z1YdPImzK19</system-out>
+    </testcase>
+    <testcase name="Copy of 55807: Books needs to assigned and  save" classname="testim.io.test" time="161.163" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/iJzfzGlwiSipPw5D?result-id=XMZwmyFHAdJ3USgD</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/iJzfzGlwiSipPw5D?result-id=XMZwmyFHAdJ3USgD"/>
+    </testcase>
+    <testcase name="Copy of 55071: Verify, A4 systems must assign conl key first" classname="testim.io.test" time="274.014" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/4RtrQ8FhndHZclaH?result-id=9UnIfj9PjEV7qWIk</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/4RtrQ8FhndHZclaH?result-id=9UnIfj9PjEV7qWIk"/>
+    </testcase>
+    <testcase name="Copy of 56421: Display all the Key section for Obverse " classname="testim.io.test" time="96.943" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/UjrGE0xiaDwyLpFj?result-id=FhkThbgFFjDtwUXZ</system-out>
+    </testcase>
+    <testcase name="Copy of 56859: User are allow to empties all digits in one chamber and progress" classname="testim.io.test" time="98.203" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Mr3MBWT9sSAE3dGv?result-id=stFkjV5Kh1WrrzwF</system-out>
+    </testcase>
+    <testcase name="Copy of 56945:Not a super user for reserve bittings" classname="testim.io.test" time="94.521" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/ipfD4nCpsg25jli2?result-id=hkoWvcXLGvhNgdmT</system-out>
+    </testcase>
+    <testcase name="Copy of 56777: Combine: 1 step progression systems missing column and page combine icon" classname="testim.io.test" time="129.789" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/bqdqZwnarUjlx6oi?result-id=2N722P5RnMyMwEMS</system-out>
+    </testcase>
+    <testcase name="Copy of 57097: Verify, Indy sys not going to offline pinning generation after generating cylinder." classname="testim.io.test" time="127.92" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/R7EHPQDJitmr5FqH?result-id=cfmmprkRorBdsEwc</system-out>
+    </testcase>
+    <testcase name="Copy of 57013: User should allow to add direct change node at same level of change key" classname="testim.io.test" time="145.194" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/a0nyjXrvN6w40g1i?result-id=3DnruuAcVbBkQ4c1</system-out>
+    </testcase>
+    <testcase name="Copy of 56961:User trying to delete unassigned keys for SKD node" classname="testim.io.test" time="192.093" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Sw92t6lNUiivhdEs?result-id=pYdGABOnMwc4nrLW</system-out>
+    </testcase>
+    <testcase name="Copy of 57103: User should be able to add Construction key from dashboard" classname="testim.io.test" time="146.373" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/fCv9Zb0EQAwk0MMc?result-id=Uf3q3ofpWLFyBRTG</system-out>
+    </testcase>
+    <testcase name="Copy of 57151:User should not able to delete book until all keys are unassigned" classname="testim.io.test" time="161.428" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/cXQ6MUz6OcVHIXqQ?result-id=ohLea4USbHrC62O0</system-out>
+    </testcase>
+    <testcase name="Copy of 57897: Disable MECS button for unassigned user/not allow to reassigned when in Mecs/in progress" classname="testim.io.test" time="63.083" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/9lCZeh5jLhkgvpwU?result-id=EJ6fBudELwiUg56K</system-out>
+    </testcase>
+    <testcase name="Copy of 58480:Add attachments from dashboard" classname="testim.io.test" time="68.364" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/79jUp6fP7viniDiA?result-id=sLTcZSYENZNJDbWO</system-out>
+    </testcase>
+    <testcase name="Copy of 57232: User should able to publish the Structure " classname="testim.io.test" time="122.423" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/K7JgfTSr1BIABAwI?result-id=X5NRAqUpBREvcTbY</system-out>
+    </testcase>
+    <testcase name="Copy of 61892 - Verify, Enabling reports" classname="testim.io.test" time="51.254" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/JilchdQ7rBNy3EL8?result-id=jABVTLLcxMjh8A3p</system-out>
+    </testcase>
+    <testcase name="Copy of 58477: User should be able to UnAssign Published Key" classname="testim.io.test" time="165.824" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/3pkZSHULZZcXcSEW?result-id=Lrk5cZr76sCaSp3u</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/3pkZSHULZZcXcSEW?result-id=Lrk5cZr76sCaSp3u"/>
+    </testcase>
+    <testcase name="Copy of 58615: Cylinder Updates - SFK restrict free form entry" classname="testim.io.test" time="149.403" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/CGaWnQCOGDDqywl1?result-id=e1ORGh2pntvLLIK6</system-out>
+    </testcase>
+    <testcase name="Copy of 58371: XKey Cylinder should take users to the Xkey" classname="testim.io.test" time="234.758" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/F2D0KliuixvUD3FE?result-id=TVBZhhkWl3JFMEtb</system-out>
+      <failure message="Step Failed: Element is not visible More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/F2D0KliuixvUD3FE?result-id=TVBZhhkWl3JFMEtb"/>
+    </testcase>
+    <testcase name="Copy of 62214 - Verify, Direct changes node not displaying on books in new structure " classname="testim.io.test" time="139.425" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/RWKZi8gYeGSqCpZ9?result-id=AJnLSjhouvmcKpJE</system-out>
+    </testcase>
+    <testcase name="Copy of EVEREST B" classname="testim.io.test" time="82.416" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Bg22eYkcXBeNBLxP?result-id=9BYtV7ai1uCajZgo</system-out>
+    </testcase>
+    <testcase name="Copy of 64075: Change Key Type" classname="testim.io.test" time="209.216" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/oYmrXIn0Ae9XOxDK?result-id=hsZJFtoACKI3D75c</system-out>
+    </testcase>
+    <testcase name="Copy of 63751: Verify, LFIC - UI option to specify CONL 'type' of SAR or COR and Display in Cylinder Version" classname="testim.io.test" time="243.146" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/QvEFdOV2Vy8SS77Q?result-id=UAnewG4m5FaXC2jC</system-out>
+    </testcase>
+    <testcase name="Copy of 62215: Verify, Direct changes node not displaying on books in an existing structure" classname="testim.io.test" time="340.295" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/PgrdFVS5SOnVnzHH?result-id=GxLv8wOc84sebiSF</system-out>
+      <failure message="Step Failed: Element is not visible More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/PgrdFVS5SOnVnzHH?result-id=GxLv8wOc84sebiSF"/>
+    </testcase>
+    <testcase name="Copy of EVEREST B" classname="testim.io.test" time="149.217" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Z0vMxbCALMJDTKUY?result-id=Op1grm1tr82bDuft</system-out>
+    </testcase>
+    <testcase name="Copy of Everest C" classname="testim.io.test" time="122.417" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/8WCBZdIo1yrWhwhq?result-id=AyRPBgWXOohaN56x</system-out>
+    </testcase>
+    <testcase name="Copy of 7 chambers PT" classname="testim.io.test" time="329.628" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/jcmQZWUirb44DrIk?result-id=SOSwfTCvfmwwjeoB</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/jcmQZWUirb44DrIk?result-id=SOSwfTCvfmwwjeoB"/>
+    </testcase>
+    <testcase name="Copy of EVEREST B" classname="testim.io.test" time="136.051" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/glWfZbX7thKVbPxv?result-id=J1iChQowD6OgJnM5</system-out>
+    </testcase>
+    <testcase name="Copy of Everest C" classname="testim.io.test" time="104.254" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/rZl4y5zRMaJ9XUWC?result-id=O4t6DLAuNrMgJyVv</system-out>
+    </testcase>
+    <testcase name="Copy of Everest C" classname="testim.io.test" time="114.693" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/5PP9ZzSUFHUpykZ7?result-id=Ku6iItcNJL9hS8g4</system-out>
+    </testcase>
+    <testcase name="Copy of Everest C " classname="testim.io.test" time="126.925" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/kaGpMavbS4bIFyg2?result-id=Ao4OIweA4DrybBkZ</system-out>
+    </testcase>
+    <testcase name="Copy of Everest D" classname="testim.io.test" time="135.643" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/nqo0MKMyJqlTcO0V?result-id=7mQVSoCYSGSrSX4S</system-out>
+    </testcase>
+    <testcase name="Copy of Everest D" classname="testim.io.test" time="130.187" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/ugAxs9GTWFT2CpbM?result-id=ZAy99YKIGEgUUEvz</system-out>
+    </testcase>
+    <testcase name="Copy of Everest D" classname="testim.io.test" time="130.96" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/xeu71oiTGL5mk3CR?result-id=6S82GCcufv1Q65PZ</system-out>
+    </testcase>
+    <testcase name="Copy of Everest D " classname="testim.io.test" time="103.911" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/CinL8sx9Vm7MGkK4?result-id=ChfiB6iIMG0WdjJq</system-out>
+    </testcase>
+    <testcase name="Copy of Everest R" classname="testim.io.test" time="132.849" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/AGTM4WHgPT8YjLE7?result-id=xYLYcDGdCnyPxeSn</system-out>
+    </testcase>
+    <testcase name="Copy of Everest R " classname="testim.io.test" time="137.514" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/lTm3Tpkad7CdWHa1?result-id=X8ibhBp488nZZUUi</system-out>
+    </testcase>
+    <testcase name="Copy of Everest R" classname="testim.io.test" time="157.884" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/kY875vmQqL7zCe7C?result-id=Dd5myRTxEChhFpAZ</system-out>
+    </testcase>
+    <testcase name="Copy of Everest S" classname="testim.io.test" time="107.271" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/7yJ9s1zXYhiaDeaL?result-id=qPYV9p1sijoawqyl</system-out>
+    </testcase>
+    <testcase name="Copy of Everest S" classname="testim.io.test" time="134.241" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/WK6vqCHRk8rUUpnM?result-id=SDn2xMTyBQK4LlOB</system-out>
+    </testcase>
+    <testcase name="Copy of Everest S" classname="testim.io.test" time="118.299" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/r4W6Ribo9DIZAjCQ?result-id=aMH6YDt3XrxPUn46</system-out>
+    </testcase>
+    <testcase name="Copy of Everest T" classname="testim.io.test" time="103.987" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/N74rbLdz4AIyQ5MP?result-id=BjwFdOToAYRZ0hX3</system-out>
+    </testcase>
+    <testcase name="Copy of Everest S" classname="testim.io.test" time="146.422" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/cj9OGJwSlwFFyOeb?result-id=c7bwTa4yTMc40eQv</system-out>
+    </testcase>
+    <testcase name="Copy of Everest S with Split key " classname="testim.io.test" time="153.73" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/OxJAbqE8K3oBkW6A?result-id=nyZiBa24gI7bPpc0</system-out>
+    </testcase>
+    <testcase name="Copy of Everest T" classname="testim.io.test" time="150.26" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/IQBaNb7AavDGxO7e?result-id=5RPRWWComDCvaXkX</system-out>
+    </testcase>
+    <testcase name="Copy of Everest T" classname="testim.io.test" time="121.867" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/McT62loZgzVPwY0R?result-id=guCyBmXrRSfowe7D</system-out>
+    </testcase>
+    <testcase name="Copy of Falcon Restricted" classname="testim.io.test" time="116.159" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/EMilLZodhBmfg5vX?result-id=h1kMguDfS7vJI16I</system-out>
+    </testcase>
+    <testcase name="Copy of Everest T" classname="testim.io.test" time="149.538" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/mqycAzHj16Ds9F7b?result-id=7m8T6YDJAPSc2tTt</system-out>
+    </testcase>
+    <testcase name="Copy of FALCON RESTRICTED" classname="testim.io.test" time="135.319" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/HVRy0l9oQeA3ctSl?result-id=isNLc7sYRJoR6J3K</system-out>
+    </testcase>
+    <testcase name="Copy of Falcon Restricted" classname="testim.io.test" time="104.796" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/li4CW0c39Up3G40h?result-id=QUTxUrbiz6t1X1gP</system-out>
+    </testcase>
+    <testcase name="Copy of FALCON RESTRICTED " classname="testim.io.test" time="112.217" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/WvlHxjd0hXiaR8s1?result-id=whk8iPNyVQcsiuul</system-out>
+    </testcase>
+    <testcase name="Copy of Falcon SFIC" classname="testim.io.test" time="161.918" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Avh5hpjpt4pwHBJV?result-id=89LiL4VBYIqfwluK</system-out>
+    </testcase>
+    <testcase name="Copy of Falcon SFIC" classname="testim.io.test" time="147.991" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/ob9O2WkspaaZtnPn?result-id=vNMYjK6KNUPK4NHG</system-out>
+    </testcase>
+    <testcase name="Copy of FALCON RESTRICTED " classname="testim.io.test" time="210.156" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/gXtH3PkB218fWrLc?result-id=HZkrtXk0q1fWoPUb</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/gXtH3PkB218fWrLc?result-id=HZkrtXk0q1fWoPUb"/>
+    </testcase>
+    <testcase name="Copy of Falcon SFIC" classname="testim.io.test" time="159.709" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/RubSrL27lWzyzQLg?result-id=IihoWhS1gb1rBTnI</system-out>
+    </testcase>
+    <testcase name="Copy of Falcon SFIC" classname="testim.io.test" time="178.088" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/dZyGIcbvuNd9WMAR?result-id=orzaJrIyJ8iTHZuf</system-out>
+    </testcase>
+    <testcase name="Copy of Falcon SFIC Restricted" classname="testim.io.test" time="148.591" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/HmWyZgtArVOs1G3L?result-id=BJVSkmYuzm9macFt</system-out>
+    </testcase>
+    <testcase name="Copy of FALCON SFIC RESTRICTED " classname="testim.io.test" time="166.165" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/eY5tTNypCkJyWtAZ?result-id=YeFksvn3TbdPkMW2</system-out>
+    </testcase>
+    <testcase name="Copy of FALCON SFIC " classname="testim.io.test" time="187.414" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/HTi3BiFRmTqY6Pcr?result-id=47X2aZPKxQEeROyT</system-out>
+    </testcase>
+    <testcase name="Copy of Falcon SFIC Restricted" classname="testim.io.test" time="213.242" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/zz4dir8Gs7zJWZbo?result-id=OYdD0enufGZQaHKX</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/zz4dir8Gs7zJWZbo?result-id=OYdD0enufGZQaHKX"/>
+    </testcase>
+    <testcase name="Copy of FALCON SFIC RESTRICTED " classname="testim.io.test" time="128.896" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/joi7L9JBiyW5mKKA?result-id=pYctN5QM8BdJDsfs</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/joi7L9JBiyW5mKKA?result-id=pYctN5QM8BdJDsfs"/>
+    </testcase>
+    <testcase name="Copy of Falcon Standard" classname="testim.io.test" time="108.969" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/eRNoQC9EdzkSfWxu?result-id=tYlxJF52QophEF5F</system-out>
+    </testcase>
+    <testcase name="Copy of Order Details (pending)" classname="testim.io.test" time="19.614" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/OmW3N2oCAt2wUYtc?result-id=WxAzt6p9wpddJYTZ</system-out>
+    </testcase>
+    <testcase name="Copy of FALCON STANDARD " classname="testim.io.test" time="118.673" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/JEBtmjAiFmk4Gmsp?result-id=MekNoJpf3pLzHGrR</system-out>
+    </testcase>
+    <testcase name="Copy of FALCON STANDARD waf" classname="testim.io.test" time="120.494" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/UiQlc6jjf4DsgHNz?result-id=ycS1i4dID4sdJfY0</system-out>
+    </testcase>
+    <testcase name="Copy of Keycom Smoke Test" classname="testim.io.test" time="111.054" ownedBy="pchauhan@xxxxxxxx.com" ownerEmail="parish.chauhan@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/VmfEAao8F7XnNdW2?result-id=YMZ21orJXyFhbBzu</system-out>
+    </testcase>
+    <testcase name="Copy of Sch Obverse" classname="testim.io.test" time="112.115" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/v7wkEBTtqDSpUxKD?result-id=N2v5gkfQfC6JwDtq</system-out>
+    </testcase>
+    <testcase name="Copy of Sch Numb" classname="testim.io.test" time="116.198" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/HXzTo8XFkPN40a2B?result-id=Nmul9gFwARtCGjs6</system-out>
+    </testcase>
+    <testcase name="Copy of SCH OBVERSE." classname="testim.io.test" time="114.92" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/y7NmIPkalIXoKNsx?result-id=rPpXW3atbFIe17nD</system-out>
+    </testcase>
+    <testcase name="Copy of SCH QUAD" classname="testim.io.test" time="132.282" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/NvqkNhfulkAYX2n5?result-id=Qws7WeyMazdU5InV</system-out>
+    </testcase>
+    <testcase name="Copy of Sch Quad " classname="testim.io.test" time="131.792" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/aY5nCltfcO0mFjvK?result-id=5OSv8lXErViQj2E7</system-out>
+    </testcase>
+    <testcase name="Copy of SCH Reverse" classname="testim.io.test" time="116.694" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/2pB1ycWOlzWbA1hK?result-id=6kiykiEH0IJbQFDe</system-out>
+    </testcase>
+    <testcase name="Copy of Sch Reverse" classname="testim.io.test" time="129.231" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/DLbMw3xrxzhg3Dva?result-id=6vabp8eks06qsmTU</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Numb" classname="testim.io.test" time="117.935" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/OkwjjQbMlaqv1eL2?result-id=GNcxJ6kZuSaJNXhn</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage NUMB" classname="testim.io.test" time="113.849" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/cyPfaBcejI2ay4VR?result-id=63jlKfMzpvWiGTDc</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Numbered" classname="testim.io.test" time="117.44" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/purVGoqta3EcpcPt?result-id=FargYajqUUaScVo5</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Obverse" classname="testim.io.test" time="123.885" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/ixGMLP0q9uGdcSYC?result-id=OvYoFcgnDIwdRNqY</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage OBVERSE " classname="testim.io.test" time="115.625" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/EMdPVsSuI7F2uULM?result-id=z5BBrYZgIuwTQAnA</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Obverse Split" classname="testim.io.test" time="122.341" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/yNi5MsQApOMwRDpv?result-id=zSUiX5CrwLNUu95k</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Numbered Split Key" classname="testim.io.test" time="209.557" ownedBy="Reshma Nara" ownerEmail="reshma.narra@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/XpVhOx7nb1iRR6ep?result-id=LAW3M1mzkp9Unxp2</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Quad Split" classname="testim.io.test" time="106.601" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/XG2bnr55AMpq2T91?result-id=rtDguoLbYqDehcZy</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Obversed" classname="testim.io.test" time="191.708" ownedBy="Reshma Nara" ownerEmail="reshma.narra@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/OsGaWqDtUzEvAJfe?result-id=pdibH9FKODRojwWW</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Quad" classname="testim.io.test" time="145.78" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/uyaBZbm23lz1QZhj?result-id=Z66ZXBvkbHiF1WT2</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Reverse" classname="testim.io.test" time="102.652" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/zn6xu9Hf87fxoiBQ?result-id=U8KHVfZJxDUeMw8I</system-out>
+    </testcase>
+    <testcase name="Copy of Schlage Reverse" classname="testim.io.test" time="130.955" ownedBy="Asbina Baniya" ownerEmail="asbina.baniya@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/s9zHSABHK7vdOr9R?result-id=usDRxFWsMOgutZ69</system-out>
+    </testcase>
+    <testcase name="Copy of Validate Key System Header menu items" classname="testim.io.test" time="55.43" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/HiAHdsQpbjQOKvxn?result-id=tuVpp6wxjX2TWTTf</system-out>
+    </testcase>
+    <testcase name="Copy of Validate structure Header menu item" classname="testim.io.test" time="73.183" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/HVgnGrzsFK8ygVIN?result-id=rJW9BnEiuSSDVxe3</system-out>
+    </testcase>
+    <testcase name="Copy of Z - BUG - 61996: Validate Move keys prefix" classname="testim.io.test" time="108.801" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/yb2hSOVJkDsXZuvv?result-id=ZohBvkUnl9xRKhE1</system-out>
+    </testcase>
+    <testcase name="Copy of Z - BUG - 62331: Cylinder search functionality" classname="testim.io.test" time="98.411" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/AmWpcKs4JAPQ47Gf?result-id=1eir4xwQ3cGCzHVw</system-out>
+    </testcase>
+    <testcase name="Copy of Validate Note Header menu items" classname="testim.io.test" time="175.392" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/zsNiwsdHtWEpXVGy?result-id=wvhAH0mT1Ktf12az</system-out>
+      <failure message="Step Failed: Expected: 'Last Modified'. Actual: 'Created/Last Modified' More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/zsNiwsdHtWEpXVGy?result-id=wvhAH0mT1Ktf12az"/>
+    </testcase>
+    <testcase name="Copy of Z - BUG - 65098: Sorting attachments by the latest created date." classname="testim.io.test" time="72.453" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/wo4biVzJEml1ipiI?result-id=jO5x2gK7Pxoez3FS</system-out>
+    </testcase>
+    <testcase name="Copy of Special function Keys draft" classname="testim.io.test" time="200.629" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/HxaxKbITZB72qYSh?result-id=GnHAa5ZjPYWtOOuQ</system-out>
+    </testcase>
+    <testcase name="Copy of Z - Confirmation Message on Publish" classname="testim.io.test" time="62.788" ownedBy="Reshma Nara" ownerEmail="reshma.narra@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/ktZQkKt0j2kOOIeh?result-id=hdxvoDoNBJnI6GUB</system-out>
+    </testcase>
+    <testcase name="Copy of Z - BUG - 65495: Reset Shear Line” is missing for non-cross-keyed cylinders" classname="testim.io.test" time="237.376" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Ogt5fG4mhy06lCgs?result-id=AEE6G4J64T7NWw5G</system-out>
+    </testcase>
+    <testcase name="Copy of Z - BUG - 66196: Verify User Can Search Using Audit/Order Table - Order history" classname="testim.io.test" time="245.162" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Pu8vsJjeR6LATSsu?result-id=OOEXiDCNAkxw2WHM</system-out>
+      <failure message="Step Failed: Expected: 'Keyset system'. Actual: 'TMK Name' More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/Pu8vsJjeR6LATSsu?result-id=OOEXiDCNAkxw2WHM"/>
+    </testcase>
+    <testcase name="Copy of ZZ - 50153 :Verify , user cannot edit the system when in pinning generation" classname="testim.io.test" time="221.314" ownedBy="sabin dhaugoda" ownerEmail="sabin.dhaugoda@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/GH9t9mBONENEdodx?result-id=JGITTiy0UbVCSzJI</system-out>
+    </testcase>
+    <testcase name="Copy of Z 61346 - Verify, Combine block" classname="testim.io.test" time="263.784" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/wMdwrXFyjaMXudwb?result-id=Z3EKijQDgcPsrbXg</system-out>
+    </testcase>
+    <testcase name="Copy of ZZZ - 57081: USER IS ABLE TO MODIFY ITEMS THAT ARE PUBLISHED" classname="testim.io.test" time="254.843" ownedBy="Jefrie Polanco" ownerEmail="jefrie.polanco@xxxxxxxx.com">
+      <system-out>https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/avBeTX2HFc4wqdgt?result-id=9icOnG8SSUYyWiXx</system-out>
+      <failure message="Step Failed: Element not found More info at: https://app.testim.io/#/project/xxxxxxxxxxxxxxxxxxxx/branch/master/test/avBeTX2HFc4wqdgt?result-id=9icOnG8SSUYyWiXx"/>
+    </testcase>
+  </testsuite>
+</testsuites>
