@@ -79,8 +79,34 @@ def normalize_xml_text(text: t.AnyStr) -> bytes:
     if isinstance(text, bytes):
         result = chardet.detect(text)
         encoding = result["encoding"]
+
+        encodings = ["utf-8"]
+        decoded_text = None
+
         if encoding is not None:
-            text = text.decode(encoding)
+            encodings.insert(0, encoding)
+            # try:
+            #     text = text.decode(encoding)
+            # except UnicodeDecodeError:
+            #     text = text.decode("utf-8", "ignore")
+            # else:
+            #     raise Exception("Problem with encoding detection")
+
+        for encoding in encodings:
+            try:
+                decoded_text = text.decode(encoding)
+                break
+            except UnicodeDecodeError:
+                continue
+
+        if decoded_text is None:
+            raise UnicodeDecodeError(
+                "Unable to decode text with any of the specified encodings: {}".format(
+                    encodings
+                )
+            )
+
+        text = decoded_text
     if isinstance(text, str):
         text = RE_HIDDEN.sub("", text)
         text = text.encode("utf-8")

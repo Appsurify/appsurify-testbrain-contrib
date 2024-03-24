@@ -122,6 +122,16 @@ def test_parse_junit_report_encodings(
     assert junit_report.tests == tests
 
 
+def test_parse_junit_report_encoding_unknown(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        "junit-encoding-unknown.xml"
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == 126
+
+
 def test_parse_junit_report_fromstring(directory_resource_samples_junit):
     report_filepath = directory_resource_samples_junit.joinpath(
         "junit-common-normal"
