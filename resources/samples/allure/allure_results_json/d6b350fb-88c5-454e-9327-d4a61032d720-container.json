@@ -1,0 +1,1 @@
+{"uuid": "1926a309-7ed1-4ea0-9a61-2ceee7fd6668", "children": ["9a9667dd-3259-486e-a9a2-4834cffab610"], "befores": [{"name": "nose2_runner", "status": "passed", "start": 1710872965014, "stop": 1710872965014}], "afters": [{"name": "nose2_runner::0", "status": "passed", "start": 1710872965020, "stop": 1710872965020}], "start": 1710872965014, "stop": 1710872965020}

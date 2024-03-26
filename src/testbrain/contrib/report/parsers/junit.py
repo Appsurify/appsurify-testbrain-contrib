@@ -19,11 +19,11 @@ from .base import XMLReportParser
 
 
 class JUnitReportParser(XMLReportParser):
-    _test: JUnitTestSuites
+    _target: JUnitTestSuites
 
-    def __init__(self, xml):
-        super().__init__(xml)
-        self._test = JUnitTestSuites()
+    def __init__(self, source):
+        super().__init__(source)
+        self._target = JUnitTestSuites()
 
     @classmethod
     def from_root(cls, root: "etree.Element"):
@@ -32,7 +32,7 @@ class JUnitReportParser(XMLReportParser):
 
     @property
     def result(self) -> JUnitTestSuites:
-        return self._test
+        return self._target
 
     def parse(self) -> JUnitTestSuites:
         self.read_root()
@@ -40,25 +40,25 @@ class JUnitReportParser(XMLReportParser):
         return self.result
 
     def read_root(self):
-        if self._xml.tag == f"{self._namespace}testsuites":
-            self._test = JUnitTestSuites(
-                id=self._xml.attrib.get("id", ""),
-                name=self._xml.attrib.get("name", ""),
-                errors=self._xml.attrib.get("errors", 0),
-                failures=self._xml.attrib.get("failures", 0),
-                skipped=self._xml.attrib.get("skipped", 0),
-                passed=self._xml.attrib.get("passed", 0),
-                tests=self._xml.attrib.get("tests", 0),
-                time=self._xml.attrib.get("time", 0.0),
+        if self._source.tag == f"{self._namespace}testsuites":
+            self._target = JUnitTestSuites(
+                id=self._source.attrib.get("id", ""),
+                name=self._source.attrib.get("name", ""),
+                errors=self._source.attrib.get("errors", 0),
+                failures=self._source.attrib.get("failures", 0),
+                skipped=self._source.attrib.get("skipped", 0),
+                passed=self._source.attrib.get("passed", 0),
+                tests=self._source.attrib.get("tests", 0),
+                time=self._source.attrib.get("time", 0.0),
             )
 
     def read_testsuites(self):
-        if self._xml.tag == f"{self._namespace}testsuite":
+        if self._source.tag == f"{self._namespace}testsuite":
             testsuite_elements = [
-                self._xml,
+                self._source,
             ]
         else:
-            testsuite_elements = self._xml.findall(f"{self._namespace}testsuite")
+            testsuite_elements = self._source.findall(f"{self._namespace}testsuite")
 
         for testsuite_element in testsuite_elements:
             junit_testsuite = JUnitTestSuite(
@@ -81,7 +81,7 @@ class JUnitReportParser(XMLReportParser):
                     f"{self._namespace}system-err", default=""
                 ),
             )
-            self._test.add_testsuite(junit_testsuite)
+            self._target.add_testsuite(junit_testsuite)
 
             testsuite_properties_element = testsuite_element.find(
                 f"{self._namespace}properties"
@@ -104,7 +104,7 @@ class JUnitReportParser(XMLReportParser):
 
             junit_testsuite.update_statistics()
 
-        self._test.update_statistics()
+        self._target.update_statistics()
 
     def _parse_testcase(self, testcase_element: "etree.Element") -> JUnitTestCase:
         junit_testcase = JUnitTestCase(
