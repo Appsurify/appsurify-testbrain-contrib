@@ -21,22 +21,22 @@ if t.TYPE_CHECKING:
 
 
 class MSTestReportParser(XMLReportParser):
-    _test: MSTestTestRun
+    _target: MSTestTestRun
 
-    def __init__(self, xml):
-        super().__init__(xml)
-        self._test = MSTestTestRun()
+    def __init__(self, source):
+        super().__init__(source)
+        self._target = MSTestTestRun()
 
     @classmethod
     def from_root(cls, root: "etree.Element"):
         instance = super().from_root(root=root)
-        if instance.xml.tag != f"{instance.namespace}TestRun":
+        if instance.source.tag != f"{instance.namespace}TestRun":
             raise ValueError("Incorrect Report Format")
         return instance
 
     @property
     def result(self) -> MSTestTestRun:
-        return self._test
+        return self._target
 
     def parse(self) -> MSTestTestRun:
         self.read_root()
@@ -47,14 +47,14 @@ class MSTestReportParser(XMLReportParser):
         return self.result
 
     def read_root(self):
-        self._test.id = self._xml.attrib.get("id")
-        self._test.name = self._xml.attrib.get("name")
-        self._test.run_user = self._xml.attrib.get("runUser")
+        self._target.id = self._source.attrib.get("id")
+        self._target.name = self._source.attrib.get("name")
+        self._target.run_user = self._source.attrib.get("runUser")
 
     def read_times(self):
-        times_element = self._xml.find(f"{self._namespace}Times")
+        times_element = self._source.find(f"{self._namespace}Times")
         if times_element is not None:
-            self._test.times = MSTestTimes(
+            self._target.times = MSTestTimes(
                 creation=times_element.attrib.get("creation"),
                 queuing=times_element.attrib.get("queuing"),
                 start=times_element.attrib.get("start"),
@@ -62,7 +62,7 @@ class MSTestReportParser(XMLReportParser):
             )
 
     def read_result_summary(self):
-        result_summary_element = self._xml.find(f"{self._namespace}ResultSummary")
+        result_summary_element = self._source.find(f"{self._namespace}ResultSummary")
         if result_summary_element is not None:
             counters_element = result_summary_element.find(f"{self._namespace}Counters")
             output_element = result_summary_element.find(f"{self._namespace}Output")
@@ -83,7 +83,7 @@ class MSTestReportParser(XMLReportParser):
                     f"{self._namespace}StdOut", default=""
                 )
 
-            self._test.result_summary = MSTestResultSummary(
+            self._target.result_summary = MSTestResultSummary(
                 outcome=outcome,
                 errors=errors,
                 executed=executed,
@@ -94,7 +94,9 @@ class MSTestReportParser(XMLReportParser):
             )
 
     def read_test_definitions(self):
-        test_definitions_element = self._xml.find(f"{self._namespace}TestDefinitions")
+        test_definitions_element = self._source.find(
+            f"{self._namespace}TestDefinitions"
+        )
 
         if test_definitions_element is not None:
             for unit_test_element in test_definitions_element.findall(
@@ -106,7 +108,7 @@ class MSTestReportParser(XMLReportParser):
                     storage=unit_test_element.attrib.get("storage"),
                 )
 
-                self._test.test_definitions.append(trx_unit_test)
+                self._target.test_definitions.append(trx_unit_test)
 
                 execution_element = unit_test_element.find(
                     f"{self._namespace}Execution"
@@ -143,7 +145,7 @@ class MSTestReportParser(XMLReportParser):
         return utr + tra + gtr + tr + mtr
 
     def read_unit_test_results(self):
-        results_element = self._xml.find(f"{self._namespace}Results")
+        results_element = self._source.find(f"{self._namespace}Results")
 
         if results_element is not None:
             for result_element in self._get_result_items(results_element):
@@ -153,7 +155,7 @@ class MSTestReportParser(XMLReportParser):
 
                 if inner_results_element is None:
                     trx_unit_test_result = self._parse_unit_test_result(result_element)
-                    self._test.unit_test_results.append(trx_unit_test_result)
+                    self._target.unit_test_results.append(trx_unit_test_result)
                 else:
                     has_failed = False
 
@@ -163,18 +165,18 @@ class MSTestReportParser(XMLReportParser):
                         trx_unit_test_result = self._parse_unit_test_result(
                             inner_result_element
                         )
-                        self._test.unit_test_results.append(trx_unit_test_result)
+                        self._target.unit_test_results.append(trx_unit_test_result)
 
                         if trx_unit_test_result.outcome == MSTestOutcome.failed:
                             has_failed = True
 
                     # MsTest counts the wrapper test, but we won't count it
                     # https://github.com/gfoidl/trx2junit/pull/40#issuecomment-484682771
-                    if self._test.result_summary is not None:
-                        self._test.result_summary.total -= 1
+                    if self._target.result_summary is not None:
+                        self._target.result_summary.total -= 1
 
                         if has_failed:
-                            self._test.result_summary.failed -= 1
+                            self._target.result_summary.failed -= 1
 
     def _parse_unit_test_result(
         self, result_element: "etree.Element"

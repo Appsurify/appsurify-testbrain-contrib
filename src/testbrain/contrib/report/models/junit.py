@@ -19,6 +19,7 @@ class JUnitTestCaseStatus(str, enum.Enum):
     failure = "failure"
     error = "error"
     warning = "warning"
+    unknown = "unknown"
 
     @classmethod
     def _missing_(cls, value: str):

@@ -165,6 +165,18 @@ def test_parse_junit_report_props(directory_resource_samples_junit):
     assert actual_props == expect_props
 
 
+def test_parse_junit_report_quoted(directory_resource_samples_junit):
+    report_filepath = directory_resource_samples_junit.joinpath(
+        "junit-custom-quoted"
+    ).with_suffix(".xml")
+    junit_parser = JUnitReportParser.fromfile(report_filepath)
+    junit_parser.parse()
+    junit_report = junit_parser.result
+    assert junit_report.tests == 2
+    assert junit_report.testsuites[0].testcases[0].name == "test_ok ” is missing"
+    assert junit_report.testsuites[0].testcases[1].name == 'test_bad " is missing'
+
+
 def test_merge_junit_report_from_directory(directory_resource_samples_junit):
     report_filepath = directory_resource_samples_junit.joinpath("many")
     junit_merger = JUnitReportMerger.from_directory(directory=report_filepath)

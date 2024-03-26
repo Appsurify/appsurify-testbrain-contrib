@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="example" errors="0" failures="0" skipped="0" tests="1"
+               time="0.000" timestamp="2023-12-19T18:56:43.325550"
+               hostname="MacBook-Pro-whenessel.local">
+        <testcase classname="tests.example.test_example" name="test_ok ” is missing"
+                  file="tests/example/test_example.py" line="9" time="0.000"/>
+        <testcase classname="tests.example.test_example" name='test_bad " is missing'
+                  file="tests/example/test_example.py" line="15" time="0.000"/>
+    </testsuite>
+</testsuites>
