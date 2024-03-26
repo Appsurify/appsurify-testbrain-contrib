@@ -1,31 +1,32 @@
 import datetime
 import typing as t
+
+from .. import utils
 from ..models.allure import (
+    AllureKV,
     AllureReport,
+    AllureStatus,
     AllureSuite,
     AllureTestcase,
-    AllureStatus,
-    AllureKV,
     AllureTime,
 )
 from ..models.junit import (
-    JUnitTestSuites,
-    JUnitTestSuite,
-    JUnitTestSuiteProperty,
     JUnitTestCase,
     JUnitTestCaseResult,
     JUnitTestCaseStatus,
+    JUnitTestSuite,
+    JUnitTestSuiteProperty,
+    JUnitTestSuites,
 )
 from ..models.testbrain import (
     TestbrainTest,
     TestbrainTestResult,
+    TestbrainTestResultStatus,
     TestbrainTestRun,
     TestbrainTestRunProperty,
     TestbrainTestSuite,
-    TestbrainTestResultStatus,
 )
 from .base import ReportConverter
-from .. import utils
 
 
 class Allure2TestbrainReportConverter(ReportConverter):

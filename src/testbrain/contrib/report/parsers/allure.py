@@ -9,11 +9,7 @@ except ImportError:
     from xml.etree import ElementTree as etree  # noqa
 
 from .. import utils
-from ..models.allure import (
-    AllureReport,
-    AllureSuite,
-    AllureTestcase,
-)
+from ..models.allure import AllureReport, AllureSuite, AllureTestcase
 from .base import JsonReportParser
 
 

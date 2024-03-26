@@ -1,6 +1,6 @@
+from .allure import Allure2JUnitReportConverter, Allure2TestbrainReportConverter
 from .junit import JUnit2TestbrainReportConverter
 from .mstest import MSTest2JUnitReportConverter, MSTest2TestbrainReportConverter
-from .allure import Allure2TestbrainReportConverter, Allure2JUnitReportConverter
 
 __all__ = [
     "JUnit2TestbrainReportConverter",
