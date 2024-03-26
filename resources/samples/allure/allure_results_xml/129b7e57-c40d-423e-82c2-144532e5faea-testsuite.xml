@@ -1,0 +1,288 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1707464047249'
+                stop='1707466703596'>
+    <name>Home Page tests</name>
+    <title>Home Page tests</title>
+    <test-cases>
+        <test-case start='1707464047249' status='passed' stop='1707464350185'>
+            <name>S050001 | Home Page last opened project validation | Simple Minds |
+                ./test/specs/active/S011_homePage/S011_01_homePageBasic
+            </name>
+            <title>S050001 | Home Page last opened project validation | Simple Minds |
+                ./test/specs/active/S011_homePage/S011_01_homePageBasic
+            </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1707464350186' status='passed' stop='1707464828964'>
+            <name>S050002 | Home Page last opened CAD document validation- Default
+                Project | Simple Minds |
+                ./test/specs/active/S011_homePage/S011_01_homePageBasic
+            </name>
+            <title>S050002 | Home Page last opened CAD document validation- Default
+                Project | Simple Minds |
+                ./test/specs/active/S011_homePage/S011_01_homePageBasic
+            </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1707464828966' status='passed' stop='1707465272188'>
+            <name>S050003 | Home Page last opened Non CAD image document validation-
+                Default Project | Simple Minds |
+                ./test/specs/active/S011_homePage/S011_01_homePageBasic
+            </name>
+            <title>S050003 | Home Page last opened Non CAD image document validation-
+                Default Project | Simple Minds |
+                ./test/specs/active/S011_homePage/S011_01_homePageBasic
+            </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1707465272189' status='broken' stop='1707466703594'>
+            <name>"after each" hook for Home Page tests</name>
+            <title>"after each" hook for Home Page tests</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+                <parameter kind='argument' name='browser' value='Chrome-121.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Protocol error (Runtime.evaluate): Session closed. Most likely
+                    the page has been closed.
+                </message>
+                <stack-trace>Error: Protocol error (Runtime.evaluate): Session closed.
+                    Most likely the page has been closed.
+                    at CDPSession.send
+                    (D:\tem\xshare-test-suite\node_modules\devtools\node_modules\puppeteer-core\src\common\Connection.ts:286:9)
+                    at ExecutionContext._evaluateInternal
+                    (D:\tem\xshare-test-suite\node_modules\devtools\node_modules\puppeteer-core\src\common\ExecutionContext.ts:211:10)
+                    at ExecutionContext.evaluate
+                    (D:\tem\xshare-test-suite\node_modules\devtools\node_modules\puppeteer-core\src\common\ExecutionContext.ts:140:23)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:230:36)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                    at DevToolsDriver.checkPendingNavigations
+                    (D:\tem\xshare-test-suite\node_modules\devtools\build\devtoolsdriver.js:251:9)
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

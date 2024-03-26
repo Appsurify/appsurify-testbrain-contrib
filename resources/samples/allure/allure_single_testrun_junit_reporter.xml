@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="1" errors="1" skipped="1">
+    <testsuite name="Add and Remove columns tests" timestamp="2024-02-08T23:07:31"
+               time="547.917" tests="2" failures="1" errors="1" skipped="1">
+        <properties>
+            <property name="specId" value="0"/>
+            <property name="suiteName" value="Add and Remove columns tests"/>
+            <property name="capabilities" value="chrome.121_0_0_0.win32"/>
+            <property name="file"
+                      value=".\test\specs\active\S001_addRemoveColumns\S001_01_addRemoveColumnsBasic\addRemoveColumnsBasic.spec.js"/>
+        </properties>
+        <testcase classname="chrome.121_0_0_0.win32.Add_and_Remove_columns_tests"
+                  name="S000001 Validate default add remove columns dialog from Normal project Simple Minds test specs active S001 addRemoveColumns S001 01 addRemoveColumnsBasic"
+                  time="300.868">
+            <skipped/>
+            <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://cloud.sw.siemens.com/share"}
+RESULT: undefined
+COMMAND: navigateTo - {"url":"https://cloud.sw.siemens.com/share"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"var el =document.querySelector('#usercentrics-root').shadowRoot.querySelector('button[data-testid=\"uc-accept-all-button\"]'); if (typeof(el) != 'undefined' && el != null){ el.click(); }","args":[false]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"a[href*=\"/login\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7756 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-1","ELEMENT":"ELEMENT-1"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".header-focus span"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-2"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"a[href*=\"/login\"]"}
+COMMAND: elementClick - {"elementId":"ELEMENT-3"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-4"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-4","text":"xshare-e2e-member-1@cert.medemo.cloud"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#continue"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+COMMAND: findElement - {"using":"xpath","value":".//span[normalize-space() = \"Select identity provider\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//span[normalize-space() = \"Select identity provider\"]"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#username"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-6"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-6","text":"xshare-e2e-member-1@cert.medemo.cloud"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#password"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-7"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-7","text":"SolidEdge1#"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#submit"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-8"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#accounts"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#accounts"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#accounts"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: findElement - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+COMMAND: getUrl - {}
+RESULT: undefined
+]]></system-out>
+            <system-err><![CDATA[
+Error: Can't call click on element with selector "option=DEVE2E" because element wasn't found
+    at implicitWait (D:\tem\xshare-test-suite\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+    at Element.elementErrorHandlerCallbackFn (D:\tem\xshare-test-suite\node_modules\webdriverio\build\middlewares.js:20:29)
+    at Element.wrapCommandFn (D:\tem\xshare-test-suite\node_modules\@wdio\utils\build\shim.js:137:29)
+    at Object.login (D:/tem/xshare-test-suite/test/page-objects/login-page.js:212:9)
+    at Operations (D:/tem/xshare-test-suite/test/page-objects/operationsMaster.js:90:24)
+    at Context.<anonymous> (D:/tem/xshare-test-suite/test/page-objects/common.js:835:5)
+]]></system-err>
+        </testcase>
+        <testcase classname="chrome.121_0_0_0.win32.Add_and_Remove_columns_tests"
+                  name="S000001 Validate default add remove columns dialog from Normal project Simple Minds test specs active S001 addRemoveColumns S001 01 addRemoveColumnsBasic"
+                  time="247.016">
+            <failure/>
+            <error message="Can't call click on element with selector &quot;option=DEVE2E&quot; because element wasn't found"/>
+            <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://cloud.sw.siemens.com/share"}
+RESULT: undefined
+COMMAND: navigateTo - {"url":"https://cloud.sw.siemens.com/share"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"var el =document.querySelector('#usercentrics-root').shadowRoot.querySelector('button[data-testid=\"uc-accept-all-button\"]'); if (typeof(el) != 'undefined' && el != null){ el.click(); }","args":[false]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"a[href*=\"/login\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7756 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-1","ELEMENT":"ELEMENT-1"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".header-focus span"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-2"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"a[href*=\"/login\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-3"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-4"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-4","text":"xshare-e2e-member-1@cert.medemo.cloud"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#continue"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+COMMAND: findElement - {"using":"xpath","value":".//span[normalize-space() = \"Select identity provider\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//span[normalize-space() = \"Select identity provider\"]"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#username"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-6"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-6","text":"xshare-e2e-member-1@cert.medemo.cloud"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#password"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-7"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-7","text":"SolidEdge1#"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#submit"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-8"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#accounts"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#accounts"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#accounts"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: findElement - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"xpath","value":".//option[normalize-space() = \"DEVE2E\"]"}
+RESULT: undefined
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+COMMAND: getUrl - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+            <system-err><![CDATA[
+Error: Can't call click on element with selector "option=DEVE2E" because element wasn't found
+    at implicitWait (D:\tem\xshare-test-suite\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+    at Element.elementErrorHandlerCallbackFn (D:\tem\xshare-test-suite\node_modules\webdriverio\build\middlewares.js:20:29)
+    at Element.wrapCommandFn (D:\tem\xshare-test-suite\node_modules\@wdio\utils\build\shim.js:137:29)
+    at Object.login (D:/tem/xshare-test-suite/test/page-objects/login-page.js:212:9)
+    at Operations (D:/tem/xshare-test-suite/test/page-objects/operationsMaster.js:90:24)
+    at Context.<anonymous> (D:/tem/xshare-test-suite/test/page-objects/common.js:835:5)
+]]></system-err>
+        </testcase>
+    </testsuite>
+</testsuites>
+  

@@ -37,6 +37,11 @@ def string_to_datetime(string: t.Optional[str] = None) -> datetime.datetime:
     return datetime_parser.parse(string)
 
 
+def timestamp_to_datetime(timestamp: t.Union[int, float]) -> datetime.datetime:
+    dt_object = datetime.datetime.fromtimestamp(timestamp)
+    return dt_object
+
+
 def datetime_to_string(time: t.Optional[datetime.datetime] = None) -> str:
     if time is None or time == "":
         time = datetime.datetime.now()
@@ -55,6 +60,12 @@ def timespan_to_float(timespan: t.Optional[str] = None) -> float:
         microseconds=ts.microsecond,
     )
     return dt.total_seconds()
+
+
+def float_to_timespan(seconds: t.Union[int, float]):
+    hours, seconds = divmod(seconds, 3600)
+    minutes, seconds = divmod(seconds, 60)
+    return hours, minutes, seconds
 
 
 def strip_type_info(name: str):

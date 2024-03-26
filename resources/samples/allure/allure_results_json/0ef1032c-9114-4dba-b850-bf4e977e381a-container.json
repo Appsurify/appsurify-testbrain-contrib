@@ -1,0 +1,1 @@
+{"uuid": "8f1662b2-1df8-4ef1-9a7c-cde2e0f2757a", "children": ["cdd88f33-3052-4456-9eeb-3971854a88a0"], "befores": [{"name": "allure_pytest_runner", "status": "passed", "start": 1710872966784, "stop": 1710872966784}], "afters": [{"name": "allure_pytest_runner::0", "status": "passed", "start": 1710872966804, "stop": 1710872966804}], "start": 1710872966784, "stop": 1710872966804}

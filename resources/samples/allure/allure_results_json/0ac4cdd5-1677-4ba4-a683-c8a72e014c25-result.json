@@ -1,0 +1,48 @@
+{
+  "name": "test_with_no_package",
+  "status": "passed",
+  "description": "\n    >>> def test_package_less(request):\n    ...     pass\n    ",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "2c2e38dd-6042-4d6a-b3a7-2d9a9f7f79da-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1710872968361,
+  "stop": 1710872968381,
+  "uuid": "97a70eb9-687c-478f-b0f1-9a04e6bf0e3e",
+  "historyId": "51b50fb0b4e8130fe952a3131f6dc3b5",
+  "testCaseId": "51b50fb0b4e8130fe952a3131f6dc3b5",
+  "fullName": "tests.allure_pytest.acceptance.label.package.regression_test#test_with_no_package",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests.allure_pytest.acceptance.label.package"
+    },
+    {
+      "name": "suite",
+      "value": "regression_test"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-whenessel.local"
+    },
+    {
+      "name": "thread",
+      "value": "29518-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.allure_pytest.acceptance.label.package.regression_test"
+    }
+  ]
+}
