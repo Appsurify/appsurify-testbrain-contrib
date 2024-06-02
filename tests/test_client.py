@@ -12,7 +12,7 @@ def test_get_request(requests_mock):
     requests_mock.get("http://demo.testbrain.cloud", status_code=200)
     api_client = HttpClient()
     api_response = api_client.get("http://demo.testbrain.cloud")
-    assert api_response.status_code == 201
+    assert api_response.status_code == 200
 
 
 def test_post_request(requests_mock):
