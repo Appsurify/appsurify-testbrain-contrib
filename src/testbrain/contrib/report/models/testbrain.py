@@ -54,6 +54,17 @@ class TestbrainTest(BaseModel):
         status=TestbrainTestResultStatus.passed
     )
 
+    def __init__(self, **data):
+        if "time" in data:
+            time_str = str(data["time"])
+            time_str = time_str.replace(",", "")  # Remove commas
+            # Allow only one dot in the string
+            if time_str.count(".") > 1:
+                parts = time_str.split(".")
+                time_str = ".".join(parts[:-1]) + parts[-1]
+            data["time"] = float(time_str)
+        super().__init__(**data)
+
 
 class TestbrainTestRunProperty(BaseModel):
     name: t.Optional[str] = ""
@@ -79,6 +90,17 @@ class TestbrainTestRun(BaseModel):
     system_err: t.Optional[str] = ""
     tests: t.Optional[t.List[TestbrainTest]] = []
     properties: t.Optional[t.List[TestbrainTestRunProperty]] = []
+
+    def __init__(self, **data):
+        if "time" in data:
+            time_str = str(data["time"])
+            time_str = time_str.replace(",", "")  # Remove commas
+            # Allow only one dot in the string
+            if time_str.count(".") > 1:
+                parts = time_str.split(".")
+                time_str = ".".join(parts[:-1]) + parts[-1]
+            data["time"] = float(time_str)
+        super().__init__(**data)
 
     def add_test(self, test: TestbrainTest):
         self.tests.append(test)
