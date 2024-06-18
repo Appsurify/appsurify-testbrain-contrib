@@ -47,6 +47,17 @@ class JUnitTestCase(BaseModel):
     system_err: t.Optional[str] = ""
     result: t.Optional[JUnitTestCaseResult] = None
 
+    def __init__(self, **data):
+        if "time" in data:
+            time_str = str(data["time"])
+            time_str = time_str.replace(",", "")  # Remove commas
+            # Allow only one dot in the string
+            if time_str.count(".") > 1:
+                parts = time_str.split(".")
+                time_str = ".".join(parts[:-1]) + parts[-1]
+            data["time"] = float(time_str)
+        super().__init__(**data)
+
 
 class JUnitTestSuiteProperty(BaseModel):
     name: t.Optional[str] = ""
@@ -68,6 +79,17 @@ class JUnitTestSuite(BaseModel):
     system_err: t.Optional[str] = ""
     testcases: t.Optional[t.List[JUnitTestCase]] = []
     properties: t.Optional[t.List[JUnitTestSuiteProperty]] = []
+
+    def __init__(self, **data):
+        if "time" in data:
+            time_str = str(data["time"])
+            time_str = time_str.replace(",", "")  # Remove commas
+            # Allow only one dot in the string
+            if time_str.count(".") > 1:
+                parts = time_str.split(".")
+                time_str = ".".join(parts[:-1]) + parts[-1]
+            data["time"] = float(time_str)
+        super().__init__(**data)
 
     def add_testcase(self, testcase: JUnitTestCase):
         self.testcases.append(testcase)
