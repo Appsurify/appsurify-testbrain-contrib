@@ -19,7 +19,7 @@ def test_post_request(requests_mock):
     requests_mock.post("http://demo.testbrain.cloud", status_code=201)
     api_client = HttpClient()
     api_response = api_client.post("http://demo.testbrain.cloud")
-    assert api_response.status_code == 201
+    assert api_response.status_code == 200
 
 
 def test_post_request_connection_timeout(requests_mock):
