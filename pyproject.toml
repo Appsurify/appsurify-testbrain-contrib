@@ -7,7 +7,7 @@ tag = false
 sign_tags = false
 tag_name = "{new_version}"
 tag_message = "Bump version: {current_version} → {new_version}"
-current_version = "2024.1.23"
+current_version = "2024.1.24"
 parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
 serialize = [
     "{major}.{minor}.{patch}"
@@ -23,7 +23,7 @@ filename = "src/testbrain/contrib/__init__.py"
 
 [tool.poetry]
 name = "appsurify-testbrain-contrib"
-version = "2024.1.23"
+version = "2024.1.24"
 description = "A set of auxiliary modules for Testbrain/TestbrainCLI"
 license = "MIT"
 authors = [
