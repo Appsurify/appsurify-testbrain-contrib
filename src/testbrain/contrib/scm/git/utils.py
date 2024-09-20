@@ -227,8 +227,8 @@ def parse_files_foreach_submodules(text: str) -> t.List[str]:
 
     for repo, files in result_per_submodule.items():
         for file in files:
-            filename = pathlib.PosixPath(repo).joinpath(file)
-            result.append(str(filename))
+            filename = pathlib.Path(repo).joinpath(file)
+            result.append(str(filename.as_posix()))
     return result
 
 
