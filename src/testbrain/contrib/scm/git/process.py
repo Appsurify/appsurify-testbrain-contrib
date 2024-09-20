@@ -8,8 +8,8 @@ from testbrain.contrib.terminal import Process, ProcessExecutionError
 from ..base import AbstractVCS
 from ..exceptions import BranchNotFound, CommitNotFound, ProcessError
 from .utils import (
-    parse_commits_from_text,
     find_commit_by_sha,
+    parse_commits_from_text,
     parse_files_foreach_submodules,
 )
 
