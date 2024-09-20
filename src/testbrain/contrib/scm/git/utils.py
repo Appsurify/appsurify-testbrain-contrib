@@ -1,10 +1,18 @@
 import binascii
 import os
+import pathlib
+import re
 import typing as t
 
 import typing_extensions as te
 
-from .patterns import RE_COMMIT_DIFF, RE_COMMIT_LIST, RE_OCTAL_BYTE
+from .patterns import (
+    RE_COMMIT_DIFF,
+    RE_COMMIT_LIST,
+    RE_OCTAL_BYTE,
+    RE_SUBMODULE_FILES_PATTERN,
+    RE_SUBMODULE_HEADER,
+)
 
 try:
     Literal = t.Literal
@@ -54,6 +62,13 @@ class TotalTD(TypedDict):
 class HshTD(TypedDict):
     total: TotalTD
     files: t.Dict[str, FilesTD]
+
+
+def find_commit_by_sha(commit_list: t.List[t.Dict], sha: str):
+    for commit in commit_list:
+        if commit["sha"] == sha:
+            return commit
+    return None
 
 
 def parse_stats_from_text(text: str) -> HshTD:
@@ -127,6 +142,8 @@ def parse_person_from_text(text: str) -> t.Dict:
 
 
 def parse_parent_from_text(text: t.Union[str, t.List[str]]) -> t.List[t.Dict]:
+    if text is None:
+        return []
     if isinstance(text, str):
         return [dict(sha=sha) for sha in text.split(" ")]
     return [dict(sha=sha) for sha in text]
@@ -134,6 +151,9 @@ def parse_parent_from_text(text: t.Union[str, t.List[str]]) -> t.List[t.Dict]:
 
 def parse_commits_from_text(text: str) -> t.List[t.Dict]:
     commits: t.List[t.Dict] = []
+
+    text = re.sub(RE_SUBMODULE_HEADER, "", text)
+
     for commit_match in RE_COMMIT_LIST.finditer(text):
         commit: t.Dict = parse_single_commit(commit_match)
         commits.append(commit)
@@ -193,6 +213,23 @@ def parse_single_commit(commit_match: t.Union[t.Match[str], dict]) -> t.Dict:
     commit["files"] = commit_files
 
     return commit
+
+
+def parse_files_foreach_submodules(text: str) -> t.List[str]:
+    result = []
+
+    result_per_submodule = {}
+    matches = re.findall(RE_SUBMODULE_FILES_PATTERN, text)
+    for repo, files in matches:
+        result_per_submodule[repo] = [
+            file.strip() for file in files.strip().split("\n") if file.strip()
+        ]
+
+    for repo, files in result_per_submodule.items():
+        for file in files:
+            filename = pathlib.PosixPath(repo).joinpath(file)
+            result.append(str(filename))
+    return result
 
 
 def merge_files_and_diffs(

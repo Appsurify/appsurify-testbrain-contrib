@@ -7,15 +7,26 @@ from testbrain.contrib.terminal import Process, ProcessExecutionError
 
 from ..base import AbstractVCS
 from ..exceptions import BranchNotFound, CommitNotFound, ProcessError
-from .utils import parse_commits_from_text
+from .utils import (
+    find_commit_by_sha,
+    parse_commits_from_text,
+    parse_files_foreach_submodules,
+)
 
 logger = logging.getLogger(__name__)
 
 
 class GitProcess(Process):
     def remote_url(self) -> str:
-        command = ["git", "config", "--get", "remote.origin.url"]
-        result = self.execute(command=command)
+        try:
+            command = ["git", "config", "--get", "remote.origin.url"]
+            result = self.execute(command=command)
+        except ProcessExecutionError as e:
+            logger.error(e.stderr)
+            logger.error(
+                f"Git repository {self.work_dir} does not have remote.origin.url set"
+            )
+            result = ""
         return result
 
     def fetch(self, rev: t.Optional[str] = None) -> str:
@@ -158,8 +169,84 @@ class GitProcess(Process):
         return result
 
 
+class GitSubmoduleProcess(Process):
+    def execute(self, command: t.Union[str, t.List[str]]) -> str:
+        submodule_command = ["git", "submodule", "foreach"]
+        submodule_command += command
+        return super().execute(command=submodule_command)
+
+    def log(
+        self,
+        rev: str = "HEAD",
+        number: int = 100,
+        reverse: t.Optional[bool] = True,
+        numstat: t.Optional[bool] = True,
+        raw: t.Optional[bool] = True,
+        patch: t.Optional[bool] = True,
+    ) -> str:
+        params: list = [
+            f"-n {number}",
+            "--abbrev=40",
+            "--full-diff",
+            "--full-index",
+        ]
+
+        if reverse:
+            params.append("--reverse")
+
+        if raw:
+            params.append("--raw")
+
+        if numstat:
+            params.append("--numstat")
+
+        if patch:
+            params.append("-p")
+
+        tab = "%x09"
+        pretty_format = (
+            "%n"
+            f"COMMIT:{tab}%H%n"
+            f"TREE:{tab}%T%n"
+            f"DATE:{tab}%aI%n"
+            f"AUTHOR:{tab}%an{tab}%ae{tab}%aI%n"
+            f"COMMITTER:{tab}%cn{tab}%ce{tab}%cI%n"
+            f"MESSAGE:{tab}%s%n"
+            f"PARENTS:{tab}%P%n"
+        )
+
+        command = [
+            "git",
+            "log",
+            *params,
+            f'--pretty=format:"{pretty_format}"',
+            str(rev),
+        ]
+        try:
+            result = self.execute(command=command)
+        except ProcessExecutionError as exc:
+            err_msg = exc.stderr.splitlines()[0]
+            logger.critical(f"Failed get rev history: {err_msg}")
+            raise ProcessError(f"Failed get rev history: {err_msg}") from exc
+        return result
+
+    def ls_files(self, rev: str = "HEAD") -> str:
+        logger.debug(f"Get files tree for rev: {repr(rev)}")
+        params: list = ["--name-only", "-r", rev]
+
+        command = ["git", "ls-tree", *params]
+        try:
+            result = self.execute(command=command)
+        except ProcessExecutionError as exc:
+            err_msg = exc.stderr.splitlines()[0]
+            logger.critical(f"Failed get file list: {err_msg}")
+            raise ProcessError(f"Failed get file list: {err_msg}") from exc
+        return result
+
+
 class GitVCS(AbstractVCS):
     _process: t.Optional["GitProcess"] = None
+    _submodule_process: t.Optional["GitSubmoduleProcess"] = None
 
     def __init__(
         self,
@@ -174,6 +261,12 @@ class GitVCS(AbstractVCS):
         if self._process is None:
             self._process = GitProcess(self.repo_dir)
         return self._process
+
+    @property
+    def submodule_process(self) -> "GitSubmoduleProcess":
+        if self._submodule_process is None:
+            self._submodule_process = GitSubmoduleProcess(self.repo_dir)
+        return self._submodule_process
 
     def _fix_renames(self, limit: t.Optional[int] = 999999):
         try:
@@ -278,6 +371,7 @@ class GitVCS(AbstractVCS):
         numstat: t.Optional[bool] = True,
         raw: t.Optional[bool] = True,
         patch: t.Optional[bool] = True,
+        submodules: t.Optional[bool] = False,
     ) -> t.List[t.Dict]:
         result = self.process.log(
             rev=commit,
@@ -304,12 +398,36 @@ class GitVCS(AbstractVCS):
                 parent_commit = parse_commits_from_text(parent_result)
                 commit["parents"].extend(parent_commit)
 
+        if submodules:
+            submodule_result = self.submodule_process.log(
+                reverse=reverse,
+                numstat=True,
+                raw=True,
+                patch=True,
+            )
+
+            submodule_commits = parse_commits_from_text(submodule_result)
+
+            for submodule_commit in submodule_commits:
+                parent_commits = submodule_commit["parents"].copy()
+                submodule_commit["parents"] = []
+                for parent in parent_commits:
+                    parent_commit = find_commit_by_sha(submodule_commits, parent["sha"])
+                    if parent_commit:
+                        submodule_commit["parents"].append(parent_commit)
+                commits.append(submodule_commit)
         return commits
 
-    def file_tree(self, branch: t.Optional[str] = None) -> t.Optional[t.List[str]]:
+    def file_tree(
+        self, branch: t.Optional[str] = None, submodules: t.Optional[bool] = False
+    ) -> t.Optional[t.List[str]]:
         if branch is None:
             branch = None
         result = self.process.ls_files(rev=branch)
         file_tree = result.splitlines()
         file_tree = [file.lstrip().rstrip() for file in file_tree]
+        if submodules:
+            submodule_result = self.submodule_process.ls_files()
+            submodule_file_tree = parse_files_foreach_submodules(submodule_result)
+            file_tree.extend(submodule_file_tree)
         return file_tree
